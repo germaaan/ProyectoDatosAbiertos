@@ -55,3 +55,22 @@ Acceder a **http://localhost:8983/solr/**.
 cd /usr/lib/ckan/default/src/ckan
 paster db init -c /etc/ckan/default/production.ini
 ```
+
+##### Configurar DataStore
+
+Editar **/etc/ckan/default/production.ini**:
+* *ckan.plugins = stats text_view image_view recline_view* -> **ckan.plugins = stats text_view image_view recline_view datastore**
+* ** -> ****
+* ** -> ****
+
+
+```
+sudo -u postgres createuser -S -D -R -P -l datastore_default
+sudo -u postgres createdb -O ckan_default datastore_default -E utf-8
+```
+
+Editar **/etc/ckan/default/production.ini**:
+* *#ckan.datastore.write_url = postgresql://ckan_default:pass@localhost/datastore_default
+* -> **ckan.datastore.write_url = postgresql://ckan_default:PASSWORD@localhost/datastore_default**
+* *#ckan.datastore.read_url = postgresql://datastore_default:pass@localhost/datastore_default
+* -> **ckan.datastore.read_url = postgresql://datastore_default:PASSWORD@localhost/datastore_default**
