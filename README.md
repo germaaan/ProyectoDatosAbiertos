@@ -105,3 +105,23 @@ Eliminar recurso de prueba creado:
 ```bash
 curl -X POST http://localhost/api/3/action/datastore_delete -H "Authorization: 6e30990b-8af0-4920-8fee-74958a6bcfaa" -d '{"resource_id": "5a3304ac-f742-4dfa-aa56-3829f795f326"}'
 ```
+
+### Configurar FileStore
+
+```bash
+sudo mkdir -p /var/lib/ckan/default
+```
+
+Editar **/etc/ckan/default/production.ini**:
+
+- *#ckan.storage_path = /var/lib/ckan* -> **ckan.storage_path = /var/lib/ckan/default**
+
+```bash
+sudo chown www-data /var/lib/ckan/default
+sudo chmod u+rwx /var/lib/ckan/default
+sudo service apache2 reload
+```
+
+Probar:
+```bash
+curl -H 'Authorization: {USER_API}' 'http://localhost/api/3/action/resource_create' --form upload=@{FILE} --form package_id={PACKAGE_ID}
