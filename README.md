@@ -75,8 +75,8 @@ sudo -u postgres createdb -O ckan_default datastore_default -E utf-8
 
 Editar **/etc/ckan/default/production.ini**:
 
-- *#ckan.datastore.write_url = postgresql://ckan_default:pass@localhost/datastore_default -> **ckan.datastore.write_url = postgresql://ckan_default:{PASSWORD}@127.0.0.1/datastore_default**
-- *#ckan.datastore.read_url = postgresql://datastore_default:pass@localhost/datastore_default -> **ckan.datastore.read_url = postgresql://datastore_default:{PASSWORD}@127.0.0.1/datastore_default**
+- *#ckan.datastore.write_url = postgresql://ckan_default:pass@localhost/datastore_default* -> **ckan.datastore.write_url = postgresql://ckan_default:{PASSWORD}@127.0.0.1/datastore_default**
+- *#ckan.datastore.read_url = postgresql://datastore_default:pass@localhost/datastore_default* -> **ckan.datastore.read_url = postgresql://datastore_default:{PASSWORD}@127.0.0.1/datastore_default**
 
 ```bash
 sudo ckan datastore set-permissions | sudo -u postgres psql --set ON_ERROR_STOP=1
@@ -128,3 +128,14 @@ curl http://127.0.0.1/api/3/action/resource_create -H 'Authorization: {USER_API}
 ```
 
 ### Configurar DataPusher
+
+Editar **/etc/ckan/default/production.ini**:
+
+- *#ckan.datapusher.url = http://127.0.0.1:8800/* -> **ckan.datapusher.url = http://0.0.0.0:8800/**
+- _ckan.plugins = stats text_view image_view recline_view datastore_ -> **ckan.plugins = stats text_view image_view recline_view datastore datapusher**
+
+```bash
+sudo service apache2 restart
+```
+
+### Configurar visualizaciones
