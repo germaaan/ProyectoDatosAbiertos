@@ -49,11 +49,11 @@ sudo service jetty restart
 
 Editar **/etc/ckan/default/production.ini**:
 
-- _sqlalchemy.url = postgresql://ckan_default:pass@localhost/ckan_default_ -> **sqlalchemy.url = postgresql://ckan_default:{PASSWORD}@localhost/ckan_default**
-- _#solr_url = <http://127.0.0.1:8983/solr>_ -> **solr_url=<http://127.0.0.1:8983/solr>**
-- _ckan.site_url =_ -> **ckan.site_url = {HOST}**
+- _sqlalchemy.url = postgresql://ckan_default:pass@localhost/ckan_default_ -> **sqlalchemy.url = postgresql://ckan_default:{PASSWORD}@127.0.0.1/ckan_default**
+- _#solr_url = <http://localhost:8983/solr>_ -> **solr_url=<http://127.0.0.1:8983/solr>**
+- _ckan.site_url =_ -> **ckan.site_url = http://127.0.0.1**
 
-Acceder a **<http://localhost:8983/solr/>**.
+Acceder a **<http://127.0.0.1:8983/solr/>**.
 
 ### Crear tablas de la base de datos
 
@@ -75,8 +75,8 @@ sudo -u postgres createdb -O ckan_default datastore_default -E utf-8
 
 Editar **/etc/ckan/default/production.ini**:
 
-- *#ckan.datastore.write_url = postgresql://ckan_default:pass@localhost/datastore_default -> **ckan.datastore.write_url = postgresql://ckan_default:{PASSWORD}@localhost/datastore_default**
-- *#ckan.datastore.read_url = postgresql://datastore_default:pass@localhost/datastore_default -> **ckan.datastore.read_url = postgresql://datastore_default:{PASSWORD}@localhost/datastore_default**
+- *#ckan.datastore.write_url = postgresql://ckan_default:pass@localhost/datastore_default -> **ckan.datastore.write_url = postgresql://ckan_default:{PASSWORD}@127.0.0.1/datastore_default**
+- *#ckan.datastore.read_url = postgresql://datastore_default:pass@localhost/datastore_default -> **ckan.datastore.read_url = postgresql://datastore_default:{PASSWORD}@127.0.0.1/datastore_default**
 
 ```bash
 sudo ckan datastore set-permissions | sudo -u postgres psql --set ON_ERROR_STOP=1
@@ -85,25 +85,25 @@ sudo ckan datastore set-permissions | sudo -u postgres psql --set ON_ERROR_STOP=
 Comprobar acceso a DataStore (debería devolver un JSON):
 
 ```bash
-curl http://localhost/api/3/action/datastore_search?resource_id=_table_metadata
+curl http://127.0.0.1/api/3/action/datastore_search?resource_id=_table_metadata
 ```
 
 Comprobar permiso de escritura:
 
 ```bash
-curl -X POST http://localhost/api/3/action/datastore_create -H "Authorization: {USER_API}" -d '{"resource": {"package_id": {PACKAGE_ID}}, "fields": [ {"id": "a"}, {"id": "b"} ], "records": [ { "a": 1, "b": "xyz"}, {"a": 2, "b": "zzz"} ]}'
+curl -X POST http://127.0.0.1/api/3/action/datastore_create -H "Authorization: {USER_API}" -d '{"resource": {"package_id": {PACKAGE_ID}}, "fields": [ {"id": "a"}, {"id": "b"} ], "records": [ { "a": 1, "b": "xyz"}, {"a": 2, "b": "zzz"} ]}'
 ```
 
 Comprobar recurso creado:
 
 ```bash
-http://localhost/api/3/action/datastore_search?resource_id={5a3304ac-f742-4dfa-aa56-3829f795f326}
+http://127.0.0.1/api/3/action/datastore_search?resource_id={5a3304ac-f742-4dfa-aa56-3829f795f326}
 ```
 
 Eliminar recurso de prueba creado:
 
 ```bash
-curl -X POST http://localhost/api/3/action/datastore_delete -H "Authorization: 6e30990b-8af0-4920-8fee-74958a6bcfaa" -d '{"resource_id": "5a3304ac-f742-4dfa-aa56-3829f795f326"}'
+curl -X POST http://127.0.0.1/api/3/action/datastore_delete -H "Authorization: 6e30990b-8af0-4920-8fee-74958a6bcfaa" -d '{"resource_id": "5a3304ac-f742-4dfa-aa56-3829f795f326"}'
 ```
 
 ### Configurar FileStore
@@ -124,4 +124,7 @@ sudo service apache2 reload
 
 Probar:
 ```bash
-curl -H 'Authorization: {USER_API}' 'http://localhost/api/3/action/resource_create' --form upload=@{FILE} --form package_id={PACKAGE_ID}
+curl http://127.0.0.1/api/3/action/resource_create -H 'Authorization: {USER_API}' --form upload=@{FILE} --form name={NAME} --form url=NULL --form package_id={PACKAGE_ID}
+```
+
+### Configurar DataPusher
