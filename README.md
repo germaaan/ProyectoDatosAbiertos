@@ -129,7 +129,7 @@ curl http://127.0.0.1/api/3/action/resource_create -H 'Authorization: {USER_API}
 
 ### Configurar DataPusher
 
-Editar **/etc/ckan/default/production.ini**:
+Editar **/etc/ckan/default/production.ini **:
 
 - *#ckan.datapusher.url = http://127.0.0.1:8800/* -> **ckan.datapusher.url = http://0.0.0.0:8800/**
 - _ckan.plugins = stats text_view image_view recline_view datastore_ -> **ckan.plugins = stats text_view image_view recline_view datastore datapusher**
@@ -139,3 +139,34 @@ sudo service apache2 restart
 ```
 
 ### Configurar visualizaciones
+
+```bash
+git clone https://github.com/ckan/ckanext-viewhelpers.git
+cd ckanext-viewhelpers
+sudo python setup.py install
+```
+
+```bash
+git clone https://github.com/ckan/ckanext-dashboard.git
+cd ckanext-dashboard
+sudo python setup.py install
+```
+
+```bash
+git clone https://github.com/ckan/ckanext-basiccharts.git
+cd ckanext-basiccharts
+sudo python setup.py install
+```
+
+```bash
+git clone https://github.com/ckan/ckanext-mapviews.git
+cd ckanext-mapviews
+sudo python setup.py install
+```
+
+```bash
+sudo pip install ckanext-geoview
+sudo pip install ckanext-pdfview
+```
+
+- _ckan.plugins = stats text_view image_view recline_view datastore_ -> **ckan.plugins = stats viewhelpers resource_proxy dashboard_preview recline_grid_view recline_graph_view recline_map_view text_view image_view webpage_view geo_view pdf_view linechart barchart piechart basicgrid navigablemap choroplethmap datapusher datastore**
