@@ -171,12 +171,19 @@ sudo pip install ckanext-pdfview
 
 - _ckan.plugins = stats text_view image_view recline_view datastore_ -> **ckan.plugins = stats viewhelpers resource_proxy dashboard_preview recline_grid_view recline_graph_view recline_map_view text_view image_view webpage_view geo_view pdf_view linechart barchart piechart basicgrid navigablemap choroplethmap datapusher datastore**
 
-
-### Testear instalación
-http://docs.ckan.org/en/latest/contributing/test.html
-
 ### Instalar servidor de correo
-http://docs.ckan.org/en/latest/maintaining/installing/deployment.html#install-an-email-server
+```bash
+export HOST=opendata.ugr.es
+
+sudo debconf-set-selections <<< "postfix postfix/mailname string $HOST"
+sudo debconf-set-selections <<< "postfix postfix/main_mailer_type string 'Internet Site'"
+sudo apt install -y postfix
+```
+
+Editar **/etc/postfix/main.cf**:
+
+- *myhostname = CKAN* -> **myhostname = $HOST**
+
 
 ### Instalar worker para trabajos en segundo plano
 http://docs.ckan.org/en/latest/maintaining/installing/deployment.html#setup-a-worker-for-background-jobs
