@@ -174,6 +174,8 @@ sudo pip install ckanext-pdfview
 ### Instalar servidor de correo
 ```bash
 export HOST=opendata.ugr.es
+export SERVER=ugr.es
+export USER=vagrant
 
 sudo debconf-set-selections <<< "postfix postfix/mailname string $HOST"
 sudo debconf-set-selections <<< "postfix postfix/main_mailer_type string 'Internet Site'"
@@ -181,9 +183,40 @@ sudo apt install -y postfix
 ```
 
 Editar **/etc/postfix/main.cf**:
-
 - *myhostname = CKAN* -> **myhostname = $HOST**
 
+Editar **sudo nano /etc/postfix/virtual**:
+
+Añadir **$USER@$HOST $USER**
+
+```
+sudo postmap /etc/postfix/virtual
+sudo service postfix restart
+
+echo -e '#!/bin/bash\ncd /usr/lib/ckan/default/src/ckan && paster --plugin=ckan post -c /etc/ckan/default/production.ini /api/action/send_email_notifications > /dev/null' | sudo tee /etc/cron.hourly/mail.sh
+
+sudo chmod +x /etc/cron.hourly/mail.sh
+```
+
+Editar **/etc/ckan/default/production.ini**:
+
+- *#ckan.activity_streams_email_notifications = true* -> **ckan.activity_streams_email_notifications = true**
+
+- *ckan.site_title = CKAN* -> **ckan.site_title = $SITE**
+
+- *#smtp.server = localhost* -> **smtp.server = $SMTP:$PORT_SMTP**
+
+- *#smtp.starttls = False* -> **smtp.starttls = True**
+
+- *#smtp.user = your_username@gmail.com* -> **smtp.user = $USER@$SERVER**
+
+- *#smtp.password = your_password* -> **smtp.password = $PASSWORD**
+
+- *#smtp.mail_from =* -> **smtp.mail_from = $USER@$SERVER**
+
+```bash
+sudo service apache2 reload
+```
 
 ### Instalar worker para trabajos en segundo plano
 http://docs.ckan.org/en/latest/maintaining/installing/deployment.html#setup-a-worker-for-background-jobs
