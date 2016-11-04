@@ -1,8 +1,10 @@
 ---
-- hosts: azure
-  remote_user: vagrant
+- hosts: ckan
+  become: true
   tasks:
-    - name: Instalación de paquetes
+    - name: Actualizar caché
+      apt: update_cache=yes
+    - name: Instalación de dependencias
       apt: name={{item}} state=installed
       with_items:
         -apache2
@@ -18,3 +20,17 @@
         -python-pip
         -redis-server
         -solr-jetty
+    - name: Comprobar si CKAN ya está instalado
+      command: dpkg-query -W python-ckan
+      register: instalado
+      failed_when: instalado.rc > 1
+      changed_when: instalado.rc == 1
+    - block:
+      - name: Descargar CKAN
+        get_url:
+          url: http://packaging.ckan.org/python-ckan_2.5-trusty_amd64.deb
+          dest: /tmp
+          mode: 0550
+      - name: Instalar requisitos de CKAN
+        pip: requirements=/usr/lib/ckan/default/src/ckan/requirements.txt
+      when: instalado.rc == 1

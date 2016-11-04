@@ -1,30 +1,33 @@
-# ProyectoDatosAbiertos
-
-Proyecto sobre datos abiertos de la UGR
-
-## Instalación CKAN (versión 2.5, Ubuntu 14.04 64 bits)
-
-Pasos de instalación que luego habrá que automatizar:
-
-### Instalar dependencias
-
-```bash
-sudo apt-get update && apt-get install -y apache2 git-core libapache2-mod-wsgi libpq-dev libpq5 nginx openjdk-7-jdk postgresql python-dev python-pastescript python-pip redis-server solr-jetty
-```
-
-### Instalar CKAN
-
-```bash
-wget http://packaging.ckan.org/python-ckan_2.5-trusty_amd64.deb
-sudo dpkg -i python-ckan_2.5-trusty_amd64.deb
-sudo pip install -r /usr/lib/ckan/default/src/ckan/requirements.txt
-```
-
 ### Instalar base de datos PostgreSQL
 
 ```bash
 sudo -u postgres createuser -S -D -R -P ckan_default
 ```
+
+sudo -u postgres psql -t -c '\du' | cut -d \| -f 1 | grep -w ckan_default | wc -l
+sudo -u postgres psql -lqt | cut -d \| -f 1 | grep -w ckan_default | wc -l
+
+if sudo -u postgres psql -lqt | cut -d \| -f 1 | grep -qw <db_name>; then echo "1" else echo "0" fi
+
+if [ $(sudo -u postgres psql -lqt | cut -d \| -f 1 | grep -qw <db_name>) -eq 1 ]; then echo "true"; fi
+
+
+-S
+--no-superuser
+The new user will not be a superuser. This is the default.
+
+-D
+--no-createdb
+The new user will not be allowed to create databases. This is the default.
+
+-R
+--no-createrole
+The new user will not be allowed to create new roles. This is the default.
+
+-P
+--pwprompt
+If given, createuser will issue a prompt for the password of the new user. This is not necessary if you do not plan on using password authentication.
+
 
 Introducir **PASSWORD**.
 
