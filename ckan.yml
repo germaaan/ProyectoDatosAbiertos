@@ -1,0 +1,20 @@
+---
+- hosts: azure
+  remote_user: vagrant
+  tasks:
+    - name: Instalación de paquetes
+      apt: name={{item}} state=installed
+      with_items:
+        -apache2
+        -git-core
+        -libapache2-mod-wsgi
+        -libpq-dev
+        -libpq5
+        -nginx
+        -openjdk-7-jdk
+        -postgresql
+        -python-dev
+        -python-pastescript
+        -python-pip
+        -redis-server
+        -solr-jetty
