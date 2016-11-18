@@ -1,18 +1,3 @@
-### Instalar Solr
-
-Editar **/etc/default/jetty**:
-
-- _NO_START=1_ -> **NO_START=0**
-- _#JETTY_HOST=$(uname -n)_ -> **JETTY_HOST=127.0.0.1**
-- _#JETTY_PORT=8080_ -> **JETTY_PORT=8983**
-
-```bash
-sudo service jetty start
-sudo mv /etc/solr/conf/schema.xml /etc/solr/conf/schema.xml.bak
-sudo ln -s /usr/lib/ckan/default/src/ckan/ckan/config/solr/schema.xml /etc/solr/conf/schema.xml
-sudo service jetty restart
-```
-
 Editar **/etc/ckan/default/production.ini**:
 
 - _sqlalchemy.url = postgresql://ckan_default:pass@localhost/ckan_default_ -> **sqlalchemy.url = postgresql://ckan_default:{PASSWORD}@127.0.0.1/ckan_default**
