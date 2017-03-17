@@ -8,9 +8,16 @@
     PASSWORD: "{{ lookup('env','PASSWORD') }}"
   tasks:
     - name: Update cache...
-      apt: update_cache=yes
+      apt:
+        update_cache=yes
+        cache_valid_time=1800
+        upgrade=safe
+        dpkg_options='force-confold'
     - name: Install dependencies...
-      apt: name={{item}} state=installed
+      apt:
+        name={{ item }}
+        state=latest
+        dpkg_options='force-confold'
       with_items:
         - apache2
         - git-core
