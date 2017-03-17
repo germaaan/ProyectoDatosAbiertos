@@ -1,0 +1,25 @@
+- name: Comprobar usuario de CKAN creado en base de datos
+  command: if [ $(sudo -u postgres psql -t -c '\du' | cut -d \| -f 1 | grep -w ckan_default | wc -l) -eq 1 ]; then echo "true"; else return 1; fi
+  register: usuario_creado
+  failed_when: usuario_creado.rc > 1
+  changed_when: usuario_creado.rc == 1
+- block:
+  - name: Crear usuario de CKAN en base de datos
+    command: sudo -u postgres psql -c "CREATE USER ckan_default WITH PASSWORD '{{ password }}';"
+  - name: Comprobar tabla de CKAN creada en base de datos
+    command: if [ $(sudo -u postgres psql -lqt | cut -d \| -f 1 | grep -w ckan_default | wc -l) -eq 1 ]; then echo "true"; else return 1; fi
+    register: tabla_creada
+    failed_when: tabla_creada.rc > 1
+    changed_when: tabla_creada.rc == 1
+    - block:
+      - name: Crear table de CKAN en base de datos
+        command: sudo -u postgres createdb -O ckan_default ckan_default -E utf-8
+      when: tabla_creada.rc > 1
+  when: usuario_creado.rc > 1
+- name: Configuración de solr
+  command: sudo sed -i 's/NO_START=1/NO_START=0/; s/JETTY_HOST=$(uname -n)/JETTY_HOST=127.0.0.1/; s/JETTY_PORT=8080/JETTY_PORT=8983/' /etc/default/jetty
+- service: name=jetty state=started
+- command: sudo mv /etc/solr/conf/schema.xml /etc/solr/conf/schema.xml.bak
+- command: sudo ln -s /usr/lib/ckan/default/src/ckan/ckan/config/solr/schema.xml /etc/solr/conf/schema.xml
+- service: name=jetty state=restarted
+- command: sudo sed -i 's/sqlalchemy.url = postgresql:\/\/ckan_default:pass@localhost\/ckan_default/sqlalchemy.url = postgresql:\/\/ckan_default:{{ password }}@127.0.0.1\/ckan_default; s/solr_url = <http:\/\/localhost:8983\/solr>/solr_url = <http://127.0.0.1:8983/solr>; s/ckan.site_url =/ckan.site_url = http:\/\/127.0.0.1' /etc/ckan/default/production.ini
