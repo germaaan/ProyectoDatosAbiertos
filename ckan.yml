@@ -2,18 +2,22 @@
 - hosts: ckan
   remote_user: vagrant
   become: true
+  gather_facts: no
+
   vars:
     version: "2.6"
     temp_dir: "/tmp"
-    PASSWORD: "{{ lookup('env','PASSWORD') }}"
+    locale: "es_ES.UTF-8"
+#    PASSWORD: "{{ lookup('env','PASSWORD') }}"
+
   tasks:
-    - name: Update cache...
+    - name: Update cache
       apt:
         update_cache=yes
         cache_valid_time=1800
         upgrade=safe
         dpkg_options='force-confold'
-    - name: Install dependencies...
+    - name: Install dependencies
       apt:
         name={{ item }}
         state=latest
@@ -26,33 +30,46 @@
         - libpq5
         - nginx
         - openjdk-7-jdk
-        - postgresql
+        - postgresql-9.3
         - python-dev
         - python-pastescript
         - python-pip
         - redis-server
         - solr-jetty
     - name: Check if CKAN is already installed
-      command: dpkg-query -W python-ckan | grep {{ version }}
-      register: installed
-      failed_when: installed.rc > 1
-      changed_when: installed.rc == 1
+      shell: if [ $(dpkg-query -W python-ckan | grep {{ version }} | wc -l) -eq "1" ]; then echo "true"; else echo "false"; fi
+      register: ckan_installed
+#    - debug: msg="{{ckan_installed.stdout}}"
     - block:
       - name: Download CKAN
         get_url:
           url: http://packaging.ckan.org/python-ckan_{{ version }}-trusty_amd64.deb
-          dest: /tmp
+          dest: "{{ temp_dir }}"
           mode: 0550
-#      - command: if [ $(dpkg-query -W python-ckan | wc -l) -eq 1]; then echo "true"; else return 1; fi
-#        register: correct_version
-#        failed_when: correct_version.rc > 1
-#        changed_when: correct_version.rc == 1
-#      - block:
-#          - name: Uninstall previous version of CKAN
-#            apt: name=python-ckan state=absent
-#            when: correct_version.rc > 1
       - name: Install CKAN
         apt: deb="{{ temp_dir }}/python-ckan_{{ version }}-trusty_amd64.deb"
       - name: Install CKAN requirements
         pip: requirements=/usr/lib/ckan/default/src/ckan/requirements.txt
-      when: installed.rc == 1
+      - name: Generate locale settings
+        command: locale-gen es_ES.UTF-8
+      - name: Reconfiguring locale settings
+        command: dpkg-reconfigure locales
+      when: ckan_installed.stdout == "false"
+#    - name: Check CKAN user created in database
+#      command: if [ $(sudo -u postgres psql -t -c '\du' | cut -d \| -f 1 | grep -w ckan_default | wc -l) -eq 1 ]; then echo "true"; else return 1; fi
+#      register: usuario_creado
+#      failed_when: usuario_creado.rc > 1
+#      changed_when: usuario_creado.rc == 1
+#  - block:
+#    - name: Crear usuario de CKAN en base de datos
+#      command: sudo -u postgres psql -c "CREATE USER ckan_default WITH PASSWORD '{{ password }}';"
+#    - name: Comprobar tabla de CKAN creada en base de datos
+#      command: if [ $(sudo -u postgres psql -lqt | cut -d \| -f 1 | grep -w ckan_default | wc -l) -eq 1 ]; then echo "true"; else return 1; fi
+#      register: tabla_creada
+#      failed_when: tabla_creada.rc > 1
+#      changed_when: tabla_creada.rc == 1
+#      - block:
+#        - name: Crear table de CKAN en base de datos
+#          command: sudo -u postgres createdb -O ckan_default ckan_default -E utf-8
+#        when: tabla_creada.rc > 1
+#    when: usuario_creado.rc > 1
