@@ -1,27 +1,29 @@
 ---
 - hosts: ckan
+  become: yes
   remote_user: vagrant
-  become: true
   gather_facts: no
 
   vars:
     version: "2.6"
     temp_dir: "/tmp"
+    encoding: "UTF-8"
     locale: "es_ES.UTF-8"
-#    PASSWORD: "{{ lookup('env','PASSWORD') }}"
+    user_ckan: "ckan_default"
+    passwd_postgres: "{{ lookup('env', 'passwd_postgres') }}"
 
   tasks:
     - name: Update cache
       apt:
-        update_cache=yes
-        cache_valid_time=1800
-        upgrade=safe
-        dpkg_options='force-confold'
+        update_cache: yes
+        cache_valid_time: 1800
+        upgrade: safe
+        dpkg_options: force-confold
     - name: Install dependencies
       apt:
-        name={{ item }}
-        state=latest
-        dpkg_options='force-confold'
+        name: "{{ item }}"
+        state: latest
+        dpkg_options: force-confold
       with_items:
         - apache2
         - git-core
@@ -55,21 +57,22 @@
       - name: Reconfiguring locale settings
         command: dpkg-reconfigure locales
       when: ckan_installed.stdout == "false"
-#    - name: Check CKAN user created in database
-#      command: if [ $(sudo -u postgres psql -t -c '\du' | cut -d \| -f 1 | grep -w ckan_default | wc -l) -eq 1 ]; then echo "true"; else return 1; fi
-#      register: usuario_creado
-#      failed_when: usuario_creado.rc > 1
-#      changed_when: usuario_creado.rc == 1
-#  - block:
-#    - name: Crear usuario de CKAN en base de datos
-#      command: sudo -u postgres psql -c "CREATE USER ckan_default WITH PASSWORD '{{ password }}';"
-#    - name: Comprobar tabla de CKAN creada en base de datos
-#      command: if [ $(sudo -u postgres psql -lqt | cut -d \| -f 1 | grep -w ckan_default | wc -l) -eq 1 ]; then echo "true"; else return 1; fi
-#      register: tabla_creada
-#      failed_when: tabla_creada.rc > 1
-#      changed_when: tabla_creada.rc == 1
-#      - block:
-#        - name: Crear table de CKAN en base de datos
-#          command: sudo -u postgres createdb -O ckan_default ckan_default -E utf-8
-#        when: tabla_creada.rc > 1
-#    when: usuario_creado.rc > 1
+
+#    - debug: msg="{{passwd_postgres}}"
+    - name: Create CKAN user in PostgreSQL
+      postgresql_user:
+        name: ckan_default
+        password: "{{ passwd_postgres }}"
+        encrypted: yes
+        role_attr_flags: NOSUPERUSER,NOCREATEDB,NOCREATEROLE
+        state: present
+      become: true
+      become_user: postgres
+    - name: Create CKAN database in PostgreSQL
+      postgresql_db:
+        name: ckan_default
+        owner: ckan_default
+        encoding: UTF-8
+        state: present
+      become: true
+      become_user: postgres
