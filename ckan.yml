@@ -14,7 +14,7 @@
     ckan_passwd: "{{ lookup('env', 'CKAN_PASSWD') }}"
     datastore_passwd: "{{ lookup('env', 'DATASTORE_PASSWD') }}"
     ckan_url: "127.0.0.1"
-    ckan_plugins: "stats text_view image_view recline_view datastore"
+    ckan_plugins: "stats text_view image_view recline_view datastore datapusher"
     filestore_dir: "/var/lib/ckan/default"
 
   tasks:
@@ -110,11 +110,6 @@
         mode: 0755
         owner: www-data
 
-    - name: Reload Apache2
-      service:
-        name: apache2
-        state: reloaded
-
     - name: Create CKAN user in PostgreSQL
       postgresql_user:
         name: ckan_default
@@ -168,6 +163,8 @@
         - { regexp: 'ckan.datastore.read_url =.*', line: 'ckan.datastore.read_url = postgresql://datastore_default:{{ datastore_passwd }}@localhost/datastore_default' }
         - { regexp: '#ckan.storage_path', line: 'ckan.storage_path' }
         - { regexp: 'ckan.storage_path =.*', line: 'ckan.storage_path = {{ filestore_dir }}' }
+        - { regexp: '#ckan.datapusher.url', line: 'ckan.datapusher.url' }
+        - { regexp: 'ckan.datapusher.url =.*', line: 'ckan.datapusher.url = http://0.0.0.0:8800/' }
 
     - name: Check if CKAN DB is initialized
       shell: psql -d ckan_default -c "SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'" | tail -2 | head -1
@@ -186,3 +183,8 @@
       shell: paster datastore set-permissions -c /etc/ckan/default/production.ini | sudo -u postgres psql --set ON_ERROR_STOP=1
       args:
         chdir: /usr/lib/ckan/default/src/ckan
+
+    - name: Reload Apache2
+      service:
+        name: apache2
+        state: reloaded
