@@ -7,6 +7,7 @@
   gather_facts: no
 
   vars:
+    remote_user: vagrant
     version: "2.6"
     temp_dir: "/tmp"
     encoding: "UTF-8"
@@ -14,7 +15,8 @@
     ckan_passwd: "{{ lookup('env', 'CKAN_PASSWD') }}"
     datastore_passwd: "{{ lookup('env', 'DATASTORE_PASSWD') }}"
     ckan_url: "127.0.0.1"
-    ckan_plugins: "stats text_view image_view recline_view datastore datapusher"
+#    ckan_plugins: "stats text_view image_view recline_view datastore datapusher"
+    ckan_plugins: "stats viewhelpers resource_proxy dashboard_preview recline_grid_view recline_graph_view recline_map_view text_view image_view webpage_view geo_view pdf_view linechart barchart piechart basicgrid navigablemap choroplethmap datapusher datastore"
     filestore_dir: "/var/lib/ckan/default"
 
   tasks:
@@ -70,6 +72,33 @@
       - name: Reconfiguring locale settings
         command: dpkg-reconfigure locales
       when: ckan_installed.stdout == "false"
+
+    - name: Download plugins for visualizations
+      git:
+        repo: "https://github.com/ckan/{{ item.ext }}.git"
+        dest: "/home/{{ remote_user }}/{{ item.ext }}"
+      with_items:
+        - { ext: 'ckanext-viewhelpers' }
+        - { ext: 'ckanext-dashboard' }
+        - { ext: 'ckanext-basiccharts' }
+        - { ext: 'ckanext-mapviews' }
+
+    - name: Install plugins for visualizations
+      command: python setup.py install
+      args:
+        chdir: "/home/{{ remote_user }}/{{ item.ext }}"
+      with_items:
+        - { ext: 'ckanext-viewhelpers' }
+        - { ext: 'ckanext-dashboard' }
+        - { ext: 'ckanext-basiccharts' }
+        - { ext: 'ckanext-mapviews' }
+    - name: Install another plugins for visualizations
+      pip:
+        name: "{{ item.ext }}"
+        state: latest
+      with_items:
+        - { ext: 'ckanext-geoview' }
+        - { ext: 'ckanext-pdfview' }
 
     - name: Edit Jetty config
       replace:
