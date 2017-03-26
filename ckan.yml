@@ -11,15 +11,18 @@
     temp_dir: "/tmp"
     encoding: "UTF-8"
     locale: "es_ES.UTF-8"
-    ckan_user: "ckan_default"
-    ckan_db: "ckan_default"
     ckan_url: "127.0.0.1"
     ckan_passwd: "{{ lookup('env', 'CKAN_PASSWD') }}"
+    ckan_plugins: "stats text_view image_view recline_view datastore"
+    datastore_passwd: "{{ lookup('env', 'DATASTORE_PASSWD') }}"
 
   tasks:
     - fail:
-        msg: "The password to access the database has no value."
+        msg: "The password to access the CKAN database has no value."
       when: ckan_passwd == ""
+    - fail:
+        msg: "The password to access the DataStore database has no value."
+      when: datastore_passwd == ""
 
     - name: Update cache
       apt:
@@ -69,7 +72,7 @@
 
     - name: Create CKAN user in PostgreSQL
       postgresql_user:
-        name: "{{ ckan_user }}"
+        name: ckan_default
         password: "{{ ckan_passwd }}"
         encrypted: yes
         role_attr_flags: NOSUPERUSER,NOCREATEDB,NOCREATEROLE
@@ -78,8 +81,26 @@
       become_user: postgres
     - name: Create CKAN database in PostgreSQL
       postgresql_db:
-        name: "{{ ckan_db }}"
-        owner: "{{ ckan_user }}"
+        name: ckan_default
+        owner: ckan_default
+        encoding: UTF-8
+        state: present
+      become: true
+      become_user: postgres
+
+    - name: Create DataStore user in PostgreSQL
+      postgresql_user:
+        name: datastore_default
+        password: "{{ datastore_passwd }}"
+        encrypted: yes
+        role_attr_flags: NOSUPERUSER,NOCREATEDB,NOCREATEROLE,LOGIN
+        state: present
+      become: true
+      become_user: postgres
+    - name: Create DataStore database in PostgreSQL
+      postgresql_db:
+        name: datastore_default
+        owner: ckan_default
         encoding: UTF-8
         state: present
       become: true
@@ -127,6 +148,11 @@
         - { regexp: '#solr_url', line: 'solr_url' }
         - { regexp: 'solr_url =.*', line: 'solr_url = http://127.0.0.1:8983/solr' }
         - { regexp: 'ckan.site_url =.*', line: 'ckan.site_url = http://{{ ckan_url }}' }
+        - { regexp: 'ckan.plugins =.*', line: 'ckan.plugins = {{ ckan_plugins }}' }
+        - { regexp: '#ckan.datastore.write_url', line: 'ckan.datastore.write_url' }
+        - { regexp: 'ckan.datastore.write_url =.*', line: 'ckan.datastore.write_url = postgresql://ckan_default:{{ ckan_passwd }}@localhost/datastore_default' }
+        - { regexp: '#ckan.datastore.read_url', line: 'ckan.datastore.read_url' }
+        - { regexp: 'ckan.datastore.read_url =.*', line: 'ckan.datastore.read_url = postgresql://datastore_default:{{ datastore_passwd }}@localhost/datastore_default' }
 
     - name: Check if CKAN DB is initialized
       shell: psql -d ckan_default -c "SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'" | tail -2 | head -1
@@ -140,3 +166,8 @@
       args:
         chdir: /usr/lib/ckan/default/src/ckan
       when: ckan_db_state.stdout == "(0 rows)"
+
+    - name: Set permissions for DataStore database
+      shell: paster datastore set-permissions -c /etc/ckan/default/production.ini | sudo -u postgres psql --set ON_ERROR_STOP=1
+      args:
+        chdir: /usr/lib/ckan/default/src/ckan
