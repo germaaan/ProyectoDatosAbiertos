@@ -1,106 +1,194 @@
 # ansible	2.1
 
 ---
-- hosts: ckan
-  become: yes
-  remote_user: vagrant
-  gather_facts: no
+- hosts: "ckan"
+  become: "yes"
+  remote_user: "vagrant"
+  gather_facts: "no"
+
 
   vars:
-    remote_user: vagrant
-    version: "2.6"
-    temp_dir: "/tmp"
-    encoding: "UTF-8"
-    locale: "es_ES.UTF-8"
     ckan_passwd: "{{ lookup('env', 'CKAN_PASSWD') }}"
     datastore_passwd: "{{ lookup('env', 'DATASTORE_PASSWD') }}"
+    mail_passwd: "{{ lookup('env', 'MAIL_PASSWD') }}"
+
+    user: "vagrant"
+    version: "2.6"
+    encoding: "UTF-8"
+    locale: "es_ES.UTF-8"
+
+    temp_dir: "/tmp"
+    storage_dir: "/var/lib/ckan/default"
+
     ckan_url: "127.0.0.1"
 #    ckan_plugins: "stats text_view image_view recline_view datastore datapusher"
     ckan_plugins: "stats viewhelpers resource_proxy dashboard_preview recline_grid_view recline_graph_view recline_map_view text_view image_view webpage_view geo_view pdf_view linechart barchart piechart basicgrid navigablemap choroplethmap datapusher datastore"
-    filestore_dir: "/var/lib/ckan/default"
+
+    fqdn: "opendata.ugr.es"
+    server: "ugr.es"
+    smtp_server: "smtp.ugr.es"
+    smtp_port: "587"
+    site_title: "OpenData UGR"
 
   tasks:
     - fail:
-        msg: "The password to access the CKAN database has no value."
+        msg: "The password to access the CKAN DB has no value."
       when: ckan_passwd == ""
     - fail:
-        msg: "The password to access the DataStore database has no value."
+        msg: "The password to access the DataStore DB has no value."
       when: datastore_passwd == ""
+    - fail:
+        msg: "The password to access mail has no value."
+      when: mail_passwd == ""
 
-    - name: Update cache
+    - name: "Update cache"
       apt:
-        update_cache: yes
-        cache_valid_time: 1800
-        upgrade: safe
-        dpkg_options: force-confold
-    - name: Install dependencies
+        update_cache: "yes"
+        cache_valid_time: "1800"
+        upgrade: "safe"
+        dpkg_options: "force-confold"
+    - name: "Set Postfix option type"
+      debconf:
+        name: "postfix"
+        question: "postfix/main_mailer_type"
+        value: "'Internet Site'"
+        vtype: "string"
+    - name: "Set Postfix option hostname"
+      debconf:
+        name: "postifx"
+        question: "postfix/mailname"
+        value: "{{ fqdn }}"
+        vtype: "string"
+    - name: "Install dependencies"
       apt:
         name: "{{ item }}"
-        state: latest
-        dpkg_options: force-confold
+        state: "latest"
+        dpkg_options: "force-confold"
       with_items:
-        - apache2
-        - git-core
-        - libapache2-mod-wsgi
-        - libpq-dev
-        - libpq5
-        - nginx
-        - openjdk-7-jdk
-        - postgresql-9.3
-        - python-dev
-        - python-pastescript
-        - python-pip
-        - redis-server
-        - solr-jetty
+        - "apache2"
+        - "git-core"
+        - "libapache2-mod-wsgi"
+        - "libpq-dev"
+        - "libpq5"
+        - "mailutils"
+        - "nginx"
+        - "openjdk-7-jdk"
+        - "postfix"
+        - "postgresql-9.3"
+        - "python-dev"
+        - "python-pastescript"
+        - "python-pip"
+        - "redis-server"
+        - "solr-jetty"
 
-    - name: Check if CKAN is already installed
-      shell: if [ $(dpkg-query -W python-ckan | grep {{ version }} | wc -l) -eq "1" ]; then echo "true"; else echo "false"; fi
-      register: ckan_installed
+    - name: "Create directory for storage"
+      file:
+        path: "{{ storage_dir }}"
+        state: "directory"
+        mode: "0755"
+        owner: "www-data"
+
+    - name: "Check if CKAN is already installed"
+      shell: "if [ $(dpkg-query -W python-ckan | grep {{ version }} | wc -l) -eq \"1\" ]; then echo \"true\"; else echo \"false\"; fi"
+      register: "ckan_installed"
 #    - debug: msg="{{ckan_installed}}"
     - block:
-      - name: Download CKAN
+      - name: "Download CKAN"
         get_url:
-          url: http://packaging.ckan.org/python-ckan_{{ version }}-trusty_amd64.deb
+          url: "http://packaging.ckan.org/python-ckan_{{ version }}-trusty_amd64.deb"
           dest: "{{ temp_dir }}"
-          mode: 0550
-      - name: Install CKAN
-        apt: deb="{{ temp_dir }}/python-ckan_{{ version }}-trusty_amd64.deb"
-      - name: Install CKAN requirements
-        pip: requirements=/usr/lib/ckan/default/src/ckan/requirements.txt
-      - name: Generate locale settings
-        command: locale-gen es_ES.UTF-8
-      - name: Reconfiguring locale settings
-        command: dpkg-reconfigure locales
+          mode: "0550"
+      - name: "Install CKAN"
+        apt:
+          deb: "{{ temp_dir }}/python-ckan_{{ version }}-trusty_amd64.deb"
+      - name: "Install CKAN requirements"
+        pip:
+          requirements: "/usr/lib/ckan/default/src/ckan/requirements.txt"
+      - name: "Generate locale settings"
+        command: "locale-gen es_ES.UTF-8"
+      - name: "Reconfiguring locale settings"
+        command: "dpkg-reconfigure locales"
       when: ckan_installed.stdout == "false"
 
-    - name: Download plugins for visualizations
+    - name: "Download plugins for visualizations"
       git:
         repo: "https://github.com/ckan/{{ item.ext }}.git"
-        dest: "/home/{{ remote_user }}/{{ item.ext }}"
+        dest: "/home/{{ user }}/{{ item.ext }}"
       with_items:
         - { ext: 'ckanext-viewhelpers' }
         - { ext: 'ckanext-dashboard' }
         - { ext: 'ckanext-basiccharts' }
         - { ext: 'ckanext-mapviews' }
 
-    - name: Install plugins for visualizations
-      command: python setup.py install
+    - name: "Install plugins for visualizations"
+      command: "python setup.py install"
       args:
-        chdir: "/home/{{ remote_user }}/{{ item.ext }}"
+        chdir: "/home/{{ user }}/{{ item.ext }}"
       with_items:
         - { ext: 'ckanext-viewhelpers' }
         - { ext: 'ckanext-dashboard' }
         - { ext: 'ckanext-basiccharts' }
         - { ext: 'ckanext-mapviews' }
-    - name: Install another plugins for visualizations
+    - name: "Install another plugins for visualizations"
       pip:
         name: "{{ item.ext }}"
-        state: latest
+        state: "latest"
       with_items:
         - { ext: 'ckanext-geoview' }
         - { ext: 'ckanext-pdfview' }
 
-    - name: Edit Jetty config
+    - name: "Create CKAN user in PostgreSQL"
+      postgresql_user:
+        name: "ckan_default"
+        password: "{{ ckan_passwd }}"
+        encrypted: "yes"
+        role_attr_flags: "NOSUPERUSER,NOCREATEDB,NOCREATEROLE"
+        state: "present"
+      become: "true"
+      become_user: "postgres"
+    - name: "Create CKAN DB in PostgreSQL"
+      postgresql_db:
+        name: "ckan_default"
+        owner: "ckan_default"
+        encoding: "UTF-8"
+        state: "present"
+      become: "true"
+      become_user: "postgres"
+
+    - name: "Create DataStore user in PostgreSQL"
+      postgresql_user:
+        name: "datastore_default"
+        password: "{{ datastore_passwd }}"
+        encrypted: "yes"
+        role_attr_flags: "NOSUPERUSER,NOCREATEDB,NOCREATEROLE,LOGIN"
+        state: "present"
+      become: "true"
+      become_user: "postgres"
+    - name: "Create DataStore DB in PostgreSQL"
+      postgresql_db:
+        name: "datastore_default"
+        owner: "ckan_default"
+        encoding: "UTF-8"
+        state: "present"
+      become: "true"
+      become_user: "postgres"
+
+    - name: "Check backup of the Solr schema file"
+      stat: "path=/etc/solr/conf/schema.xml.bak"
+      register: "backup_solr_schema"
+#    - debug: msg="{{backup_solr_schema}}"
+
+    - name: "Backup the Solr schema file"
+      command: "mv /etc/solr/conf/schema.xml /etc/solr/conf/schema.xml.bak"
+      when: backup_solr_schema.stat.exists == "false"
+
+    - name: "Link to the custom CKAN schema"
+      file:
+        src: "/usr/lib/ckan/default/src/ckan/ckan/config/solr/schema.xml"
+        dest: "/etc/solr/conf/schema.xml"
+        state: "link"
+
+    - name: "Edit Jetty config"
       replace:
         dest: "/etc/default/jetty"
         regexp: "{{ item.regexp }}"
@@ -112,108 +200,94 @@
         - { regexp: '#JETTY_PORT', line: 'JETTY_PORT' }
         - { regexp: 'JETTY_PORT=.*', line: 'JETTY_PORT=8983' }
 
-    - name: Check backup of the Solr schema file
-      stat: path=/etc/solr/conf/schema.xml.bak
-      register: backup_solr_schema
-#    - debug: msg="{{backup_solr_schema}}"
+    - name: "Edit Postfix config"
+      replace:
+        dest: "/etc/postfix/main.cf"
+        regexp: "myhostname =.*"
+        replace: "myhostname = {{ fqdn }}"
 
-    - name: Backup the Solr schema file
-      command: mv /etc/solr/conf/schema.xml /etc/solr/conf/schema.xml.bak
-      when: backup_solr_schema.stat.exists == false
+    - name: "Edit Postfix virtual domain"
+      lineinfile:
+        dest: "/etc/postfix/virtual"
+        line: "{{ user }}@{{ fqdn }} {{ user }}"
+        create: "yes"
+        state: "present"
 
-    - name: Link to the custom CKAN schema
-      file:
-        src: '/usr/lib/ckan/default/src/ckan/ckan/config/solr/schema.xml'
-        dest: '/etc/solr/conf/schema.xml'
-        state: link
+    - name: "Create Postfix lookup table"
+      command: "postmap /etc/postfix/virtual"
 
-    - name: Start Jetty
-      service:
-        name: jetty
-        state: started
+    - name: "Create cron job for check mail"
+      cron:
+        name: "Check mail"
+        special_time: "hourly"
+        job: "cd /usr/lib/ckan/default/src/ckan && paster post -c /etc/ckan/default/production.ini /api/action/send_email_notifications > /dev/null"
+        state: "present"
 
-    - name: Create directory for storage
-      file:
-        path: "{{ filestore_dir }}"
-        state: directory
-        mode: 0755
-        owner: www-data
-
-    - name: Create CKAN user in PostgreSQL
-      postgresql_user:
-        name: ckan_default
-        password: "{{ ckan_passwd }}"
-        encrypted: yes
-        role_attr_flags: NOSUPERUSER,NOCREATEDB,NOCREATEROLE
-        state: present
-      become: true
-      become_user: postgres
-    - name: Create CKAN database in PostgreSQL
-      postgresql_db:
-        name: ckan_default
-        owner: ckan_default
-        encoding: UTF-8
-        state: present
-      become: true
-      become_user: postgres
-
-    - name: Create DataStore user in PostgreSQL
-      postgresql_user:
-        name: datastore_default
-        password: "{{ datastore_passwd }}"
-        encrypted: yes
-        role_attr_flags: NOSUPERUSER,NOCREATEDB,NOCREATEROLE,LOGIN
-        state: present
-      become: true
-      become_user: postgres
-    - name: Create DataStore database in PostgreSQL
-      postgresql_db:
-        name: datastore_default
-        owner: ckan_default
-        encoding: UTF-8
-        state: present
-      become: true
-      become_user: postgres
-
-    - name: Edit CKAN config
+    - name: "Edit CKAN config"
       replace:
         dest: "/etc/ckan/default/production.ini"
         regexp: "{{ item.regexp }}"
         replace: "{{ item.line }}"
       with_items:
         - { regexp: 'sqlalchemy.url =.*', line: 'sqlalchemy.url = postgresql://ckan_default:{{ ckan_passwd }}@127.0.0.1/ckan_default' }
-        - { regexp: '#solr_url', line: 'solr_url' }
-        - { regexp: 'solr_url =.*', line: 'solr_url = http://127.0.0.1:8983/solr' }
-        - { regexp: 'ckan.site_url =.*', line: 'ckan.site_url = http://{{ ckan_url }}' }
-        - { regexp: 'ckan.plugins =.*', line: 'ckan.plugins = {{ ckan_plugins }}' }
         - { regexp: '#ckan.datastore.write_url', line: 'ckan.datastore.write_url' }
         - { regexp: 'ckan.datastore.write_url =.*', line: 'ckan.datastore.write_url = postgresql://ckan_default:{{ ckan_passwd }}@localhost/datastore_default' }
         - { regexp: '#ckan.datastore.read_url', line: 'ckan.datastore.read_url' }
         - { regexp: 'ckan.datastore.read_url =.*', line: 'ckan.datastore.read_url = postgresql://datastore_default:{{ datastore_passwd }}@localhost/datastore_default' }
+        - { regexp: 'ckan.site_url =.*', line: 'ckan.site_url = http://{{ ckan_url }}' }
+        - { regexp: '#solr_url', line: 'solr_url' }
+        - { regexp: 'solr_url =.*', line: 'solr_url = http://127.0.0.1:8983/solr' }
+        - { regexp: 'ckan.plugins =.*', line: 'ckan.plugins = {{ ckan_plugins }}' }
+        - { regexp: 'ckan.site_title =.*', line: 'ckan.site_title = {{ site_title }}' }
         - { regexp: '#ckan.storage_path', line: 'ckan.storage_path' }
-        - { regexp: 'ckan.storage_path =.*', line: 'ckan.storage_path = {{ filestore_dir }}' }
+        - { regexp: 'ckan.storage_path =.*', line: 'ckan.storage_path = {{ storage_dir }}' }
         - { regexp: '#ckan.datapusher.url', line: 'ckan.datapusher.url' }
         - { regexp: 'ckan.datapusher.url =.*', line: 'ckan.datapusher.url = http://0.0.0.0:8800/' }
+        - { regexp: '#ckan.activity_streams_email_notifications', line: 'ckan.activity_streams_email_notifications' }
+        - { regexp: 'ckan.activity_streams_email_notifications =.*', line: 'ckan.activity_streams_email_notifications = true' }
+        - { regexp: '#smtp.server', line: 'smtp.server' }
+        - { regexp: 'smtp.server =.*', line: 'smtp.server = {{ smtp_server }}{{ smtp_port }}' }
+        - { regexp: '#smtp.starttls', line: 'smtp.starttls' }
+        - { regexp: 'smtp.starttls =.*', line: 'smtp.starttls = True' }
+        - { regexp: '#smtp.user', line: 'smtp.user' }
+        - { regexp: 'smtp.user =.*', line: 'smtp.user = {{ user }}@{{ server }}' }
+        - { regexp: '#smtp.password', line: 'smtp.password' }
+        - { regexp: 'smtp.password =.*', line: 'smtp.password = {{ mail_passwd }}' }
+        - { regexp: '#smtp.mail_from', line: 'smtp.mail_from' }
+        - { regexp: 'smtp.mail_from =.*', line: 'smtp.mail_from = {{ user }}@{{ server }}' }
 
-    - name: Check if CKAN DB is initialized
-      shell: psql -d ckan_default -c "SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'" | tail -2 | head -1
-      become: true
-      become_user: postgres
-      register: ckan_db_state
+    - name: "Check if CKAN DB is initialized"
+      shell: "psql -d ckan_default -c \"SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'\" | tail -2 | head -1"
+      become: "true"
+      become_user: "postgres"
+      register: "ckan_db_state"
 #    - debug: msg="{{ckan_db_state}}"
 
-    - name: Create the tables for CKAN in the database
-      command: paster db init -c /etc/ckan/default/production.ini
+    - name: "Create the tables for CKAN in the DB"
+      command: "paster db init -c /etc/ckan/default/production.ini"
       args:
-        chdir: /usr/lib/ckan/default/src/ckan
+        chdir: "/usr/lib/ckan/default/src/ckan"
       when: ckan_db_state.stdout == "(0 rows)"
 
-    - name: Set permissions for DataStore database
-      shell: paster datastore set-permissions -c /etc/ckan/default/production.ini | sudo -u postgres psql --set ON_ERROR_STOP=1
+    - name: "Set permissions for DataStore DB"
+      shell: "paster datastore set-permissions -c /etc/ckan/default/production.ini | sudo -u postgres psql --set ON_ERROR_STOP=1"
       args:
-        chdir: /usr/lib/ckan/default/src/ckan
+        chdir: "/usr/lib/ckan/default/src/ckan"
 
-    - name: Reload Apache2
+    - name: "Start Jetty"
       service:
-        name: apache2
-        state: reloaded
+        name: "jetty"
+        state: "started"
+        enabled: "yes"
+
+    - name: "Reload Apache2"
+      service:
+        name: "apache2"
+        state: "reloaded"
+        enabled: "yes"
+
+    - name: "Restart Postfix"
+      service:
+        name: "postfix"
+        state: "restarted"
+        enabled: "yes"
