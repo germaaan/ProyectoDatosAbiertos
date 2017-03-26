@@ -1,3 +1,5 @@
+# ansible	2.1
+
 ---
 - hosts: ckan
   become: yes
@@ -10,9 +12,13 @@
     encoding: "UTF-8"
     locale: "es_ES.UTF-8"
     user_ckan: "ckan_default"
-    passwd_postgres: "{{ lookup('env', 'passwd_postgres') }}"
+    passwd_ckan: "{{ lookup('env', 'passwd_ckan') }}"
 
   tasks:
+    - fail:
+        msg: "The password to access the database has no value."
+      when: passwd_ckan == ""
+
     - name: Update cache
       apt:
         update_cache: yes
@@ -58,11 +64,11 @@
         command: dpkg-reconfigure locales
       when: ckan_installed.stdout == "false"
 
-#    - debug: msg="{{passwd_postgres}}"
+#    - debug: msg="{{passwd_ckan}}"
     - name: Create CKAN user in PostgreSQL
       postgresql_user:
         name: ckan_default
-        password: "{{ passwd_postgres }}"
+        password: "{{ passwd_ckan }}"
         encrypted: yes
         role_attr_flags: NOSUPERUSER,NOCREATEDB,NOCREATEROLE
         state: present
@@ -76,3 +82,42 @@
         state: present
       become: true
       become_user: postgres
+
+    - name: Edit Jetty config
+      lineinfile:
+        dest: "/etc/default/jetty"
+        regexp: "{{ item.regexp }}"
+        line: "{{ item.line }}"
+      with_items:
+        - { regexp: 'NO_START=1', line: 'NO_START=0' }
+        - { regexp: '#JETTY_HOST=\$\(uname -n\)', line: 'JETTY_HOST=127.0.0.1' }
+        - { regexp: '#JETTY_PORT=8080', line: 'JETTY_PORT=8983' }
+
+    - name: Check backup of the Solr schema file
+      stat: path=/etc/solr/conf/schema.xml.bak
+      register: backup_solr_schema
+#    - debug: msg="{{backup_solr_schema}}"
+
+    - name: Backup the Solr schema file
+      command: mv /etc/solr/conf/schema.xml /etc/solr/conf/schema.xml.bak
+      when: backup_solr_schema.stat.exists == false
+
+    - name: Link to the custom CKAN schema
+      file:
+        src: '/usr/lib/ckan/default/src/ckan/ckan/config/solr/schema.xml'
+        dest: '/etc/solr/conf/schema.xml'
+        state: link
+
+    - name: Start Jetty
+      service:
+        name: jetty
+        state: started
+
+    - name: Edit CKAN config
+      lineinfile:
+        dest: "/etc/ckan/default/production.ini"
+        regexp: "{{ item.regexp }}"
+        line: "{{ item.line }}"
+      with_items:
+        - { regexp: 'sqlalchemy.url = postgresql:\/\/ckan_default:pass@localhost\/ckan_default', line: 'sqlalchemy.url = postgresql://ckan_default:{{ passwd_ckan }}@127.0.0.1/ckan_default' }
+        - { regexp: 'ckan.site_url =', line: 'ckan.site_url = http://127.0.0.1' } #CHANGE

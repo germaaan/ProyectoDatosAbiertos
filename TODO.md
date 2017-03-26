@@ -1,11 +1,3 @@
-Editar **/etc/ckan/default/production.ini**:
-
-- _sqlalchemy.url = postgresql://ckan_default:pass@localhost/ckan_default_ -> **sqlalchemy.url = postgresql://ckan_default:{PASSWORD}@127.0.0.1/ckan_default**
-- _#solr_url = <http://localhost:8983/solr>_ -> **solr_url=<http://127.0.0.1:8983/solr>**
-- _ckan.site_url =_ -> **ckan.site_url = http://127.0.0.1**
-
-Acceder a **<http://127.0.0.1:8983/solr/>**.
-
 ### Crear tablas de la base de datos
 
 ```bash
