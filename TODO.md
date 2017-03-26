@@ -25,30 +25,6 @@ Editar **/etc/ckan/default/production.ini**:
 sudo ckan datastore set-permissions | sudo -u postgres psql --set ON_ERROR_STOP=1
 ```
 
-Comprobar acceso a DataStore (debería devolver un JSON):
-
-```bash
-curl http://127.0.0.1/api/3/action/datastore_search?resource_id=_table_metadata
-```
-
-Comprobar permiso de escritura:
-
-```bash
-curl -X POST http://127.0.0.1/api/3/action/datastore_create -H "Authorization: {USER_API}" -d '{"resource": {"package_id": {PACKAGE_ID}}, "fields": [ {"id": "a"}, {"id": "b"} ], "records": [ { "a": 1, "b": "xyz"}, {"a": 2, "b": "zzz"} ]}'
-```
-
-Comprobar recurso creado:
-
-```bash
-http://127.0.0.1/api/3/action/datastore_search?resource_id={5a3304ac-f742-4dfa-aa56-3829f795f326}
-```
-
-Eliminar recurso de prueba creado:
-
-```bash
-curl -X POST http://127.0.0.1/api/3/action/datastore_delete -H "Authorization: 6e30990b-8af0-4920-8fee-74958a6bcfaa" -d '{"resource_id": "5a3304ac-f742-4dfa-aa56-3829f795f326"}'
-```
-
 ### Configurar FileStore
 
 ```bash
@@ -63,11 +39,6 @@ Editar **/etc/ckan/default/production.ini**:
 sudo chown www-data /var/lib/ckan/default
 sudo chmod u+rwx /var/lib/ckan/default
 sudo service apache2 reload
-```
-
-Probar:
-```bash
-curl http://127.0.0.1/api/3/action/resource_create -H 'Authorization: {USER_API}' --form upload=@{FILE} --form name={NAME} --form url=NULL --form package_id={PACKAGE_ID}
 ```
 
 ### Configurar DataPusher

@@ -11,13 +11,15 @@
     temp_dir: "/tmp"
     encoding: "UTF-8"
     locale: "es_ES.UTF-8"
-    user_ckan: "ckan_default"
-    passwd_ckan: "{{ lookup('env', 'passwd_ckan') }}"
+    ckan_user: "ckan_default"
+    ckan_db: "ckan_default"
+    ckan_url: "127.0.0.1"
+    ckan_passwd: "{{ lookup('env', 'CKAN_PASSWD') }}"
 
   tasks:
     - fail:
         msg: "The password to access the database has no value."
-      when: passwd_ckan == ""
+      when: ckan_passwd == ""
 
     - name: Update cache
       apt:
@@ -44,10 +46,11 @@
         - python-pip
         - redis-server
         - solr-jetty
+
     - name: Check if CKAN is already installed
       shell: if [ $(dpkg-query -W python-ckan | grep {{ version }} | wc -l) -eq "1" ]; then echo "true"; else echo "false"; fi
       register: ckan_installed
-#    - debug: msg="{{ckan_installed.stdout}}"
+#    - debug: msg="{{ckan_installed}}"
     - block:
       - name: Download CKAN
         get_url:
@@ -64,11 +67,10 @@
         command: dpkg-reconfigure locales
       when: ckan_installed.stdout == "false"
 
-#    - debug: msg="{{passwd_ckan}}"
     - name: Create CKAN user in PostgreSQL
       postgresql_user:
-        name: ckan_default
-        password: "{{ passwd_ckan }}"
+        name: "{{ ckan_user }}"
+        password: "{{ ckan_passwd }}"
         encrypted: yes
         role_attr_flags: NOSUPERUSER,NOCREATEDB,NOCREATEROLE
         state: present
@@ -76,22 +78,24 @@
       become_user: postgres
     - name: Create CKAN database in PostgreSQL
       postgresql_db:
-        name: ckan_default
-        owner: ckan_default
+        name: "{{ ckan_db }}"
+        owner: "{{ ckan_user }}"
         encoding: UTF-8
         state: present
       become: true
       become_user: postgres
 
     - name: Edit Jetty config
-      lineinfile:
+      replace:
         dest: "/etc/default/jetty"
         regexp: "{{ item.regexp }}"
-        line: "{{ item.line }}"
+        replace: "{{ item.line }}"
       with_items:
-        - { regexp: 'NO_START=1', line: 'NO_START=0' }
-        - { regexp: '#JETTY_HOST=\$\(uname -n\)', line: 'JETTY_HOST=127.0.0.1' }
-        - { regexp: '#JETTY_PORT=8080', line: 'JETTY_PORT=8983' }
+        - { regexp: 'NO_START=\d', line: 'NO_START=0' }
+        - { regexp: '#JETTY_HOST', line: 'JETTY_HOST' }
+        - { regexp: 'JETTY_HOST=.*', line: 'JETTY_HOST=127.0.0.1' }
+        - { regexp: '#JETTY_PORT', line: 'JETTY_PORT' }
+        - { regexp: 'JETTY_PORT=.*', line: 'JETTY_PORT=8983' }
 
     - name: Check backup of the Solr schema file
       stat: path=/etc/solr/conf/schema.xml.bak
@@ -114,10 +118,25 @@
         state: started
 
     - name: Edit CKAN config
-      lineinfile:
+      replace:
         dest: "/etc/ckan/default/production.ini"
         regexp: "{{ item.regexp }}"
-        line: "{{ item.line }}"
+        replace: "{{ item.line }}"
       with_items:
-        - { regexp: 'sqlalchemy.url = postgresql:\/\/ckan_default:pass@localhost\/ckan_default', line: 'sqlalchemy.url = postgresql://ckan_default:{{ passwd_ckan }}@127.0.0.1/ckan_default' }
-        - { regexp: 'ckan.site_url =', line: 'ckan.site_url = http://127.0.0.1' } #CHANGE
+        - { regexp: 'sqlalchemy.url =.*', line: 'sqlalchemy.url = postgresql://ckan_default:{{ ckan_passwd }}@127.0.0.1/ckan_default' }
+        - { regexp: '#solr_url', line: 'solr_url' }
+        - { regexp: 'solr_url =.*', line: 'solr_url = http://127.0.0.1:8983/solr' }
+        - { regexp: 'ckan.site_url =.*', line: 'ckan.site_url = http://{{ ckan_url }}' }
+
+    - name: Check if CKAN DB is initialized
+      shell: psql -d ckan_default -c "SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'" | tail -2 | head -1
+      become: true
+      become_user: postgres
+      register: ckan_db_state
+#    - debug: msg="{{ckan_db_state}}"
+
+    - name: Create the tables for CKAN in the database
+      command: paster db init -c /etc/ckan/default/production.ini
+      args:
+        chdir: /usr/lib/ckan/default/src/ckan
+      when: ckan_db_state.stdout == "(0 rows)"
