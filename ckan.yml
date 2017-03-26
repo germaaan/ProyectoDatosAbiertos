@@ -11,10 +11,11 @@
     temp_dir: "/tmp"
     encoding: "UTF-8"
     locale: "es_ES.UTF-8"
-    ckan_url: "127.0.0.1"
     ckan_passwd: "{{ lookup('env', 'CKAN_PASSWD') }}"
-    ckan_plugins: "stats text_view image_view recline_view datastore"
     datastore_passwd: "{{ lookup('env', 'DATASTORE_PASSWD') }}"
+    ckan_url: "127.0.0.1"
+    ckan_plugins: "stats text_view image_view recline_view datastore"
+    filestore_dir: "/var/lib/ckan/default"
 
   tasks:
     - fail:
@@ -70,6 +71,50 @@
         command: dpkg-reconfigure locales
       when: ckan_installed.stdout == "false"
 
+    - name: Edit Jetty config
+      replace:
+        dest: "/etc/default/jetty"
+        regexp: "{{ item.regexp }}"
+        replace: "{{ item.line }}"
+      with_items:
+        - { regexp: 'NO_START=\d', line: 'NO_START=0' }
+        - { regexp: '#JETTY_HOST', line: 'JETTY_HOST' }
+        - { regexp: 'JETTY_HOST=.*', line: 'JETTY_HOST=127.0.0.1' }
+        - { regexp: '#JETTY_PORT', line: 'JETTY_PORT' }
+        - { regexp: 'JETTY_PORT=.*', line: 'JETTY_PORT=8983' }
+
+    - name: Check backup of the Solr schema file
+      stat: path=/etc/solr/conf/schema.xml.bak
+      register: backup_solr_schema
+#    - debug: msg="{{backup_solr_schema}}"
+
+    - name: Backup the Solr schema file
+      command: mv /etc/solr/conf/schema.xml /etc/solr/conf/schema.xml.bak
+      when: backup_solr_schema.stat.exists == false
+
+    - name: Link to the custom CKAN schema
+      file:
+        src: '/usr/lib/ckan/default/src/ckan/ckan/config/solr/schema.xml'
+        dest: '/etc/solr/conf/schema.xml'
+        state: link
+
+    - name: Start Jetty
+      service:
+        name: jetty
+        state: started
+
+    - name: Create directory for storage
+      file:
+        path: "{{ filestore_dir }}"
+        state: directory
+        mode: 0755
+        owner: www-data
+
+    - name: Reload Apache2
+      service:
+        name: apache2
+        state: reloaded
+
     - name: Create CKAN user in PostgreSQL
       postgresql_user:
         name: ckan_default
@@ -106,38 +151,6 @@
       become: true
       become_user: postgres
 
-    - name: Edit Jetty config
-      replace:
-        dest: "/etc/default/jetty"
-        regexp: "{{ item.regexp }}"
-        replace: "{{ item.line }}"
-      with_items:
-        - { regexp: 'NO_START=\d', line: 'NO_START=0' }
-        - { regexp: '#JETTY_HOST', line: 'JETTY_HOST' }
-        - { regexp: 'JETTY_HOST=.*', line: 'JETTY_HOST=127.0.0.1' }
-        - { regexp: '#JETTY_PORT', line: 'JETTY_PORT' }
-        - { regexp: 'JETTY_PORT=.*', line: 'JETTY_PORT=8983' }
-
-    - name: Check backup of the Solr schema file
-      stat: path=/etc/solr/conf/schema.xml.bak
-      register: backup_solr_schema
-#    - debug: msg="{{backup_solr_schema}}"
-
-    - name: Backup the Solr schema file
-      command: mv /etc/solr/conf/schema.xml /etc/solr/conf/schema.xml.bak
-      when: backup_solr_schema.stat.exists == false
-
-    - name: Link to the custom CKAN schema
-      file:
-        src: '/usr/lib/ckan/default/src/ckan/ckan/config/solr/schema.xml'
-        dest: '/etc/solr/conf/schema.xml'
-        state: link
-
-    - name: Start Jetty
-      service:
-        name: jetty
-        state: started
-
     - name: Edit CKAN config
       replace:
         dest: "/etc/ckan/default/production.ini"
@@ -153,6 +166,8 @@
         - { regexp: 'ckan.datastore.write_url =.*', line: 'ckan.datastore.write_url = postgresql://ckan_default:{{ ckan_passwd }}@localhost/datastore_default' }
         - { regexp: '#ckan.datastore.read_url', line: 'ckan.datastore.read_url' }
         - { regexp: 'ckan.datastore.read_url =.*', line: 'ckan.datastore.read_url = postgresql://datastore_default:{{ datastore_passwd }}@localhost/datastore_default' }
+        - { regexp: '#ckan.storage_path', line: 'ckan.storage_path' }
+        - { regexp: 'ckan.storage_path =.*', line: 'ckan.storage_path = {{ filestore_dir }}' }
 
     - name: Check if CKAN DB is initialized
       shell: psql -d ckan_default -c "SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'" | tail -2 | head -1
