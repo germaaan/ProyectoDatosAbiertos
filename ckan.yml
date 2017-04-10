@@ -20,6 +20,7 @@
     version_postgresql: "9.3"
     encoding: "UTF-8"
     locale: "es_ES.UTF-8"
+    lang: "spanish"
 
     temp_dir: "/tmp"
     storage_dir: "/var/lib/ckan/default"
@@ -32,7 +33,28 @@
     server: "ugr.es"
 #    smtp_server: "smtp.ugr.es"
 #    smtp_port: "587"
+
+    ## Front-End Settings
     site_title: "OpenData UGR"
+    site_logo: "/base/images/ckan-logo.png"
+    site_description: "Portal para gestionar los datos abiertos de la UGR"
+    favicon: "/images/icons/ckan.ico"
+    gravatar_default: "identicon"
+    preview_direct: "png jpg gif"
+    preview_loadable: "html htm rdf+xml owl+xml xml n3 n-triples turtle plain atom csv tsv rss txt json pdf jpg png"
+    display_timezone: "server"
+    ## Internationalisation Settings
+    locale_default: "es"
+    locale_order: "en pt_BR ja it cs_CZ ca es fr el sv sr sr@latin no sk fi ru de pl nl bg ko_KR hu sa sl lv"
+    locales_offered: ""
+    locales_filtered_out: "es_ES"
+    ## Feeds Settings
+    authority_name: "Universidad de Granada"
+    date: ""
+    author_name: "Oficina de Software Libre"
+    author_link: "http://osl.ugr.es/"
+    ## Activity Streams Settings
+    ## Email settings 
 
 
   tasks:
@@ -215,9 +237,9 @@
         regexp: "{{ item.regexp }}"
         replace: "{{ item.line }}"
       with_items:
-        - { regexp: 'NO_START=\d', line: 'NO_START=0' }
-        - { regexp: '#JETTY_HOST=.*', line: 'JETTY_HOST=127.0.0.1' }
-        - { regexp: '#JETTY_PORT=.*', line: 'JETTY_PORT=8983' }
+        - { regexp: '#{0,1}NO_START.*', line: 'NO_START=0' }
+        - { regexp: '#{0,1}JETTY_HOST.*', line: 'JETTY_HOST=127.0.0.1' }
+        - { regexp: '#{0,1}JETTY_PORT.*', line: 'JETTY_PORT=8983' }
 
 #    - name: "Edit Postfix config"
 #      replace:
@@ -248,22 +270,46 @@
         regexp: "{{ item.regexp }}"
         replace: "{{ item.line }}"
       with_items:
-        - { regexp: 'sqlalchemy.url =.*', line: 'sqlalchemy.url = postgresql://ckan_default:{{ ckan_passwd }}@127.0.0.1/ckan_default' }
-        - { regexp: '#ckan.datastore.write_url =.*', line: 'ckan.datastore.write_url = postgresql://ckan_default:{{ ckan_passwd }}@localhost/datastore_default' }
-        - { regexp: '#ckan.datastore.read_url =.*', line: 'ckan.datastore.read_url = postgresql://datastore_default:{{ datastore_passwd }}@localhost/datastore_default' }
-        - { regexp: 'ckan.site_url =.*', line: 'ckan.site_url = http://{{ ckan_url }}' }
-#        - { regexp: 'ckan.auth.*', line: '.*= false' }
-        - { regexp: '#solr_url =.*', line: 'solr_url = http://127.0.0.1:8983/solr' }
-        - { regexp: 'ckan.plugins =.*', line: 'ckan.plugins = {{ ckan_plugins }}' }
-        - { regexp: 'ckan.site_title =.*', line: 'ckan.site_title = {{ site_title }}' }
-        - { regexp: '#ckan.storage_path =.*', line: 'ckan.storage_path = {{ storage_dir }}' }
-        - { regexp: '#ckan.datapusher.url =.*', line: 'ckan.datapusher.url = http://0.0.0.0:8800/' }
-#        - { regexp: '#ckan.activity_streams_email_notifications =.*', line: 'ckan.activity_streams_email_notifications = true' }
-#        - { regexp: '#smtp.server =.*', line: 'smtp.server = {{ smtp_server }}{{ smtp_port }}' }
-#        - { regexp: '#smtp.starttls =.*', line: 'smtp.starttls = True' }
-#        - { regexp: '#smtp.user =.*', line: 'smtp.user = {{ user }}@{{ server }}' }
-#        - { regexp: '#smtp.password =.*', line: 'smtp.password = {{ mail_passwd }}' }
-#        - { regexp: '#smtp.mail_from =.*', line: 'smtp.mail_from = {{ user }}@{{ server }}' }
+        - { regexp: '#{0,1}sqlalchemy.url.*', line: 'sqlalchemy.url = postgresql://ckan_default:{{ ckan_passwd }}@127.0.0.1/ckan_default' }
+        - { regexp: '#{0,1}ckan.datastore.write_url.*', line: 'ckan.datastore.write_url = postgresql://ckan_default:{{ ckan_passwd }}@localhost/datastore_default' }
+        - { regexp: '#{0,1}ckan.datastore.read_url.*', line: 'ckan.datastore.read_url = postgresql://datastore_default:{{ datastore_passwd }}@localhost/datastore_default' }
+        - { regexp: '#{0,1}ckan.datastore.default_fts_lang.*', line: 'ckan.datastore.default_fts_lang = {{ lang }}' }
+        - { regexp: '#{0,1}ckan.site_url.*', line: 'ckan.site_url = http://{{ ckan_url }}' }
+        - { regexp: '#{0,1}ckan.auth.anon_create_dataset = false.*', line: 'ckan.auth.anon_create_dataset = false' }
+        - { regexp: '#{0,1}ckan.auth.create_unowned_dataset = false.*', line: 'ckan.auth.create_unowned_dataset = false' }
+        - { regexp: '#{0,1}ckan.auth.create_dataset_if_not_in_organization = false.*', line: 'ckan.auth.create_dataset_if_not_in_organization = false' }
+        - { regexp: '#{0,1}ckan.auth.user_create_groups = false.*', line: 'ckan.auth.user_create_groups = false' }
+        - { regexp: '#{0,1}ckan.auth.user_create_organizations = false.*', line: 'ckan.auth.user_create_organizations = false' }
+        - { regexp: '#{0,1}ckan.auth.user_delete_groups = true.*', line: 'ckan.auth.user_delete_groups = false' }
+        - { regexp: '#{0,1}ckan.auth.user_delete_organizations = true.*', line: 'ckan.auth.user_delete_organizations = false' }
+        - { regexp: '#{0,1}ckan.auth.create_user_via_api = false.*', line: 'ckan.auth.create_user_via_api = false' }
+        - { regexp: '#{0,1}ckan.auth.create_user_via_web = true.*', line: 'ckan.auth.create_user_via_web = false' }
+        - { regexp: '#{0,1}solr_url.*', line: 'solr_url = http://127.0.0.1:8983/solr' }
+        - { regexp: '#{0,1}ckan.plugins.*', line: 'ckan.plugins = {{ ckan_plugins }}' }
+        - { regexp: '#{0,1}ckan.site_title.*', line: 'ckan.site_title = {{ site_title }}' }
+        - { regexp: '#{0,1}ckan.site_logo.*', line: 'ckan.site_logo = {{ site_logo }}' }
+        - { regexp: '#{0,1}ckan.site_description.*', line: 'ckan.site_description = {{ site_description }}' }
+        - { regexp: '#{0,1}ckan.favicon.*', line: 'ckan.favicon = {{ favicon }}' }
+        - { regexp: '#{0,1}ckan.gravatar_default.*', line: 'ckan.gravatar_default = {{ gravatar_default }}' }
+        - { regexp: '#{0,1}ckan.preview.direct.*', line: 'ckan.preview.direct = {{ preview_direct }}' }
+        - { regexp: '#{0,1}ckan.preview.loadable.*', line: 'ckan.preview.loadable = {{ preview_loadable }}' }
+        - { regexp: '#{0,1}ckan.display_timezone.*', line: 'ckan.display_timezone = {{ display_timezone }}' }
+        - { regexp: '#{0,1}ckan.locale_default.*', line: 'ckan.locale_default = {{ locale_default }}' }
+        - { regexp: '#{0,1}ckan.locale_order.*', line: 'ckan.locale_order = {{ locale_order }}' }
+        - { regexp: '#{0,1}ckan.locales_offered.*', line: 'ckan.locales_offered = {{ locales_offered }}' }
+        - { regexp: '#{0,1}ckan.locales_filtered_out.*', line: 'ckan.locales_filtered_out = {{ locales_filtered_out }}' }
+        - { regexp: '#{0,1}ckan.feeds.authority_name.*', line: 'ckan.feeds.authority_name = {{ authority_name }}' }
+        - { regexp: '#{0,1}ckan.feeds.date.*', line: 'ckan.feeds.date = {{ date }}' }
+        - { regexp: '#{0,1}ckan.feeds.author_name.*', line: 'ckan.feeds.author_name = {{ author_name }}' }
+        - { regexp: '#{0,1}ckan.feeds.author_link.*', line: 'ckan.feeds.author_link = {{ author_link }}' }
+        - { regexp: '#{0,1}ckan.storage_path.*', line: 'ckan.storage_path = {{ storage_dir }}' }
+        - { regexp: '#{0,1}ckan.datapusher.url.*', line: 'ckan.datapusher.url = http://0.0.0.0:8800/' }
+#        - { regexp: '#{0,1}ckan.activity_streams_email_notifications.*', line: 'ckan.activity_streams_email_notifications = true' }
+#        - { regexp: '#{0,1}smtp.server.*', line: 'smtp.server = {{ smtp_server }}{{ smtp_port }}' }
+#        - { regexp: '#{0,1}smtp.starttls.*', line: 'smtp.starttls = True' }
+#        - { regexp: '#{0,1}smtp.user.*', line: 'smtp.user = {{ user }}@{{ server }}' }
+#        - { regexp: '#{0,1}smtp.password.*', line: 'smtp.password = {{ mail_passwd }}' }
+#        - { regexp: '#{0,1}smtp.mail_from.*', line: 'smtp.mail_from = {{ user }}@{{ server }}' }
 
     - name: "CKAN database initialization..."
       shell: "psql -d ckan_default -c \"SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'\" | tail -2 | head -1"

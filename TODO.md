@@ -1,36 +1,4 @@
-Configuración de autorización
 
-```bash
-sudo sed -i '/^ckan.auth.*/ s/= .*/= false/' /etc/ckan/default/production.ini
-sudo sed -i '/^ckan.auth.roles*/ s/= .*/= admin/' /etc/ckan/default/production.ini
-```
-
-# PostgreSQL' full-text search parameters
-ckan.datastore.default_fts_lang = spanish
-
-
-## Front-End Settings
-ckan.site_title = OpenDataUGR
-ckan.site_logo = /base/images/ckan-logo.png
-ckan.site_description = Portal para gestionar los datos abiertos de la UGR
-ckan.favicon = /images/icons/ckan.ico
-ckan.gravatar_default = identicon
-ckan.preview.direct = png jpg gif
-ckan.preview.loadable = html htm rdf+xml owl+xml xml n3 n-triples turtle plain atom csv tsv rss txt json pdf jpg png
-
-
-## Internationalisation Settings
-ckan.locale_default = es
-ckan.locale_order = en pt_BR ja it cs_CZ ca es fr el sv sr sr@latin no sk fi ru de pl nl bg ko_KR hu sa sl lv
-ckan.locales_offered =
-ckan.locales_filtered_out = en_GB
-
-
-## Feeds Settings
-ckan.feeds.authority_name = Universidad de Granada
-ckan.feeds.date =
-ckan.feeds.author_name = Oficina de Software Libre
-ckan.feeds.author_link =
 
 
 ## Email settings
