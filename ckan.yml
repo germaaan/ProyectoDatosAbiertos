@@ -10,9 +10,12 @@
   vars:
     ckan_passwd: "{{ lookup('env', 'CKAN_PASSWD') }}"
     datastore_passwd: "{{ lookup('env', 'DATASTORE_PASSWD') }}"
+    ckan_user_passwd: "{{ lookup('env', 'CKAN_USER_PASSWD') }}"
 #    mail_passwd: "{{ lookup('env', 'MAIL_PASSWD') }}"
 
     user: "vagrant"
+    user_ckan: "germaaan"
+    user_email: "germanm@ugr.es"
     version_ckan: "2.6"
     version_postgresql: "9.3"
     encoding: "UTF-8"
@@ -22,8 +25,8 @@
     storage_dir: "/var/lib/ckan/default"
 
     ckan_url: "192.168.33.10:8080"
-#    ckan_plugins: "stats text_view image_view recline_view datastore datapusher"
-    ckan_plugins: "stats viewhelpers resource_proxy dashboard_preview recline_grid_view recline_graph_view recline_map_view text_view image_view webpage_view geo_view pdf_view linechart barchart piechart basicgrid navigablemap choroplethmap datapusher datastore"
+    ckan_plugins: "stats text_view image_view recline_view datastore datapusher"
+#    ckan_plugins: "stats viewhelpers resource_proxy dashboard_preview recline_grid_view recline_graph_view recline_map_view text_view image_view webpage_view geo_view pdf_view linechart barchart piechart basicgrid navigablemap choroplethmap datapusher datastore"
 
     fqdn: "opendata.ugr.es"
     server: "ugr.es"
@@ -38,6 +41,9 @@
     - fail:
         msg: "The password to access the DataStore DB has no value."
       when: datastore_passwd == ""
+    - fail:
+        msg: "The password for CKAN admin has no value."
+      when: ckan_user_passwd == ""
 #    - fail:
 #        msg: "The password to access mail has no value."
 #      when: mail_passwd == ""
@@ -188,12 +194,6 @@
       become: "true"
       become_user: "postgres"
 
-    - name: "Start Jetty"
-      service:
-        name: "jetty"
-        state: "started"
-        enabled: "yes"
-
     - name: "Check backup of the Solr schema file"
       stat: "path=/etc/solr/conf/schema.xml.bak"
       register: "backup_solr_schema"
@@ -215,10 +215,8 @@
         replace: "{{ item.line }}"
       with_items:
         - { regexp: 'NO_START=\d', line: 'NO_START=0' }
-        - { regexp: '#JETTY_HOST', line: 'JETTY_HOST' }
-        - { regexp: 'JETTY_HOST=.*', line: 'JETTY_HOST=127.0.0.1' }
-        - { regexp: '#JETTY_PORT', line: 'JETTY_PORT' }
-        - { regexp: 'JETTY_PORT=.*', line: 'JETTY_PORT=8983' }
+        - { regexp: '#JETTY_HOST=.*', line: 'JETTY_HOST=127.0.0.1' }
+        - { regexp: '#JETTY_PORT=.*', line: 'JETTY_PORT=8983' }
 
 #    - name: "Edit Postfix config"
 #      replace:
@@ -250,31 +248,29 @@
         replace: "{{ item.line }}"
       with_items:
         - { regexp: 'sqlalchemy.url =.*', line: 'sqlalchemy.url = postgresql://ckan_default:{{ ckan_passwd }}@127.0.0.1/ckan_default' }
-        - { regexp: '#ckan.datastore.write_url', line: 'ckan.datastore.write_url' }
-        - { regexp: 'ckan.datastore.write_url =.*', line: 'ckan.datastore.write_url = postgresql://ckan_default:{{ ckan_passwd }}@localhost/datastore_default' }
-        - { regexp: '#ckan.datastore.read_url', line: 'ckan.datastore.read_url' }
-        - { regexp: 'ckan.datastore.read_url =.*', line: 'ckan.datastore.read_url = postgresql://datastore_default:{{ datastore_passwd }}@localhost/datastore_default' }
+        - { regexp: '#ckan.datastore.write_url =.*', line: 'ckan.datastore.write_url = postgresql://ckan_default:{{ ckan_passwd }}@localhost/datastore_default' }
+        - { regexp: '#ckan.datastore.read_url =.*', line: 'ckan.datastore.read_url = postgresql://datastore_default:{{ datastore_passwd }}@localhost/datastore_default' }
         - { regexp: 'ckan.site_url =.*', line: 'ckan.site_url = http://{{ ckan_url }}' }
-        - { regexp: '#solr_url', line: 'solr_url' }
-        - { regexp: 'solr_url =.*', line: 'solr_url = http://127.0.0.1:8983/solr' }
+        - { regexp: '#solr_url =.*', line: 'solr_url = http://127.0.0.1:8983/solr' }
         - { regexp: 'ckan.plugins =.*', line: 'ckan.plugins = {{ ckan_plugins }}' }
         - { regexp: 'ckan.site_title =.*', line: 'ckan.site_title = {{ site_title }}' }
-        - { regexp: '#ckan.storage_path', line: 'ckan.storage_path' }
-        - { regexp: 'ckan.storage_path =.*', line: 'ckan.storage_path = {{ storage_dir }}' }
-        - { regexp: '#ckan.datapusher.url', line: 'ckan.datapusher.url' }
-        - { regexp: 'ckan.datapusher.url =.*', line: 'ckan.datapusher.url = http://0.0.0.0:8800/' }
-#        - { regexp: '#ckan.activity_streams_email_notifications', line: 'ckan.activity_streams_email_notifications' }
-#        - { regexp: 'ckan.activity_streams_email_notifications =.*', line: 'ckan.activity_streams_email_notifications = true' }
-#        - { regexp: '#smtp.server', line: 'smtp.server' }
-#        - { regexp: 'smtp.server =.*', line: 'smtp.server = {{ smtp_server }}{{ smtp_port }}' }
-#        - { regexp: '#smtp.starttls', line: 'smtp.starttls' }
-#        - { regexp: 'smtp.starttls =.*', line: 'smtp.starttls = True' }
-#        - { regexp: '#smtp.user', line: 'smtp.user' }
-#        - { regexp: 'smtp.user =.*', line: 'smtp.user = {{ user }}@{{ server }}' }
-#        - { regexp: '#smtp.password', line: 'smtp.password' }
-#        - { regexp: 'smtp.password =.*', line: 'smtp.password = {{ mail_passwd }}' }
-#        - { regexp: '#smtp.mail_from', line: 'smtp.mail_from' }
-#        - { regexp: 'smtp.mail_from =.*', line: 'smtp.mail_from = {{ user }}@{{ server }}' }
+        - { regexp: '#ckan.storage_path =.*', line: 'ckan.storage_path = {{ storage_dir }}' }
+        - { regexp: '#ckan.datapusher.url =.*', line: 'ckan.datapusher.url = http://0.0.0.0:8800/' }
+#        - { regexp: '#ckan.activity_streams_email_notifications =.*', line: 'ckan.activity_streams_email_notifications = true' }
+#        - { regexp: '#smtp.server =.*', line: 'smtp.server = {{ smtp_server }}{{ smtp_port }}' }
+#        - { regexp: '#smtp.starttls =.*', line: 'smtp.starttls = True' }
+#        - { regexp: '#smtp.user =.*', line: 'smtp.user = {{ user }}@{{ server }}' }
+#        - { regexp: '#smtp.password =.*', line: 'smtp.password = {{ mail_passwd }}' }
+#        - { regexp: '#smtp.mail_from =.*', line: 'smtp.mail_from = {{ user }}@{{ server }}' }
+
+    - name: "Create CKAN user"
+      command: "paster user add {{ user_ckan }} name={{ user_ckan }} password={{ ckan_user_passwd }} email={{ user_email }} -c /etc/ckan/default/production.ini"
+      args:
+        chdir: "/usr/lib/ckan/default/src/ckan"
+    - name: "Set CKAN user as sysadmin"
+      command: "paster sysadmin add {{ user_ckan }} -c /etc/ckan/default/production.ini"
+      args:
+        chdir: "/usr/lib/ckan/default/src/ckan"
 
     - name: "CKAN database initialization..."
       shell: "psql -d ckan_default -c \"SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'\" | tail -2 | head -1"
@@ -299,6 +295,12 @@
 #        name: "postfix"
 #        state: "restarted"
 #        enabled: "yes"
+
+    - name: "Start Jetty"
+      service:
+        name: "jetty"
+        state: "started"
+        enabled: "yes"
 
     - name: "Reload Apache2"
       service:
