@@ -34,6 +34,7 @@
 #    smtp_port: "587"
     site_title: "OpenData UGR"
 
+
   tasks:
     - fail:
         msg: "The password to access the CKAN DB has no value."
@@ -263,15 +264,6 @@
 #        - { regexp: '#smtp.password =.*', line: 'smtp.password = {{ mail_passwd }}' }
 #        - { regexp: '#smtp.mail_from =.*', line: 'smtp.mail_from = {{ user }}@{{ server }}' }
 
-    - name: "Create CKAN user"
-      command: "paster user add {{ user_ckan }} name={{ user_ckan }} password={{ ckan_user_passwd }} email={{ user_email }} -c /etc/ckan/default/production.ini"
-      args:
-        chdir: "/usr/lib/ckan/default/src/ckan"
-    - name: "Set CKAN user as sysadmin"
-      command: "paster sysadmin add {{ user_ckan }} -c /etc/ckan/default/production.ini"
-      args:
-        chdir: "/usr/lib/ckan/default/src/ckan"
-
     - name: "CKAN database initialization..."
       shell: "psql -d ckan_default -c \"SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'\" | tail -2 | head -1"
       become: "true"
@@ -290,12 +282,6 @@
           chdir: "/usr/lib/ckan/default/src/ckan"
       when: ckan_db_state.stdout == "(0 rows)"
 
-#    - name: "Restart Postfix"
-#      service:
-#        name: "postfix"
-#        state: "restarted"
-#        enabled: "yes"
-
     - name: "Start Jetty"
       service:
         name: "jetty"
@@ -307,3 +293,18 @@
         name: "apache2"
         state: "reloaded"
         enabled: "yes"
+
+#    - name: "Restart Postfix"
+#      service:
+#        name: "postfix"
+#        state: "restarted"
+#        enabled: "yes"
+
+    - name: "Create CKAN user"
+      command: "paster user add {{ user_ckan }} name={{ user_ckan }} password={{ ckan_user_passwd }} email={{ user_email }} -c /etc/ckan/default/production.ini"
+      args:
+        chdir: "/usr/lib/ckan/default/src/ckan"
+    - name: "Set CKAN user as sysadmin"
+      command: "paster sysadmin add {{ user_ckan }} -c /etc/ckan/default/production.ini"
+      args:
+        chdir: "/usr/lib/ckan/default/src/ckan"

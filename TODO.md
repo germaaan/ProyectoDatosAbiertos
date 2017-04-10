@@ -1,19 +1,3 @@
-### Instalar worker para trabajos en segundo plano
-sudo apt-get install supervisor
-
-### Comenzando
-http://docs.ckan.org/en/latest/maintaining/getting-started.html
-
-Crear cuenta de administrador del sistema.
-
-```bash
-export USER=vagrant
-
-cd /usr/lib/ckan/default/src/ckan
-paster sysadmin add $USER -c /etc/ckan/default/production.ini
-paster create-test-data -c /etc/ckan/default/production.ini
-```
-
 Configuración de autorización
 
 ```bash
