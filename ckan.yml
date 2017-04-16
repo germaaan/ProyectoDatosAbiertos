@@ -104,6 +104,10 @@
 #    smtp_password: "{{ lookup('env', 'MAIL_PASSWD') }}"
 #    mail_from: "opendata@ugr.es"
 
+    ## Edited Messages
+    welcome_message: "Bienvenido a {{ site_title }}"
+    search_box: "matrículas"
+
 
   tasks:
     - fail:
@@ -388,6 +392,20 @@
         args:
           chdir: "/usr/lib/ckan/default/src/ckan"
       when: ckan_db_state.stdout == "(0 rows)"
+
+    - name: "Change CKAN messages"
+      replace:
+        dest: "/usr/lib/ckan/default/src/ckan/ckan/i18n/{{ locale_default }}/LC_MESSAGES/ckan.po"
+        regexp: "{{ item.regexp }}"
+        replace: "{{ item.line }}"
+      with_items:
+        - { regexp: 'msgstr "Bienvenido a CKAN"', line: 'msgstr "{{ welcome_message }}"' }
+        - { regexp: 'msgstr "Ej: ambiente"', line: 'msgstr "Ej: {{ search_box }}"' }
+
+    - name: "Compile the file with messages"
+      command: "python setup.py compile_catalog -f --locale {{ locale_default }}"
+      args:
+        chdir: "/usr/lib/ckan/default/src/ckan"
 
     - name: "Start Jetty"
       service:
