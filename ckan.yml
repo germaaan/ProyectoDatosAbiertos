@@ -426,7 +426,7 @@
 #        enabled: "yes"
 
     - name: "Check if CKAN user exists"
-      shell: "if [ $(paster user {{ ckan_sysadmin }} -c /etc/ckan/default/production.ini | grep None) -eq \"1\" ]; then echo \"false\"; else echo \"true\"; fi"
+      shell: "if [ $(paster user {{ ckan_sysadmin }} -c /etc/ckan/default/production.ini | grep None | wc -l) -eq \"1\" ]; then echo \"false\"; else echo \"true\"; fi"
       args:
           chdir: "/usr/lib/ckan/default/src/ckan"
       register: "user_exists"
