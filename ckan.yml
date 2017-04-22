@@ -48,10 +48,11 @@
 
     ## Plugins Settings
 #    plugins: "stats viewhelpers resource_proxy dashboard_preview recline_grid_view recline_graph_view recline_map_view text_view image_view webpage_view geo_view pdf_view linechart barchart piechart basicgrid navigablemap choroplethmap datapusher datastore"
-    plugins: "stats text_view image_view recline_view datastore datapusher"
+#    plugins: "stats text_view image_view recline_view datastore datapusher"
+    plugins: "stats text_view image_view recline_view pdf_view datastore datapusher"
 
     ## Resource Views Settings
-    default_views: "image_view text_view recline_view"
+    default_views: "image_view text_view recline_view pdf_view"
 
     ## Front-End Settings
     site_title: "OpenData UGR"
@@ -69,8 +70,8 @@
     max_image_size: "10"
 
     ## DataPusher Settings
-#    datapusher_formats: "csv xls xlsx tsv application/csv application/vnd.ms-excel application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-    datapusher_formats: "csv"
+    datapusher_formats: "csv xls xlsx tsv application/csv application/vnd.ms-excel application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+#    datapusher_formats: "csv"
     datapusher_url: "http://0.0.0.0:8800/"
 
     ## Activity Streams Settings
@@ -376,6 +377,18 @@
 #        - { regexp: '#{0,1}smtp.password.*', line: 'smtp.password = {{ smtp_password}}' }
 #        - { regexp: '#{0,1}smtp.mail_from.*', line: 'smtp.mail_from = {{ mail_from}}' }
 
+    - name: "Start Jetty"
+      service:
+        name: "jetty"
+        state: "started"
+        enabled: "yes"
+
+    - name: "Reload Apache2"
+      service:
+        name: "apache2"
+        state: "reloaded"
+        enabled: "yes"
+
     - name: "CKAN database initialization..."
       shell: "psql -d {{ ckan_db_name }} -c \"SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'\" | tail -2 | head -1"
       become: "true"
@@ -406,18 +419,6 @@
       command: "python setup.py compile_catalog -f --locale {{ locale_default }}"
       args:
         chdir: "/usr/lib/ckan/default/src/ckan"
-
-    - name: "Start Jetty"
-      service:
-        name: "jetty"
-        state: "started"
-        enabled: "yes"
-
-    - name: "Reload Apache2"
-      service:
-        name: "apache2"
-        state: "reloaded"
-        enabled: "yes"
 
 #    - name: "Restart Postfix"
 #      service:
