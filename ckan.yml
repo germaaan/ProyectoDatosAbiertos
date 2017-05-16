@@ -49,7 +49,7 @@
     ## Plugins Settings
 #    plugins: "stats viewhelpers resource_proxy dashboard_preview recline_grid_view recline_graph_view recline_map_view text_view image_view webpage_view geo_view pdf_view linechart barchart piechart basicgrid navigablemap choroplethmap datapusher datastore"
 #    plugins: "stats text_view image_view recline_view datastore datapusher"
-    plugins: "stats text_view image_view recline_view pdf_view datastore datapusher harvest ckan_harvester"
+    plugins: "stats text_view image_view recline_view pdf_view datastore datapusher harvest ckan_harvester dcat dcat_rdf_harvester dcat_json_harvester dcat_json_interface"
 
     ## Resource Views Settings
     default_views: "image_view text_view recline_view pdf_view"
@@ -233,6 +233,15 @@
     - name: "Install plugin for data harvesting"
       pip:
         requirements: "/usr/lib/ckan/default/src/ckanext-harvest/pip-requirements.txt"
+
+    - name: "Download plugin for DCAT"
+      pip:
+        name: git+https://github.com/ckan/ckanext-dcat.git#egg=ckanext-dcat
+      args:
+        chdir: "/usr/lib/ckan/default"
+    - name: "Install plugin for DCAT"
+      pip:
+        requirements: "/usr/lib/ckan/default/src/ckanext-dcat/requirements.txt"
 
     - name: "Check PostgreSQL cluster configuration"
       stat: "path=/etc/postgresql/{{ version_postgresql }}/main/"
