@@ -16,11 +16,11 @@
     locale: "es_ES.UTF-8"
 
     ## Database Settings
-    ckan_db_name: "opendata_ugr"
-    ckan_db_user: "opendata_ugr"
+    ckan_db_name: "ckan_default"
+    ckan_db_user: "ckan_default"
     ckan_db_passwd: "{{ lookup('env', 'CKAN_PASSWD') }}"
-    datastore_db_name: "datastore_ugr"
-    datastore_db_user: "datastore_ugr"
+    datastore_db_name: "datastore_default"
+    datastore_db_user: "datastore_default"
     datastore_db_passwd: "{{ lookup('env', 'DATASTORE_PASSWD') }}"
     ckan_sysadmin: "germaaan"
     ckan_sysadmin_passwd: "{{ lookup('env', 'SYSADMIN_PASSWD') }}"
@@ -65,7 +65,8 @@
     display_timezone: "server"
 
     ## Storage Settings
-    storage_path: "/var/lib/ckan/{{ datastore_db_name }}"
+#    storage_path: "/var/lib/ckan/{{ datastore_db_name }}"
+    storage_path: "/var/lib/ckan/default"
     max_resource_size: "100"
     max_image_size: "10"
 
@@ -341,8 +342,8 @@
         - { regexp: '#{0,1}ckan.auth.create_user_via_web.*', line: 'ckan.auth.create_user_via_web = {{ create_user_via_web }}' }
         - { regexp: '#{0,1}ckan.auth.roles_that_cascade_to_sub_groups.*', line: 'ckan.auth.roles_that_cascade_to_sub_groups = {{ roles_that_cascade_to_sub_groups }}' }
         - { regexp: '#{0,1}solr_url.*', line: 'solr_url = {{ solr_url }}' }
-        - { regexp: '#{0,1}ckan.plugins.*', line: 'ckan.plugins = {{ plugins }}' }
-        - { regexp: '#{0,1}ckan.views.default_views.*', line: 'ckan.views.default_views = {{ default_views }}' }
+#        - { regexp: '#{0,1}ckan.plugins.*', line: 'ckan.plugins = {{ plugins }}' }
+#        - { regexp: '#{0,1}ckan.views.default_views.*', line: 'ckan.views.default_views = {{ default_views }}' }
         - { regexp: '#{0,1}ckan.site_title.*', line: 'ckan.site_title = {{ site_title }}' }
         - { regexp: '#{0,1}ckan.site_logo.*', line: 'ckan.site_logo = {{ site_logo }}' }
         - { regexp: '#{0,1}ckan.site_description.*', line: 'ckan.site_description = {{ site_description }}' }
@@ -396,14 +397,10 @@
       register: "ckan_db_state"
     - block:
       - name: "Create the tables for CKAN in the DB"
-        command: "paster db init -c /etc/ckan/default/production.ini"
-        args:
-          chdir: "/usr/lib/ckan/default/src/ckan"
+        command: "ckan db init -c /etc/ckan/default/production.ini"
 
       - name: "Set permissions for DataStore DB"
-        shell: "paster datastore set-permissions -c /etc/ckan/default/production.ini | sudo -u postgres psql --set ON_ERROR_STOP=1"
-        args:
-          chdir: "/usr/lib/ckan/default/src/ckan"
+        shell: "ckan datastore set-permissions -c /etc/ckan/default/production.ini | sudo -u postgres psql --set ON_ERROR_STOP=1"
       when: ckan_db_state.stdout == "(0 rows)"
 
     - name: "Change CKAN messages"
@@ -427,17 +424,11 @@
 #        enabled: "yes"
 
     - name: "Check if CKAN user exists"
-      shell: "if [ $(paster user {{ ckan_sysadmin }} -c /etc/ckan/default/production.ini | grep None | wc -l) -eq \"1\" ]; then echo \"false\"; else echo \"true\"; fi"
-      args:
-          chdir: "/usr/lib/ckan/default/src/ckan"
+      shell: "if [ $(ckan user {{ ckan_sysadmin }} -c /etc/ckan/default/production.ini | grep None | wc -l) -eq \"1\" ]; then echo \"false\"; else echo \"true\"; fi"
       register: "user_exists"
     - block:
       - name: "Create CKAN user"
-        command: "paster user add {{ ckan_sysadmin }} name={{ ckan_sysadmin }} password={{ ckan_sysadmin_passwd }} email={{ ckan_sysadmin_mail }} -c /etc/ckan/default/production.ini"
-        args:
-          chdir: "/usr/lib/ckan/default/src/ckan"
+        command: "ckan user add {{ ckan_sysadmin }} name={{ ckan_sysadmin }} password={{ ckan_sysadmin_passwd }} email={{ ckan_sysadmin_mail }} -c /etc/ckan/default/production.ini"
       - name: "Set CKAN user as sysadmin"
-        command: "paster sysadmin add {{ ckan_sysadmin }} -c /etc/ckan/default/production.ini"
-        args:
-          chdir: "/usr/lib/ckan/default/src/ckan"
+        command: "ckan sysadmin add {{ ckan_sysadmin }} -c /etc/ckan/default/production.ini"
       when: user_exists.stdout == "false"
