@@ -49,7 +49,7 @@
     ## Plugins Settings
 #    plugins: "stats viewhelpers resource_proxy dashboard_preview recline_grid_view recline_graph_view recline_map_view text_view image_view webpage_view geo_view pdf_view linechart barchart piechart basicgrid navigablemap choroplethmap datapusher datastore"
 #    plugins: "stats text_view image_view recline_view datastore datapusher"
-    plugins: "stats text_view image_view recline_view pdf_view datastore datapusher"
+    plugins: "stats text_view image_view recline_view pdf_view datastore datapusher harvest ckan_harvester"
 
     ## Resource Views Settings
     default_views: "image_view text_view recline_view pdf_view"
@@ -197,33 +197,42 @@
       stat: "path=/home/{{ user }}/plugins/"
       register: "plugins_installed"
     - block:
-      - name: "Download plugins for visualizations"
-        git:
-          repo: "https://github.com/ckan/{{ item.ext }}.git"
-          dest: "/home/{{ user }}/plugins/{{ item.ext }}"
-        with_items:
-          - { ext: 'ckanext-viewhelpers' }
-          - { ext: 'ckanext-dashboard' }
-          - { ext: 'ckanext-basiccharts' }
-          - { ext: 'ckanext-mapviews' }
+#      - name: "Download plugins for visualizations"
+#        git:
+#          repo: "https://github.com/ckan/{{ item.ext }}.git"
+#          dest: "/home/{{ user }}/plugins/{{ item.ext }}"
+#        with_items:
+#          - { ext: 'ckanext-viewhelpers' }
+#          - { ext: 'ckanext-dashboard' }
+#          - { ext: 'ckanext-basiccharts' }
+#          - { ext: 'ckanext-mapviews' }
 
-      - name: "Install plugins for visualizations"
-        command: "python setup.py install"
-        args:
-          chdir: "/home/{{ user }}/plugins/{{ item.ext }}"
-        with_items:
-          - { ext: 'ckanext-viewhelpers' }
-          - { ext: 'ckanext-dashboard' }
-          - { ext: 'ckanext-basiccharts' }
-          - { ext: 'ckanext-mapviews' }
+#      - name: "Install plugins for visualizations"
+#        command: "python setup.py install"
+#        args:
+#          chdir: "/home/{{ user }}/plugins/{{ item.ext }}"
+#        with_items:
+#          - { ext: 'ckanext-viewhelpers' }
+#          - { ext: 'ckanext-dashboard' }
+#          - { ext: 'ckanext-basiccharts' }
+#          - { ext: 'ckanext-mapviews' }
       - name: "Install another plugins for visualizations"
         pip:
           name: "{{ item.ext }}"
           state: "latest"
         with_items:
-          - { ext: 'ckanext-geoview' }
+#          - { ext: 'ckanext-geoview' }
           - { ext: 'ckanext-pdfview' }
       when: plugins_installed.stat.exists == false
+
+    - name: "Download plugin for data harvesting"
+      pip:
+        name: git+https://github.com/ckan/ckanext-harvest.git#egg=ckanext-harvest
+      args:
+        chdir: "/usr/lib/ckan/default"
+    - name: "Install plugin for data harvesting"
+      pip:
+        requirements: "/usr/lib/ckan/default/src/ckanext-harvest/pip-requirements.txt"
 
     - name: "Check PostgreSQL cluster configuration"
       stat: "path=/etc/postgresql/{{ version_postgresql }}/main/"
@@ -342,8 +351,8 @@
         - { regexp: '#{0,1}ckan.auth.create_user_via_web.*', line: 'ckan.auth.create_user_via_web = {{ create_user_via_web }}' }
         - { regexp: '#{0,1}ckan.auth.roles_that_cascade_to_sub_groups.*', line: 'ckan.auth.roles_that_cascade_to_sub_groups = {{ roles_that_cascade_to_sub_groups }}' }
         - { regexp: '#{0,1}solr_url.*', line: 'solr_url = {{ solr_url }}' }
-#        - { regexp: '#{0,1}ckan.plugins.*', line: 'ckan.plugins = {{ plugins }}' }
-#        - { regexp: '#{0,1}ckan.views.default_views.*', line: 'ckan.views.default_views = {{ default_views }}' }
+        - { regexp: '#{0,1}ckan.plugins.*', line: 'ckan.plugins = {{ plugins }}' }
+        - { regexp: '#{0,1}ckan.views.default_views.*', line: 'ckan.views.default_views = {{ default_views }}' }
         - { regexp: '#{0,1}ckan.site_title.*', line: 'ckan.site_title = {{ site_title }}' }
         - { regexp: '#{0,1}ckan.site_logo.*', line: 'ckan.site_logo = {{ site_logo }}' }
         - { regexp: '#{0,1}ckan.site_description.*', line: 'ckan.site_description = {{ site_description }}' }
@@ -378,6 +387,11 @@
 #        - { regexp: '#{0,1}smtp.password.*', line: 'smtp.password = {{ smtp_password}}' }
 #        - { regexp: '#{0,1}smtp.mail_from.*', line: 'smtp.mail_from = {{ mail_from}}' }
 
+    - name: "Add harvest config"
+      lineinfile:
+        dest: "/etc/ckan/default/production.ini"
+        line: "ckan.harvest.mq.type = redis"
+
     - name: "Start Jetty"
       service:
         name: "jetty"
@@ -401,6 +415,11 @@
 
       - name: "Set permissions for DataStore DB"
         shell: "ckan datastore set-permissions -c /etc/ckan/default/production.ini | sudo -u postgres psql --set ON_ERROR_STOP=1"
+
+      - name: "Create the tables for data harvesting in the DB"
+        command: "paster --plugin=ckanext-harvest harvester initdb -c /etc/ckan/default/production.ini"
+        args:
+          chdir: "/usr/lib/ckan/default/src/ckan"
       when: ckan_db_state.stdout == "(0 rows)"
 
     - name: "Change CKAN messages"
