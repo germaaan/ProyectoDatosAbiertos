@@ -1,0 +1,80 @@
+# ansible	2.1
+
+---
+- hosts: "virtuoso"
+  become: "yes"
+  remote_user: "ubuntu"
+  gather_facts: "no"
+
+  vars:
+    user: "vagrant"
+    temp_dir: "/tmp"
+    version_virtuoso: "7.2.4.2"
+
+
+  tasks:
+    - name: "Install Python (if not installed)"
+      raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
+    - name: "Install Aptitude"
+      raw: apt -y update && apt install -y aptitude
+
+    - name: "Update cache"
+      apt:
+        update_cache: "yes"
+        cache_valid_time: "1800"
+        upgrade: "safe"
+        dpkg_options: "force-confold"
+
+    - name: "Install dependencies"
+      apt:
+        name: "{{ item }}"
+        state: "latest"
+        dpkg_options: "force-confold"
+      with_items:
+        - "autoconf"
+        - "automake"
+        - "bison"
+        - "build-essential"
+        - "dpkg-dev"
+        - "flex"
+        - "gawk"
+        - "gperf"
+        - "libreadline-dev"
+        - "libssl-dev"
+        - "libtool"
+        - "libxml2-dev"
+        - "m4"
+        - "make"
+        - "odbcinst"
+        - "openssl"
+
+    - name: "Download Virtuoso Open-Source"
+      get_url:
+        url: "https://github.com/openlink/virtuoso-opensource/releases/download/v{{ version_virtuoso }}/virtuoso-opensource-{{ version_virtuoso }}.tar.gz"
+        dest: "{{ temp_dir }}"
+        mode: "0550"
+
+    - name: "Decompress Virtuoso Open-Source"
+      shell: "tar -zxvf virtuoso-opensource-{{ version_virtuoso }}.tar.gz"
+      args:
+        chdir: "{{ temp_dir }}"
+
+    - name: "Configure Virtuoso Open-Source installation"
+      shell: "./configure --prefix=/usr/local/ --with-readline --program-transform-name='s/isql/isql-v/'"
+      args:
+        chdir: "{{ temp_dir }}/virtuoso-opensource-{{ version_virtuoso }}"
+
+    - name: "Make Virtuoso Open-Source installation"
+      shell: "make"
+      args:
+        chdir: "{{ temp_dir }}/virtuoso-opensource-{{ version_virtuoso }}"
+
+    - name: "Install Virtuoso Open-Source"
+      shell: "make install"
+      args:
+        chdir: "{{ temp_dir }}/virtuoso-opensource-{{ version_virtuoso }}"
+
+    - name: "Run Virtuoso Open-Source"
+      shell: "virtuoso-t -fd"
+      args:
+        chdir: "/usr/local/var/lib/virtuoso/db/"
