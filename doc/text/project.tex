@@ -1,0 +1,153 @@
+\documentclass[a4paper,11pt]{book}
+\usepackage{listings}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{pdfpages}
+
+% Información reutilizable
+\newcommand{\asunto}{Trabajo de Fin de Máster}
+\newcommand{\titulo}{Datos abiertos en la universidad}
+\newcommand{\tituloEng}{Data Open at University}
+\newcommand{\master}{Máster Universitario en Ingeniería Informática}
+\newcommand{\autor}{Germán Martínez Maldonado}
+\newcommand{\email}{germaaan@gmail.com}
+\newcommand{\tutor}{Juan Julián Merelo Guervós}
+\newcommand{\escuela}{Escuela Técnica Superior de Ingenierías Informática y de Telecomunicación}
+\newcommand{\universidad}{Universidad de Granada}
+\newcommand{\ciudad}{Granada}
+\newcommand{\vers}{Versión 0.1}
+
+% Información archivo
+\hypersetup{
+	pdfauthor = {\autor\ (\email)},
+	pdftitle = {\titulo},
+	pdfsubject = {\asunto},
+	pdfkeywords = {datos abiertos, web semántica, CKAN, RDF, SPARQL, software libre},
+	pdfcreator = {LaTeX con el paquete texlive},
+	pdfproducer = {pdflatex}
+}
+
+% Estilo de cabeceras
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LO]{\leftmark}
+\fancyhead[RE]{\rightmark}
+\fancyhead[RO,LE]{\textbf{\thepage}}
+\setlength{\headheight}{1.5\headheight}
+
+% Redefinición de comandos
+% \renewcommand{\lstlistingname}{Fragmento de código}
+% \renewcommand{\lstlistlistingname}{Índice de fragmentos de código}
+\renewcommand{\chaptermark}[1]{\markboth{\textbf{#1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\textbf{\thesection. #1}}}
+
+% Definición de colores
+\definecolor{gray97}{gray}{.97}
+\definecolor{gray75}{gray}{.75}
+\definecolor{gray45}{gray}{.45}
+\definecolor{gray30}{gray}{.94}
+\definecolor{lightgray}{rgb}{.9,.9,.9}
+\definecolor{darkgray}{rgb}{.4,.4,.4}
+\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+\definecolor{background}{HTML}{EEEEEE}
+\definecolor{delim}{RGB}{20,105,176}
+\colorlet{punct}{red!60!black}
+\colorlet{numb}{magenta!60!black}
+
+% Listados
+\lstset{
+	aboveskip=0.5cm,
+	backgroundcolor=\color{gray97},
+	basicstyle=\scriptsize\ttfamily,
+	breaklines=true,
+	commentstyle=\color{gray45},
+	frame=Ltb,
+	framerule=0.5pt,
+	framesep=0pt,
+	framexbottommargin=3pt,
+	framexleftmargin=0.1cm,
+	framextopmargin=3pt,
+	keywordstyle=\bfseries,
+	numberfirstline = false,
+	numbers=left,
+	numbersep=6pt,
+	numberstyle=\tiny,
+	rulesep=.4pt,
+	rulesepcolor=\color{black},
+	showstringspaces = false,
+	stringstyle=\ttfamily,
+	literate={á}{{\'a}}1
+	         {é}{{\'e}}1
+	         {í}{{\'i}}1
+	         {ó}{{\'o}}1
+	         {ú}{{\'u}}1
+	         {ñ}{{\~n}}1
+}
+ 
+% Minimizar fragmentado de listados
+\lstnewenvironment{listing}[1][]
+	{\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
+
+% Para que las páginas en blanco no tengan cabecera
+\makeatletter
+\def\clearpage{%
+  \ifvmode
+    \ifnum \@dbltopnum =\m@ne
+      \ifdim \pagetotal <\topskip
+        \hbox{}
+      \fi
+    \fi
+  \fi
+  \newpage
+  \thispagestyle{empty}
+  \write\m@ne{}
+  \vbox{}
+  \penalty -\@Mi
+}
+\makeatother
+
+\begin{document}
+\input{front/front}
+\frontmatter
+\input{prefaces/prefaces}
+
+\begingroup
+\let\cleardoublepage\clearpage
+  \tableofcontents
+  \listoffigures
+  \listoftables
+  \lstlistoflistings
+\endgroup
+
+\newpage
+\thispagestyle{empty}
+\
+\mainmatter
+\input{chapters/01_Introduccion}
+\input{chapters/02_Objetivos}
+\input{chapters/03_Analisis_Diseno}
+\input{chapters/04_Implementacion}
+\input{chapters/05_Pruebas}
+\input{chapters/06_Conclusiones}
+
+\backmatter
+\begingroup
+	\setlength\parindent{0pt}
+	\input{back/glossary}
+\endgroup
+
+\input{back/appendix}
+%\input{back/manual_usuario}
+
+\newpage
+\begin{thebibliography}{99}
+	\input{back/bibliography}
+\end{thebibliography}
+
+\newpage \
+\thispagestyle{empty}
+\end{document}

@@ -1,3 +1,12 @@
 pass.sh
 prueba.owl
 prueba.html
+*.aux
+*.lof
+*.log
+*.lol
+*.lot
+*.out
+*.synctex.gz
+*toc
+*pdf
