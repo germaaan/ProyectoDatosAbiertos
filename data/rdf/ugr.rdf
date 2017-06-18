@@ -36,7 +36,8 @@
         <ns5:preferredNamespacePrefix>ugr</ns5:preferredNamespacePrefix>
         <ns5:preferredNamespaceUri>http://cabas.ugr.es/ontology/ugr#</ns5:preferredNamespaceUri>
         <foaf:homepage rdf:resource="http://opendata.ugr.es"/>
-        <rdfs:label>Ontología de la Universidad de Granada</rdfs:label>
+        <rdfs:label xml:lang="es">Ontología de la Universidad de Granada</rdfs:label>
+        <rdfs:label xml:lang="en">Ontology of the University of Granada</rdfs:label>
         <dct:title xml:lang="es">Ontología de la Universidad de Granada</dct:title>
         <dct:title xml:lang="en">Ontology of the University of Granada</dct:title>
         <dct:description xml:lang="es">
@@ -63,8 +64,8 @@
     <owl:Class rdf:about="http://cabas.ugr.es/ontology/ugr#Titulación">
         <rdfs:label xml:lang="es">Titulación</rdfs:label>
         <rdfs:label xml:lang="en">Degree</rdfs:label>
-        <rdfs:comment xml:lang="es">Una titulación es el reconocimiento que se obtiene después de superar los estudios universitarios de grado o máster; reconocíendo una formación general, en una o varias disciplinas, orientada a la preparación para el desempeño
-            de actividades de carácter profesional.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una titulación es el reconocimiento que se obtiene después de superar los estudios universitarios de grado o máster; reconocíendo una formación general, en una o varias disciplinas, orientada a la preparación para el
+            desempeño de actividades de carácter profesional.</rdfs:comment>
         <rdfs:comment xml:lang="en">A degree is the recognition that is obtained after overcoming university studies of degree or masters; Recognizing a general formation, in one or several disciplines, oriented to the preparation for the performance of professional activities.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://cabas.ugr.es/ontology/ugr#"/>
         <owl:sameAs rdf:resource="http://cabas.ugr.es/ontology/ugr#Titulación"/>
@@ -73,8 +74,8 @@
     </owl:Class>
 
     <owl:Class rdf:about="http://cabas.ugr.es/ontology/ugr#RamaConocimiento">
-        <rdfs:label xml:lang="es">rama de conocimiento</rdfs:label>
-        <rdfs:label xml:lang="en">branch of knowledge</rdfs:label>
+        <rdfs:label xml:lang="es">Rama de conocimiento</rdfs:label>
+        <rdfs:label xml:lang="en">Branch of knowledge</rdfs:label>
         <rdfs:comment xml:lang="es">Una rama de conocimiento es el campo en el que se agrupan diferentes titulaciones con un conjunto de materias similares lo que hace que tengan una identidad semejante.</rdfs:comment>
         <rdfs:comment xml:lang="en">A branch of knowledge is the field in which different degrees are grouped with a set of similar subjects which makes them have a similar identity.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://cabas.ugr.es/ontology/ugr#"/>
