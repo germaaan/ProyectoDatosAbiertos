@@ -8,9 +8,8 @@ cd virtuoso-opensource-7.2.4.2
 nice make
 sudo make install
 cd /usr/local/var/lib/virtuoso/db/
-virtuoso-t -fd
+set password dba $VIRTUOSO_PASSWD
+sudo virtuoso-t +wait +configfile /usr/local/var/lib/virtuoso/db/virtuoso.ini
 
-./autogen.sh
-./configure
-make
-make install
+http://localhost:8890/
+http://cabas.ugr.es:8890/

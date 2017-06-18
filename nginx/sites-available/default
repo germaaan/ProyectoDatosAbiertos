@@ -47,13 +47,12 @@ server {
 	}
 
 	location /ontology/ {
-                try_files $uri $uri/ =404;
+        try_files $uri $uri/ =404;
 		autoindex on;
 	}
 
 	location /ontology/ugr {
 		rewrite ^/ontology/ugr$ /ontology/ugr.ttl;
-                add_header Content-Type text/plain;
 	}
 
 	# pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
