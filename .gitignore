@@ -1,6 +1,5 @@
 pass.sh
-prueba.owl
-prueba.html
+
 *.aux
 *.lof
 *.log
@@ -10,3 +9,5 @@ prueba.html
 *.synctex.gz
 *toc
 *pdf
+
+pruebas/*
