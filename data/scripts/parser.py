@@ -41,8 +41,8 @@ with open('matriculas_grado_1516.rdf', 'a') as ofile:
                 "\t<rdfs:label>"+lines[1]+"</rdfs:label>\n"+
                 "\t<ugr:RamaConocimiento>"+lines[0]+"</ugr:RamaConocimiento>\n"+
                 "\t<ugr:Titulación>"+lines[1]+"</ugr:Titulación>\n"+
-                "\t<ugr:hombres>"+lines[2]+"</ugr:hombres>\n"+
-                "\t<ugr:mujeres>"+lines[3]+"</ugr:mujeres>\n"+
+                "\t<ugr:hombres rdf:datatype=\"http://www.w3.org/2001/XMLSchema#nonNegativeInteger\">"+lines[2]+"</ugr:hombres>\n"+
+                "\t<ugr:mujeres rdf:datatype=\"http://www.w3.org/2001/XMLSchema#nonNegativeInteger\">"+lines[3]+"</ugr:mujeres>\n"+
                 "\t<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>\n"+
                 "</rdf:Description>\n\n")
             id += 1

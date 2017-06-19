@@ -6,662 +6,662 @@
   rdfs:label "GRADUADO/A EN ARQUEOLOGÍA" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN ARQUEOLOGÍA" ;
-  ns0:hombres "63" ;
-  ns0:mujeres "99" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "63"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "99"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#2>
   rdfs:label "GRADUADO/A EN BELLAS ARTES" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN BELLAS ARTES" ;
-  ns0:hombres "352" ;
-  ns0:mujeres "684" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "352"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "684"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#3>
   rdfs:label "GRADUADO/A EN CONSERVACIÓN Y RESTAURACIÓN DE BIENES CULTURAL" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN CONSERVACIÓN Y RESTAURACIÓN DE BIENES CULTURAL" ;
-  ns0:hombres "57" ;
-  ns0:mujeres "164" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "57"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "164"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#4>
   rdfs:label "GRADUADO/A EN ESTUDIOS FRANCESES" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN ESTUDIOS FRANCESES" ;
-  ns0:hombres "49" ;
-  ns0:mujeres "172" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "49"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "172"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#5>
   rdfs:label "GRADUADO/A EN ESTUDIOS INGLESES" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN ESTUDIOS INGLESES" ;
-  ns0:hombres "179" ;
-  ns0:mujeres "509" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "179"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "509"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#6>
   rdfs:label "GRADUADO/A EN ESTUDIOS ÁRABES E ISLÁMICOS" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN ESTUDIOS ÁRABES E ISLÁMICOS" ;
-  ns0:hombres "55" ;
-  ns0:mujeres "100" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "55"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "100"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#7>
   rdfs:label "GRADUADO/A EN FILOLOGÍA CLÁSICA" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN FILOLOGÍA CLÁSICA" ;
-  ns0:hombres "37" ;
-  ns0:mujeres "85" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "37"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "85"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#8>
   rdfs:label "GRADUADO/A EN FILOLOGÍA HISPÁNICA" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN FILOLOGÍA HISPÁNICA" ;
-  ns0:hombres "107" ;
-  ns0:mujeres "408" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "107"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "408"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#9>
   rdfs:label "GRADUADO/A EN FILOSOFÍA" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN FILOSOFÍA" ;
-  ns0:hombres "185" ;
-  ns0:mujeres "106" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "185"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "106"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#10>
   rdfs:label "GRADUADO/A EN HISTORIA" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN HISTORIA" ;
-  ns0:hombres "417" ;
-  ns0:mujeres "205" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "417"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "205"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#11>
   rdfs:label "GRADUADO/A EN HISTORIA DEL ARTE" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN HISTORIA DEL ARTE" ;
-  ns0:hombres "171" ;
-  ns0:mujeres "337" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "171"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "337"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#12>
   rdfs:label "GRADUADO/A EN HISTORIA Y CIENCIAS DE LA MÚSICA" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN HISTORIA Y CIENCIAS DE LA MÚSICA" ;
-  ns0:hombres "142" ;
-  ns0:mujeres "110" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "142"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "110"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#13>
   rdfs:label "GRADUADO/A EN LENGUAS MODERNAS Y SUS LITERATURAS" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN LENGUAS MODERNAS Y SUS LITERATURAS" ;
-  ns0:hombres "99" ;
-  ns0:mujeres "334" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "99"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "334"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#14>
   rdfs:label "GRADUADO/A EN LITERATURAS COMPARADAS" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN LITERATURAS COMPARADAS" ;
-  ns0:hombres "54" ;
-  ns0:mujeres "115" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "54"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "115"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#15>
   rdfs:label "GRADUADO/A EN TRADUCCIÓN E INTERPRETACIÓN" ;
   ns0:RamaConocimiento "ARTES Y HUMANIDADES" ;
   ns0:Titulación "GRADUADO/A EN TRADUCCIÓN E INTERPRETACIÓN" ;
-  ns0:hombres "309" ;
-  ns0:mujeres "1162" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "309"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "1162"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#16>
   rdfs:label "GRADUADO/A EN BIOLOGÍA" ;
   ns0:RamaConocimiento "CIENCIAS EXPERIMENTALES" ;
   ns0:Titulación "GRADUADO/A EN BIOLOGÍA" ;
-  ns0:hombres "436" ;
-  ns0:mujeres "651" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "436"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "651"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#17>
   rdfs:label "GRADUADO/A EN BIOQUÍMICA" ;
   ns0:RamaConocimiento "CIENCIAS EXPERIMENTALES" ;
   ns0:Titulación "GRADUADO/A EN BIOQUÍMICA" ;
-  ns0:hombres "84" ;
-  ns0:mujeres "136" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "84"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "136"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#18>
   rdfs:label "GRADUADO/A EN BIOTECNOLOGÍA" ;
   ns0:RamaConocimiento "CIENCIAS EXPERIMENTALES" ;
   ns0:Titulación "GRADUADO/A EN BIOTECNOLOGÍA" ;
-  ns0:hombres "38" ;
-  ns0:mujeres "66" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "38"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "66"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#19>
   rdfs:label "GRADUADO/A EN CIENCIA Y TECNOLOGÍA DE LOS ALIMENTOS" ;
   ns0:RamaConocimiento "CIENCIAS EXPERIMENTALES" ;
   ns0:Titulación "GRADUADO/A EN CIENCIA Y TECNOLOGÍA DE LOS ALIMENTOS" ;
-  ns0:hombres "80" ;
-  ns0:mujeres "180" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "80"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "180"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#20>
   rdfs:label "GRADUADO/A EN CIENCIAS AMBIENTALES" ;
   ns0:RamaConocimiento "CIENCIAS EXPERIMENTALES" ;
   ns0:Titulación "GRADUADO/A EN CIENCIAS AMBIENTALES" ;
-  ns0:hombres "309" ;
-  ns0:mujeres "258" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "309"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "258"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#21>
   rdfs:label "GRADUADO/A EN ESTADÍSTICA" ;
   ns0:RamaConocimiento "CIENCIAS EXPERIMENTALES" ;
   ns0:Titulación "GRADUADO/A EN ESTADÍSTICA" ;
-  ns0:hombres "91" ;
-  ns0:mujeres "68" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "91"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "68"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#22>
   rdfs:label "GRADUADO/A EN FÍSICA" ;
   ns0:RamaConocimiento "CIENCIAS EXPERIMENTALES" ;
   ns0:Titulación "GRADUADO/A EN FÍSICA" ;
-  ns0:hombres "315" ;
-  ns0:mujeres "107" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "315"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "107"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#23>
   rdfs:label "GRADUADO/A EN GEOLOGÍA" ;
   ns0:RamaConocimiento "CIENCIAS EXPERIMENTALES" ;
   ns0:Titulación "GRADUADO/A EN GEOLOGÍA" ;
-  ns0:hombres "150" ;
-  ns0:mujeres "94" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "150"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "94"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#24>
   rdfs:label "GRADUADO/A EN MATEMÁTICAS" ;
   ns0:RamaConocimiento "CIENCIAS EXPERIMENTALES" ;
   ns0:Titulación "GRADUADO/A EN MATEMÁTICAS" ;
-  ns0:hombres "208" ;
-  ns0:mujeres "184" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "208"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "184"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#25>
   rdfs:label "GRADUADO/A EN QUÍMICA" ;
   ns0:RamaConocimiento "CIENCIAS EXPERIMENTALES" ;
   ns0:Titulación "GRADUADO/A EN QUÍMICA" ;
-  ns0:hombres "170" ;
-  ns0:mujeres "191" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "170"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "191"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#26>
   rdfs:label "GRADUADO/A EN ÓPTICA Y OPTOMETRÍA" ;
   ns0:RamaConocimiento "CIENCIAS EXPERIMENTALES" ;
   ns0:Titulación "GRADUADO/A EN ÓPTICA Y OPTOMETRÍA" ;
-  ns0:hombres "171" ;
-  ns0:mujeres "345" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "171"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "345"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#27>
   rdfs:label "GRADUADO ADMINISTRACIÓN Y DIRECCIÓN EMPRESAS Y DCHO MELILLA" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO ADMINISTRACIÓN Y DIRECCIÓN EMPRESAS Y DCHO MELILLA" ;
-  ns0:hombres "109" ;
-  ns0:mujeres "91" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "109"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "91"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#28>
   rdfs:label "GRADUADO EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS (MELILLA)" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS (MELILLA)" ;
-  ns0:hombres "26" ;
-  ns0:mujeres "41" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "26"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "41"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#29>
   rdfs:label "GRADUADO/A CC ACT FÍSICA Y ED.PRIMA (MELILLA)" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A CC ACT FÍSICA Y ED.PRIMA (MELILLA)" ;
-  ns0:hombres "79" ;
-  ns0:mujeres "25" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "79"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "25"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#30>
   rdfs:label "GRADUADO/A EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS" ;
-  ns0:hombres "740" ;
-  ns0:mujeres "835" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "740"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "835"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#31>
   rdfs:label "GRADUADO/A EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS (CEUTA)" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS (CEUTA)" ;
-  ns0:hombres "91" ;
-  ns0:mujeres "100" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "91"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "100"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#32>
   rdfs:label "GRADUADO/A EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS-DERECHO" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS-DERECHO" ;
-  ns0:hombres "273" ;
-  ns0:mujeres "454" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "273"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "454"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#33>
   rdfs:label "GRADUADO/A EN ANTROPOLOGÍA SOCIAL Y CULTURAL" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN ANTROPOLOGÍA SOCIAL Y CULTURAL" ;
-  ns0:hombres "94" ;
-  ns0:mujeres "174" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "94"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "174"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#34>
   rdfs:label "GRADUADO/A EN CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE" ;
-  ns0:hombres "690" ;
-  ns0:mujeres "218" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "690"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "218"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#35>
   rdfs:label "GRADUADO/A EN CIENCIAS POLÍTICAS Y DE LA ADMINIST. Y DERECHO" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN CIENCIAS POLÍTICAS Y DE LA ADMINIST. Y DERECHO" ;
-  ns0:hombres "272" ;
-  ns0:mujeres "297" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "272"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "297"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#36>
   rdfs:label "GRADUADO/A EN CIENCIAS POLÍTICAS Y DE LA ADMINISTRACIÓN" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN CIENCIAS POLÍTICAS Y DE LA ADMINISTRACIÓN" ;
-  ns0:hombres "359" ;
-  ns0:mujeres "290" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "359"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "290"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#37>
   rdfs:label "GRADUADO/A EN COMUNICACIÓN AUDIOVISUAL" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN COMUNICACIÓN AUDIOVISUAL" ;
-  ns0:hombres "142" ;
-  ns0:mujeres "189" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "142"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "189"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#38>
   rdfs:label "GRADUADO/A EN CRIMINOLOGÍA" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN CRIMINOLOGÍA" ;
-  ns0:hombres "105" ;
-  ns0:mujeres "205" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "105"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "205"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#39>
   rdfs:label "GRADUADO/A EN DERECHO" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN DERECHO" ;
-  ns0:hombres "1026" ;
-  ns0:mujeres "1416" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "1026"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "1416"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#40>
   rdfs:label "GRADUADO/A EN ECONOMÍA" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN ECONOMÍA" ;
-  ns0:hombres "615" ;
-  ns0:mujeres "529" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "615"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "529"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#41>
   rdfs:label "GRADUADO/A EN EDUCACIÓN INFANTIL" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN EDUCACIÓN INFANTIL" ;
-  ns0:hombres "71" ;
-  ns0:mujeres "1229" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "71"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "1229"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#42>
   rdfs:label "GRADUADO/A EN EDUCACIÓN INFANTIL (CEUTA)" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN EDUCACIÓN INFANTIL (CEUTA)" ;
-  ns0:hombres "16" ;
-  ns0:mujeres "165" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "16"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "165"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#43>
   rdfs:label "GRADUADO/A EN EDUCACIÓN INFANTIL (LA INMACULADA)" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN EDUCACIÓN INFANTIL (LA INMACULADA)" ;
-  ns0:hombres "28" ;
-  ns0:mujeres "275" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "28"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "275"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#44>
   rdfs:label "GRADUADO/A EN EDUCACIÓN INFANTIL (MELILLA)" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN EDUCACIÓN INFANTIL (MELILLA)" ;
-  ns0:hombres "6" ;
-  ns0:mujeres "89" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "6"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "89"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#45>
   rdfs:label "GRADUADO/A EN EDUCACIÓN PRIMARIA" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN EDUCACIÓN PRIMARIA" ;
-  ns0:hombres "951" ;
-  ns0:mujeres "1295" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "951"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "1295"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#46>
   rdfs:label "GRADUADO/A EN EDUCACIÓN PRIMARIA (BILINGÜE)" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN EDUCACIÓN PRIMARIA (BILINGÜE)" ;
-  ns0:hombres "65" ;
-  ns0:mujeres "248" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "65"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "248"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#47>
   rdfs:label "GRADUADO/A EN EDUCACIÓN PRIMARIA (CEUTA)" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN EDUCACIÓN PRIMARIA (CEUTA)" ;
-  ns0:hombres "99" ;
-  ns0:mujeres "138" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "99"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "138"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#48>
   rdfs:label "GRADUADO/A EN EDUCACIÓN PRIMARIA (LA INMACULADA)" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN EDUCACIÓN PRIMARIA (LA INMACULADA)" ;
-  ns0:hombres "257" ;
-  ns0:mujeres "288" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "257"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "288"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#49>
   rdfs:label "GRADUADO/A EN EDUCACIÓN PRIMARIA (MELILLA)" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN EDUCACIÓN PRIMARIA (MELILLA)" ;
-  ns0:hombres "65" ;
-  ns0:mujeres "118" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "65"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "118"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#50>
   rdfs:label "GRADUADO/A EN EDUCACIÓN SOCIAL" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN EDUCACIÓN SOCIAL" ;
-  ns0:hombres "117" ;
-  ns0:mujeres "491" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "117"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "491"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#51>
   rdfs:label "GRADUADO/A EN EDUCACIÓN SOCIAL (CEUTA)" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN EDUCACIÓN SOCIAL (CEUTA)" ;
-  ns0:hombres "36" ;
-  ns0:mujeres "135" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "36"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "135"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#52>
   rdfs:label "GRADUADO/A EN EDUCACIÓN SOCIAL (MELILLA)" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN EDUCACIÓN SOCIAL (MELILLA)" ;
-  ns0:hombres "31" ;
-  ns0:mujeres "124" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "31"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "124"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#53>
   rdfs:label "GRADUADO/A EN FINANZAS Y CONTABILIDAD" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN FINANZAS Y CONTABILIDAD" ;
-  ns0:hombres "296" ;
-  ns0:mujeres "320" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "296"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "320"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#54>
   rdfs:label "GRADUADO/A EN GEOGRAFÍA Y GESTIÓN DEL TERRITORIO" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN GEOGRAFÍA Y GESTIÓN DEL TERRITORIO" ;
-  ns0:hombres "165" ;
-  ns0:mujeres "66" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "165"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "66"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#55>
   rdfs:label "GRADUADO/A EN GESTIÓN Y ADMINISTRACIÓN PÚBLICA (MELILLA)" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN GESTIÓN Y ADMINISTRACIÓN PÚBLICA (MELILLA)" ;
-  ns0:hombres "6" ;
-  ns0:mujeres "12" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "6"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "12"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#56>
   rdfs:label "GRADUADO/A EN INFORMACIÓN Y DOCUMENTACIÓN" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN INFORMACIÓN Y DOCUMENTACIÓN" ;
-  ns0:hombres "99" ;
-  ns0:mujeres "170" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "99"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "170"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#57>
   rdfs:label "GRADUADO/A EN MARKETING E INVESTIGACIÓN DE MERCADOS" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN MARKETING E INVESTIGACIÓN DE MERCADOS" ;
-  ns0:hombres "250" ;
-  ns0:mujeres "334" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "250"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "334"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#58>
   rdfs:label "GRADUADO/A EN PEDAGOGÍA" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN PEDAGOGÍA" ;
-  ns0:hombres "98" ;
-  ns0:mujeres "457" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "98"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "457"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#59>
   rdfs:label "GRADUADO/A EN RELACIONES LABORALES Y RECURSOS HUMANOS" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN RELACIONES LABORALES Y RECURSOS HUMANOS" ;
-  ns0:hombres "574" ;
-  ns0:mujeres "782" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "574"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "782"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#60>
   rdfs:label "GRADUADO/A EN RELACIONES LABORALES Y RECURSOS HUMANOS (MEL.)" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN RELACIONES LABORALES Y RECURSOS HUMANOS (MEL.)" ;
-  ns0:hombres "23" ;
-  ns0:mujeres "36" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "23"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "36"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#61>
   rdfs:label "GRADUADO/A EN SOCIOLOGÍA" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN SOCIOLOGÍA" ;
-  ns0:hombres "245" ;
-  ns0:mujeres "382" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "245"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "382"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#62>
   rdfs:label "GRADUADO/A EN TRABAJO SOCIAL" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN TRABAJO SOCIAL" ;
-  ns0:hombres "153" ;
-  ns0:mujeres "634" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "153"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "634"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#63>
   rdfs:label "GRADUADO/A EN TURISMO" ;
   ns0:RamaConocimiento "CIENCIAS SOCIALES Y JURÍDICAS" ;
   ns0:Titulación "GRADUADO/A EN TURISMO" ;
-  ns0:hombres "198" ;
-  ns0:mujeres "474" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "198"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "474"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#64>
   rdfs:label "GRADUADO/A EN ARQUITECTURA" ;
   ns0:RamaConocimiento "INGENIERÍA Y ARQUITECTURA" ;
   ns0:Titulación "GRADUADO/A EN ARQUITECTURA" ;
-  ns0:hombres "464" ;
-  ns0:mujeres "413" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "464"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "413"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#65>
   rdfs:label "GRADUADO/A EN EDIFICACIÓN" ;
   ns0:RamaConocimiento "INGENIERÍA Y ARQUITECTURA" ;
   ns0:Titulación "GRADUADO/A EN EDIFICACIÓN" ;
-  ns0:hombres "656" ;
-  ns0:mujeres "356" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "656"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "356"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#66>
   rdfs:label "GRADUADO/A EN INGENIERÍA CIVIL" ;
   ns0:RamaConocimiento "INGENIERÍA Y ARQUITECTURA" ;
   ns0:Titulación "GRADUADO/A EN INGENIERÍA CIVIL" ;
-  ns0:hombres "645" ;
-  ns0:mujeres "247" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "645"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "247"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#67>
   rdfs:label "GRADUADO/A EN INGENIERÍA DE TECNOLOGÍAS DE TELECOMUNICACIÓN" ;
   ns0:RamaConocimiento "INGENIERÍA Y ARQUITECTURA" ;
   ns0:Titulación "GRADUADO/A EN INGENIERÍA DE TECNOLOGÍAS DE TELECOMUNICACIÓN" ;
-  ns0:hombres "386" ;
-  ns0:mujeres "86" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "386"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "86"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#68>
   rdfs:label "GRADUADO/A EN INGENIERÍA ELECTRÓNICA INDUSTRIAL" ;
   ns0:RamaConocimiento "INGENIERÍA Y ARQUITECTURA" ;
   ns0:Titulación "GRADUADO/A EN INGENIERÍA ELECTRÓNICA INDUSTRIAL" ;
-  ns0:hombres "224" ;
-  ns0:mujeres "44" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "224"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "44"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#69>
   rdfs:label "GRADUADO/A EN INGENIERÍA INFORMÁTICA" ;
   ns0:RamaConocimiento "INGENIERÍA Y ARQUITECTURA" ;
   ns0:Titulación "GRADUADO/A EN INGENIERÍA INFORMÁTICA" ;
-  ns0:hombres "1148" ;
-  ns0:mujeres "126" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "1148"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "126"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#70>
   rdfs:label "GRADUADO/A EN INGENIERÍA INFORMÁTICA (CEUTA)" ;
   ns0:RamaConocimiento "INGENIERÍA Y ARQUITECTURA" ;
   ns0:Titulación "GRADUADO/A EN INGENIERÍA INFORMÁTICA (CEUTA)" ;
-  ns0:hombres "43" ;
-  ns0:mujeres "9" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "43"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "9"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#71>
   rdfs:label "GRADUADO/A EN INGENIERÍA INFORMÁTICA Y MATEMÁTICAS" ;
   ns0:RamaConocimiento "INGENIERÍA Y ARQUITECTURA" ;
   ns0:Titulación "GRADUADO/A EN INGENIERÍA INFORMÁTICA Y MATEMÁTICAS" ;
-  ns0:hombres "122" ;
-  ns0:mujeres "38" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "122"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "38"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#72>
   rdfs:label "GRADUADO/A EN INGENIERÍA QUÍMICA" ;
   ns0:RamaConocimiento "INGENIERÍA Y ARQUITECTURA" ;
   ns0:Titulación "GRADUADO/A EN INGENIERÍA QUÍMICA" ;
-  ns0:hombres "251" ;
-  ns0:mujeres "179" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "251"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "179"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#73>
   rdfs:label "GRADUADO/A EN ENFERMERÍA" ;
   ns0:RamaConocimiento "CIENCIAS DE LA SALUD" ;
   ns0:Titulación "GRADUADO/A EN ENFERMERÍA" ;
-  ns0:hombres "178" ;
-  ns0:mujeres "634" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "178"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "634"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#74>
   rdfs:label "GRADUADO/A EN ENFERMERÍA (CEUTA)" ;
   ns0:RamaConocimiento "CIENCIAS DE LA SALUD" ;
   ns0:Titulación "GRADUADO/A EN ENFERMERÍA (CEUTA)" ;
-  ns0:hombres "116" ;
-  ns0:mujeres "363" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "116"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "363"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#75>
   rdfs:label "GRADUADO/A EN ENFERMERÍA (MELILLA)" ;
   ns0:RamaConocimiento "CIENCIAS DE LA SALUD" ;
   ns0:Titulación "GRADUADO/A EN ENFERMERÍA (MELILLA)" ;
-  ns0:hombres "86" ;
-  ns0:mujeres "273" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "86"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "273"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#76>
   rdfs:label "GRADUADO/A EN FARMACIA" ;
   ns0:RamaConocimiento "CIENCIAS DE LA SALUD" ;
   ns0:Titulación "GRADUADO/A EN FARMACIA" ;
-  ns0:hombres "640" ;
-  ns0:mujeres "1419" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "640"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "1419"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#77>
   rdfs:label "GRADUADO/A EN FISIOTERAPIA" ;
   ns0:RamaConocimiento "CIENCIAS DE LA SALUD" ;
   ns0:Titulación "GRADUADO/A EN FISIOTERAPIA" ;
-  ns0:hombres "119" ;
-  ns0:mujeres "153" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "119"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "153"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#78>
   rdfs:label "GRADUADO/A EN LOGOPEDIA" ;
   ns0:RamaConocimiento "CIENCIAS DE LA SALUD" ;
   ns0:Titulación "GRADUADO/A EN LOGOPEDIA" ;
-  ns0:hombres "31" ;
-  ns0:mujeres "259" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "31"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "259"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#79>
   rdfs:label "GRADUADO/A EN MEDICINA" ;
   ns0:RamaConocimiento "CIENCIAS DE LA SALUD" ;
   ns0:Titulación "GRADUADO/A EN MEDICINA" ;
-  ns0:hombres "588" ;
-  ns0:mujeres "1000" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "588"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "1000"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#80>
   rdfs:label "GRADUADO/A EN NUTRICIÓN HUMANA Y DIETÉTICA" ;
   ns0:RamaConocimiento "CIENCIAS DE LA SALUD" ;
   ns0:Titulación "GRADUADO/A EN NUTRICIÓN HUMANA Y DIETÉTICA" ;
-  ns0:hombres "108" ;
-  ns0:mujeres "332" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "108"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "332"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#81>
   rdfs:label "GRADUADO/A EN ODONTOLOGÍA" ;
   ns0:RamaConocimiento "CIENCIAS DE LA SALUD" ;
   ns0:Titulación "GRADUADO/A EN ODONTOLOGÍA" ;
-  ns0:hombres "150" ;
-  ns0:mujeres "290" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "150"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "290"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#82>
   rdfs:label "GRADUADO/A EN PSICOLOGÍA" ;
   ns0:RamaConocimiento "CIENCIAS DE LA SALUD" ;
   ns0:Titulación "GRADUADO/A EN PSICOLOGÍA" ;
-  ns0:hombres "362" ;
-  ns0:mujeres "1136" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "362"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "1136"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
 
 <http://cabas.ugr.es/resources/MatriculasGrado1516#83>
   rdfs:label "GRADUADO/A EN TERAPIA OCUPACIONAL" ;
   ns0:RamaConocimiento "CIENCIAS DE LA SALUD" ;
   ns0:Titulación "GRADUADO/A EN TERAPIA OCUPACIONAL" ;
-  ns0:hombres "56" ;
-  ns0:mujeres "190" ;
-  ns1:AcademicTerm "2015/2016" .
+  ns0:hombres "56"^^xsd:nonNegativeInteger ;
+  ns0:mujeres "190"^^xsd:nonNegativeInteger ;
+  ns1:AcademicTerm "2015/2016"^^xsd:nonNegativeInteger .
