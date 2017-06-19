@@ -11,8 +11,8 @@
 	<rdfs:label>GRADUADO/A EN ARQUEOLOGÍA</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ARQUEOLOGÍA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">63</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">63</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -20,8 +20,8 @@
 	<rdfs:label>GRADUADO/A EN BELLAS ARTES</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN BELLAS ARTES</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">352</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">684</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">352</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">684</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -29,8 +29,8 @@
 	<rdfs:label>GRADUADO/A EN CONSERVACIÓN Y RESTAURACIÓN DE BIENES CULTURAL</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN CONSERVACIÓN Y RESTAURACIÓN DE BIENES CULTURAL</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">57</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">164</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">57</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">164</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -38,8 +38,8 @@
 	<rdfs:label>GRADUADO/A EN ESTUDIOS FRANCESES</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ESTUDIOS FRANCESES</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">49</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">172</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">49</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">172</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -47,8 +47,8 @@
 	<rdfs:label>GRADUADO/A EN ESTUDIOS INGLESES</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ESTUDIOS INGLESES</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">179</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">509</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">179</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">509</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -56,8 +56,8 @@
 	<rdfs:label>GRADUADO/A EN ESTUDIOS ÁRABES E ISLÁMICOS</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ESTUDIOS ÁRABES E ISLÁMICOS</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">55</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">100</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">55</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">100</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -65,8 +65,8 @@
 	<rdfs:label>GRADUADO/A EN FILOLOGÍA CLÁSICA</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN FILOLOGÍA CLÁSICA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">37</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">85</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">37</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">85</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -74,8 +74,8 @@
 	<rdfs:label>GRADUADO/A EN FILOLOGÍA HISPÁNICA</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN FILOLOGÍA HISPÁNICA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">107</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">408</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">107</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">408</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -83,8 +83,8 @@
 	<rdfs:label>GRADUADO/A EN FILOSOFÍA</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN FILOSOFÍA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">185</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">106</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">185</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">106</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -92,8 +92,8 @@
 	<rdfs:label>GRADUADO/A EN HISTORIA</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN HISTORIA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">417</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">205</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">417</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">205</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -101,8 +101,8 @@
 	<rdfs:label>GRADUADO/A EN HISTORIA DEL ARTE</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN HISTORIA DEL ARTE</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">171</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">337</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">171</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">337</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -110,8 +110,8 @@
 	<rdfs:label>GRADUADO/A EN HISTORIA Y CIENCIAS DE LA MÚSICA</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN HISTORIA Y CIENCIAS DE LA MÚSICA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">142</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">110</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">142</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">110</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -119,8 +119,8 @@
 	<rdfs:label>GRADUADO/A EN LENGUAS MODERNAS Y SUS LITERATURAS</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN LENGUAS MODERNAS Y SUS LITERATURAS</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">334</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">334</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -128,8 +128,8 @@
 	<rdfs:label>GRADUADO/A EN LITERATURAS COMPARADAS</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN LITERATURAS COMPARADAS</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">54</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">115</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">54</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">115</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -137,8 +137,8 @@
 	<rdfs:label>GRADUADO/A EN TRADUCCIÓN E INTERPRETACIÓN</rdfs:label>
 	<ugr:RamaConocimiento>ARTES Y HUMANIDADES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN TRADUCCIÓN E INTERPRETACIÓN</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">309</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1162</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">309</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1162</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -146,8 +146,8 @@
 	<rdfs:label>GRADUADO/A EN BIOLOGÍA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS EXPERIMENTALES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN BIOLOGÍA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">436</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">651</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">436</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">651</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -155,8 +155,8 @@
 	<rdfs:label>GRADUADO/A EN BIOQUÍMICA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS EXPERIMENTALES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN BIOQUÍMICA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">84</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">136</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">84</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">136</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -164,8 +164,8 @@
 	<rdfs:label>GRADUADO/A EN BIOTECNOLOGÍA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS EXPERIMENTALES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN BIOTECNOLOGÍA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">38</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">66</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">38</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">66</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -173,8 +173,8 @@
 	<rdfs:label>GRADUADO/A EN CIENCIA Y TECNOLOGÍA DE LOS ALIMENTOS</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS EXPERIMENTALES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN CIENCIA Y TECNOLOGÍA DE LOS ALIMENTOS</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">80</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">180</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">80</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">180</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -182,8 +182,8 @@
 	<rdfs:label>GRADUADO/A EN CIENCIAS AMBIENTALES</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS EXPERIMENTALES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN CIENCIAS AMBIENTALES</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">309</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">258</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">309</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">258</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -191,8 +191,8 @@
 	<rdfs:label>GRADUADO/A EN ESTADÍSTICA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS EXPERIMENTALES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ESTADÍSTICA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">91</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">68</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">91</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">68</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -200,8 +200,8 @@
 	<rdfs:label>GRADUADO/A EN FÍSICA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS EXPERIMENTALES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN FÍSICA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">315</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">107</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">315</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">107</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -209,8 +209,8 @@
 	<rdfs:label>GRADUADO/A EN GEOLOGÍA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS EXPERIMENTALES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN GEOLOGÍA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">150</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">94</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">150</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">94</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -218,8 +218,8 @@
 	<rdfs:label>GRADUADO/A EN MATEMÁTICAS</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS EXPERIMENTALES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN MATEMÁTICAS</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">208</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">184</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">208</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">184</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -227,8 +227,8 @@
 	<rdfs:label>GRADUADO/A EN QUÍMICA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS EXPERIMENTALES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN QUÍMICA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">170</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">191</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">170</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">191</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -236,8 +236,8 @@
 	<rdfs:label>GRADUADO/A EN ÓPTICA Y OPTOMETRÍA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS EXPERIMENTALES</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ÓPTICA Y OPTOMETRÍA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">171</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">345</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">171</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">345</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -245,8 +245,8 @@
 	<rdfs:label>GRADUADO ADMINISTRACIÓN Y DIRECCIÓN EMPRESAS Y DCHO MELILLA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO ADMINISTRACIÓN Y DIRECCIÓN EMPRESAS Y DCHO MELILLA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">109</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">91</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">109</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">91</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -254,8 +254,8 @@
 	<rdfs:label>GRADUADO EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS (MELILLA)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS (MELILLA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">26</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">41</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">26</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">41</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -263,8 +263,8 @@
 	<rdfs:label>GRADUADO/A CC ACT FÍSICA Y ED.PRIMA (MELILLA)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A CC ACT FÍSICA Y ED.PRIMA (MELILLA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">79</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">25</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">79</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">25</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -272,8 +272,8 @@
 	<rdfs:label>GRADUADO/A EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">740</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">835</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">740</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">835</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -281,8 +281,8 @@
 	<rdfs:label>GRADUADO/A EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS (CEUTA)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS (CEUTA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">91</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">100</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">91</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">100</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -290,8 +290,8 @@
 	<rdfs:label>GRADUADO/A EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS-DERECHO</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS-DERECHO</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">273</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">454</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">273</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">454</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -299,8 +299,8 @@
 	<rdfs:label>GRADUADO/A EN ANTROPOLOGÍA SOCIAL Y CULTURAL</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ANTROPOLOGÍA SOCIAL Y CULTURAL</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">94</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">174</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">94</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">174</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -308,8 +308,8 @@
 	<rdfs:label>GRADUADO/A EN CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">690</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">218</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">690</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">218</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -317,8 +317,8 @@
 	<rdfs:label>GRADUADO/A EN CIENCIAS POLÍTICAS Y DE LA ADMINIST. Y DERECHO</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN CIENCIAS POLÍTICAS Y DE LA ADMINIST. Y DERECHO</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">272</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">297</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">272</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">297</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -326,8 +326,8 @@
 	<rdfs:label>GRADUADO/A EN CIENCIAS POLÍTICAS Y DE LA ADMINISTRACIÓN</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN CIENCIAS POLÍTICAS Y DE LA ADMINISTRACIÓN</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">359</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">290</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">359</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">290</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -335,8 +335,8 @@
 	<rdfs:label>GRADUADO/A EN COMUNICACIÓN AUDIOVISUAL</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN COMUNICACIÓN AUDIOVISUAL</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">142</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">189</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">142</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">189</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -344,8 +344,8 @@
 	<rdfs:label>GRADUADO/A EN CRIMINOLOGÍA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN CRIMINOLOGÍA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">105</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">205</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">105</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">205</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -353,8 +353,8 @@
 	<rdfs:label>GRADUADO/A EN DERECHO</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN DERECHO</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1026</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1416</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1026</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1416</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -362,8 +362,8 @@
 	<rdfs:label>GRADUADO/A EN ECONOMÍA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ECONOMÍA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">615</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">529</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">615</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">529</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -371,8 +371,8 @@
 	<rdfs:label>GRADUADO/A EN EDUCACIÓN INFANTIL</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN EDUCACIÓN INFANTIL</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">71</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1229</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">71</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1229</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -380,8 +380,8 @@
 	<rdfs:label>GRADUADO/A EN EDUCACIÓN INFANTIL (CEUTA)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN EDUCACIÓN INFANTIL (CEUTA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">165</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">16</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">165</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -389,8 +389,8 @@
 	<rdfs:label>GRADUADO/A EN EDUCACIÓN INFANTIL (LA INMACULADA)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN EDUCACIÓN INFANTIL (LA INMACULADA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">275</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">28</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">275</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -398,8 +398,8 @@
 	<rdfs:label>GRADUADO/A EN EDUCACIÓN INFANTIL (MELILLA)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN EDUCACIÓN INFANTIL (MELILLA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">89</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">89</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -407,8 +407,8 @@
 	<rdfs:label>GRADUADO/A EN EDUCACIÓN PRIMARIA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN EDUCACIÓN PRIMARIA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">951</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1295</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">951</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1295</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -416,8 +416,8 @@
 	<rdfs:label>GRADUADO/A EN EDUCACIÓN PRIMARIA (BILINGÜE)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN EDUCACIÓN PRIMARIA (BILINGÜE)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">65</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">248</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">65</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">248</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -425,8 +425,8 @@
 	<rdfs:label>GRADUADO/A EN EDUCACIÓN PRIMARIA (CEUTA)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN EDUCACIÓN PRIMARIA (CEUTA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">138</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">138</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -434,8 +434,8 @@
 	<rdfs:label>GRADUADO/A EN EDUCACIÓN PRIMARIA (LA INMACULADA)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN EDUCACIÓN PRIMARIA (LA INMACULADA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">257</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">288</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">257</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">288</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -443,8 +443,8 @@
 	<rdfs:label>GRADUADO/A EN EDUCACIÓN PRIMARIA (MELILLA)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN EDUCACIÓN PRIMARIA (MELILLA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">65</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">118</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">65</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">118</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -452,8 +452,8 @@
 	<rdfs:label>GRADUADO/A EN EDUCACIÓN SOCIAL</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN EDUCACIÓN SOCIAL</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">117</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">491</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">117</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">491</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -461,8 +461,8 @@
 	<rdfs:label>GRADUADO/A EN EDUCACIÓN SOCIAL (CEUTA)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN EDUCACIÓN SOCIAL (CEUTA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">36</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">135</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">36</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">135</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -470,8 +470,8 @@
 	<rdfs:label>GRADUADO/A EN EDUCACIÓN SOCIAL (MELILLA)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN EDUCACIÓN SOCIAL (MELILLA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">31</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">124</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">31</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">124</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -479,8 +479,8 @@
 	<rdfs:label>GRADUADO/A EN FINANZAS Y CONTABILIDAD</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN FINANZAS Y CONTABILIDAD</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">296</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">320</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">296</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">320</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -488,8 +488,8 @@
 	<rdfs:label>GRADUADO/A EN GEOGRAFÍA Y GESTIÓN DEL TERRITORIO</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN GEOGRAFÍA Y GESTIÓN DEL TERRITORIO</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">165</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">66</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">165</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">66</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -497,8 +497,8 @@
 	<rdfs:label>GRADUADO/A EN GESTIÓN Y ADMINISTRACIÓN PÚBLICA (MELILLA)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN GESTIÓN Y ADMINISTRACIÓN PÚBLICA (MELILLA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">12</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">12</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -506,8 +506,8 @@
 	<rdfs:label>GRADUADO/A EN INFORMACIÓN Y DOCUMENTACIÓN</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN INFORMACIÓN Y DOCUMENTACIÓN</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">170</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">99</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">170</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -515,8 +515,8 @@
 	<rdfs:label>GRADUADO/A EN MARKETING E INVESTIGACIÓN DE MERCADOS</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN MARKETING E INVESTIGACIÓN DE MERCADOS</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">250</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">334</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">250</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">334</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -524,8 +524,8 @@
 	<rdfs:label>GRADUADO/A EN PEDAGOGÍA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN PEDAGOGÍA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">98</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">457</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">98</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">457</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -533,8 +533,8 @@
 	<rdfs:label>GRADUADO/A EN RELACIONES LABORALES Y RECURSOS HUMANOS</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN RELACIONES LABORALES Y RECURSOS HUMANOS</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">574</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">782</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">574</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">782</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -542,8 +542,8 @@
 	<rdfs:label>GRADUADO/A EN RELACIONES LABORALES Y RECURSOS HUMANOS (MEL.)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN RELACIONES LABORALES Y RECURSOS HUMANOS (MEL.)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">23</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">36</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">23</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">36</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -551,8 +551,8 @@
 	<rdfs:label>GRADUADO/A EN SOCIOLOGÍA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN SOCIOLOGÍA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">245</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">382</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">245</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">382</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -560,8 +560,8 @@
 	<rdfs:label>GRADUADO/A EN TRABAJO SOCIAL</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN TRABAJO SOCIAL</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">153</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">634</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">153</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">634</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -569,8 +569,8 @@
 	<rdfs:label>GRADUADO/A EN TURISMO</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS SOCIALES Y JURÍDICAS</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN TURISMO</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">198</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">474</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">198</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">474</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -578,8 +578,8 @@
 	<rdfs:label>GRADUADO/A EN ARQUITECTURA</rdfs:label>
 	<ugr:RamaConocimiento>INGENIERÍA Y ARQUITECTURA</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ARQUITECTURA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">464</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">413</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">464</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">413</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -587,8 +587,8 @@
 	<rdfs:label>GRADUADO/A EN EDIFICACIÓN</rdfs:label>
 	<ugr:RamaConocimiento>INGENIERÍA Y ARQUITECTURA</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN EDIFICACIÓN</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">656</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">356</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">656</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">356</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -596,8 +596,8 @@
 	<rdfs:label>GRADUADO/A EN INGENIERÍA CIVIL</rdfs:label>
 	<ugr:RamaConocimiento>INGENIERÍA Y ARQUITECTURA</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN INGENIERÍA CIVIL</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">645</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">247</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">645</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">247</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -605,8 +605,8 @@
 	<rdfs:label>GRADUADO/A EN INGENIERÍA DE TECNOLOGÍAS DE TELECOMUNICACIÓN</rdfs:label>
 	<ugr:RamaConocimiento>INGENIERÍA Y ARQUITECTURA</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN INGENIERÍA DE TECNOLOGÍAS DE TELECOMUNICACIÓN</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">386</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">86</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">386</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">86</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -614,8 +614,8 @@
 	<rdfs:label>GRADUADO/A EN INGENIERÍA ELECTRÓNICA INDUSTRIAL</rdfs:label>
 	<ugr:RamaConocimiento>INGENIERÍA Y ARQUITECTURA</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN INGENIERÍA ELECTRÓNICA INDUSTRIAL</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">224</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">44</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">224</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">44</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -623,8 +623,8 @@
 	<rdfs:label>GRADUADO/A EN INGENIERÍA INFORMÁTICA</rdfs:label>
 	<ugr:RamaConocimiento>INGENIERÍA Y ARQUITECTURA</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN INGENIERÍA INFORMÁTICA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1148</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">126</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1148</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">126</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -632,8 +632,8 @@
 	<rdfs:label>GRADUADO/A EN INGENIERÍA INFORMÁTICA (CEUTA)</rdfs:label>
 	<ugr:RamaConocimiento>INGENIERÍA Y ARQUITECTURA</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN INGENIERÍA INFORMÁTICA (CEUTA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">43</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">43</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -641,8 +641,8 @@
 	<rdfs:label>GRADUADO/A EN INGENIERÍA INFORMÁTICA Y MATEMÁTICAS</rdfs:label>
 	<ugr:RamaConocimiento>INGENIERÍA Y ARQUITECTURA</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN INGENIERÍA INFORMÁTICA Y MATEMÁTICAS</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">122</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">38</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">122</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">38</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -650,8 +650,8 @@
 	<rdfs:label>GRADUADO/A EN INGENIERÍA QUÍMICA</rdfs:label>
 	<ugr:RamaConocimiento>INGENIERÍA Y ARQUITECTURA</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN INGENIERÍA QUÍMICA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">251</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">179</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">251</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">179</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -659,8 +659,8 @@
 	<rdfs:label>GRADUADO/A EN ENFERMERÍA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS DE LA SALUD</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ENFERMERÍA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">178</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">634</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">178</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">634</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -668,8 +668,8 @@
 	<rdfs:label>GRADUADO/A EN ENFERMERÍA (CEUTA)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS DE LA SALUD</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ENFERMERÍA (CEUTA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">116</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">363</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">116</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">363</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -677,8 +677,8 @@
 	<rdfs:label>GRADUADO/A EN ENFERMERÍA (MELILLA)</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS DE LA SALUD</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ENFERMERÍA (MELILLA)</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">86</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">273</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">86</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">273</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -686,8 +686,8 @@
 	<rdfs:label>GRADUADO/A EN FARMACIA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS DE LA SALUD</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN FARMACIA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">640</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1419</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">640</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1419</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -695,8 +695,8 @@
 	<rdfs:label>GRADUADO/A EN FISIOTERAPIA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS DE LA SALUD</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN FISIOTERAPIA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">119</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">153</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">119</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">153</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -704,8 +704,8 @@
 	<rdfs:label>GRADUADO/A EN LOGOPEDIA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS DE LA SALUD</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN LOGOPEDIA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">31</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">259</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">31</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">259</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -713,8 +713,8 @@
 	<rdfs:label>GRADUADO/A EN MEDICINA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS DE LA SALUD</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN MEDICINA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">588</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1000</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">588</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1000</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -722,8 +722,8 @@
 	<rdfs:label>GRADUADO/A EN NUTRICIÓN HUMANA Y DIETÉTICA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS DE LA SALUD</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN NUTRICIÓN HUMANA Y DIETÉTICA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">108</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">332</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">108</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">332</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -731,8 +731,8 @@
 	<rdfs:label>GRADUADO/A EN ODONTOLOGÍA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS DE LA SALUD</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN ODONTOLOGÍA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">150</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">290</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">150</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">290</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -740,8 +740,8 @@
 	<rdfs:label>GRADUADO/A EN PSICOLOGÍA</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS DE LA SALUD</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN PSICOLOGÍA</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">362</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1136</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">362</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1136</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
@@ -749,8 +749,8 @@
 	<rdfs:label>GRADUADO/A EN TERAPIA OCUPACIONAL</rdfs:label>
 	<ugr:RamaConocimiento>CIENCIAS DE LA SALUD</ugr:RamaConocimiento>
 	<ugr:Titulación>GRADUADO/A EN TERAPIA OCUPACIONAL</ugr:Titulación>
-	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">56</ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
-	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">190</ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">
+	<ugr:hombres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">56</ugr:hombres>
+	<ugr:mujeres rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">190</ugr:mujeres>
 	<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>
 </rdf:Description>
 
