@@ -58,7 +58,7 @@
   owl:sameAs <http://cabas.ugr.es/ontology/ugr#RamaConocimiento> ;
   ns1:term_status "stable" .
 
-<http://cabas.ugr.es/ontology/ugr#tieneRamaConocimiento> a owl:ObjectProperty ;
+<http://cabas.ugr.es/ontology/ugr#tieneRamaConocimiento> a owl:ObjectProperty, owl:FunctionalProperty, rdf:Property ;
   rdfs:label
     "tiene rama de conocimiento"@es,
     "has branch of knowledge"@en ;
@@ -84,33 +84,29 @@
   owl:inverseOf <http://cabas.ugr.es/ontology/ugr#tieneRamaConocimiento> ;
   ns1:term_status "stable" .
 
-<http://cabas.ugr.es/ontology/ugr#hombres> a owl:DatatypeProperty ;
+<http://cabas.ugr.es/ontology/ugr#hombres> a owl:DatatypeProperty, owl:FunctionalProperty, rdf:Property ;
   rdfs:label
     "hombres"@es,
     "men"@en ;
   rdfs:comment
     "Número de estudiantes hombres."@es,
     "Number of male students."@en ;
-  rdfs:domain <http://cabas.ugr.es/resources/MatriculasGrado1516> ;
   rdfs:range xsd:nonNegativeInteger ;
   rdfs:isDefinedBy <http://cabas.ugr.es/ontology/ugr#> ;
   owl:sameAs <http://cabas.ugr.es/ontology/ugr#hombres> ;
-  owl:equivalentProperty <https://schema.org/Male> ;
   owl:inverseOf <http://cabas.ugr.es/ontology/ugr#mujeres> ;
   ns1:term_status "stable" .
 
-<http://cabas.ugr.es/ontology/ugr#mujeres> a owl:DatatypeProperty ;
+<http://cabas.ugr.es/ontology/ugr#mujeres> a owl:DatatypeProperty, owl:FunctionalProperty, rdf:Property ;
   rdfs:label
     "mujeres"@es,
     "women"@en ;
   rdfs:comment
     "Número de estudiantes mujeres."@es,
     "Number of female students."@en ;
-  rdfs:domain <http://cabas.ugr.es/resources/MatriculasGrado1516> ;
   rdfs:range xsd:nonNegativeInteger ;
   rdfs:isDefinedBy <http://cabas.ugr.es/ontology/ugr#> ;
   owl:sameAs <http://cabas.ugr.es/ontology/ugr#mujeres> ;
-  owl:equivalentProperty <https://schema.org/Female> ;
   owl:inverseOf <http://cabas.ugr.es/ontology/ugr#hombres> ;
   ns1:term_status "stable" .
 
