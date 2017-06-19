@@ -44,7 +44,7 @@ with open('matriculas_grado_1516.rdf', 'a') as ofile:
                 "\t<ugr:hombres>"+lines[2]+"</ugr:hombres>\n"+
                 "\t<ugr:mujeres>"+lines[3]+"</ugr:mujeres>\n"+
                 "\t<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>\n"+
-                "<rdf:Description>\n\n")
+                "</rdf:Description>\n\n")
             id += 1
 
 ofile = open('matriculas_grado_1516.rdf', 'a')
