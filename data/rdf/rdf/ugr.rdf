@@ -3,54 +3,62 @@
 <!DOCTYPE rdf:RDF [
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY dct "http://purl.org/dc/terms/" >
-    <!ENTITY ns4 "http://creativecommons.org/ns#" >
-    <!ENTITY ns5 "http://purl.org/vocab/vann/" >
+    <!ENTITY dc "http://purl.org/dc/terms/" >
     <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
-    <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#" >
+    <!ENTITY dbo "http://dbpedia.org/ontology/" >
+    <!ENTITY schema "http://schema.org" >
+    <!ENTITY wd "https://www.wikidata.org/wiki/" >
+    <!ENTITY cc "http://creativecommons.org/ns#" >
+    <!ENTITY vann "http://purl.org/vocab/vann/" >
+    <!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
 ]>
 
 <rdf:RDF
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:owl="http://www.w3.org/2002/07/owl#"
-    xmlns:dct="http://purl.org/dc/terms/"
-    xmlns:ns4="http://creativecommons.org/ns#"
-    xmlns:ns5="http://purl.org/vocab/vann/"
-    xmlns:foaf="http://xmlns.com/foaf/0.1/"
-    xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">
+    xmlns="&ugr;"
+    xmlns:base="http://cabas.ugr.es/ontology/ugr"
+    xmlns:rdf="&rdf;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:xsd="&xsd;"
+    xmlns:owl="&owl;"
+    xmlns:dc="&dc;"
+    xmlns:foaf="&foaf;"
+    xmlns:dbo="&dbo;"
+    xmlns:schema="&schema;"
+    xmlns:wd="&wd;"
+    xmlns:cc="&cc;"
+    xmlns:vann="&vann;"
+    xmlns:ugr="&ugr;">
 
-    <owl:Ontology rdf:about="http://cabas.ugr.es/ontology/ugr#">
-        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-06-18</dct:created>
+    <owl:Ontology rdf:about="&ugr;">
+        <rdfs:label xml:lang="es">Ontología de la Universidad de Granada</rdfs:label>
+        <rdfs:label xml:lang="en">Ontology of the University of Granada</rdfs:label>
         <rdfs:comment xml:lang="es">
             Ontología creada para describir los conjuntos de datos abiertos de la Universidad de Granada.
         </rdfs:comment>
         <rdfs:comment xml:lang="en">
             Ontology created to describe the open data sets of the University of Granada.
         </rdfs:comment>
-        <owl:versionInfo xml:lang="es">1.0</owl:versionInfo>
-        <owl:sameAs rdf:resource="http://cabas.ugr.es/ontology/ugr#" />
-        <ns4:license rdf:resource="http://www.gnu.org/copyleft/fdl.html" />
-        <ns4:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
-        <ns5:preferredNamespacePrefix>ugr</ns5:preferredNamespacePrefix>
-        <ns5:preferredNamespaceUri>http://cabas.ugr.es/ontology/ugr#</ns5:preferredNamespaceUri>
-        <foaf:homepage rdf:resource="http://opendata.ugr.es" />
-        <rdfs:label xml:lang="es">Ontología de la Universidad de Granada</rdfs:label>
-        <rdfs:label xml:lang="en">Ontology of the University of Granada</rdfs:label>
-        <dct:title xml:lang="es">Ontología de la Universidad de Granada</dct:title>
-        <dct:title xml:lang="en">Ontology of the University of Granada</dct:title>
-        <dct:description xml:lang="es">
+        <dc:title xml:lang="es">Ontología de la Universidad de Granada</dc:title>
+        <dc:title xml:lang="en">Ontology of the University of Granada</dc:title>
+        <dc:description xml:lang="es">
             La ontología de la Universidad de Granada define las clases y propiedades utilizadas en los conjuntos de datos abiertos de la propia Universidad.
-        </dct:description>
-        <dct:description xml:lang="en">
+        </dc:description>
+        <dc:description xml:lang="en">
             The ontology of the University of Granada defines the classes and properties used in the open data sets of the University itself.
-        </dct:description>
-        <vs:term_status>stable</vs:term_status>
-        <dct:creator>Germán Martínez Maldonado</dct:creator>
+        </dc:description>
+        <owl:versionInfo xml:lang="es">1.0</owl:versionInfo>
+        <dc:created rdf:datatype="&xsd;date">2017-06-18</dc:created>
+        <vann:preferredNamespacePrefix>ugr</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>http://cabas.ugr.es/ontology/ugr#</vann:preferredNamespaceUri>
+        <foaf:homepage rdf:resource="http://opendata.ugr.es" />
+        <dc:source rdf:resource="http://opendata.ugr.es" />
+        <dc:creator>Germán Martínez Maldonado</dc:creator>
         <foaf:maker rdf:resource="https://github.com/germaaan" />
-        <dct:source rdf:resource="http://opendata.ugr.es" />
-        <dct:publisher>Oficina de Software Libre de la Universidad de Granada</dct:publisher>
+        <dc:publisher>Oficina de Software Libre de la Universidad de Granada</dc:publisher>
+        <cc:license rdf:resource="http://www.gnu.org/copyleft/fdl.html" />
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
     </owl:Ontology>
 
     <!--
@@ -61,26 +69,49 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:Class rdf:about="http://cabas.ugr.es/ontology/ugr#Titulación">
+     <owl:Class rdf:about="#RamaConocimiento">
+         <rdfs:label xml:lang="es">Rama de conocimiento</rdfs:label>
+         <rdfs:label xml:lang="en">Branch of knowledge</rdfs:label>
+         <rdfs:comment xml:lang="es">Una rama de conocimiento es el campo en el que se agrupan diferentes titulaciones con un conjunto de materias similares lo que hace que tengan una identidad semejante.</rdfs:comment>
+         <rdfs:comment xml:lang="en">A branch of knowledge is the field in which different degrees are grouped with a set of similar subjects which makes them have a similar identity.</rdfs:comment>
+     </owl:Class>
+
+    <owl:Class rdf:about="#Titulación">
+        <rdfs:subClassOf rdf:about="#RamaConocimiento"/>
         <rdfs:label xml:lang="es">Titulación</rdfs:label>
         <rdfs:label xml:lang="en">Degree</rdfs:label>
         <rdfs:comment xml:lang="es">Una titulación es el reconocimiento que se obtiene después de superar los estudios universitarios de grado o máster; reconocíendo una formación general, en una o varias disciplinas, orientada a la preparación para el
             desempeño de actividades de carácter profesional.</rdfs:comment>
         <rdfs:comment xml:lang="en">A degree is the recognition that is obtained after overcoming university studies of degree or masters; Recognizing a general formation, in one or several disciplines, oriented to the preparation for the performance of professional activities.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://cabas.ugr.es/ontology/ugr#" />
-        <owl:sameAs rdf:resource="http://cabas.ugr.es/ontology/ugr#Titulación" />
-        <owl:equivalentClass rdf:resource="http://vivoweb.org/ontology/core#AcademicDegree" />
-        <vs:term_status>stable</vs:term_status>
     </owl:Class>
 
-    <owl:Class rdf:about="http://cabas.ugr.es/ontology/ugr#RamaConocimiento">
-        <rdfs:label xml:lang="es">Rama de conocimiento</rdfs:label>
-        <rdfs:label xml:lang="en">Branch of knowledge</rdfs:label>
-        <rdfs:comment xml:lang="es">Una rama de conocimiento es el campo en el que se agrupan diferentes titulaciones con un conjunto de materias similares lo que hace que tengan una identidad semejante.</rdfs:comment>
-        <rdfs:comment xml:lang="en">A branch of knowledge is the field in which different degrees are grouped with a set of similar subjects which makes them have a similar identity.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://cabas.ugr.es/ontology/ugr#" />
-        <owl:sameAs rdf:resource="http://cabas.ugr.es/ontology/ugr#RamaConocimiento" />
-        <vs:term_status>stable</vs:term_status>
+    <owl:Class rdf:about="#Persona">
+        <rdfs:label xml:lang="es">Persona</rdfs:label>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+        <rdfs:comment xml:lang="es">Una persona es un ser racional e inteligente, consciente de sí mismo y de sus actos que cuenta con identidad propia.<rdfs:comment>
+        <rdfs:comment xml:lang="en">A person is a rational and intelligent being, aware of himself and his acts that has its own identity.</rdfs:comment>
+        <owl:equivalentClass rdf:resource="&dbo;Person" />
+        <owl:equivalentClass rdf:resource="&wd;Q215627" />
+    </owl:Class>
+
+    <owl:Class rdf:about="#Hombres">
+        <rdfs:subClassOf rdf:about="#Persona"/>
+        <rdfs:label xml:lang="es">Hombres</rdfs:label>
+        <rdfs:label xml:lang="en">Men</rdfs:label>
+        <rdfs:comment xml:lang="es">Número de estudiantes hombres.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Number of male students.</rdfs:comment>
+        <owl:equivalentClass rdf:resource="&schema;Male" />
+        <owl:equivalentClass rdf:resource="&wd;Q6581097" />
+    </owl:Class>
+
+    <owl:Class rdf:about="#Mujeres">
+        <rdfs:subClassOf rdf:about="#Persona"/>
+        <rdfs:label xml:lang="es">Mujeres</rdfs:label>
+        <rdfs:label xml:lang="en">Women</rdfs:label>
+        <rdfs:comment xml:lang="es">Número de estudiantes mujeres.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Number of female students.</rdfs:comment>
+        <owl:equivalentClass rdf:resource="&schema;Female" />
+        <owl:equivalentClass rdf:resource="&wd;Q6581072" />
     </owl:Class>
 
     <!--
@@ -91,31 +122,29 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:ObjectProperty rdf:about="http://cabas.ugr.es/ontology/ugr#tieneRamaConocimiento">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
-        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+    <owl:ObjectProperty rdf:about="#tieneRamaConocimiento">
+        <rdf:type rdf:resource="&owl;FunctionalProperty" />
+        <rdf:type rdf:resource="&rdf;Property" />
         <rdfs:label xml:lang="es">tiene rama de conocimiento</rdfs:label>
         <rdfs:label xml:lang="en">has branch of knowledge</rdfs:label>
         <rdfs:comment xml:lang="es">Una titulación pertenece a una rama de conocimiento.</rdfs:comment>
         <rdfs:comment xml:lang="en">A degree belongs to a branch of knowledge.</rdfs:comment>
-        <rdfs:domain rdf:resource="http://cabas.ugr.es/ontology/ugr#Titulación" />
-        <rdfs:range rdf:resource="http://cabas.ugr.es/ontology/ugr#RamaConocimiento" />
-        <owl:sameAs rdf:resource="http://cabas.ugr.es/ontology/ugr#tieneRamaConocimiento" />
-        <owl:inverseOf rdf:resource="http://cabas.ugr.es/ontology/ugr#tieneTitulación" />
-        <vs:term_status>stable</vs:term_status>
+        <rdfs:domain rdf:resource="#Titulación" />
+        <rdfs:range rdf:resource="#RamaConocimiento" />
+        <owl:sameAs rdf:resource="#tieneRamaConocimiento" />
+        <owl:inverseOf rdf:resource="#tieneTitulación" />
     </owl:ObjectProperty>
 
-    <owl:ObjectProperty rdf:about="http://cabas.ugr.es/ontology/ugr#tieneTitulación">
-        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+    <owl:ObjectProperty rdf:about="#tieneTitulación">
+        <rdf:type rdf:resource="&rdf;Property" />
         <rdfs:label xml:lang="es">tiene titulación</rdfs:label>
         <rdfs:label xml:lang="en">has degree</rdfs:label>
         <rdfs:comment xml:lang="es">Una rama de conocimiento engloba diferentes titulaciones.</rdfs:comment>
         <rdfs:comment xml:lang="en">A branch of knowledge encompasses different degrees.</rdfs:comment>
-        <rdfs:domain rdf:resource="http://cabas.ugr.es/ontology/ugr#RamaConocimiento" />
-        <rdfs:range rdf:resource="http://cabas.ugr.es/ontology/ugr#Titulación" />
-        <owl:sameAs rdf:resource="http://cabas.ugr.es/ontology/ugr#tieneTitulacion" />
-        <owl:inverseOf rdf:resource="http://cabas.ugr.es/ontology/ugr#tieneRamaConocimiento" />
-        <vs:term_status>stable</vs:term_status>
+        <rdfs:domain rdf:resource="#RamaConocimiento" />
+        <rdfs:range rdf:resource="#Titulación" />
+        <owl:sameAs rdf:resource="#tieneTitulacion" />
+        <owl:inverseOf rdf:resource="#tieneRamaConocimiento" />
     </owl:ObjectProperty>
 
     <!--
@@ -126,33 +155,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:DatatypeProperty rdf:about="http://cabas.ugr.es/ontology/ugr#hombres">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
-        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
-        <rdfs:label xml:lang="es">hombres</rdfs:label>
-        <rdfs:label xml:lang="en">men</rdfs:label>
-        <rdfs:comment xml:lang="es">Número de estudiantes hombres.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Number of male students.</rdfs:comment>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger" />
-        <rdfs:isDefinedBy rdf:resource="http://cabas.ugr.es/ontology/ugr#" />
-        <owl:sameAs rdf:resource="http://cabas.ugr.es/ontology/ugr#hombres" />
-        <owl:inverseOf rdf:resource="http://cabas.ugr.es/ontology/ugr#mujeres" />
-        <vs:term_status>stable</vs:term_status>
-    </owl:DatatypeProperty>
 
-    <owl:DatatypeProperty rdf:about="http://cabas.ugr.es/ontology/ugr#mujeres">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
-        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
-        <rdfs:label xml:lang="es">mujeres</rdfs:label>
-        <rdfs:label xml:lang="en">women</rdfs:label>
-        <rdfs:comment xml:lang="es">Número de estudiantes mujeres.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Number of female students.</rdfs:comment>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger" />
-        <rdfs:isDefinedBy rdf:resource="http://cabas.ugr.es/ontology/ugr#" />
-        <owl:sameAs rdf:resource="http://cabas.ugr.es/ontology/ugr#mujeres" />
-        <owl:inverseOf rdf:resource="http://cabas.ugr.es/ontology/ugr#hombres" />
-        <vs:term_status>stable</vs:term_status>
-    </owl:DatatypeProperty>
 
     <!--
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -164,22 +167,22 @@
 
     <owl:AllDisjointProperties>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://cabas.ugr.es/ontology/ugr#tieneRamaConocimiento" />
-            <rdf:Description rdf:about="http://cabas.ugr.es/ontology/ugr#tieneTitulacion" />
+            <rdf:Description rdf:about="#tieneRamaConocimiento" />
+            <rdf:Description rdf:about="#tieneTitulacion" />
         </owl:members>
     </owl:AllDisjointProperties>
 
     <owl:AllDisjointProperties>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://cabas.ugr.es/ontology/ugr#hombres" />
-            <rdf:Description rdf:about="http://cabas.ugr.es/ontology/ugr#mujeres" />
+            <rdf:Description rdf:about="#hombres" />
+            <rdf:Description rdf:about="#mujeres" />
         </owl:members>
     </owl:AllDisjointProperties>
 
     <owl:AllDisjointClasses>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://cabas.ugr.es/ontology/ugr#Titulación" />
-            <rdf:Description rdf:about="http://cabas.ugr.es/ontology/ugr#RamaConocimiento" />
+            <rdf:Description rdf:about="#Titulación" />
+            <rdf:Description rdf:about="#RamaConocimiento" />
         </owl:members>
     </owl:AllDisjointClasses>
 </rdf:RDF>
