@@ -1,133 +1,108 @@
+@prefix : <http://cabas.ugr.es/ontology/ugr#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix dc: <http://purl.org/dc/terms/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix cc: <http://creativecommons.org/ns#> .
-@prefix ns0: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
 
-<http://cabas.ugr.es/ontology/ugr#> a owl:Ontology ;
-  dc:created "2017-06-18"^^xsd:date ;
-  rdfs:comment
-    "Ontología creada para describir los conjuntos de datos abiertos de la Universidad de Granada."@es,
-    "Ontology created to describe the open data sets of the University of Granada."@en ;
-  owl:versionInfo "1.0"@es ;
-  owl:sameAs <http://cabas.ugr.es/ontology/ugr#> ;
-  cc:license
-    <http://www.gnu.org/copyleft/fdl.html>,
-    <http://creativecommons.org/licenses/by-sa/4.0/> ;
-  ns0:preferredNamespacePrefix "ugr" ;
-  ns0:preferredNamespaceUri "http://cabas.ugr.es/ontology/ugr#" ;
-  foaf:homepage <http://opendata.ugr.es> ;
-  rdfs:label
-    "Ontología de la Universidad de Granada"@es,
-    "Ontology of the University of Granada"@en ;
-  dc:title
-    "Ontología de la Universidad de Granada"@es,
-    "Ontology of the University of Granada"@en ;
-  dc:description
-    "La ontología de la Universidad de Granada define las clases y propiedades utilizadas en los conjuntos de datos abiertos de la propia Universidad."@es,
-    "The ontology of the University of Granada defines the classes and properties used in the open data sets of the University itself."@en ;
-  ns1:term_status "stable" ;
-  dc:creator "Germán Martínez Maldonado" ;
-  foaf:maker <https://github.com/germaaan> ;
-  dc:source <http://opendata.ugr.es> ;
-  dc:publisher "Oficina de Software Libre de la Universidad de Granada" .
+: a owl:Ontology ;
+    rdfs:label "Ontology of the University of Granada"@en,
+        "Ontología de la Universidad de Granada"@es ;
+    cc:license <http://creativecommons.org/licenses/by-sa/4.0/>,
+        <http://www.gnu.org/copyleft/fdl.html> ;
+    dcterms:created "2017-06-18"^^xsd:date ;
+    dcterms:creator "Germán Martínez Maldonado" ;
+    dcterms:description """
+            The ontology of the University of Granada defines the classes and properties used in the open data sets of the University itself.
+        """@en,"""
+            La ontología de la Universidad de Granada define las clases y propiedades utilizadas en los conjuntos de datos abiertos de la propia Universidad.
+        """@es ;
+    dcterms:publisher "Oficina de Software Libre de la Universidad de Granada" ;
+    dcterms:source <http://opendata.ugr.es> ;
+    dcterms:title "Ontology of the University of Granada"@en,
+        "Ontología de la Universidad de Granada"@es ;
+    vann:preferredNamespacePrefix "ugr" ;
+    vann:preferredNamespaceUri "http://cabas.ugr.es/ontology/ugr#" ;
+    rdfs:comment """
+            Ontology created to describe the open data sets of the University of Granada.
+        """@en,"""
+            Ontología creada para describir los conjuntos de datos abiertos de la Universidad de Granada.
+        """@es ;
+    owl:versionInfo "1.0"@es ;
+    foaf:homepage <http://opendata.ugr.es> ;
+    foaf:maker <https://github.com/germaaan> .
 
-<http://cabas.ugr.es/ontology/ugr#Titulación> a owl:Class ;
-  rdfs:label
-    "Titulación"@es,
-    "Degree"@en ;
-  rdfs:comment
-    "Una titulación es el reconocimiento que se obtiene después de superar los estudios universitarios de grado o máster; reconocíendo una formación general, en una o varias disciplinas, orientada a la preparación para el desempeño de actividades de carácter profesional."@es,
-    "A degree is the recognition that is obtained after overcoming university studies of degree or masters; Recognizing a general formation, in one or several disciplines, oriented to the preparation for the performance of professional activities."@en ;
-  rdfs:isDefinedBy <http://cabas.ugr.es/ontology/ugr#> ;
-  owl:sameAs <http://cabas.ugr.es/ontology/ugr#Titulación> ;
-  owl:equivalentClass <http://vivoweb.org/ontology/core#AcademicDegree> ;
-  ns1:term_status "stable" .
+<#Hombres> a owl:Class ;
+    rdfs:label "Men"@en,
+        "Hombres"@es ;
+    rdfs:comment "Number of male students."@en,
+        "Número de estudiantes hombres."@es ;
+    rdfs:subClassOf <#Persona> ;
+    owl:equivalentClass <http://schema.org/Male>,
+        <https://www.wikidata.org/wiki/Q6581097> .
 
-<http://cabas.ugr.es/ontology/ugr#RamaConocimiento> a owl:Class ;
-  rdfs:label
-    "Rama de conocimiento"@es,
-    "Branch of knowledge"@en ;
-  rdfs:comment
-    "Una rama de conocimiento es el campo en el que se agrupan diferentes titulaciones con un conjunto de materias similares lo que hace que tengan una identidad semejante."@es,
-    "A branch of knowledge is the field in which different degrees are grouped with a set of similar subjects which makes them have a similar identity."@en ;
-  rdfs:isDefinedBy <http://cabas.ugr.es/ontology/ugr#> ;
-  owl:sameAs <http://cabas.ugr.es/ontology/ugr#RamaConocimiento> ;
-  ns1:term_status "stable" .
+<#Mujeres> a owl:Class ;
+    rdfs:label "Women"@en,
+        "Mujeres"@es ;
+    rdfs:comment "Number of female students."@en,
+        "Número de estudiantes mujeres."@es ;
+    rdfs:subClassOf <#Persona> ;
+    owl:equivalentClass <http://schema.org/Female>,
+        <https://www.wikidata.org/wiki/Q6581072> .
 
-<http://cabas.ugr.es/ontology/ugr#tieneRamaConocimiento> a owl:ObjectProperty, owl:FunctionalProperty, rdf:Property ;
-  rdfs:label
-    "tiene rama de conocimiento"@es,
-    "has branch of knowledge"@en ;
-  rdfs:comment
-    "Una titulación pertenece a una rama de conocimiento."@es,
-    "A degree belongs to a branch of knowledge."@en ;
-  rdfs:domain <http://cabas.ugr.es/ontology/ugr#Titulación> ;
-  rdfs:range <http://cabas.ugr.es/ontology/ugr#RamaConocimiento> ;
-  owl:sameAs <http://cabas.ugr.es/ontology/ugr#tieneRamaConocimiento> ;
-  owl:inverseOf <http://cabas.ugr.es/ontology/ugr#tieneTitulación> ;
-  ns1:term_status "stable" .
+<#tieneTitulación> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "has degree"@en,
+        "tiene titulación"@es ;
+    rdfs:comment "A branch of knowledge encompasses different degrees."@en,
+        "Una rama de conocimiento engloba diferentes titulaciones."@es ;
+    rdfs:domain <#RamaConocimiento> ;
+    rdfs:range <#Titulación> ;
+    owl:inverseOf <#tieneRamaConocimiento> ;
+    = <#tieneTitulacion> .
 
-<http://cabas.ugr.es/ontology/ugr#tieneTitulación> a owl:ObjectProperty ;
-  rdfs:label
-    "tiene titulación"@es,
-    "has degree"@en ;
-  rdfs:comment
-    "Una rama de conocimiento engloba diferentes titulaciones."@es,
-    "A branch of knowledge encompasses different degrees."@en ;
-  rdfs:domain <http://cabas.ugr.es/ontology/ugr#RamaConocimiento> ;
-  rdfs:range <http://cabas.ugr.es/ontology/ugr#Titulación> ;
-  owl:sameAs <http://cabas.ugr.es/ontology/ugr#tieneTitulacion> ;
-  owl:inverseOf <http://cabas.ugr.es/ontology/ugr#tieneRamaConocimiento> ;
-  ns1:term_status "stable" .
+<#Persona> a owl:Class ;
+    rdfs:label "Person"@en,
+        "Persona"@es ;
+    rdfs:comment "A person is a rational and intelligent being, aware of himself and his acts that has its own identity."@en,
+        "Una persona es un ser racional e inteligente, consciente de sí mismo y de sus actos que cuenta con identidad propia."@es ;
+    owl:equivalentClass <http://dbpedia.org/ontology/Person>,
+        <https://www.wikidata.org/wiki/Q215627> .
 
-<http://cabas.ugr.es/ontology/ugr#hombres> a owl:DatatypeProperty, owl:FunctionalProperty, rdf:Property ;
-  rdfs:label
-    "hombres"@es,
-    "men"@en ;
-  rdfs:comment
-    "Número de estudiantes hombres."@es,
-    "Number of male students."@en ;
-  rdfs:range xsd:nonNegativeInteger ;
-  rdfs:isDefinedBy <http://cabas.ugr.es/ontology/ugr#> ;
-  owl:sameAs <http://cabas.ugr.es/ontology/ugr#hombres> ;
-  owl:inverseOf <http://cabas.ugr.es/ontology/ugr#mujeres> ;
-  ns1:term_status "stable" .
+<#Titulación> a owl:Class ;
+    rdfs:label "Degree"@en,
+        "Titulación"@es ;
+    rdfs:comment "A degree is the recognition that is obtained after overcoming university studies of degree or masters; Recognizing a general formation, in one or several disciplines, oriented to the preparation for the performance of professional activities."@en,"""Una titulación es el reconocimiento que se obtiene después de superar los estudios universitarios de grado o máster; reconocíendo una formación general, en una o varias disciplinas, orientada a la preparación para el
+            desempeño de actividades de carácter profesional."""@es ;
+    rdfs:subClassOf <#RamaConocimiento> .
 
-<http://cabas.ugr.es/ontology/ugr#mujeres> a owl:DatatypeProperty, owl:FunctionalProperty, rdf:Property ;
-  rdfs:label
-    "mujeres"@es,
-    "women"@en ;
-  rdfs:comment
-    "Número de estudiantes mujeres."@es,
-    "Number of female students."@en ;
-  rdfs:range xsd:nonNegativeInteger ;
-  rdfs:isDefinedBy <http://cabas.ugr.es/ontology/ugr#> ;
-  owl:sameAs <http://cabas.ugr.es/ontology/ugr#mujeres> ;
-  owl:inverseOf <http://cabas.ugr.es/ontology/ugr#hombres> ;
-  ns1:term_status "stable" .
+<#tieneRamaConocimiento> a rdf:Property,
+        owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label "has branch of knowledge"@en,
+        "tiene rama de conocimiento"@es ;
+    rdfs:comment "A degree belongs to a branch of knowledge."@en,
+        "Una titulación pertenece a una rama de conocimiento."@es ;
+    rdfs:domain <#Titulación> ;
+    rdfs:range <#RamaConocimiento> ;
+    owl:inverseOf <#tieneTitulación> ;
+    = <#tieneRamaConocimiento> .
 
-[]
-  a owl:AllDisjointProperties ;
-  owl:members (
-   <http://cabas.ugr.es/ontology/ugr#tieneRamaConocimiento>
-   <http://cabas.ugr.es/ontology/ugr#tieneTitulacion>
- ) .
+<#RamaConocimiento> a owl:Class ;
+    rdfs:label "Branch of knowledge"@en,
+        "Rama de conocimiento"@es ;
+    rdfs:comment "A branch of knowledge is the field in which different degrees are grouped with a set of similar subjects which makes them have a similar identity."@en,
+        "Una rama de conocimiento es el campo en el que se agrupan diferentes titulaciones con un conjunto de materias similares lo que hace que tengan una identidad semejante."@es .
 
-[]
-  a owl:AllDisjointProperties ;
-  owl:members (
-   <http://cabas.ugr.es/ontology/ugr#hombres>
-   <http://cabas.ugr.es/ontology/ugr#mujeres>
- ) .
+[] a owl:AllDisjointClasses ;
+    owl:members ( <#Titulación> <#RamaConocimiento> ) .
 
-[]
-  a owl:AllDisjointClasses ;
-  owl:members (
-   <http://cabas.ugr.es/ontology/ugr#Titulación>
-   <http://cabas.ugr.es/ontology/ugr#RamaConocimiento>
- ) .
+[] a owl:AllDisjointProperties ;
+    owl:members ( <#tieneRamaConocimiento> <#tieneTitulacion> ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( <#Hombres> <#Mujeres> ) .

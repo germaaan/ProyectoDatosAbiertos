@@ -5,33 +5,24 @@
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY dc "http://purl.org/dc/terms/" >
+    <!ENTITY dcterms "http://purl.org/dc/terms/" >
     <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
-    <!ENTITY dbo "http://dbpedia.org/ontology/" >
-    <!ENTITY schema "http://schema.org" >
-    <!ENTITY wd "https://www.wikidata.org/wiki/" >
     <!ENTITY cc "http://creativecommons.org/ns#" >
     <!ENTITY vann "http://purl.org/vocab/vann/" >
-    <!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
 ]>
 
 <rdf:RDF
-    xmlns="&ugr;"
-    xmlns:base="http://cabas.ugr.es/ontology/ugr"
+    xmlns="http://cabas.ugr.es/ontology/ugr#"
     xmlns:rdf="&rdf;"
     xmlns:rdfs="&rdfs;"
     xmlns:xsd="&xsd;"
     xmlns:owl="&owl;"
-    xmlns:dc="&dc;"
+    xmlns:dcterms="&dcterms;"
     xmlns:foaf="&foaf;"
-    xmlns:dbo="&dbo;"
-    xmlns:schema="&schema;"
-    xmlns:wd="&wd;"
     xmlns:cc="&cc;"
-    xmlns:vann="&vann;"
-    xmlns:ugr="&ugr;">
+    xmlns:vann="&vann;">
 
-    <owl:Ontology rdf:about="&ugr;">
+    <owl:Ontology rdf:about="http://cabas.ugr.es/ontology/ugr#">
         <rdfs:label xml:lang="es">Ontología de la Universidad de Granada</rdfs:label>
         <rdfs:label xml:lang="en">Ontology of the University of Granada</rdfs:label>
         <rdfs:comment xml:lang="es">
@@ -40,23 +31,23 @@
         <rdfs:comment xml:lang="en">
             Ontology created to describe the open data sets of the University of Granada.
         </rdfs:comment>
-        <dc:title xml:lang="es">Ontología de la Universidad de Granada</dc:title>
-        <dc:title xml:lang="en">Ontology of the University of Granada</dc:title>
-        <dc:description xml:lang="es">
+        <dcterms:title xml:lang="es">Ontología de la Universidad de Granada</dcterms:title>
+        <dcterms:title xml:lang="en">Ontology of the University of Granada</dcterms:title>
+        <dcterms:description xml:lang="es">
             La ontología de la Universidad de Granada define las clases y propiedades utilizadas en los conjuntos de datos abiertos de la propia Universidad.
-        </dc:description>
-        <dc:description xml:lang="en">
+        </dcterms:description>
+        <dcterms:description xml:lang="en">
             The ontology of the University of Granada defines the classes and properties used in the open data sets of the University itself.
-        </dc:description>
+        </dcterms:description>
         <owl:versionInfo xml:lang="es">1.0</owl:versionInfo>
-        <dc:created rdf:datatype="&xsd;date">2017-06-18</dc:created>
+        <dcterms:created rdf:datatype="&xsd;date">2017-06-18</dcterms:created>
         <vann:preferredNamespacePrefix>ugr</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://cabas.ugr.es/ontology/ugr#</vann:preferredNamespaceUri>
         <foaf:homepage rdf:resource="http://opendata.ugr.es" />
-        <dc:source rdf:resource="http://opendata.ugr.es" />
-        <dc:creator>Germán Martínez Maldonado</dc:creator>
+        <dcterms:source rdf:resource="http://opendata.ugr.es" />
+        <dcterms:creator>Germán Martínez Maldonado</dcterms:creator>
         <foaf:maker rdf:resource="https://github.com/germaaan" />
-        <dc:publisher>Oficina de Software Libre de la Universidad de Granada</dc:publisher>
+        <dcterms:publisher>Oficina de Software Libre de la Universidad de Granada</dcterms:publisher>
         <cc:license rdf:resource="http://www.gnu.org/copyleft/fdl.html" />
         <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
     </owl:Ontology>
@@ -77,7 +68,7 @@
      </owl:Class>
 
     <owl:Class rdf:about="#Titulación">
-        <rdfs:subClassOf rdf:about="#RamaConocimiento"/>
+        <rdfs:subClassOf rdf:resource="#RamaConocimiento"/>
         <rdfs:label xml:lang="es">Titulación</rdfs:label>
         <rdfs:label xml:lang="en">Degree</rdfs:label>
         <rdfs:comment xml:lang="es">Una titulación es el reconocimiento que se obtiene después de superar los estudios universitarios de grado o máster; reconocíendo una formación general, en una o varias disciplinas, orientada a la preparación para el
@@ -88,30 +79,30 @@
     <owl:Class rdf:about="#Persona">
         <rdfs:label xml:lang="es">Persona</rdfs:label>
         <rdfs:label xml:lang="en">Person</rdfs:label>
-        <rdfs:comment xml:lang="es">Una persona es un ser racional e inteligente, consciente de sí mismo y de sus actos que cuenta con identidad propia.<rdfs:comment>
+        <rdfs:comment xml:lang="es">Una persona es un ser racional e inteligente, consciente de sí mismo y de sus actos que cuenta con identidad propia.</rdfs:comment>
         <rdfs:comment xml:lang="en">A person is a rational and intelligent being, aware of himself and his acts that has its own identity.</rdfs:comment>
-        <owl:equivalentClass rdf:resource="&dbo;Person" />
-        <owl:equivalentClass rdf:resource="&wd;Q215627" />
+        <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Person" />
+        <owl:equivalentClass rdf:resource="https://www.wikidata.org/wiki/Q215627" />
     </owl:Class>
 
     <owl:Class rdf:about="#Hombres">
-        <rdfs:subClassOf rdf:about="#Persona"/>
+        <rdfs:subClassOf rdf:resource="#Persona"/>
         <rdfs:label xml:lang="es">Hombres</rdfs:label>
         <rdfs:label xml:lang="en">Men</rdfs:label>
         <rdfs:comment xml:lang="es">Número de estudiantes hombres.</rdfs:comment>
         <rdfs:comment xml:lang="en">Number of male students.</rdfs:comment>
-        <owl:equivalentClass rdf:resource="&schema;Male" />
-        <owl:equivalentClass rdf:resource="&wd;Q6581097" />
+        <owl:equivalentClass rdf:resource="http://schema.org/Male" />
+        <owl:equivalentClass rdf:resource="https://www.wikidata.org/wiki/Q6581097" />
     </owl:Class>
 
     <owl:Class rdf:about="#Mujeres">
-        <rdfs:subClassOf rdf:about="#Persona"/>
+        <rdfs:subClassOf rdf:resource="#Persona"/>
         <rdfs:label xml:lang="es">Mujeres</rdfs:label>
         <rdfs:label xml:lang="en">Women</rdfs:label>
         <rdfs:comment xml:lang="es">Número de estudiantes mujeres.</rdfs:comment>
         <rdfs:comment xml:lang="en">Number of female students.</rdfs:comment>
-        <owl:equivalentClass rdf:resource="&schema;Female" />
-        <owl:equivalentClass rdf:resource="&wd;Q6581072" />
+        <owl:equivalentClass rdf:resource="http://schema.org/Female" />
+        <owl:equivalentClass rdf:resource="https://www.wikidata.org/wiki/Q6581072" />
     </owl:Class>
 
     <!--
@@ -172,12 +163,12 @@
         </owl:members>
     </owl:AllDisjointProperties>
 
-    <owl:AllDisjointProperties>
+    <owl:AllDisjointClasses>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="#hombres" />
-            <rdf:Description rdf:about="#mujeres" />
+            <rdf:Description rdf:about="#Hombres" />
+            <rdf:Description rdf:about="#Mujeres" />
         </owl:members>
-    </owl:AllDisjointProperties>
+    </owl:AllDisjointClasses>
 
     <owl:AllDisjointClasses>
         <owl:members rdf:parseType="Collection">
