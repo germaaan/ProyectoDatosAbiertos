@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<!DOCTYPE rdf:RDF [
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY dcterms "http://purl.org/dc/terms/" >
-    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
-    <!ENTITY cc "http://creativecommons.org/ns#" >
-    <!ENTITY vann "http://purl.org/vocab/vann/" >
-]>
-
 <rdf:RDF
     xmlns="http://cabas.ugr.es/ontology/ugr#"
-    xmlns:rdf="&rdf;"
-    xmlns:rdfs="&rdfs;"
-    xmlns:xsd="&xsd;"
-    xmlns:owl="&owl;"
-    xmlns:dcterms="&dcterms;"
-    xmlns:foaf="&foaf;"
-    xmlns:cc="&cc;"
-    xmlns:vann="&vann;">
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:vann="http://purl.org/vocab/vann/">
 
     <owl:Ontology rdf:about="http://cabas.ugr.es/ontology/ugr#">
         <rdfs:label xml:lang="es">Ontología de la Universidad de Granada</rdfs:label>
@@ -40,7 +28,7 @@
             The ontology of the University of Granada defines the classes and properties used in the open data sets of the University itself.
         </dcterms:description>
         <owl:versionInfo xml:lang="es">1.0</owl:versionInfo>
-        <dcterms:created rdf:datatype="&xsd;date">2017-06-18</dcterms:created>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-06-18</dcterms:created>
         <vann:preferredNamespacePrefix>ugr</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://cabas.ugr.es/ontology/ugr#</vann:preferredNamespaceUri>
         <foaf:homepage rdf:resource="http://opendata.ugr.es" />
@@ -86,7 +74,7 @@
     </owl:Class>
 
     <owl:Class rdf:about="#Hombres">
-        <rdfs:subClassOf rdf:resource="#Persona"/>
+        <rdfs:type rdf:resource="#Persona"/>
         <rdfs:label xml:lang="es">Hombres</rdfs:label>
         <rdfs:label xml:lang="en">Men</rdfs:label>
         <rdfs:comment xml:lang="es">Número de estudiantes hombres.</rdfs:comment>
@@ -96,7 +84,7 @@
     </owl:Class>
 
     <owl:Class rdf:about="#Mujeres">
-        <rdfs:subClassOf rdf:resource="#Persona"/>
+        <rdfs:type rdf:resource="#Persona"/>
         <rdfs:label xml:lang="es">Mujeres</rdfs:label>
         <rdfs:label xml:lang="en">Women</rdfs:label>
         <rdfs:comment xml:lang="es">Número de estudiantes mujeres.</rdfs:comment>
@@ -114,8 +102,8 @@
      -->
 
     <owl:ObjectProperty rdf:about="#tieneRamaConocimiento">
-        <rdf:type rdf:resource="&owl;FunctionalProperty" />
-        <rdf:type rdf:resource="&rdf;Property" />
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
         <rdfs:label xml:lang="es">tiene rama de conocimiento</rdfs:label>
         <rdfs:label xml:lang="en">has branch of knowledge</rdfs:label>
         <rdfs:comment xml:lang="es">Una titulación pertenece a una rama de conocimiento.</rdfs:comment>
@@ -127,7 +115,7 @@
     </owl:ObjectProperty>
 
     <owl:ObjectProperty rdf:about="#tieneTitulación">
-        <rdf:type rdf:resource="&rdf;Property" />
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
         <rdfs:label xml:lang="es">tiene titulación</rdfs:label>
         <rdfs:label xml:lang="en">has degree</rdfs:label>
         <rdfs:comment xml:lang="es">Una rama de conocimiento engloba diferentes titulaciones.</rdfs:comment>

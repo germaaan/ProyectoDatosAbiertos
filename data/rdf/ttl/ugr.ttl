@@ -1,5 +1,4 @@
 @prefix : <http://cabas.ugr.es/ontology/ugr#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -41,7 +40,7 @@
         "Hombres"@es ;
     rdfs:comment "Number of male students."@en,
         "Número de estudiantes hombres."@es ;
-    rdfs:subClassOf <#Persona> ;
+    rdfs:type <#Persona> ;
     owl:equivalentClass <http://schema.org/Male>,
         <https://www.wikidata.org/wiki/Q6581097> .
 
@@ -50,7 +49,7 @@
         "Mujeres"@es ;
     rdfs:comment "Number of female students."@en,
         "Número de estudiantes mujeres."@es ;
-    rdfs:subClassOf <#Persona> ;
+    rdfs:type <#Persona> ;
     owl:equivalentClass <http://schema.org/Female>,
         <https://www.wikidata.org/wiki/Q6581072> .
 
@@ -62,8 +61,7 @@
         "Una rama de conocimiento engloba diferentes titulaciones."@es ;
     rdfs:domain <#RamaConocimiento> ;
     rdfs:range <#Titulación> ;
-    owl:inverseOf <#tieneRamaConocimiento> ;
-    = <#tieneTitulacion> .
+    owl:inverseOf <#tieneRamaConocimiento> .
 
 <#Persona> a owl:Class ;
     rdfs:label "Person"@en,
@@ -89,8 +87,7 @@
         "Una titulación pertenece a una rama de conocimiento."@es ;
     rdfs:domain <#Titulación> ;
     rdfs:range <#RamaConocimiento> ;
-    owl:inverseOf <#tieneTitulación> ;
-    = <#tieneRamaConocimiento> .
+    owl:inverseOf <#tieneTitulación> .
 
 <#RamaConocimiento> a owl:Class ;
     rdfs:label "Branch of knowledge"@en,

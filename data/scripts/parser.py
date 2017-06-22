@@ -26,24 +26,25 @@ with open('matriculas_grado_1516.csv', 'r') as ifile:
 ofile = open('matriculas_grado_1516.rdf', 'w')
 ofile.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"+
 "<rdf:RDF\n"+
+"\txmlns=\"http://cabas.ugr.es/resources/\"\n"+
 "\txmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n"+
 "\txmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"\n"+
 "\txmlns:xsd=\"http://www.w3.org/2001/XMLSchema#\"\n"+
 "\txmlns:owl=\"http://www.w3.org/2002/07/owl#\"\n"+
-"\txmlns:vivo=\"http://vivoweb.org/ontology/core#\"\n"+
+"\txmlns:dcterms=\"http://purl.org/dc/terms/\"\n"+
 "\txmlns:ugr=\"http://cabas.ugr.es/ontology/ugr#\">\n\n")
 ofile.close()
 
 with open('matriculas_grado_1516.rdf', 'a') as ofile:
         for lines in data:
             if id > 0:
-                ofile.write("<rdf:Description rdf:about=\"http://cabas.ugr.es/resources/MatriculasGrado1516#"+str(id)+"\">\n"+
+                ofile.write("<rdf:Description rdf:about=\"MatriculasGrado1516#"+str(id)+"\">\n"+
                 "\t<rdfs:label>"+lines[1]+"</rdfs:label>\n"+
                 "\t<ugr:RamaConocimiento>"+lines[0]+"</ugr:RamaConocimiento>\n"+
                 "\t<ugr:Titulación>"+lines[1]+"</ugr:Titulación>\n"+
-                "\t<ugr:hombres rdf:datatype=\"http://www.w3.org/2001/XMLSchema#nonNegativeInteger\">"+lines[2]+"</ugr:hombres>\n"+
-                "\t<ugr:mujeres rdf:datatype=\"http://www.w3.org/2001/XMLSchema#nonNegativeInteger\">"+lines[3]+"</ugr:mujeres>\n"+
-                "\t<vivo:AcademicTerm>2015/2016</vivo:AcademicTerm>\n"+
+                "\t<ugr:Hombres rdf:datatype=\"http://www.w3.org/2001/XMLSchema#nonNegativeInteger\">"+lines[2]+"</ugr:Hombres>\n"+
+                "\t<ugr:Mujeres rdf:datatype=\"http://www.w3.org/2001/XMLSchema#nonNegativeInteger\">"+lines[3]+"</ugr:Mujeres>\n"+
+                "\t<dcterms:coverage>2015/2016</dcterms:coverage>\n"+
                 "</rdf:Description>\n\n")
             id += 1
 
