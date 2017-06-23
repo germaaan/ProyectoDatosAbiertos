@@ -64,34 +64,40 @@
         <rdfs:comment xml:lang="en">A degree is the recognition that is obtained after overcoming university studies of degree or masters; Recognizing a general formation, in one or several disciplines, oriented to the preparation for the performance of professional activities.</rdfs:comment>
     </owl:Class>
 
-    <owl:Class rdf:about="#Persona">
+    <owl:DatatypeProperty rdf:about="#Persona">
         <rdfs:label xml:lang="es">Persona</rdfs:label>
         <rdfs:label xml:lang="en">Person</rdfs:label>
         <rdfs:comment xml:lang="es">Una persona es un ser racional e inteligente, consciente de sí mismo y de sus actos que cuenta con identidad propia.</rdfs:comment>
         <rdfs:comment xml:lang="en">A person is a rational and intelligent being, aware of himself and his acts that has its own identity.</rdfs:comment>
+        <!--
         <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Person" />
         <owl:equivalentClass rdf:resource="https://www.wikidata.org/wiki/Q215627" />
-    </owl:Class>
+        -->
+    </owl:DatatypeProperty>
 
-    <owl:Class rdf:about="#Hombres">
+    <owl:DatatypeProperty rdf:about="#Hombres">
         <rdfs:subPropertyOf rdf:resource="#Persona"/>
         <rdfs:label xml:lang="es">Hombres</rdfs:label>
         <rdfs:label xml:lang="en">Men</rdfs:label>
         <rdfs:comment xml:lang="es">Número de estudiantes hombres.</rdfs:comment>
         <rdfs:comment xml:lang="en">Number of male students.</rdfs:comment>
+        <!--
         <owl:equivalentClass rdf:resource="http://schema.org/Male" />
         <owl:equivalentClass rdf:resource="https://www.wikidata.org/wiki/Q6581097" />
-    </owl:Class>
+        -->
+    </owl:DatatypeProperty>
 
-    <owl:Class rdf:about="#Mujeres">
+    <owl:DatatypeProperty rdf:about="#Mujeres">
         <rdfs:subPropertyOf rdf:resource="#Persona"/>
         <rdfs:label xml:lang="es">Mujeres</rdfs:label>
         <rdfs:label xml:lang="en">Women</rdfs:label>
         <rdfs:comment xml:lang="es">Número de estudiantes mujeres.</rdfs:comment>
         <rdfs:comment xml:lang="en">Number of female students.</rdfs:comment>
+        <!--
         <owl:equivalentClass rdf:resource="http://schema.org/Female" />
         <owl:equivalentClass rdf:resource="https://www.wikidata.org/wiki/Q6581072" />
-    </owl:Class>
+        -->
+    </owl:DatatypeProperty>
 
     <!--
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -151,12 +157,12 @@
         </owl:members>
     </owl:AllDisjointProperties>
 
-    <owl:AllDisjointClasses>
+    <owl:AllDisjointProperties>
         <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="#Hombres" />
             <rdf:Description rdf:about="#Mujeres" />
         </owl:members>
-    </owl:AllDisjointClasses>
+    </owl:AllDisjointProperties>
 
     <owl:AllDisjointClasses>
         <owl:members rdf:parseType="Collection">

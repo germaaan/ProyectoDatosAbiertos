@@ -35,7 +35,7 @@
     foaf:homepage <http://opendata.ugr.es> ;
     foaf:maker <https://github.com/germaaan> .
 
-<#Personas> a owl:Class ;
+<#Personas> a owl:DatatypeProperty ;
     rdfs:label "Person"@en,
         "Personas"@es ;
     rdfs:comment "A person is a rational and intelligent being, aware of himself and his acts that has its own identity."@en,
@@ -43,7 +43,7 @@
     owl:equivalentClass <http://dbpedia.org/ontology/Person>,
         <https://www.wikidata.org/wiki/Q215627> .
 
-<#Hombres> a owl:Class ;
+<#Hombres> a owl:DatatypeProperty ;
     rdfs:label "Men"@en,
         "Hombres"@es ;
     rdfs:comment "Number of male students."@en,
@@ -52,7 +52,7 @@
     owl:equivalentClass <http://schema.org/Male>,
         <https://www.wikidata.org/wiki/Q6581097> .
 
-<#Mujeres> a owl:Class ;
+<#Mujeres> a owl:DatatypeProperty ;
     rdfs:label "Women"@en,
         "Mujeres"@es ;
     rdfs:comment "Number of female students."@en,
@@ -101,5 +101,5 @@
 [] a owl:AllDisjointProperties ;
     owl:members ( <#tieneRamaConocimiento> <#tieneTitulacion> ) .
 
-[] a owl:AllDisjointClasses ;
+[] a owl:AllDisjointProperties ;
     owl:members ( <#Hombres> <#Mujeres> ) .
