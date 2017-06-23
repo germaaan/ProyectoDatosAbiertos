@@ -74,7 +74,7 @@
     </owl:Class>
 
     <owl:Class rdf:about="#Hombres">
-        <rdfs:type rdf:resource="#Persona"/>
+        <rdfs:subPropertyOf rdf:resource="#Persona"/>
         <rdfs:label xml:lang="es">Hombres</rdfs:label>
         <rdfs:label xml:lang="en">Men</rdfs:label>
         <rdfs:comment xml:lang="es">Número de estudiantes hombres.</rdfs:comment>
@@ -84,7 +84,7 @@
     </owl:Class>
 
     <owl:Class rdf:about="#Mujeres">
-        <rdfs:type rdf:resource="#Persona"/>
+        <rdfs:subPropertyOf rdf:resource="#Persona"/>
         <rdfs:label xml:lang="es">Mujeres</rdfs:label>
         <rdfs:label xml:lang="en">Women</rdfs:label>
         <rdfs:comment xml:lang="es">Número de estudiantes mujeres.</rdfs:comment>

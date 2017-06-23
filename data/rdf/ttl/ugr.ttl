@@ -35,12 +35,20 @@
     foaf:homepage <http://opendata.ugr.es> ;
     foaf:maker <https://github.com/germaaan> .
 
+<#Personas> a owl:Class ;
+    rdfs:label "Person"@en,
+        "Personas"@es ;
+    rdfs:comment "A person is a rational and intelligent being, aware of himself and his acts that has its own identity."@en,
+        "Una Personas es un ser racional e inteligente, consciente de sí mismo y de sus actos que cuenta con identidad propia."@es ;
+    owl:equivalentClass <http://dbpedia.org/ontology/Person>,
+        <https://www.wikidata.org/wiki/Q215627> .
+
 <#Hombres> a owl:Class ;
     rdfs:label "Men"@en,
         "Hombres"@es ;
     rdfs:comment "Number of male students."@en,
         "Número de estudiantes hombres."@es ;
-    rdfs:type <#Persona> ;
+    rdfs:subPropertyOf <#Personas> ;
     owl:equivalentClass <http://schema.org/Male>,
         <https://www.wikidata.org/wiki/Q6581097> .
 
@@ -49,33 +57,21 @@
         "Mujeres"@es ;
     rdfs:comment "Number of female students."@en,
         "Número de estudiantes mujeres."@es ;
-    rdfs:type <#Persona> ;
+    rdfs:subPropertyOf <#Personas> ;
     owl:equivalentClass <http://schema.org/Female>,
         <https://www.wikidata.org/wiki/Q6581072> .
 
-<#tieneTitulación> a rdf:Property,
-        owl:ObjectProperty ;
-    rdfs:label "has degree"@en,
-        "tiene titulación"@es ;
-    rdfs:comment "A branch of knowledge encompasses different degrees."@en,
-        "Una rama de conocimiento engloba diferentes titulaciones."@es ;
-    rdfs:domain <#RamaConocimiento> ;
-    rdfs:range <#Titulación> ;
-    owl:inverseOf <#tieneRamaConocimiento> .
-
-<#Persona> a owl:Class ;
-    rdfs:label "Person"@en,
-        "Persona"@es ;
-    rdfs:comment "A person is a rational and intelligent being, aware of himself and his acts that has its own identity."@en,
-        "Una persona es un ser racional e inteligente, consciente de sí mismo y de sus actos que cuenta con identidad propia."@es ;
-    owl:equivalentClass <http://dbpedia.org/ontology/Person>,
-        <https://www.wikidata.org/wiki/Q215627> .
+<#RamaConocimiento> a owl:Class ;
+    rdfs:label "Branch of knowledge"@en,
+        "Rama de conocimiento"@es ;
+    rdfs:comment "A branch of knowledge is the field in which different degrees are grouped with a set of similar subjects which makes them have a similar identity."@en,
+        "Una rama de conocimiento es el campo en el que se agrupan diferentes titulaciones con un conjunto de materias similares lo que hace que tengan una identidad semejante."@es .
 
 <#Titulación> a owl:Class ;
     rdfs:label "Degree"@en,
         "Titulación"@es ;
     rdfs:comment "A degree is the recognition that is obtained after overcoming university studies of degree or masters; Recognizing a general formation, in one or several disciplines, oriented to the preparation for the performance of professional activities."@en,"""Una titulación es el reconocimiento que se obtiene después de superar los estudios universitarios de grado o máster; reconocíendo una formación general, en una o varias disciplinas, orientada a la preparación para el
-            desempeño de actividades de carácter profesional."""@es ;
+        desempeño de actividades de carácter profesional."""@es ;
     rdfs:subClassOf <#RamaConocimiento> .
 
 <#tieneRamaConocimiento> a rdf:Property,
@@ -89,11 +85,15 @@
     rdfs:range <#RamaConocimiento> ;
     owl:inverseOf <#tieneTitulación> .
 
-<#RamaConocimiento> a owl:Class ;
-    rdfs:label "Branch of knowledge"@en,
-        "Rama de conocimiento"@es ;
-    rdfs:comment "A branch of knowledge is the field in which different degrees are grouped with a set of similar subjects which makes them have a similar identity."@en,
-        "Una rama de conocimiento es el campo en el que se agrupan diferentes titulaciones con un conjunto de materias similares lo que hace que tengan una identidad semejante."@es .
+<#tieneTitulación> a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label "has degree"@en,
+        "tiene titulación"@es ;
+    rdfs:comment "A branch of knowledge encompasses different degrees."@en,
+        "Una rama de conocimiento engloba diferentes titulaciones."@es ;
+    rdfs:domain <#RamaConocimiento> ;
+    rdfs:range <#Titulación> ;
+    owl:inverseOf <#tieneRamaConocimiento> .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( <#Titulación> <#RamaConocimiento> ) .
