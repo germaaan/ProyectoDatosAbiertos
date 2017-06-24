@@ -1,3 +1,39 @@
 \chapter{Introducción}
 
-Introducción.
+\section{Descripción del problema}
+
+Este Trabajo Fin de Máster aborda el problema de la obtención de información de los datos contenido en un portal de datos abiertos mediante peticiones a un interfaz en forma de consultas, esto nos permitirá obtener conclusiones sobre la información subyacente en los datos.
+
+\bigskip
+Pero para que podamos trabajar con los datos de esa forma, es necesario primero que dichos datos sean "entendibles" por una máquina de forma que intuitivamente representen la realidad del mundo físico, reproduciendo las propiedades que puede tener un entidad y las acciones que puede llevar a cabo; para ello es necesario disponer de información adicional que describan el contenido, el significado y la relación entre los datos. Esto es lo que se conoce como "Web semántica".
+
+\bigskip
+Esta "Web semántica" se construye mediante el desarrollo de ontologías que definen de una manera formal los tipos, propiedades y relaciones entre las entidades que existen en el dominio de los datos a tratar. En el caso particular de la Universidad de Granada se ha venido trabajando con mucho interés en los datos relacionados con las matriculaciones para intentar explicar por ejemplo la tendencia en la elección de titulaciones de determinadas ramas de conocimiento en función del sexo del estudiante. Es por eso que este tipo de datos serán los primeros en ser adaptados para ser procesados mediante este sistema, pudiendo además extenderse a los mismos datos procedentes de otras universidades para tener una visión más global; y finalmente ampliando a otros conjuntos de datos precisos. 
+
+\newpage
+Para definir la información de forma que las máquinas la entiendan se usan tres tecnologías como base para el desarrollo: RDF, OWL y SPARQL.
+
+\begin{itemize}
+	\item RDF es un modelo de datos que se construye sobre XML y proporciona una información descriptiva sobre los recursos en forma de expresiones sujeto-predicado-objeto, lo que se conoce como un "triple RDF". 
+	\newline Por ejemplo, si tomamos el triple RDF "Titulación - perteneceA - RamaConocimiento" un caso particular sería "Informática - perteneceA - IngenieríaArquitectura".
+	\item OWL es un lenguaje que nos permite definir términos para describir y representar los datos de nuestro sistema incluyendo las definiciones de campos determinados y la relación que hay entre ellos. 
+	\newline Siguiendo el mismo ejemplo anterior, "Titulación" y "RamaConocimiento" serían "owl:Class" mientras que la propiedad que las relaciona, "tieneRamaConocimiento" sería "owl:ObjectProperty".
+	\item SPARQL es un lenguaje de consulta sobre RDF que permite hacer búsquedas sobre los recursos utilizando distintas fuentes de datos al estilo de las consultas típicas sobre bases de datos relacionales. 
+	\newline En el mismo ejemplo que hemos venido utilizando, la siguiente consulta nos permitiría obtener todos las titulaciones indicando la rama de conocimiento a la que pertenecen.
+	\begin{lstlisting}[language=sparql,caption={Consulta SPARQL de ejemplo},label={lst:consulta_sparql_ejemplo}]
+    PREFIX ugr: <http://cabas.ugr.es/ontology/ugr#>
+	 
+    SELECT ?X ?titulacion ?rama
+    WHERE {
+        ?X ugr:Titulación ?titulacion .
+        ?X ugr:RamaConocimiento ?rama
+    }
+	 \end{lstlisting}
+\end{itemize}
+
+Un aspecto que falta por comentar y que es muy importante es el concepto de "dato enlazado", más generalmente referido con su traducción en ingles "linked data". La idea detrás de los datos enlazados es que además de publicar la información referente a los datos, también se vinculen a otros datos relacionados similares de forma que cuando una máquina procese la información semántica de dichos datos, automáticamente también pueda llegar a información relacionada, pero que no está incluida en la publicación de los datos originales en los datos originales.
+
+\bigskip
+Para poder usar datos enlazados es imprescindible hacer dos cosas: que nuestros recursos tengan un URI que les permita ser identificados de forma inequívoca en la Web y, además, que nuestros recursos incluyan enlaces a otras URI relacionadas con los datos contenidos en nuestros recursos. Uno de los conjuntos de datos más se suelen usar para enlazar datos es DBpedia, un proyecto para extraer datos de Wikipedia de forma que se pueda obtener una versión de la misma transformada en web semántica.
+
+\section{Estado del arte}
