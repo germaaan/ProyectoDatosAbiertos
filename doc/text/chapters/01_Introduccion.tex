@@ -11,38 +11,28 @@ Actualmente el portal de datos abiertos de la Universidad de Granada\footnote{ht
 En cumplimiento de la legislación vigente sobre reutilización de la información del Sector Público (Ley 37/2007 de 16 de noviembre\footnote{https://sedempr.gob.es/sites/default/files/fileupload/A47160-47165.pdf} y Real Decreto 1495/2011 de 24 de octubre\footnote{https://sedempr.gob.es/sites/default/files/fileupload/BOE-A-2011-17560\_0.pdf}) podemos encontrar un gran número de portales abiertos tanto a nivel regional como nacional; sin embargo, no en todos podemos encontrar la misma facilidad para trabajar con los propios datos.
 
 \bigskip
-Pero para que podamos trabajar con los datos de esa forma, es necesario primero que dichos datos sean "entendibles" por una máquina de forma que intuitivamente representen la realidad del mundo físico, reproduciendo las propiedades que puede tener un entidad y las acciones que puede llevar a cabo; para ello es necesario disponer de información adicional que describan el contenido, el significado y la relación entre los datos. Esto es lo que se conoce como "Web Semántica".
-
-\section{Web semántica}
-La idea original sobre la Web semántica
-
-\bigskip
-Esta "Web semántica" se construye mediante el desarrollo de ontologías que definen de una manera formal los tipos, propiedades y relaciones entre las entidades que existen en el dominio de los datos a tratar. En el caso particular de la Universidad de Granada se ha venido trabajando con mucho interés en los datos relacionados con las matriculaciones para intentar explicar por ejemplo la tendencia en la elección de titulaciones de determinadas ramas de conocimiento en función del sexo del estudiante. Es por eso que este tipo de datos serán los primeros en ser adaptados para ser procesados mediante este sistema, pudiendo además extenderse a los mismos datos procedentes de otras universidades para tener una visión más global; y finalmente ampliando a otros conjuntos de datos precisos. 
+En el caso particular de la Universidad de Granada se ha venido trabajando con mucho interés en los datos relacionados con las matriculaciones para intentar explicar por ejemplo la tendencia en la elección de titulaciones de determinadas ramas de conocimiento en función del sexo del estudiante. Es por eso que este tipo de datos serán los primeros en ser adaptados para ser procesados mediante este sistema, pudiendo además extenderse a los mismos datos procedentes de otras universidades para tener una visión más global; y finalmente ampliando a otros conjuntos de datos precisos. 
 
 \newpage
-Para definir la información de forma que las máquinas la entiendan se usan tres tecnologías como base para el desarrollo: RDF, OWL y SPARQL.
+Para que podamos trabajar con los datos de esa forma, es necesario primero que dichos datos sean "entendibles" por una máquina de forma que intuitivamente representen la realidad del mundo físico, reproduciendo las propiedades que puede tener un entidad y las acciones que puede llevar a cabo; para ello es necesario disponer de información adicional que describan el contenido, el significado y la relación entre los datos. Esto es lo que se conoce como "Web Semántica".
 
-\begin{itemize}
-	\item RDF es un modelo de datos que se construye sobre XML y proporciona una información descriptiva sobre los recursos en forma de expresiones sujeto-predicado-objeto, lo que se conoce como un "triple RDF". 
-	\newline Por ejemplo, si tomamos el triple RDF "Titulación - perteneceA - RamaConocimiento" un caso particular sería "Informática - perteneceA - IngenieríaArquitectura".
-	\item OWL es un lenguaje que nos permite definir términos para describir y representar los datos de nuestro sistema incluyendo las definiciones de campos determinados y la relación que hay entre ellos. 
-	\newline Siguiendo el mismo ejemplo anterior, "Titulación" y "RamaConocimiento" serían "owl:Class" mientras que la propiedad que las relaciona, "tieneRamaConocimiento" sería "owl:ObjectProperty".
-	\item SPARQL es un lenguaje de consulta sobre RDF que permite hacer búsquedas sobre los recursos utilizando distintas fuentes de datos al estilo de las consultas típicas sobre bases de datos relacionales. 
-	\newline En el mismo ejemplo que hemos venido utilizando, la siguiente consulta nos permitiría obtener todos las titulaciones indicando la rama de conocimiento a la que pertenecen.
-	\begin{lstlisting}[language=sparql,caption={Consulta SPARQL de ejemplo},label={lst:consulta_sparql_ejemplo}]
-    PREFIX ugr: <http://cabas.ugr.es/ontology/ugr#>
-	 
-    SELECT ?X ?titulacion ?rama
-    WHERE {
-        ?X ugr:Titulación ?titulacion .
-        ?X ugr:RamaConocimiento ?rama
-    }
-	 \end{lstlisting}
-\end{itemize}
+\section{Web semántica}
+La idea original sobre la Web Semántica fue propuesta por Tim Berners-Lee en el año 2001 partiendo de la base de que la Web actual estaba demasiado orientada a que sus contenidos fueran leídos por humanos, ya que sus contenidos y documentos tenían un diseño que priorizaba su aspecto sobre su significado. Precisamente esto es lo que se quiere conseguir con la Web semántica, darle significado a los datos de forma que no dependan de la apreciación que les pueda dar un lector humano, si no que también puedan ser fácilmente interpretados por las máquinas. Para que esto sea posible, es necesario proporcionar una infraestructura que permita a las máquinas acceder a una estructura común de datos, consiguiendo así que todos los datos queden integrados y enlazados en una especie de base de datos mundial que sea la agregación de innumerables fuentes de datos, pero que gracias a esa estructura común permita una fácil interoperatividad entre distintos sistemas, lo que también se conseguirá gracias al establecimiento de una serie de reglas que permitirán que las máquinas creen hagan uso de unos mecanismo de inferencia que les permitan interpretar los datos que están procesando, 
 
-Un aspecto que falta por comentar y que es muy importante es el concepto de "dato enlazado", más generalmente referido con su traducción en ingles "linked data". La idea detrás de los datos enlazados es que además de publicar la información referente a los datos, también se vinculen a otros datos relacionados similares de forma que cuando una máquina procese la información semántica de dichos datos, automáticamente también pueda llegar a información relacionada, pero que no está incluida en la publicación de los datos originales en los datos originales.
+\bigskip
+Para definir esta estructura común de datos se utiliza el modelo de datos RDF (Resource Description Framework), este modelo nos provee de un prototipo estándar para el intercambio de información entre diferentes fuentes de forma que no pierdan su significa y sea posible su interpretación por las máquinas. En RDF la información descriptiva sobre los recursos se construyo en forma de expresiones sujeto-predicado-objeto, lo que se conoce como un "triple RDF". Por ejemplo, si tomamos el triple RDF "Titulación - perteneceA - RamaConocimiento" un caso particular sería "Informática - perteneceA - IngenieríaArquitectura". Además, para que estos datos se puede referenciar inequívocamente a través de la Web cada elemento tendrá un URI (Universal Resource Identifier).
+
+\bigskip
+
+Otro elemento fundamental a tener en cuenta a la hora de dotar de significa a los datos son las ontologías. Una ontología nos permite definir los conceptos que queremos definir, pero además también nos permite indicar cuáles son sus propiedades, atributos y relaciones de forma que podamos detallar el estado completo de lo que estamos queriendo modelar.
+
+\bigskip
+Una vez que ya tenemos la estructura de datos creada, simplemente nos quedará establecer algún mecanismo que nos permita realizar consultas sobre esa información. Para esto la W3C (World Wide Consortium) recomienda oficialmente hacer uso de SPARQL (SPARQL Protocol and RDF Query Language). SPARQL es una lenguaje estandarizado para la consulta de grafos RDF de distintas fuentes de datos que permite hacer búsquedas sobre los recursos utilizando consultas que se asemejan a las típicamente usadas sobre bases de datos relacionales.
+
+\bigskip
+
+Un aspecto que falta por comentar y que es muy importante es el concepto de "dato enlazado", más generalmente referido con su traducción en ingles "linked data". La idea detrás de los datos enlazados es que además de publicar la información referente a los datos, también se vinculen a otros datos relacionados similares de forma que cuando una máquina procese la información semántica de dichos datos, automáticamente también pueda llegar a información relacionada, pero que no está incluida en la publicación de los datos originales en los datos originales. Esto también se consigue gracias a la existencia de las ontologías, ya la posibilidad de estudiar el dominio a tratar hace que los datos puedan ser reutilizados e integrados en otros sistemas permitiendo así una interoperabilidad de los mismos.
 
 \bigskip
 Para poder usar datos enlazados es imprescindible hacer dos cosas: que nuestros recursos tengan un URI que les permita ser identificados de forma inequívoca en la Web y, además, que nuestros recursos incluyan enlaces a otras URI relacionadas con los datos contenidos en nuestros recursos. Uno de los conjuntos de datos más se suelen usar para enlazar datos es DBpedia, un proyecto para extraer datos de Wikipedia de forma que se pueda obtener una versión de la misma transformada en web semántica.
 
-\section{Estado del arte}
