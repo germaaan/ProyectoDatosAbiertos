@@ -1,3 +1,96 @@
 \chapter{Análisis y Diseño}
 
+\section{Ontologías}
+Aunque en la introducción hemos explicado brevemente lo que era una ontología, lo que básicamente describíamos como una definición formal de los conceptos del dominio de interés con el que estamos tratando de indicar cuáles son sus tipos, propiedades y relaciones para conocer el estado completo de nuestro "mundo". Pues para construir estas ontologías podremos usar dos lenguajes independientes, pero que que se suelen usar conjuntamente: RDF Schema y OWL.
+
+\subsection{RDF Schema}
+RDF Schema (o simplemente RDFS) es una extensión del RDF original que utiliza su misma estructura y que aparece para solucionar problemas básicos en la definición de ontologías como pueden ser la declaración de clases, las restricciones entre ellas y las restricciones de sus propiedades; ya que en la versión original de RDF solo eran posible definir tipos (lo que no es exactamente igual que una clase) y las propiedades de los mismos.
+
+\bigskip
+Gracias a que RDFs nos provee de los elementos básicos y comunes para la descripción de los datos de nuestro dominio, esto nos puede servir para reutilizar conceptos que son comunes en varios dominios distintos. Para conseguir esto RDFS nos permite crear esquemas sencillos usando clases y subclases, además de permitirnos definir propiedades, dominios de aplicación y rangos de valores.
+
+\newpage
+\begin{itemize}
+	\item Las clases son conjuntos de recursos que tienen características comunes y una representación en el mundo real. Tenemos tres clases fundamentales en RDFs a partir de las que podemos definir nuestras propias clases, siempre posible crear además una jerarquía de clases.
+	\begin{itemize}
+		\item rdfs:Class es la clase que utilizaremos para definir otras clases.
+		\item rdfs:Property es la clase a partir de la cual definiremos nuevas propiedades que nos permitan describir nuestros recursos.
+		\item rdfs:Resource todas las cosas descritas en RDF son llamadas "recursos" y son instancias de esta clase, es por eso que esta clase nos permite referenciar cualquier clases desde otra clase.
+	\end{itemize}
+	
+	\item Las propiedades nos permitirán describir las características que tienen los distintos recursos, además de las propias relaciones que existen entre distintos recursos.
+	\begin{itemize}
+		\item rdf:type nos permite definir el tipo de un determinado recurso, además, un recursos puede ser una instancia de más de una clase.
+		\item rdfs:subClassOf es la que nos permitirá definir una jerarquía de clases y subclases, además, una clase puede ser subclase de otras subclases.
+		\item rdfs:subPropertyOf, al igual que podemos crear subclases, también podemos crear subpropiedades para establecer una jerarquía de las mismas.
+	\end{itemize}
+	
+	\item Las restricciones son las que nos permiten definir las clases sobre la que pueden aplicarse determinadas propiedades y posibles valores:
+	\begin{itemize}
+		\item rdfs:domain definiría las clases sobre las que se puede aplicar una propiedad.
+		\item rdfs:range definiría los valores que puede tener una propiedad.
+	\end{itemize}
+\end{itemize}
+
+\subsubsection{Razonamiento e inferencia en RDF Schema}
+
+"Se entiende por razonamiento a la facultad que permite resolver problemas, extraer conclusiones y aprender de manera consciente de los hechos, estableciendo conexiones causales y lógicas necesarias entre ellos."\footnote{https://es.wikipedia.org/wiki/Razonamiento}.
+
+\newpage 
+Hemos dicho que el principal objetivo es conseguir que los datos sean entendibles por las máquinas, que puedan razonar sobre ellos y sacar conclusiones; precisamente para eso nos basaremos en la lógica. La lógica estudia las condiciones bajo las cuales siguiendo una serie de pasos elementales se puede pasar de una serie de premisas a una conclusión, cuando estamos tratando con máquinas el problema que encontramos en su forma de procesar la lógica es que no dispone de los mecanismos adecuados para conocer cómo y en qué orden deben realizarse esos pasos elementales, algo que si es capaz de hacer la mente humana de forma natural. 
+
+\bigskip
+Esto es lo que intenta solucionar la inteligencia artificial, y en nuestro caso concreto es lo que queremos conseguir, que a través de las ontologías definidas se puedan realizar inferencias sobre la información proporcionada por la ontología descrita, que podamos obtener resultados producto del razonamiento que lleven a que la máquina saque sus propias conclusiones.
+
+\bigskip
+Por ejemplo, si tenemos varias clases que entre sus datos cuentan con la propiedad "hombres" y la propiedad "mujeres" en referencia al número de hombres o mujeres que se han matriculado en una determinada titulación, proceden de un mismo país o cualquier caso similar, nuestro razonamiento humano nos hace saber que los "hombres" y las "mujeres" son "personas", por lo que si quisiéramos saber cuántas "personas" hay matriculadas en una titulación, lo que estaríamos haciendo es sumar el número de "hombres" y de "mujeres"; sin embargo, este razonamiento no es obvio para una máquina, necesita una regla que le diga que los "hombres" y las "mujeres" son "personas".
+
+\bigskip
+Aquí es donde vuelve a entrar en juego RDFS, ya que como hemos indicado antes, su vocabulario nos permite establecer jerarquías, por lo tanto podríamos especificar una jerarquía en la que tenemos una propiedad que es "persona" y luego indicar que "hombres" y "mujeres" son subpropiedades de "persona". Gracias a esta propiedad que acabamos de definir, si la máquina quiere contar número de "personas", pero estas no están definidas explicitamente como tales, sabrá que lo que debe hacer es contar los "hombres" y las "mujeres".
+
 \section{Conceptos del sistema}
+
+Los conjuntos de datos con los que se ha decidido trabajar son los siguientes:
+
+\begin{itemize}
+	\item Demanda académica: procedimientos acceso
+	\item Demanda académica: titulaciones
+	\item Matrículas: grado
+	\item Matrículas: posgrado
+	\item Número medio de créditos
+	\item Oferta de titulaciones: doctorado
+	\item Oferta de titulaciones: grado
+	\item Oferta de titulaciones: másteres oficiales
+	\item Origen geográfico de estudiantes por país
+	\item Origen geográfico de estudiantes por provincia
+	\item Tasas académicas por ramas
+	\item Tasas académicas por titulaciones
+\end{itemize}
+
+El motivo de haber seleccionado solo estos 16 conjuntos de datos de entre los 40 totales, es que dado la gran cantidad de datos que podemos encontrar en el portal, podemos encontrarnos datos de todo tipo; podemos encontrar datos de fácil interpretación como son los datos relacionados con matrículas, pero también podemos encontranos por ejemplo datos de carácter económico que utiliza una serie de códigos que nos permiten hacer un uso tan natural de la información que contienen, por eso en una primera aproximación solo vamos a incluir datos de los que como personas podríamos sacar información válida a simple vista. Además, si no se tienen datos de varios años tampoco se considerará un conjunto de datos interesante ya que no se puede comprobar si esos datos representan un hecho anecdótico o una tendencia.
+
+\bigskip
+
+Aclarado este punto, lo siguiente es concretar que cada uno de estos conjuntos de datos se corresponderá con una clase en nuestra ontología.
+
+\begin{itemize}
+	\item DemAcadAcceso
+	\item DemAcadTitula
+	\item MatriGrado
+	\item MatriPos
+	\item NumMedioCreditos
+	\item OfertaTitulaDoc
+	\item OfertaTitulaGra
+	\item OfertaTitulaMas
+	\item OrgGeoEstudiPais
+	\item OrgGeoEstudiProv
+	\item TasasAcadeRama
+	\item TasasAcadeTitula
+\end{itemize}
+
+\subsection{Definición de atributos y relaciones}
+
+Atributos y relaciones de las clases.
+
+\section{Diseño de la ontología}
+
