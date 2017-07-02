@@ -201,11 +201,23 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 
 % Metodologías para el diseño de ontologías
 
+\newpage
+
 \section{Diseño de la ontología}
 
 \subsection{Vocabularios usados}
 
+Aunque en el diseño de la ontología todas las clases son del lenguaje definido propio, sí que se han usado otros vocabularios para definir los metadatos de la ontología (Dublin Core\footnote{\url{http://dublincore.org/documents/2012/06/14/dcmi-terms/}}, FOAF\footnote{\url{http://xmlns.com/foaf/spec/}}, Creative Commons\footnote{\url{https://creativecommons.org/ns}} y VANN\footnote{\url{http://vocab.org/vann/}}). \bigskip
+
+Para la definición del propio vocabulario (cuyo prefijo de espacio de nombres preferido es \textbf{ugr}), solo se han utilizado los estándares definidos RDF, RDFS, OWL y XMLS\footnote{\url{https://www.w3.org/2001/XMLSchema}} (para los tipos de datos); sin embargo, para conseguir el objetivo de conseguir disponer de datos enlazados en las diferentes propiedades se referencian propiedades equivalentes dentro de otros vocabularios de nivel superior como DBpedia\footnote{\url{http://dbpedia.org/ontology/}}, Wikidata\footnote{\url{https://www.wikidata.org/wiki/}} o Scheme.org\footnote{\url{http://schema.org/}}.
+
 \subsection{Clases}
+
+Las tablas 3.1 a 3.11 contienen la lista de propiedades de cada una de las clases, así como un ejemplo de una instancia de la clase en formato RDF/XML. 
+
+\subsection{Propiedades}
+
+Las tablas 3.12 a 3.44 contienen el dominio, el rango, subpropiedad de (en caso de que lo sea), el tipo de dato, las propiedades equivalentes en otros vocabularios de nivel superior y su descripción dentro de la ontología en formato RDF/XML.
 
 \begin{table}[!ht]
 	\centering
@@ -546,8 +558,6 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 	\caption{Clase TasasAcademicasTitulacion}
 	\label{clase-tasasacademicastitulacion}
 \end{table}
-
-\subsection{Propiedades}
 
 \begin{table}[!ht]
 	\begin{center}
