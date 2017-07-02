@@ -108,7 +108,7 @@ Aclarado este punto, lo siguiente es concretar que cada uno de estos conjuntos d
 	\item ``Matrículas: grado"  $\rightarrow$  ``MatriculasGrado"
 	\item ``Matrículas: posgrado"  $\rightarrow$  ``MatriculasPosgrado"
 	\item ``Número medio de créditos"  $\rightarrow$  ``NumMedioCreditos"
-	\item ``Oferta de titulaciones: doctorado"  $\rightarrow$  ``OfertaTitulacionDoctor"
+	\item ``Oferta de titulaciones: doctorado"  $\rightarrow$  ``OfertaTitulacionDoctorado"
 	\item ``Oferta de titulaciones: grado"  $\rightarrow$  ``OfertaTitulacionGrado"
 	\item ``Oferta de titulaciones: másteres oficiales"  $\rightarrow$  ``OfertaTitulacionMaster"
 	\item ``Origen geográfico de estudiantes por país"  $\rightarrow$  ``OrigenPais"
@@ -124,42 +124,42 @@ Con las clases definidas, lo siguiente sería definir sus atributos, las relacio
 	\item Por un lado los atributos los definiremos con owl:DatatypeProperty, que es la propiedad que nos permite vincular valores del tipo que definamos con instancias de las clases que hemos definido.
 	\item Por el otro lado las relaciones las definiremos con owl:ObjectProperty, que es la propiedad que nos permite vincular instancias de las distintas clases que hemos definido.
 \end{itemize}
- 
+
 En lo que se refiere a los atributos, debemos tener en cuenta que hay atributos que se repiten en varias clases, por lo que tendremos que especificarlo en los dominios de dichas propiedades.
 
 \begin{itemize}
-		\item Campus: representa cada uno de los campus universitarios en los que está dividida la universidad.
-		\item Centro: representa cada uno de los centros de la universidad, ya sean facultades, escuelas o centros adscritos.
-		\item Cupo general: representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo general de estudiantes.
-		\item Curso: representa el curso académico al que pertenecen los datos.
-		\item Deportistas: representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de deportistas de alto nivel o alto rendimiento.
-		\item Discapacitados: representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de personas con minusvalías reconocidas.
-		\item Doctorado: representa las titulaciones de doctorado que se ofertan en la universidad.
-		\item Estado: representa el estado de las solicitudes de matrículas demandadas en la universidad.
-		\item Grado: representa las titulaciones de grado que se ofertan en la universidad.
-		\item Hombres: representa el número de estudiantes del sexo masculino que estudian alguna titulación en la universidad.
-		\item Máster: representa las titulaciones de másteres oficiales que se ofertan en la universidad.
-		\item Mayores 25: representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de personas mayores de 25 años.
-		\item Mayores 40 y 45 : representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de personas mayores de 40 y de 45 años.
-		\item Mujeres: representa el número de estudiantes del sexo masculino que estudian alguna titulación en la universidad.
-		\item Número medio de créditos matriculados:
-		\item Número medio de créditos presentados:
-		\item Número medio de créditos superados:
-		\item País de origen: representa el número de estudiantes procedentes de un mismo país de origen que estudian alguna titulación en la universidad.
-		\item Personas: representa el número de estudiantes que estudian alguna titulación en la universidad.
-		\item Plan de estudios: representa el plan de estudios al que pertenece una titulación.
-		\item Plazas ofertadas: representa el número de plazas ofertadas para una determinada titulación.
-		\item Provincia: representa el número de estudiantes procedentes de una misma provincia del territorio español que estudian alguna titulación en la universidad.
-		\item Rama: representa la rama de conocimiento a la que pertenece alguna titulación.
-		\item Tasa de abandono: representa el porcentaje entre el número total de estudiantes de nuevo ingreso en una titulación que debieron obtener el título el año académico anterior y que no se han matriculado ni en ese año académico ni en el anterior.
-		\item Tasa de abandono inicial: representa el porcentaje entre los estudiantes matriculados en una determinada titulación en un curso académico que no se matricularon en dicha titulación en los dos años siguientes y el número total de estudiantes que accedieron a esa misma titulación en ese mismo curso académico.
-		\item Tasa de eficiencia: representa el porcentaje entre el número total de créditos de la titulación a los que deberían haberse matriculado el conjunto de estudiantes graduados en un año académico y el número total de créditos que se matricularon finalmente.
-		\item Tasa de graduación: representa el porcentaje de estudiantes que finalizan una titulación en el tiempo previsto por el plan de estudios o en un año académico más y el número de estudiantes que entraron en esa misma titulación.
-		\item Tasa de rendimiento: representa el porcentaje entre el número total de créditos superados (menos los créditos adaptados, convalidados y reconocidos) por los estudiantes de una titulación y el número total de créditos matriculados.
-		\item Tasas académicas: representa las tasas académicas que sirven como indicadores de las diferentes titulaciones.
-		\item Tipo de procedimiento: representa la forma de acceso por la que los estudiantes han realizado la solicitud de matrícula en la universidad.
-		\item Titulación: representa las titulaciones de grado que se ofertan en la universidad.
-		\item Titulados: representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de titulados universitarios.
+	\item Campus: representa cada uno de los campus universitarios en los que está dividida la universidad.
+	\item Centro: representa cada uno de los centros de la universidad, ya sean facultades, escuelas o centros adscritos.
+	\item Cupo general: representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo general de estudiantes.
+	\item Curso: representa el curso académico al que pertenecen los datos.
+	\item Deportistas: representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de deportistas de alto nivel o alto rendimiento.
+	\item Discapacitados: representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de personas con minusvalías reconocidas.
+	\item Doctorado: representa las titulaciones de doctorado que se ofertan en la universidad.
+	\item Estado: representa el estado de las solicitudes de matrículas demandadas en la universidad.
+	\item Grado: representa las titulaciones de grado que se ofertan en la universidad.
+	\item Hombres: representa el número de estudiantes del sexo masculino que estudian alguna titulación en la universidad.
+	\item Máster: representa las titulaciones de másteres oficiales que se ofertan en la universidad.
+	\item Mayores 25: representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de personas mayores de 25 años.
+	\item Mayores 40 y 45 : representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de personas mayores de 40 y de 45 años.
+	\item Mujeres: representa el número de estudiantes del sexo masculino que estudian alguna titulación en la universidad.
+	\item Número medio de créditos matriculados:
+	\item Número medio de créditos presentados:
+	\item Número medio de créditos superados:
+	\item País de origen: representa el número de estudiantes procedentes de un mismo país de origen que estudian alguna titulación en la universidad.
+	\item Personas: representa el número de estudiantes que estudian alguna titulación en la universidad.
+	\item Plan de estudios: representa el plan de estudios al que pertenece una titulación.
+	\item Plazas ofertadas: representa el número de plazas ofertadas para una determinada titulación.
+	\item Provincia: representa el número de estudiantes procedentes de una misma provincia del territorio español que estudian alguna titulación en la universidad.
+	\item Rama: representa la rama de conocimiento a la que pertenece alguna titulación.
+	\item Tasa de abandono: representa el porcentaje entre el número total de estudiantes de nuevo ingreso en una titulación que debieron obtener el título el año académico anterior y que no se han matriculado ni en ese año académico ni en el anterior.
+	\item Tasa de abandono inicial: representa el porcentaje entre los estudiantes matriculados en una determinada titulación en un curso académico que no se matricularon en dicha titulación en los dos años siguientes y el número total de estudiantes que accedieron a esa misma titulación en ese mismo curso académico.
+	\item Tasa de eficiencia: representa el porcentaje entre el número total de créditos de la titulación a los que deberían haberse matriculado el conjunto de estudiantes graduados en un año académico y el número total de créditos que se matricularon finalmente.
+	\item Tasa de graduación: representa el porcentaje de estudiantes que finalizan una titulación en el tiempo previsto por el plan de estudios o en un año académico más y el número de estudiantes que entraron en esa misma titulación.
+	\item Tasa de rendimiento: representa el porcentaje entre el número total de créditos superados (menos los créditos adaptados, convalidados y reconocidos) por los estudiantes de una titulación y el número total de créditos matriculados.
+	\item Tipo de procedimiento: representa la forma de acceso por la que los estudiantes han realizado la solicitud de matrícula en la universidad.
+	\item Titulación: representa las titulaciones de grado que se ofertan en la universidad.
+	\item Titulados: representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de titulados universitarios.
+	\item Universidad: representa el conjunto de todos los campus de la universidad.
 \end{itemize}
 
 Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a referenciar en nuestra ontología y el tipo de dato que serán.
@@ -193,15 +193,13 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 	\item ``Tasa de eficiencia" $\rightarrow$ ``tasaEficiencia". Tipo de dato numérico real no negativo.
 	\item ``Tasa de graduación" $\rightarrow$ ``tasaGraduacion". Tipo de dato numérico real no negativo.
 	\item ``Tasa de rendimiento" $\rightarrow$ ``tasaRendimiento". Tipo de dato numérico real no negativo.
-	\item ``Tasas académicas" $\rightarrow$ ``tasasAcademicas". Tipo de dato numérico real no negativo.
-	\item ``Tipo de procedimiento" $\rightarrow$ ``tipoProcedimiento". Tipo de dato numérico real no negativo.
+	\item ``Tipo de procedimiento" $\rightarrow$ ``tipoProcedimiento". Tipo de dato cadena de caracteres.
 	\item ``Titulación" $\rightarrow$ ``titulacion". Tipo de dato cadena de caracteres.
 	\item ``Titulados" $\rightarrow$ ``titulados". Tipo de dato numérico entero no negativo
+	\item ``Universidad" $\rightarrow$  ``universidad". Tipo de dato cadena de caracteres.
 \end{itemize}
 
 % Metodologías para el diseño de ontologías
-
-\newpage
 
 \section{Diseño de la ontología}
 
@@ -209,7 +207,7 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 
 Aunque en el diseño de la ontología todas las clases son del lenguaje definido propio, sí que se han usado otros vocabularios para definir los metadatos de la ontología (Dublin Core\footnote{\url{http://dublincore.org/documents/2012/06/14/dcmi-terms/}}, FOAF\footnote{\url{http://xmlns.com/foaf/spec/}}, Creative Commons\footnote{\url{https://creativecommons.org/ns}} y VANN\footnote{\url{http://vocab.org/vann/}}). \bigskip
 
-Para la definición del propio vocabulario (cuyo prefijo de espacio de nombres preferido es \textbf{ugr}), solo se han utilizado los estándares definidos RDF, RDFS, OWL y XMLS\footnote{\url{https://www.w3.org/2001/XMLSchema}} (para los tipos de datos); sin embargo, para conseguir el objetivo de conseguir disponer de datos enlazados en las diferentes propiedades se referencian propiedades equivalentes dentro de otros vocabularios de nivel superior como DBpedia\footnote{\url{http://dbpedia.org/ontology/}}, Wikidata\footnote{\url{https://www.wikidata.org/wiki/}} o Scheme.org\footnote{\url{http://schema.org/}}.
+Para la definición del propio vocabulario (cuyo prefijo de espacio de nombres preferido es \textbf{ugr}), solo se han utilizado los estándares definidos RDF, RDFS, OWL y XMLS\footnote{\url{https://www.w3.org/2001/XMLSchema}} (para los tipos de datos); sin embargo, para conseguir el objetivo de conseguir disponer de datos enlazados en las diferentes propiedades se referencian propiedades equivalentes dentro de otros vocabularios de nivel superior como DBpedia\footnote{\url{http://dbpedia.org/ontology/}} Wikidata\footnote{\url{https://www.wikidata.org/wiki/}} o Scheme.org\footnote{\url{http://schema.org/}}.
 
 \subsection{Clases}
 
@@ -217,7 +215,8 @@ Las tablas 3.1 a 3.11 contienen la lista de propiedades de cada una de las clase
 
 \subsection{Propiedades}
 
-Las tablas 3.12 a 3.44 contienen el dominio, el rango, subpropiedad de (en caso de que lo sea), el tipo de dato, las propiedades equivalentes en otros vocabularios de nivel superior y su descripción dentro de la ontología en formato RDF/XML.
+Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran presentes), el rango (el tipo de dato), subpropiedad de (en caso de que lo sea), las propiedades equivalentes en otros vocabularios de nivel superior y su descripción dentro de la ontología en formato RDF/XML.
+\bigskip
 
 \begin{table}[!ht]
 	\centering
@@ -382,7 +381,7 @@ Las tablas 3.12 a 3.44 contienen el dominio, el rango, subpropiedad de (en caso 
 	\centering
 	\begin{tabular}{|p{.17\textwidth}|p{.9\textwidth}|}
 		\hline
-		\multicolumn{2}{|l|}{Clase: \textbf{OfertaTitulacionDoctor}}
+		\multicolumn{2}{|l|}{Clase: \textbf{OfertaTitulacionDoctorado}}
 		\\ \hline
 		Propiedades:&
 		\begin{itemize}
@@ -394,8 +393,8 @@ Las tablas 3.12 a 3.44 contienen el dominio, el rango, subpropiedad de (en caso 
 		\end{itemize}
 		\\ \hline
 		Ejemplo:&
-		\textless rdf:Description \newline\tab rdf:about=``/OfertaTitulacionDoctor/2013-2014\#1"\textgreater \newline
-		\tab \textless rdf:type rdf:resource=``\#OfertaTitulacionDoctor"\ /\textgreater 
+		\textless rdf:Description \newline\tab rdf:about=``/OfertaTitulacionDoctorado/2013-2014\#1"\textgreater \newline
+		\tab \textless rdf:type rdf:resource=``\#OfertaTitulacionDoctorado"\ /\textgreater 
 		\newline \tab \textless ugr:ramaConocimiento\textgreater \newline\tab\tab ARTES Y HUMANIDADES\newline\tab\textless /ugr:ramaConocimiento\textgreater 
 		\newline\tab \textless ugr:titulacion\textgreater \newline\tab\tab PROGRAMA DE DOCTORADO EN BIOMEDICINA\newline\tab \textless/ugr:titulacion\textgreater 
 		\newline\tab \textless ugr:campus\textgreater \newline\tab\tab ESCUELA DE DOCTORADO\newline\tab\textless /ugr:campus\textgreater 
@@ -404,8 +403,8 @@ Las tablas 3.12 a 3.44 contienen el dominio, el rango, subpropiedad de (en caso 
 		\newline\textless /rdf:Description\textgreater 
 		\\ \hline
 	\end{tabular}
-	\caption{Clase OfertaTitulacionDoctor}
-	\label{clase-ofertatitulaciondoctor}
+	\caption{Clase OfertaTitulacionDoctorado}
+	\label{clase-ofertatitulaciondoctorado}
 \end{table}
 
 \begin{table}[!ht]
@@ -560,902 +559,1222 @@ Las tablas 3.12 a 3.44 contienen el dominio, el rango, subpropiedad de (en caso 
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{campus}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item OfertaTitulacionDoctorado
+			\item OfertaTitulacionGrado
+			\item OfertaTitulacionMaster
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#string
+		\\ \hline
+		Subpropiedad de:&
+		universidad
+		\\ \hline
+		Propiedades \newline equivalentes:&
+		\begin{itemize}
+			\item \url{http://dbpedia.org/ontology/campus}
+			\item \url{https://www.wikidata.org/wiki/Q209465}
+		\end{itemize}
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#campus"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Campus\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:subPropertyOf\newline
+		\tab\tab rdf:resource=``\#universidad"\ /\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionDoctorado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionGrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionMaster"\ /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://dbpedia.org/ontology/campus"\ /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://www.wikidata.org/wiki/Q209465"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad campus}
+	\label{propiedad-campus}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{centro}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item OfertaTitulacionDoctorado
+			\item OfertaTitulacionGrado
+			\item OfertaTitulacionMaster
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#string
+		\\ \hline
+		Subpropiedad de:&
+		campus
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#centro"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Centro\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:subPropertyOf\newline
+		\tab\tab rdf:resource=``\#campus"\ /\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionDoctorado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionGrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionMaster"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad centro}
+	\label{propiedad-centro}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{cupoGral}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item DemandaAcademicaTitulacion
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#decimal
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#cupoGral"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Cupo general\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#DemandaAcademicaTitulacion"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad cupoGral}
+	\label{propiedad-cupogral}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{curso}}
+		\\ \hline
+		Dominio:&
+		Todas las clases de ``ugr"
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#string
+		\\ \hline
+		Propiedades \newline equivalentes:&
+		\begin{itemize}
+			\item \url{http://purl.org/dc/terms/coverage}
+		\end{itemize}
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#curso"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Curso\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#DemandaAcademicaAcceso"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#DemandaAcademicaTitulacion"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#MatriculasGrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#MatriculasPosgrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#NumMedioCreditos"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionDoctorado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionGrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionMaster"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OrigenPais"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OrigenProvincia"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#TasasAcademicasTitulacion"\ /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://purl.org/dc/terms/coverage"\  /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad curso}
+	\label{propiedad-curso}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{deportistas}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item DemandaAcademicaTitulacion
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#nonNegativeInteger
+		\\ \hline
+		Propiedades \newline equivalentes:&
+		\begin{itemize}
+			\item \url{http://dbpedia.org/ontology/Athlete}
+			\item \url{http://schema.org/athlete}
+			\item \url{https://www.wikidata.org/wiki/Q2066131}
+		\end{itemize}
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#deportistas"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Deportistas\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;nonNegativeInteger"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#DemandaAcademicaTitulacion"\ /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://dbpedia.org/ontology/Athlete"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://schema.org/athlete"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://www.wikidata.org/wiki/Q2066131"\  /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad deportistas}
+	\label{propiedad-deportistas}
+\end{table}
+
+
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{discapacitados}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item DemandaAcademicaTitulacion
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#nonNegativeInteger
+		\\ \hline
+		Propiedades \newline equivalentes:&
+		\begin{itemize}
+			\item \url{https://www.wikidata.org/wiki/Q15978181}
+		\end{itemize}
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#discapacitados"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Discapacitados\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;nonNegativeInteger"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#DemandaAcademicaTitulacion"\ /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://www.wikidata.org/wiki/Q15978181"\  /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad discapacitados}
+	\label{propiedad-discapacitados}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{doctorado}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item OfertaTitulacionDoctorado
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#string
+		\\ \hline
+		Subpropiedad de:&
+		titulacion
+		\\ \hline
+		Propiedades \newline equivalentes:&
+		\begin{itemize}
+			\item \url{http://dbpedia.org/page/Doctorate}
+			\item \url{https://www.wikidata.org/wiki/Q849697}
+		\end{itemize}
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#doctorado"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Doctorado\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:subPropertyOf\newline
+		\tab\tab rdf:resource=``\#titulacion"\ /\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionDoctorado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://dbpedia.org/page/Doctorate"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://www.wikidata.org/wiki/Q849697"\  /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad doctorado}
+	\label{propiedad-doctorado}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{estado}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item DemandaAcademicaAcceso
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#string
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#estado"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Estado\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#DemandaAcademicaAcceso"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad estado}
+	\label{propiedad-estado}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{grado}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item DemandaAcademicaTitulacion
+			\item MatriculasGrado
+			\item OfertaTitulacionGrado
+			\item TasasAcademicasTitulacion
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#string
+		\\ \hline
+		Subpropiedad de:&
+		titulacion
+		\\ \hline
+		Propiedades \newline equivalentes:&
+		\begin{itemize}
+			\item \url{http://dbpedia.org/page/Bachelor\%27s_degree}
+			\item \url{https://www.wikidata.org/wiki/Q6008527}
+		\end{itemize}
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#grado"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Grado\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:subPropertyOf\newline
+		\tab\tab rdf:resource=``\#titulacion"\ /\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#DemandaAcademicaTitulacion"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#MatriculasGrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionGrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#TasasAcademicasTitulacion"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://dbpedia.org/page/Bachelor\%27s\_degree"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://www.wikidata.org/wiki/Q6008527"\  /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad grado}
+	\label{propiedad-grado}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{hombres}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item DemandaAcademicaAcceso
+			\item MatriculasGrado
+			\item MatriculasPosgrado
+			\item OrigenPais
+			\item OrigenProvincia
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#nonNegativeInteger
+		\\ \hline
+		Subpropiedad de:&
+		personas
+		\\ \hline
+		Propiedades \newline equivalentes:&
+		\begin{itemize}
+			\item \url{http://dbpedia.org/page/Man}
+			\item \url{https://schema.org/Male}
+			\item \url{https://www.wikidata.org/wiki/Q8441}
+		\end{itemize}
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#hombres"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Hombres\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:subPropertyOf\newline
+		\tab\tab rdf:resource=``\#personas"\ /\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;nonNegativeInteger"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#DemandaAcademicaAcceso"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#MatriculasGrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#MatriculasPosgrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OrigenPais"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OrigenProvincia"\ /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://dbpedia.org/page/Man"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://schema.org/Male"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://www.wikidata.org/wiki/Q8441"\  /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad hombres}
+	\label{propiedad-hombres}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{master}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item MatriculasPosgrado
+			\item OfertaTitulacionMaster
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#string
+		\\ \hline
+		Subpropiedad de:&
+		titulacion
+		\\ \hline
+		Propiedades \newline equivalentes:&
+		\begin{itemize}
+			\item \url{http://dbpedia-live.openlinksw.com/page/Master's_degree}
+			\item \url{https://www.wikidata.org/wiki/Q183816}
+		\end{itemize}
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#master"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Máster\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:subPropertyOf\newline
+		\tab\tab rdf:resource=``\#titulacion"\ /\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#MatriculasPosgrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionMaster"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=\newline\tab\tab``http://dbpedia-live.openlinksw.com/page/Master's\_degree"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://www.wikidata.org/wiki/Q183816"\  /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad master}
+	\label{propiedad-master}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{mayor25}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item DemandaAcademicaTitulacion
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#nonNegativeInteger
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#mayor25"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Mayores de 25\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;nonNegativeInteger"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#DemandaAcademicaTitulacion"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad mayor25}
+	\label{propiedad-mayor25}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{mayor40}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item DemandaAcademicaTitulacion
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#nonNegativeInteger
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#mayor40"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Mayores de 40 y 45\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;nonNegativeInteger"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#DemandaAcademicaTitulacion"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad mayor40}
+	\label{propiedad-mayor40}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{mujeres}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item DemandaAcademicaAcceso
+			\item MatriculasGrado
+			\item MatriculasPosgrado
+			\item OrigenPais
+			\item OrigenProvincia
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#nonNegativeInteger
+		\\ \hline
+		Subpropiedad de:&
+		personas
+		\\ \hline
+		Propiedades \newline equivalentes:&
+		\begin{itemize}
+			\item \url{http://dbpedia.org/page/Woman}
+			\item \url{https://schema.org/Female}
+			\item \url{https://www.wikidata.org/wiki/Q467}
+		\end{itemize}
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#mujeres"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Mujeres\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:subPropertyOf\newline
+		\tab\tab rdf:resource=``\#personas"\ /\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;nonNegativeInteger"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#DemandaAcademicaAcceso"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#MatriculasGrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#MatriculasPosgrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OrigenPais"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OrigenProvincia"\ /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://dbpedia.org/page/Woman"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://schema.org/Female"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://www.wikidata.org/wiki/Q467"\  /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad mujeres}
+	\label{propiedad-mujeres}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{creditosMatriculados}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item NumMedioCreditos
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#decimal
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#creditosMatriculados"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Número medio de créditos matriculados\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#NumMedioCreditos"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad creditosMatriculados}
+	\label{propiedad-creditosmatriculados}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{creditosPresentados}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item NumMedioCreditos
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#decimal
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#creditosPresentados"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Número medio de créditos presentados\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#NumMedioCreditos"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad creditosPresentados}
+	\label{propiedad-creditospresentados}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{creditosSuperados}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item NumMedioCreditos
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#decimal
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#creditosSuperados"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Número medio de créditos superados\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#NumMedioCreditos"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad creditosSuperados}
+	\label{propiedad-creditossuperados}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{pais}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item OrigenPais
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#string
+		\\ \hline
+		Propiedades \newline equivalentes:&
+		\begin{itemize}
+			\item \url{http://dbpedia.org/ontology/country}
+			\item \url{http://schema.org/Country}
+			\item \url{https://www.wikidata.org/wiki/Q6256}
+		\end{itemize}
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#pais"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Pais de origen\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OrigenPais"\ /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://dbpedia.org/ontology/country"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://schema.org/Country"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://www.wikidata.org/wiki/Q6256"\  /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad pais}
+	\label{propiedad-pais}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{personas}}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#nonNegativeInteger
+		\\ \hline
+		Propiedades \newline equivalentes:&
+		\begin{itemize}
+			\item \url{http://dbpedia.org/ontology/person}
+			\item \url{http://schema.org/Person}
+			\item \url{https://www.wikidata.org/wiki/Q215627}
+		\end{itemize}
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#personas"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Personas\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;nonNegativeInteger"\ /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://dbpedia.org/ontology/person"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://schema.org/Person"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://www.wikidata.org/wiki/Q215627"\  /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad personas}
+	\label{propiedad-personas}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{planEstudios}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item NumMedioCreditos
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#string
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#planEstudios"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Plan de estudios\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#NumMedioCreditos"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad planEstudios}
+	\label{propiedad-planestudios}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{plazasOfertadas}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item DemandaAcademicaTitulacion
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#nonNegativeInteger
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#plazasOfertadas"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Plazas ofertadas\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;nonNegativeInteger"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#DemandaAcademicaTitulacion"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad plazasOfertadas}
+	\label{propiedad-plazasOfertadas}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{provincia}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item OrigenProvincia
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#string
+		\\ \hline
+		Propiedades \newline equivalentes:&
+		\begin{itemize}
+			\item \url{http://dbpedia.org/ontology/province}
+			\item \url{http://schema.org/State}
+			\item \url{https://www.wikidata.org/wiki/Q34876}
+		\end{itemize}
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#provincia"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Provincia\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OrigenProvincia"\ /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://dbpedia.org/ontology/province"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://schema.org/State"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://www.wikidata.org/wiki/Q34876"\  /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad provincia}
+	\label{propiedad-provincia}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{ramaConocimiento}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item MatriculasGrado
+			\item MatriculasPosgrado
+			\item NumMedioCreditos
+			\item OfertaTitulacionDoctorado
+			\item OfertaTitulacionGrado
+			\item OfertaTitulacionMaster
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#string
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#ramaConocimiento"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Rama de conocimiento\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#MatriculasGrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#MatriculasPosgrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#NumMedioCreditos"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionDoctorado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionGrado"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#OfertaTitulacionMaster"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad ramaConocimiento}
+	\label{propiedad-ramaconocimiento}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{tasaAbandono}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item TasasAcademicasTitulacion
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#decimal
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#tasaAbandono"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Tasa de abandono\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#TasasAcademicasTitulacion"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad tasaAbandono}
+	\label{propiedad-tasaabandono}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{tasaAbandonoInicial}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item TasasAcademicasTitulacion
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#decimal
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#tasaAbandonoInicial"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Tasa de abandono inicial\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#TasasAcademicasTitulacion"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad tasaAbandonoInicial}
+	\label{propiedad-tasaabandonoinicial}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{tasaEficiencia}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item TasasAcademicasTitulacion
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#decimal
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#tasaEficiencia"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Tasa de eficiencia\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#TasasAcademicasTitulacion"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad tasaEficiencia}
+	\label{propiedad-tasaeficiencia}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{tasaGraduacion}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item TasasAcademicasTitulacion
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#decimal
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#tasaGraduacion"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Tasa de graduación\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#TasasAcademicasTitulacion"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad tasaGraduacion}
+	\label{propiedad-tasagraduacion}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{tasaRendimiento}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item TasasAcademicasTitulacion
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#decimal
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#tasaRendimiento"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Tasa de rendimiento\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#TasasAcademicasTitulacion"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad tasaRendimiento}
+	\label{propiedad-tasarendimiento}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{tipoProcedimiento}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item DemandaAcademicaAcceso
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#string
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#tipoProcedimiento"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Tipo de procedimiento\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:subPropertyOf\newline
+		\tab\tab rdf:resource=``\#tipoProcedimiento"\ /\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#DemandaAcademicaAcceso"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad tipoProcedimiento}
+	\label{propiedad-tipoprocedimiento}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{titulacion}}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#string
+		\\ \hline
+		Subpropiedad de:&
+		ramaConocimiento
+		\\ \hline
+		Propiedades \newline equivalentes:&
+		\begin{itemize}
+			\item \url{http://dbpedia.org/page/Academic_degree}
+			\item \url{https://www.wikidata.org/wiki/Q189533}
+		\end{itemize}
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#titulacion"\textgreater\newline
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Titulacion\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:subPropertyOf\newline
+		\tab\tab rdf:resource=``\#ramaConocimiento"\ /\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://dbpedia.org/page/Academic\_degree"\  /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://www.wikidata.org/wiki/Q189533"\  /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad titulacion}
+	\label{propiedad-titulacion}
 \end{table}
 
 \begin{table}[!ht]
-	\begin{center}
-		\begin{tabular}{|l|l|}
-			\hline
-			\multicolumn{2}{|l|}{
-				\textbf{\begin{tabular}[c]{@{}l@{}}
-						Propiedad: \\ 
-						\\
-						\\
-						Descripción:\end{tabular}}} \\ 
-			\hline
-			Dominio: &  \\ 
-			\hline
-			Rango: &  \\ 
-			\hline
-			Subpropiedad: &  \\ 
-			\hline
-			\multicolumn{2}{|l|}{
-				{\begin{tabular}[c]{@{}l@{}}
-						Esto \\
-						es\\
-						una\\
-						prueba\end{tabular}}} \\ 
-			\hline
-		\end{tabular}
-		\caption{My caption}
-		\label{my-label}
-	\end{center}
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{titulados}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item DemandaAcademicaTitulacion
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#nonNegativeInteger
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#titulados"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Titulados\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;nonNegativeInteger"\ /\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#DemandaAcademicaTitulacion"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad titulados}
+	\label{propiedad-titulados}
 \end{table}
 
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{universidad}}
+		\\ \hline
+		Propiedades \newline equivalentes:&
+		\begin{itemize}
+			\item \url{http://dbpedia.org/ontology/university}
+			\item \url{http://schema.org/CollegeOrUniversity}
+			\item \url{https://www.wikidata.org/wiki/Q3918}
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#string
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#universidad"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Titulados\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;nonNegativeInteger"\ /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://dbpedia.org/ontology/university"\ /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``http://schema.org/CollegeOrUniversity"\ /\textgreater\newline
+		\tab\textless owl:equivalentProperty\newline
+		\tab\tab rdf:resource=``https://www.wikidata.org/wiki/Q3918"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad titulados}
+	\label{propiedad-titulados}
+\end{table}
