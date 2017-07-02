@@ -85,18 +85,18 @@ Los conjuntos de datos con los que se ha decidido trabajar son los siguientes:
 \begin{itemize}
 	\item ``Demanda académica: procedimientos acceso": contiene información relativa al número total de solicitudes de matrícula demandadas en la universidad. Datos desde el curso 2012/2013 hasta el curso 2014/2015.
 	\item ``Demanda académica: titulaciones": contiene información sobre la demanda de matrícula en relación con las plazas ofertadas en titulaciones oficiales de grado en la universidad. Datos desde el curso 2014/2015 hasta el curso 2014/2015.
-	\item ``Matrículas: grado": contiene información relacionada con las matrículas de titulaciones de grado realizadas en la universidad, agrupándola por rama, titulación y sexo del estudiante. Datos desde el curso 2010/2011 hasta el curso 2014/2015.
-	\item ``Matrículas: posgrado": contiene información relacionada con las matrículas de titulaciones de posgrado realizadas en la universidad, agrupándola por rama, titulación y sexo del estudiante. Datos desde el curso 2010/2011 hasta el curso 2014/2015.
-	\item ``Número medio de créditos": contiene información relacionada con el número medio de créditos de los estudiantes de la universidad, agrupándola por rama, plan de estudios, número medio de créditos matriculados, número medio de créditos presentados y número medio de créditos superados. Datos desde el curso 2012/2013 hasta el curso 2013/2014.
-	\item ``Oferta de titulaciones: doctorado": contiene información relativa a la oferta de titulaciones para estudios de doctorado, agrupándola por titulación, rama, centro y campus. Datos desde el curso 2013/2014 hasta el curso 2015/2016.
-	\item ``Oferta de titulaciones: grado": contiene información relativa a la oferta de titulaciones para estudios de grado, agrupándola por titulación, rama, centro y campus. Datos desde el curso 2013/2014 hasta el curso 2015/2016.
-	\item ``Oferta de titulaciones: másteres oficiales": contiene información relativa a la oferta de titulaciones para estudios de másteres oficiales, agrupándola por titulación, rama, centro y campus. Datos desde el curso 2013/2014 hasta el curso 2015/2016.
+	\item ``Matrículas: grado": contiene información relacionada con las matrículas de titulaciones de grado realizadas en la universidad, agrupándola por rama de conocimiento, titulación y sexo del estudiante. Datos desde el curso 2010/2011 hasta el curso 2014/2015.
+	\item ``Matrículas: posgrado": contiene información relacionada con las matrículas de titulaciones de posgrado realizadas en la universidad, agrupándola por rama de conocimiento, titulación y sexo del estudiante. Datos desde el curso 2010/2011 hasta el curso 2014/2015.
+	\item ``Número medio de créditos": contiene información relacionada con el número medio de créditos de los estudiantes de la universidad, agrupándola por rama de conocimiento, plan de estudios, número medio de créditos matriculados, número medio de créditos presentados y número medio de créditos superados. Datos desde el curso 2012/2013 hasta el curso 2013/2014.
+	\item ``Oferta de titulaciones: doctorado": contiene información relativa a la oferta de titulaciones para estudios de doctorado, agrupándola por titulación, rama de conocimiento, centro y campus. Datos desde el curso 2013/2014 hasta el curso 2015/2016.
+	\item ``Oferta de titulaciones: grado": contiene información relativa a la oferta de titulaciones para estudios de grado, agrupándola por titulación, rama de conocimiento, centro y campus. Datos desde el curso 2013/2014 hasta el curso 2015/2016.
+	\item ``Oferta de titulaciones: másteres oficiales": contiene información relativa a la oferta de titulaciones para estudios de másteres oficiales, agrupándola por titulación, rama de conocimiento, centro y campus. Datos desde el curso 2013/2014 hasta el curso 2015/2016.
 	\item ``Origen geográfico de estudiantes por país": contiene información relativa al origen geográfico de los estudiantes de la universidad, agrupándola por país de origen y sexo del estudiante. Datos desde el curso 2013/2014 hasta el curso 2015/2016.
 	\item ``Origen geográfico de estudiantes por provincia": contiene información relativa al origen geográfico de los estudiantes de la universidad, agrupándola por provincia de origen y sexo del estudiante. Datos desde el curso 2013/2014 hasta el curso 2015/2016.
 	\item ``Tasas académicas por titulaciones": contiene información relativa a la tasa de rendimiento, tasa de éxito, tasa de abandono inicial, tasa de eficiencia, tasa de graduación y tasa de abandono de los estudiantes según la titulación que estén estudiando en la universidad, agrupándola por titulación, tasa de rendimiento, tasa de éxito, tasa de abandono inicial, tasa de eficiencia, tasa de graduación y tasa de abandono. Datos desde el curso 2011/2012 hasta el curso 2015/2016.
 \end{itemize}
 
-El motivo de haber seleccionado solo estos 16 conjuntos de datos de entre los 40 totales, es que dado la gran cantidad de datos que podemos encontrar en el portal, podemos encontrarnos datos de todo tipo; podemos encontrar datos de fácil interpretación como son los datos relacionados con matrículas, pero también podemos encontranos por ejemplo datos de carácter económico que utiliza una serie de códigos que nos permiten hacer un uso tan natural de la información que contienen, por eso en una primera aproximación solo vamos a incluir datos de los que como personas podríamos sacar información válida a simple vista. Además, si no se tienen datos de varios años tampoco se considerará un conjunto de datos interesante ya que no se puede comprobar si esos datos representan un hecho anecdótico o una tendencia.
+El motivo de haber seleccionado solo estos 11 conjuntos de datos de entre los 40 totales, es que dado la gran cantidad de datos que podemos encontrar en el portal, podemos encontrarnos datos de todo tipo; podemos encontrar datos de fácil interpretación como son los datos relacionados con matrículas, pero también podemos encontranos por ejemplo datos de carácter económico que utiliza una serie de códigos que nos permiten hacer un uso tan natural de la información que contienen, por eso en una primera aproximación solo vamos a incluir datos de los que como personas podríamos sacar información válida a simple vista. Además, si no se tienen datos de varios años tampoco se considerará un conjunto de datos interesante ya que no se puede comprobar si esos datos representan un hecho anecdótico o una tendencia.
 
 \bigskip
 
@@ -187,7 +187,7 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 	\item ``Plan de estudios" $\rightarrow$ ``planEstudios". Tipo de dato cadena de caracteres.
 	\item ``Plazas ofertadas" $\rightarrow$ ``plazasOfertadas". Tipo de dato numérico entero no negativo.
 	\item ``Provincia" $\rightarrow$ ``provincia". Tipo de dato cadena de caracteres.
-	\item ``Rama" $\rightarrow$ ``rama". Tipo de dato cadena de caracteres.
+	\item ``Rama de conocimiento" $\rightarrow$ ``ramaConocimiento". Tipo de dato cadena de caracteres.
 	\item ``Tasa de abandono" $\rightarrow$ ``tasaAbandono". Tipo de dato numérico real no negativo.
 	\item ``Tasa de abandono inicial" $\rightarrow$ ``tasaAbandonoInicial". Tipo de dato numérico real no negativo.
 	\item ``Tasa de eficiencia" $\rightarrow$ ``tasaEficiencia". Tipo de dato numérico real no negativo.
@@ -209,26 +209,29 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 
 \begin{table}[!ht]
 	\centering
-	\begin{tabular}{|p{.17\textwidth}|p{.75\textwidth}|}
+	\begin{tabular}{|p{.17\textwidth}|p{.9\textwidth}|}
 		\hline
 		\multicolumn{2}{|l|}{Clase: \textbf{DemandaAcademicaAcceso}}
 		\\ \hline
 		Propiedades:&
 		\begin{itemize}
-			\item tipoProc
+			\item tipoProcedimiento
 			\item estado
 			\item hombres
 			\item mujeres
 			\item curso
 		\end{itemize}
 		\\ \hline
-		Definición:&
-		ex:DAA12131 rdf:type ugr:DemAcademAcceso ;\newline
-		\tab ugr:tipoProc ``CONVOCATORIA ORDINARIA DE JUNIO: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR" ;\newline
-		\tab ugr:estado ``PRESENTADOS FASE GENERAL"\newline
-		\tab ugr:hombres ``2264"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:mujeres ``2877"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:curso ``2012/2013" .
+		Ejemplo:&
+		\textless rdf:Description \newline
+		\tab rdf:about=``/DemandaAcademicaAcceso/2012-2013\#1"\textgreater \newline
+		\tab \textless rdf:type rdf:resource=``\#DemandaAcademicaAcceso"\ /\textgreater \newline
+		\tab \textless ugr:tipoProcedimiento\textgreater \newline\tab\tab CONVOCATORIA ORDINARIA DE JUNIO: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR \newline\tab\textless /ugr:tipoProcedimiento\textgreater \newline
+		\tab \textless ugr:estado\textgreater \newline\tab\tab PRESENTADOS FASE GENERAL\newline\tab\textless /ugr:estado\textgreater  \newline
+		\tab \textless ugr:hombres rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline\tab\tab2264 \newline \tab \textless /ugr:hombres\textgreater \newline
+		\tab \textless ugr:mujeres rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline\tab\tab2877 \newline \tab \textless /ugr:mujeres\textgreater  \newline
+		\tab \textless ugr:curso\textgreater \newline\tab\tab2012/2013\newline\tab\textless /ugr:curso\textgreater  \newline
+		\textless /rdf:Description\textgreater 
 		\\ \hline
 	\end{tabular}
 	\caption{Clase DemandaAcademicaAcceso}
@@ -237,7 +240,7 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 
 \begin{table}[!ht]
 	\centering
-	\begin{tabular}{|p{.17\textwidth}|p{.75\textwidth}|}
+	\begin{tabular}{|p{.17\textwidth}|p{.9\textwidth}|}
 		\hline
 		\multicolumn{2}{|l|}{Clase: \textbf{DemandaAcademicaTitulacion}}
 		\\ \hline
@@ -253,17 +256,20 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 			\item deportistas
 		\end{itemize}
 		\\ \hline
-		Definición:&
-		ex:DAT14151 rdf:type ugr:DemandaAcademicaTitulacion ;\newline
-		\tab ugr:titulacion ``ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS" ;\newline
-		\tab ugr:plazasOfertadas ``281"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:cupoGral ``271"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:mayor25 ``6"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:mayor40 ``0"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:titulados ``3"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:discapacitados ``1"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:deportistas ``1"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:curso ``2014/2015" .
+		Ejemplo:&
+		\textless rdf:Description \newline \tab rdf:about=``/DemandaAcademicaTitulacion/2014-2015\#1"\textgreater \newline
+		\tab \textless rdf:type rdf:resource=``\#DemandaAcademicaTitulacion"\ /\textgreater \newline
+		\tab \textless ugr:titulacion\textgreater \newline\tab\tab ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS\newline\tab\textless /ugr:titulacion\textgreater \newline
+		\tab \textless ugr:plazasOfertadas rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater  \newline \tab \tab 281\newline\tab\textless /ugr:plazasOfertadas\textgreater \newline
+		\tab \textless ugr:cupoGral rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline \tab \tab 271\newline\tab\textless /ugr:cupoGral\textgreater 
+		\tab \newline \tab \textless ugr:mayor25 rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline \tab \tab 6\newline\tab\textless /ugr:mayor25\textgreater 
+		\tab \newline \tab \textless ugr:mayor40 rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline \tab \tab 0\newline\tab\textless /ugr:mayor40\textgreater 
+		\tab \newline \tab \textless ugr:titulados rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline \tab \tab 3\newline\tab\textless /ugr:titulados\textgreater 
+		\tab \newline \tab 
+		\textless ugr:discapacitados rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline \tab \tab 1\newline\tab\textless /ugr:discapacitados\textgreater 
+		\tab \newline \tab \textless ugr:deportistas rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline \tab \tab 1\newline\tab\textless /ugr:deportistas\textgreater 
+		\tab \newline \tab \textless ugr:curso\textgreater \newline\tab\tab2014/2015\newline\tab\textless /ugr:curso\textgreater \newline
+		\textless /rdf:Description\textgreater 
 		\\ \hline
 	\end{tabular}
 	\caption{Clase DemandaAcademicaTitulacion}
@@ -272,26 +278,28 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 
 \begin{table}[!ht]
 	\centering
-	\begin{tabular}{|p{.17\textwidth}|p{.75\textwidth}|}
+	\begin{tabular}{|p{.17\textwidth}|p{.9\textwidth}|}
 		\hline
 		\multicolumn{2}{|l|}{Clase: \textbf{MatriculasGrado}}
 		\\ \hline
 		Propiedades:&
 		\begin{itemize}
-			\item rama
+			\item ramaConocimiento
 			\item titulacion
 			\item hombres
 			\item mujeres
 			\item curso
 		\end{itemize}
 		\\ \hline
-		Definición:&
-		ex:MG10111 rdf:type ugr:MatriculasGrado ;\newline
-		\tab ugr:rama ``ARTES Y HUMANIDADES" ;\newline
-		\tab ugr:titulacion ``GRADO EN BELLAS ARTES" ;\newline
-		\tab ugr:hombres ``70"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:mujeres ``159"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:curso ``2010/2011" .
+		Ejemplo:&
+		\textless rdf:Description rdf:about=``/MatriculasGrado/2010-2011\#1"\textgreater \newline
+		\tab \textless rdf:type rdf:resource=``\#MatriculasGrado"\ /\textgreater \newline
+		\tab \textless ugr:ramaConocimiento\textgreater \newline \tab\tab ARTES Y HUMANIDADES\newline\tab\textless /ugr:ramaConocimiento\textgreater \newline
+		\tab \textless ugr:titulacion\textgreater \newline\tab\tab GRADO EN BELLAS ARTES\newline\tab\textless /ugr:titulacion\textgreater \newline
+		\tab \textless ugr:hombres rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline\tab\tab70\newline\tab\textless /ugr:hombres\textgreater 
+		\tab \newline\tab\textless ugr:mujeres rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline\tab\tab159\newline\tab\textless /ugr:mujeres\textgreater 
+		\tab \newline\tab\textless ugr:curso\textgreater \newline\tab\tab2010/2011\newline\tab\textless /ugr:curso\textgreater \newline
+		\textless /rdf:Description\textgreater 
 		\\ \hline
 	\end{tabular}
 	\caption{Clase MatriculasGrado}
@@ -300,7 +308,7 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 
 \begin{table}[!ht]
 	\centering
-	\begin{tabular}{|p{.17\textwidth}|p{.75\textwidth}|}
+	\begin{tabular}{|p{.17\textwidth}|p{.9\textwidth}|}
 		\hline
 		\multicolumn{2}{|l|}{Clase: \textbf{MatriculasPosgrado}}
 		\\ \hline
@@ -312,13 +320,14 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 			\item curso
 		\end{itemize}
 		\\ \hline
-		Definición:&
-		ex:MP10111 rdf:type ugr:MatriculasPosgrado ;\newline
-		\tab ugr:titulacion ``MASTER ERASMUS MUNDUS EN EL COLOR EN LA INFORMATICA Y LA TECNOLOGIA DE LOS MEDIOS / ERASMUS MUNDUS IN COLOR IN INFORMATICS AND MEDIA TECHNOLOGY (CIMET)" ;\newline
-		\tab ugr:hombres ``9"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:mujeres ``9"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:curso ``2010/2011" .
-		\tab ugr:
+		Ejemplo:&
+		\textless rdf:Description \newline\tab  rdf:about=``/MatriculasPosgrado/2010-2011\#1"\textgreater \newline
+		\tab \textless rdf:type rdf:resource=``\#MatriculasPosgrado"\ /\textgreater \newline
+		\tab \textless ugr:titulacion\textgreater \newline\tab\tab MASTER ERASMUS MUNDUS EN EL COLOR EN LA INFORMATICA Y LA TECNOLOGIA DE LOS MEDIOS / ERASMUS MUNDUS IN COLOR IN INFORMATICS AND MEDIA TECHNOLOGY (CIMET) \newline\tab\textless /ugr:titulacion\textgreater \newline
+		\tab \textless ugr:hombres rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline\tab\tab9\newline\tab\textless /ugr:hombres\textgreater 
+		\tab \newline\tab\textless ugr:mujeres rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline\tab\tab9\newline\tab\textless /ugr:mujeres\textgreater 
+		\tab \newline\tab\textless ugr:curso\textgreater \newline\tab\tab2010/2011\newline\tab\textless /ugr:curso\textgreater \newline
+		\textless /rdf:Description\textgreater 
 		\\ \hline
 	\end{tabular}
 	\caption{Clase MatriculasPosgrado}
@@ -327,28 +336,30 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 
 \begin{table}[!ht]
 	\centering
-	\begin{tabular}{|p{.17\textwidth}|p{.75\textwidth}|}
+	\begin{tabular}{|p{.17\textwidth}|p{.9\textwidth}|}
 		\hline
 		\multicolumn{2}{|l|}{Clase: \textbf{NumMedioCreditos}}
 		\\ \hline
 		Propiedades:&
 		\begin{itemize}
 			\item planEstudios
-			\item rama
+			\item ramaConocimiento
 			\item creditosMatriculados
 			\item creditosPresentados
 			\item creditosSuperados
 			\item curso
 		\end{itemize}
 		\\ \hline
-		Definición:&
-		ex:NMC12131 rdf:type ugr:NumMedioCreditos ;\newline
-		\tab ugr:planEstudios ``PRIMER/SEGUNDO CICLO" ;\newline
-		\tab ugr:rama ``ARTES Y HUMANIDADES" ;\newline
-		\tab ugr:creditosMatriculados ``52.40"^^xsd:decimal ;\newline
-		\tab ugr:creditosPresentados ``40.06"^^xsd:decimal ;\newline
-		\tab ugr:creditosSuperados ``35.08"^^xsd:decimal ;\newline
-		\tab ugr:curso ``2012/2013" .
+		Ejemplo:&
+		\textless rdf:Description \newline \tab rdf:about=``/NumMedioCreditos/2012-2013\#1"\textgreater \newline
+		\tab \textless rdf:type rdf:resource=``\#NumMedioCreditos"\ /\textgreater 
+		\tab \newline\tab\textless ugr:planEstudios\textgreater \newline\tab\tab PRIMER/SEGUNDO CICLO\newline\tab\textless /ugr:planEstudios\textgreater 
+		\tab \newline\tab\textless ugr:ramaConocimiento\textgreater \newline\tab\tab ARTES Y HUMANIDADES\newline\tab\textless /ugr:ramaConocimiento\textgreater 
+		\newline \tab \textless ugr:creditosMatriculados rdf:datatype=``\&xsd;decimal"\textgreater \newline\tab\tab 52.40\newline\tab\textless /ugr:creditosMatriculados\textgreater \newline
+		\tab \textless ugr:creditosPresentados rdf:datatype=``\&xsd;decimal"\textgreater \newline\tab\tab 40.06\newline\tab\textless /ugr:creditosPresentados\textgreater \newline
+		\tab \textless ugr:creditosSuperados rdf:datatype=``\&xsd;decimal"\textgreater \newline\tab\tab 35.08\newline\tab\textless /ugr:creditosSuperados\textgreater \newline
+		\tab \textless ugr:curso\textgreater \newline\tab\tab 2012/2013\newline\tab\textless /ugr:curso\textgreater 
+		\newline\textless /rdf:Description\textgreater 
 		\\ \hline
 	\end{tabular}
 	\caption{Clase NumMedioCreditos}
@@ -357,7 +368,7 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 
 \begin{table}[!ht]
 	\centering
-	\begin{tabular}{|p{.17\textwidth}|p{.75\textwidth}|}
+	\begin{tabular}{|p{.17\textwidth}|p{.9\textwidth}|}
 		\hline
 		\multicolumn{2}{|l|}{Clase: \textbf{OfertaTitulacionDoctor}}
 		\\ \hline
@@ -370,13 +381,15 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 			\item curso
 		\end{itemize}
 		\\ \hline
-		Definición:&
-		ex:OTD13141 rdf:type ugr:OfertaTitulacionDoctor ;\newline
-		\tab ugr:rama ``ARTES Y HUMANIDADES" ;\newline
-		\tab ugr:titulacion ``PROGRAMA DE DOCTORADO EN BIOMEDICINA" ;\newline
-		\tab ugr:campus ``ESCUELA DE DOCTORADO" ;\newline
-		\tab ugr:centro ``UGR" ;\newline
-		\tab ugr:curso ``2013/2014" .
+		Ejemplo:&
+		\textless rdf:Description \newline\tab rdf:about=``/OfertaTitulacionDoctor/2013-2014\#1"\textgreater \newline
+		\tab \textless rdf:type rdf:resource=``\#OfertaTitulacionDoctor"\ /\textgreater 
+		\newline \tab \textless ugr:ramaConocimiento\textgreater \newline\tab\tab ARTES Y HUMANIDADES\newline\tab\textless /ugr:ramaConocimiento\textgreater 
+		\newline\tab \textless ugr:titulacion\textgreater \newline\tab\tab PROGRAMA DE DOCTORADO EN BIOMEDICINA\newline\tab \textless/ugr:titulacion\textgreater 
+		\newline\tab \textless ugr:campus\textgreater \newline\tab\tab ESCUELA DE DOCTORADO\newline\tab\textless /ugr:campus\textgreater 
+		\newline\tab \textless ugr:centro\textgreater \newline\tab\tab UGR\newline\tab\textless /ugr:centro\textgreater 
+		\newline\tab \textless ugr:curso\textgreater \newline\tab\tab 2013/2014\newline\tab\textless /ugr:curso\textgreater 
+		\newline\textless /rdf:Description\textgreater 
 		\\ \hline
 	\end{tabular}
 	\caption{Clase OfertaTitulacionDoctor}
@@ -385,26 +398,28 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 
 \begin{table}[!ht]
 	\centering
-	\begin{tabular}{|p{.17\textwidth}|p{.75\textwidth}|}
+	\begin{tabular}{|p{.17\textwidth}|p{.9\textwidth}|}
 		\hline
 		\multicolumn{2}{|l|}{Clase: \textbf{OfertaTitulacionGrado}}
 		\\ \hline
 		Propiedades:&
 		\begin{itemize}
-			\item rama
+			\item ramaConocimiento
 			\item titulacion
 			\item campus
 			\item centro
 			\item curso
 		\end{itemize}
 		\\ \hline
-		Definición:&
-		ex:OTG13141 rdf:type ugr:OfertaTitulacionGrado ;\newline
-		\tab ugr:rama ``CIENCIAS" ;\newline
-		\tab ugr:titulacion ``BIOLOGIA" ;\newline
-		\tab ugr:campus ``FUENTENUEVA" ;\newline
-		\tab ugr:centro ``FACULTAD DE CIENCIAS" ;\newline
-		\tab ugr:curso ``2013/2014" .
+		Ejemplo:&
+		\textless rdf:Description \newline\tab rdf:about=``/OfertaTitulacionGrado/2013-2014\#1"\textgreater \newline
+		\tab \textless rdf:type rdf:resource=``\#OfertaTitulacionGrado"\ /\textgreater 
+		\newline \tab \textless ugr:ramaConocimiento\textgreater \newline\tab\tab CIENCIAS\newline\tab\textless /ugr:ramaConocimiento\textgreater 
+		\newline\tab \textless ugr:titulacion\textgreater \newline\tab\tab BIOLOGIA\newline\tab \textless/ugr:titulacion\textgreater 
+		\newline\tab \textless ugr:campus\textgreater \newline\tab\tab FUENTENUEVA\newline\tab\textless /ugr:campus\textgreater 
+		\newline\tab \textless ugr:centro\textgreater \newline\tab\tab FACULTAD DE CIENCIAS\newline\tab\textless /ugr:centro\textgreater 
+		\newline\tab \textless ugr:curso\textgreater \newline\tab\tab 2013/2014\newline\tab\textless /ugr:curso\textgreater 
+		\newline\textless /rdf:Description\textgreater 
 		\\ \hline
 	\end{tabular}
 	\caption{Clase OfertaTitulacionGrado}
@@ -413,26 +428,28 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 
 \begin{table}[!ht]
 	\centering
-	\begin{tabular}{|p{.17\textwidth}|p{.75\textwidth}|}
+	\begin{tabular}{|p{.17\textwidth}|p{.9\textwidth}|}
 		\hline
 		\multicolumn{2}{|l|}{Clase: \textbf{OfertaTitulacionMaster}}
 		\\ \hline
 		Propiedades:&
 		\begin{itemize}
-			\item rama
+			\item ramaConocimiento
 			\item titulacion
 			\item campus
 			\item centro
 			\item curso
 		\end{itemize}
 		\\ \hline
-		Definición:&
-		ex:OTM13141 rdf:type ugr:OfertaTitulacionMaster ;\newline
-		\tab ugr:rama ``ARTES Y HUMANIDADES" ;\newline
-		\tab ugr:titulacion ``MASTER UNIVERSITARIO EN ARQUEOLOGIA (M71.56.1)" ;\newline
-		\tab ugr:campus ``CARTUJA" ;\newline
-		\tab ugr:centro ``FACULTAD DE FILOSOFÍA Y LETRAS" ;\newline
-		\tab ugr:curso ``2013/2014" .
+		Ejemplo:&
+		\textless rdf:Description \newline\tab rdf:about=``/OfertaTitulacionMaster/2013-2014\#1"\textgreater \newline
+		\tab \textless rdf:type rdf:resource=``\#OfertaTitulacionMaster"\ /\textgreater 
+		\newline \tab \textless ugr:ramaConocimiento\textgreater \newline\tab\tab  ARTES Y HUMANIDADES\newline\tab\textless /ugr:ramaConocimiento\textgreater 
+		\newline\tab \textless ugr:titulacion\textgreater \newline\tab\tab MASTER UNIVERSITARIO EN ARQUEOLOGIA (M71.56.1)\newline\tab \textless/ugr:titulacion\textgreater 
+		\newline\tab \textless ugr:campus\textgreater \newline\tab\tab CARTUJA\newline\tab\textless /ugr:campus\textgreater 
+		\newline\tab \textless ugr:centro\textgreater \newline\tab\tab FACULTAD DE FILOSOFÍA Y LETRAS\newline\tab\textless /ugr:centro\textgreater 
+		\newline\tab \textless ugr:curso\textgreater \newline\tab\tab 2013/2014\newline\tab\textless /ugr:curso\textgreater 
+		\newline\textless /rdf:Description\textgreater 
 		\\ \hline
 	\end{tabular}
 	\caption{Clase OfertaTitulacionMaster}
@@ -441,7 +458,7 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 
 \begin{table}[!ht]
 	\centering
-	\begin{tabular}{|p{.17\textwidth}|p{.75\textwidth}|}
+	\begin{tabular}{|p{.17\textwidth}|p{.9\textwidth}|}
 		\hline
 		\multicolumn{2}{|l|}{Clase: \textbf{OrigenPais}}
 		\\ \hline
@@ -453,12 +470,14 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 			\item curso
 		\end{itemize}
 		\\ \hline
-		Definición:&
-		ex:OPA13141 rdf:type ugr:OrigenPais ;\newline
-		\tab ugr:paisOrigen ``ALBANIA" ;\newline
-		\tab ugr:hombres ``3"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:mujeres ``2"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:curso ``2013/2014" .
+		Ejemplo:&
+		\textless rdf:Description \newline\tab rdf:about=``/OrigenPais/2013-2014\#1"\textgreater 
+		\tab \newline\tab \textless rdf:type rdf:resource=``\#OrigenPais"\ /\textgreater 
+		\newline \tab \textless ugr:pais\textgreater \newline\tab\tab ALBANIA\newline\tab\textless /ugr:pais\textgreater 
+		\newline\tab \textless ugr:hombres rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline\tab\tab 3\newline\tab\textless /ugr:hombres\textgreater 
+		\newline\tab \textless ugr:mujeres rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline\tab\tab 2\newline\tab\textless /ugr:mujeres\textgreater 
+		\newline\tab \textless ugr:curso\textgreater \newline\tab\tab 2013/2014\newline\tab\textless /ugr:curso\textgreater 
+		\newline\textless /rdf:Description\textgreater 
 		\\ \hline
 	\end{tabular}
 	\caption{Clase OrigenPais}
@@ -467,7 +486,7 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 
 \begin{table}[!ht]
 	\centering
-	\begin{tabular}{|p{.17\textwidth}|p{.75\textwidth}|}
+	\begin{tabular}{|p{.17\textwidth}|p{.9\textwidth}|}
 		\hline
 		\multicolumn{2}{|l|}{Clase: \textbf{OrigenProvincia}}
 		\\ \hline
@@ -479,12 +498,14 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 			\item curso
 		\end{itemize}
 		\\ \hline
-		Definición:&
-		ex:OPR13141 rdf:type ugr:OrigenProvincia ;\newline
-		\tab ugr:paisOrigen ``ALAVA" ;\newline
-		\tab ugr:hombres ``24"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:mujeres ``47"^^xsd:nonNegativeInteger ;\newline
-		\tab ugr:curso ``2013/2014" .
+		Ejemplo:&
+		\textless rdf:Description \newline\tab rdf:about=``/OrigenProvincia/2013-2014\#1"\textgreater 
+		\tab \newline\tab \textless rdf:type rdf:resource=``\#OrigenProvincia"\ /\textgreater 
+		\newline \tab \textless ugr:pais\textgreater \newline\tab\tab ALAVA\newline\tab\textless /ugr:pais\textgreater 
+		\newline\tab \textless ugr:hombres rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline\tab\tab 24\newline\tab\textless /ugr:hombres\textgreater 
+		\newline\tab \textless ugr:mujeres rdf:datatype=``\&xsd;nonNegativeInteger"\textgreater \newline\tab\tab 47\newline\tab\textless /ugr:mujeres\textgreater 
+		\newline\tab \textless ugr:curso\textgreater \newline\tab\tab 2013/2014\newline\tab\textless /ugr:curso\textgreater 
+		\newline\textless /rdf:Description\textgreater 
 		\\ \hline
 	\end{tabular}
 	\caption{Clase OrigenProvincia}
@@ -493,7 +514,7 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 
 \begin{table}[!ht]
 	\centering
-	\begin{tabular}{|p{.17\textwidth}|p{.75\textwidth}|}
+	\begin{tabular}{|p{.17\textwidth}|p{.9\textwidth}|}
 		\hline
 		\multicolumn{2}{|l|}{Clase: \textbf{TasasAcademicasTitulacion}}
 		\\ \hline
@@ -508,16 +529,18 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 			\item tasaAbandono
 		\end{itemize}
 		\\ \hline
-		Definición:&
-		ex:TAT15161 rdf:type ugr:TasasAcademicasTitulacion ;\newline
-		\tab ugr:titulacion ``GRADUADO EN BIOLOGIA" ;\newline
-		\tab ugr:tasaRendimiento ``74.02"^^xsd:decimal ;\newline
-		\tab ugr:tasaExito ``83.12"^^xsd:decimal ;\newline
-		\tab ugr:tasaAbandonoInicial ``12.27"^^xsd:decimal ;\newline
-		\tab ugr:tasaEficiencia ``98"^^xsd:decimal ;\newline
-		\tab ugr:tasaGraduacion ``32.73"^^xsd:decimal ;\newline
-		\tab ugr:tasaAbandono ``30"^^xsd:decimal ;\newline
-		\tab ugr:curso ``2015/2016" .
+		Ejemplo:&
+		\textless rdf:Description\newline\tab rdf:about=``/TasasAcademicasTitulacion/2015-2016\#1"\textgreater 
+		\newline\tab \textless rdf:type rdf:resource=``\#TasasAcademicasTitulacion"\ /\textgreater 
+		\newline\tab \textless ugr:titulacion\textgreater \newline\tab\tab GRADUADO EN BIOLOGIA\newline\tab\textless /ugr:titulacion\textgreater 
+		\newline\tab \textless ugr:tasaRendimiento rdf:datatype=``\&xsd;decimal"\textgreater \newline\tab\tab 74.02\newline\tab\textless /ugr:tasaRendimiento\textgreater 
+		\newline\tab \textless ugr:tasaExito rdf:datatype=``\&xsd;decimal"\textgreater \newline\tab\tab 83.12\newline\tab\textless /ugr:tasaExito\textgreater 
+		\newline\tab \textless ugr:tasaAbandonoInicial rdf:datatype=``\&xsd;decimal"\textgreater \newline\tab\tab 12.27\newline\tab\textless /ugr:tasaAbandonoInicial\textgreater 
+		\newline\tab \textless ugr:tasaEficiencia rdf:datatype=``\&xsd;decimal"\textgreater \newline\tab\tab 98\newline\tab\textless /ugr:tasaEficiencia\textgreater 
+		\newline\tab \textless ugr:tasaGraduacion rdf:datatype=``\&xsd;decimal"\textgreater \newline\tab\tab 32.73\newline\tab\textless /ugr:tasaGraduacion\textgreater 
+		\newline\tab \textless ugr:tasaAbandono rdf:datatype=``\&xsd;decimal"\textgreater \newline\tab\tab30\newline\tab\textless /ugr:tasaAbandono\textgreater 
+		\newline\tab \textless ugr:curso\textgreater \newline\tab\tab 2015/2016\newline\tab\textless /ugr:curso\textgreater 
+		\newline\textless /rdf:Description\textgreater 
 		\\ \hline
 	\end{tabular}
 	\caption{Clase TasasAcademicasTitulacion}
