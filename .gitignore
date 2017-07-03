@@ -1,13 +1,15 @@
 pass.sh
 
 *.aux
+*.bbl
+*.bbg
 *.lof
 *.log
 *.lol
 *.lot
 *.out
 *.synctex.gz
-*toc
-*pdf
+*.toc
+*.pdf
 
 pruebas/*
