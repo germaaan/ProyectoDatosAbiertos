@@ -2,13 +2,13 @@
 
 \section{Modelo de desarrollo}
 
-Si bien no existe una metodología correcta para el desarrollo de ontologías, principalmente debido a que un punto muy influyente la percepción que tengamos nosotros mismos de la "realidad" que queremos modelar, si que existen propuestas para llevar a cabo esta tarea.
+Si bien no existe una metodología correcta para el desarrollo de ontologías, principalmente debido a que un punto muy influyente la percepción que tengamos nosotros mismos de la \textit{realidad} que queremos modelar, si que existen propuestas para llevar a cabo esta tarea.
 
 \subsection{METHONTOLOGY}
 
 Esta metodología divide el desarrollo de una ontología en las siguientes fases:
 
-\begin{itemize}
+\begin{enumerate}
 	\item \textbf{Construir el glosario de términos}: incluimos todos los términos relevantes del dominio (conceptos, instancias, atributos, relaciones) y sus descripciones en lenguaje natural.
 	\item \textbf{Construir taxonomías de conceptos}: seleccionamos todos los conceptos que hemos definido en nuestro glosario y definimos con la taxonomía la jerarquía en estos conceptos.
 	\item \textbf{Construir un diagrama de relaciones binarias}: consiste en establecer las relaciones entre los conceptos de la ontología y sus inversas.
@@ -20,25 +20,25 @@ Esta metodología divide el desarrollo de una ontología en las siguientes fases
 	\item \textbf{Definir los axiomas formales}: especificando nombre, descripción de la restricción, expresión lógica a cumplir, conceptos a los que afecta, relaciones a las que afecta y variables que usa.
 	\item \textbf{Definir reglas}: especificando nombre, descripción de la regla, expresión en forma si-entonces, conceptos a los que afecta, atributos a los que afecta, relaciones a las que afecta y variables que usa.
 	\item \textbf{Describir instancias}: especificando nombre de la instancia, nombre del concepto al que pertenece y los valores de los atributos si se conocen.
-\end{itemize}
+\end{enumerate}
 
 \subsection{On-To-Knowledge}
 
 Esta metodología divide el desarrollo de una ontología en las siguientes fases:
 
-\begin{itemize}
+\begin{enumerate}
 	\item \textbf{Estudio de viabilidad}: se identifica el problema a resolver y sus posibles solucions.
 	\item \textbf{Arranque}: se crea un documento de especificaciones de requisitos de la ontología: objetivo, dominio, alcance, aplicaciones que van a hacer uso de ella, fuentes de conocimiento, usuarios y escenarios, preguntas de competencia y ontologías existentes.
 	\item \textbf{Refinamiento}: se realiza una clasificación de los términos de la ontología en vista de una posterior formalización con relaciones y axiomas.
 	\item \textbf{Evaluación}: se comprueba la utilidad de ontología poniendo a prueba que cumple con los requisitos definidos en el documento de especificaciones.
 	\item \textbf{Mantenimiento}: se actualiza la ontología en función de los cambios que se haga en las especificaciones durante el ciclo de vida de la propia ontología.
-\end{itemize}
+\end{enumerate}
 
 \subsection{Protégé}
 
-Protégé es un editor de ontologías de código abierto desarrollado por la Universidad de Stanford que permite desarrollar ontologías siguiendo una metología creada por los propios desarrolladores de Protégé. Se componente de las siguientes fases:
+{\it Protégé} es un editor de ontologías de código abierto desarrollado por la {\it Universidad de Stanford} que permite desarrollar ontologías siguiendo una metología creada por los propios desarrolladores de {\it Protégé}. Se componente de las siguientes fases:
 
-\begin{itemize}
+\begin{enumerate}
 	\item \textbf{Determinar el dominio y el alcance de la ontología}: se establecen cuestiones como para qué se va a utilizar, qué preguntas ha de responder o a quién va dirigida.
 	\item \textbf{Considerar la reutilización de ontologías existentes}: se busca reaprovechar recursos de ontologías existentes que se pueden considerar de utilidad para nuestro caso; además, de facilitar la interconexión con otras aplicaciones que hagan uso de otro ontologías.
 	\item \textbf{Enumerar términos importantes para la ontología}: realizando una lista de conceptos que se quieren tratar con lo ontología.
@@ -46,21 +46,75 @@ Protégé es un editor de ontologías de código abierto desarrollado por la Uni
 	\item \textbf{Definir las propiedades de las clases}: para así darle capacidad de representación de información de las clases.
 	\item \textbf{Definir las restricciones de las propiedades}: tipo de valores, cardinalidad, dominio, rango...
 	\item \textbf{Crear instancias}: indicando los valores de las propiedades de cada una de las instancias de las clases.
-\end{itemize}
+\end{enumerate}
 	
 \subsection{Metodología seleccionada}
 
-Debido a que en el problema que abarca este Trabajo no se parte de un sistema inexistente, si no que se va a trabajar sobre unos conceptos ya existentes, el uso de metodologías tan formales como METHONTOLOGY o On-To-Knowledge se hace algo de difícil de adaptación, es por eso que se han incluido como simples planteamientos teóricos.
+Debido a que en el problema que abarca este {\it Trabajo} no se parte de un sistema inexistente, si no que se va a trabajar sobre unos conceptos ya existentes, el uso de metodologías tan formales como {\it METHONTOLOGY} o {\it On-To-Knowledge} se hace algo de difícil de adaptación, es por eso que se han incluido como simples planteamientos teóricos.
 
 \bigskip
-En el caso de la ontología usada en Protégé, aunque existe el mismo problema, si es cierto que se puede adaptar a nuestro caso, por lo que es lo que se va a utilizar en el desarollo.
+En el caso de la ontología usada en {\it Protégé}, aunque existe el mismo problema, si es cierto que se puede adaptar a nuestro caso, por lo que es lo que se va a utilizar en el desarollo.
 
 \section{Gestión de recursos}
 
 \subsection{Personal}
 
+El personal que se encargará del desarrollo de este proyecto es única y exclusivamente el autor del mismo, {\it Germán Martínez Maldonado}, encargándose de todas las fases del mismo: \textit{análisis}, \textit{diseño}, \textit{implementación} y \textit{evaluación de resultados}.
+
 \subsection{Hardware}
+
+El hardware utilizado para el desarrollo del proyecto se compone de dos máquinas diferentes: un ordenador portátil personal en el que se realizará el desarrollo y las pruebas haciendo uso de máquinas virtuales, y un servidor con visibilidad pública que será en el que se desplegará la versión final de proyecto. Las especificaciones de ambos sistemas son las siguientes.
+
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{|p{.15\textwidth}|p{.35\textwidth}|p{.35\textwidth}|}
+		\hline
+		 &
+		\textbf{Ordenador personal}&
+		\textbf{Servidor de producción}
+		\\ \hline
+		CPU:&
+		Intel Core i7-5500U CPU @ 3GHz&
+		Intel Core2 Duo CPU E4400 @ 2GHz
+		\\ \hline
+		RAM:&
+		8 GB&
+		4 GB
+		\\ \hline
+		SO:&
+		Ubuntu 16.10 yakkety&
+		Ubuntu 16.04 xenial
+		\\ \hline
+		Kernel:&
+		x86\_64 Linux 4.8.0-58-generic&
+		x86\_64 Linux 4.4.0-83-generic
+		\\ \hline
+	\end{tabular}
+	\caption{Características hardware utilizado}
+	\label{caracteristicas-hardware}
+\end{table}
 
 \subsection{Software}
 
+Todo el software que se ha utilizado para el desarrollo del proyecto es software de código abierto en un compromiso con la ciencia abierta y sostenible.
+
+\begin{itemize}
+	\item \textbf{Vagrant}\footnote{\url {https://www.vagrantup.com/}}: es una herramienta que nos permite crear fácilmente entornos virtuales en los que probar nuestro proyecto durante el desarollo. 
+	\item \textbf{Ansible}\footnote{\url {https://www.ansible.com/}}: es una herramienta para automatizar la configuración de un sistema, instalando todo el software que necesitemos y permitiéndonos adaptarlo a nuestras necesidades. 
+	\item \textbf{CKAN}\footnote{\url {https://ckan.org/}}: es una plataforma con la que podemos montar nuestro propio almacén de datos abiertos en el que publicar y visualizar datos en diferentes formatos.	
+	\item \textbf{NGINX}\footnote{\url {https://nginx.org/en/}}: es un servidor web ligero, sencillo y ágil que usaremos para albergar los archivos de ontología y recursos producidos como fruto de este proyecto.
+	\item \textbf{OpenLink Virtuoso Open-Source Edition}\footnote{\url {http://vos.openlinksw.com/owiki/wiki/VOS/}}: es un servidor ORDBMS abierto que permite el almacenamiento y la gestión de datos en formato RDF, además de proveer de un punto de acceso a un sistema de recuperación de datos mediante SPARQL.
+\end{itemize}
+
 \section{Planificación temporal}
+
+El desarrollo de este {\tt Trabajo} se ha llevado a cabo entre principios de enero de 2017 y principios de julio de ese mismo año, habiéndose dividido en las siguientes fases:
+
+\begin{enumerate}
+	\item \textbf{Investigación inicial sobre la temática}: antes de empezar es necesario hacer un trabajo previo de investigación para adquirir todos los conocimientos que sean necesarios. metodologías para el desarrollo de ontologías, estándares de {\tt la Web Semántica}, endpoints {\tt SPARQL}...; aunque se irá viendo más en profundidad según se vaya avanzando en el {\tt Trabajo}, este trabajo previo es a lo que se dedicarán los primeros meses.
+	\item \textbf{Documentación}: en este proyecto la documentación tiene un papel muy importante, ya que la parte de mayor complejidad corresponde al análisis y diseño del sistema que solo verán representadas en la misma; pero aunque la más importante, solo es una de las partes, así que con el fin de obtener una buena documentación, está se irá realizando simultáneamente con los avances que se vayan produciendo durante todo el desarrollo del proyecto.
+	\item \textbf{Análisis y diseño del sistema}: como hemos dicho esta es la parte más importante del proyecto, ya que de ella depende el resto del desarrollo. Con el fin de estudiar todos los aspectos necesarios de la mejor forma posible se emplearán otro par de meses para esta tarea.
+	\newpage
+	\item \textbf{Desarrollo de los objetivos}: una vez que tenemos el diseño ya finalizado la implementación será bastante sencilla, ya que simplemente deberemos procesar los datos originales para que se adapten al diseño realizado. Con esto hecho solo nos quedará poner el marcha el servidor que albergará los datos y el servidor que proveerá el punto de acceso {\tt SPARQL}. Esta tarea no debería llevar más de un mes.
+	\item \textbf{Análisis de resultados y conclusiones}: Con todo el trabajo ya finalizado, solo resta analizar los resultados para comprobar que cumplen los requisitos establecidos y, por fin, ya solo quedaría pasar a escribir las conclusiones y posibles trabajos futuros que se puedan derivar del trabajo realizado. El último mes se empleará en este fin.
+\end{enumerate}

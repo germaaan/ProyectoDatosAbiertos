@@ -122,9 +122,9 @@
 \begingroup
 \let\cleardoublepage\clearpage
   \tableofcontents
-  \listoffigures
+  %\listoffigures
   \listoftables
-  \lstlistoflistings
+  %\lstlistoflistings
 \endgroup
 
 \newpage
@@ -134,19 +134,20 @@
 \input{chapters/01_Introduccion}
 \input{chapters/02_Objetivos}
 \input{chapters/03_Planificacion}
-\input{chapters/03_Analisis_Diseno}
-\input{chapters/04_Implementacion}
-\input{chapters/05_Pruebas}
-\input{chapters/06_Conclusiones}
+\input{chapters/04_Estandares_Web_Semantica}
+\input{chapters/05_Analisis_Diseno}
+\input{chapters/06_Desarrollo}
+\input{chapters/07_Resultados}
+\input{chapters/08_Conclusiones}
 
 \backmatter
-\begingroup
-	\setlength\parindent{0pt}
-	\input{back/glossary}
-\endgroup
+
+%\begingroup
+%	\setlength\parindent{0pt}
+%	\input{back/glossary}
+%\endgroup
 
 \input{back/appendix}
-%\input{back/manual_usuario}
 
 \newpage
 \begin{thebibliography}{99}
