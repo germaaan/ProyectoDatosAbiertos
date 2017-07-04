@@ -8,6 +8,8 @@ pass.sh
 *.lol
 *.lot
 *.out
+*.pygstyle
+*.pygtex
 *.synctex.gz
 *.toc
 *.pdf

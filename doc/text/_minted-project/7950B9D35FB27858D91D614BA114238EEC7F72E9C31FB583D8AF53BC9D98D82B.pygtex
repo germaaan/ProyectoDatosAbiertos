@@ -1,9 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{k}{PREFIX} \PYG{n+nn}{ugr}\PYG{p}{:} \PYG{n+nl}{\PYGZlt{}http://cabas.ugr.es/ontology/ugr\PYGZsh{}\PYGZgt{}}
-
-\PYG{k}{SELECT} \PYG{n+nv}{?X} \PYG{n+nv}{?nombre}
-\PYG{k}{WHERE} \PYG{p}{\PYGZob{}}
-    \PYG{n+nv}{?X} \PYG{n+nn}{ex}\PYG{p}{:}\PYG{n+nt}{titulacion} \PYG{n+nv}{?nombre}
-\PYG{p}{\PYGZcb{}}
-\PYG{k}{LIMIT} \PYG{l+m+mi}{5}
-\end{Verbatim}
