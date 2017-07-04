@@ -1,6 +1,16 @@
-\chapter{Análisis y Diseño}
+\chapter{Metodología}
 
-\section{Conceptos del sistema}
+\section{Dominio y alcance de la ontología}
+
+La ontología propuesta tiene el objetivo de describir la información que está contenida en los diferentes conjuntos de datos del portal de datos abiertos de la Universidad de Granada. Por eso el dominio que abarcará será el datos de carácter universitario como son información demanda académica, matriculaciones o tasas académicas entre otros.
+\bigskip
+Esto lleva a que la ontología sea definida con el objetivo final de que pueda cubrir todos los conceptos que consideremos interesantes para luego obtener información que, aunque quizás no se pueda percibir a simple vista, la obtendremos de forma simplificada a través de las consultas que realizaremos al sistema.
+
+\section{Ontologías existentes}
+
+Aunque trabajamos con información típica que podemos encontrar en cualquier universidad, la organización propia de no suele se la misma de un organismo a otro.
+
+\section{Conjuntos de datos}
 
 Los conjuntos de datos con los que se ha decidido trabajar son los siguientes:
 
@@ -20,7 +30,7 @@ Los conjuntos de datos con los que se ha decidido trabajar son los siguientes:
 
 El motivo de haber seleccionado solo estos 11 conjuntos de datos de entre los 40 totales, es que dado la gran cantidad de datos que podemos encontrar en el portal, podemos encontrarnos datos de todo tipo; podemos encontrar datos de fácil interpretación como son los datos relacionados con matrículas, pero también podemos encontranos por ejemplo datos de carácter económico que utiliza una serie de códigos que nos permiten hacer un uso tan natural de la información que contienen, por eso en una primera aproximación solo vamos a incluir datos de los que como personas podríamos sacar información válida a simple vista. Además, si no se tienen datos de varios años tampoco se considerará un conjunto de datos interesante ya que no se puede comprobar si esos datos representan un hecho anecdótico o una tendencia.
 
-\bigskip
+\section{Clases del sistema}
 
 Aclarado este punto, lo siguiente es concretar que cada uno de estos conjuntos de datos se corresponderá con una clase en nuestra ontología.
 
@@ -121,9 +131,7 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 	\item ``Universidad" $\rightarrow$  ``universidad". Tipo de dato cadena de caracteres.
 \end{itemize}
 
-\section{Diseño de la ontología}
-
-\subsection{Vocabularios usados}
+\section{Vocabularios usados}
 
 Aunque en el diseño de la ontología todas las clases son del lenguaje definido propio, sí que se han usado otros vocabularios para definir los metadatos de la ontología (Dublin Core\footnote{\url{http://dublincore.org/documents/2012/06/14/dcmi-terms/}}, FOAF\footnote{\url{http://xmlns.com/foaf/spec/}}, Creative Commons\footnote{\url{https://creativecommons.org/ns}} y VANN\footnote{\url{http://vocab.org/vann/}}). \bigskip
 

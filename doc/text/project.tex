@@ -8,6 +8,7 @@
 \usepackage{xcolor}
 \usepackage{pdfpages}
 \usepackage{amssymb}
+\usepackage{minted}
 
 % Información reutilizable
 \newcommand{\asunto}{Trabajo de Fin de Máster}
@@ -93,8 +94,8 @@
 }
  
 % Minimizar fragmentado de listados
-\lstnewenvironment{listing}[1][]
-	{\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
+%\lstnewenvironment{listing}[1][]
+%	{\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
 
 % Para que las páginas en blanco no tengan cabecera
 \makeatletter
@@ -134,8 +135,8 @@
 \input{chapters/01_Introduccion}
 \input{chapters/02_Objetivos}
 \input{chapters/03_Planificacion}
-\input{chapters/04_Estandares_Web_Semantica}
-\input{chapters/05_Analisis_Diseno}
+\input{chapters/04_Estandares}
+\input{chapters/05_Metodologia}
 \input{chapters/06_Desarrollo}
 \input{chapters/07_Resultados}
 \input{chapters/08_Conclusiones}

@@ -10,33 +10,39 @@ RDF Schema (o simplemente RDFS) es una extensión del RDF original que utiliza s
 Gracias a que RDFs nos provee de los elementos básicos y comunes para la descripción de los datos de nuestro dominio, esto nos puede servir para reutilizar conceptos que son comunes en varios dominios distintos. Para conseguir esto RDFS nos permite crear esquemas sencillos usando clases y subclases, además de permitirnos definir propiedades, dominios de aplicación y rangos de valores.
 
 \newpage
-\begin{itemize}
-	\item Las clases son conjuntos de recursos que tienen características comunes y una representación en el mundo real. Tenemos tres clases fundamentales en RDFs a partir de las que podemos definir nuestras propias clases, siempre posible crear además una jerarquía de clases.
+\subsection{Clases en RDF Schema}
+Las clases son conjuntos de recursos que tienen características comunes y una representación en el mundo real. Tenemos tres clases fundamentales en RDFs a partir de las que podemos definir nuestras propias clases, siempre posible crear además una jerarquía de clases.
+
 	\begin{itemize}
 		\item rdfs:Class es la clase que utilizaremos para definir otras clases.
 		\item rdfs:Property es la clase a partir de la cual definiremos nuevas propiedades que nos permitan describir nuestros recursos.
 		\item rdfs:Resource todas las cosas descritas en RDF son llamadas ``recursos" y son instancias de esta clase, es por eso que esta clase nos permite referenciar cualquier clases desde otra clase.
 	\end{itemize}
-	
-	\item Las propiedades nos permitirán describir las características que tienen los distintos recursos, además de las propias relaciones que existen entre distintos recursos.
+
+\subsection{Propiedades en RDF Schema}
+Las propiedades nos permitirán describir las características que tienen los distintos recursos, además de las propias relaciones que existen entre distintos recursos.
+
 	\begin{itemize}
 		\item rdf:type nos permite definir el tipo de un determinado recurso, además, un recursos puede ser una instancia de más de una clase.
 		\item rdfs:subClassOf es la que nos permitirá definir una jerarquía de clases y subclases, además, una clase puede ser subclase de otras subclases.
 		\item rdfs:subPropertyOf, al igual que podemos crear subclases, también podemos crear subpropiedades para establecer una jerarquía de las mismas.
 	\end{itemize}
-	
-	\item Las restricciones son las que nos permiten definir las clases sobre la que pueden aplicarse determinadas propiedades y posibles valores:
+
+\subsection{Restricciones en RDF Schema}	
+
+Las restricciones son las que nos permiten definir las clases sobre la que pueden aplicarse determinadas propiedades y posibles valores:
+
 	\begin{itemize}
 		\item rdfs:domain definiría las clases sobre las que se puede aplicar una propiedad.
 		\item rdfs:range definiría los valores que puede tener una propiedad.
 	\end{itemize}
-\end{itemize}
 
+\newpage
 \section{OWL}
 
 OWL (Ontology Web Language) es un lenguaje de especificación de ontologías extensión de RDF Schema, proporcionando un mayor significado y semántica a las ontologías, ya que nos permite definir restricciones sobre las propiedades (como por ejemplo, los valores que puede tomar una clase) y definir axiomas, sentencias que son siempre ciertas y que nos serán muy útiles a la hora de realizar restricciones (como por ejemplo, que un recurso no puede pertenecer a dos clases que sean disjuntas). Utilizando esta jerarquía de clases y propiedades que forman la ontología, OWL se basa en lógicas descriptivas para realizar razonamientos.
 
-\newpage
+\subsection{Sublenguajes de OWL}	
 Por otra parte, OWL se puede clasificar en tres tipos, según su nivel de expresividad:
 
 \begin{itemize}
@@ -45,12 +51,17 @@ Por otra parte, OWL se puede clasificar en tres tipos, según su nivel de expres
 	\item OWL Full. Es la versión con un nivel mayor de expresividad, pero que está basadas en semánticas diferentes a OWL Lite y OWL DL. Por ejemplo, en OWL Full, una clase puede ser simultáneamente un colección de individuos y un individuo en sí mismo, algo que no está permitido en OWL DL.
 \end{itemize}
 
-Y después de hablar sobre los tipos de clasificación de OWL, tenemos que especificar sus componentes generales:
+\subsection{Clases e instancias en OWL}	
+Después de hablar sobre los tipos de clasificación de OWL, tenemos que especificar sus componentes generales, por lo que vamos a comenzar por las clases y las instancias.
 
-\begin{itemize}
-	\item Clases e instancias: todas las clases (owl:Class) son a su vez subclases de una única superclase (owl:THing). Además las subclases e instancias se definen con RDFS mediante las propiedades rdfs:subClassOf y rdfs:type respectivamente. También una clase puede crearse como la intersección de varias clases (owl:intersectionOf), la unión de varias clases (owl:unionOf) o el complemento de otra clase (owl:complementOf).
-	\item Propiedades: podemos definir propiedades literales de una clase con owl:DatatypeProperty, indicando además el tipo de dato de XML Schema del que es dicha propiedad; además, también podemos indicar las propiedades que relacionan distintas clases con owl:ObjectProperty.
-	\item Características de las propiedades: OWL nos permite definir diferentes tipos de propiedades:
+\bigskip
+
+Todas las clases (owl:Class) son a su vez subclases de una única superclase (owl:THing). Además las subclases e instancias se definen con RDFS mediante las propiedades rdfs:subClassOf y rdfs:type respectivamente. También una clase puede crearse como la intersección de varias clases (owl:intersectionOf), la unión de varias clases (owl:unionOf) o el complemento de otra clase (owl:complementOf).
+
+\subsection{Propiedades en OWL}	
+
+Podemos definir propiedades literales de una clase con owl:DatatypeProperty, indicando además el tipo de dato de XML Schema del que es dicha propiedad; además, también podemos indicar las propiedades que relacionan distintas clases con owl:ObjectProperty. Además, OWL  nos permite definir diferentes tipos de propiedades:
+
 	\begin{itemize}
 		\item Transitiva (owl:TransitiveProperty): si el sujeto A está relacionado con el sujeto B por medio de la propiedad P y por otro lado el sujeto B está relacionado con el sujeto C también por medio de la propiedad P, si la propiedad P está definida como una propiedad transitiva, se puede inferir que el sujeto A está relacionado con el sujeto C por medio de la propiedad P.
 		\item Simétrica (owl:SymmetricProperty): si el sujeto A está relacionado con el sujeto B por medio de la propiedad P, si la propiedad P está definida como una propiedad simétrica, se puede inferir que el sujeto B está relacionado con el sujeto A por medio de la propiedad P.
@@ -58,11 +69,85 @@ Y después de hablar sobre los tipos de clasificación de OWL, tenemos que espec
 		\item Inversa (owl:InverseOf): si la propiedad P1 está definida como la propiedad inversa de la propiedad P2, entonces si el sujeto A está relacionado con el sujeto B por medio de la propiedad P1, se puede inferir que el sujeto B está relacionado con el sujeto A por medio de la propiedad P2.
 		\item Inversa funcional (owl:InverseFunctionalProperty): si la propiedad P está definida como propiedad inversa funcional, entonces si el sujeto A está relacionado con el sujeto B por medio de la propiedad P, se puede inferir que el sujeto A y el sujeto B son en realidad el mismo sujeto.
 	\end{itemize}
-	\item Restricciones sobre las propiedades: una vez definidas las clases y las propiedades solo nos queda ver como se definen las restricciones sobre las propiedades. Además del dominio y el rango que ya podíamos definir con RDFS, OWL nos permite hacer restricciones más descriptivas como indicar de qué forma las instancias de una clase pueden tomar como únicos valores las instancias de otra clase (owl:allValuesFrom, owl:someValuesFrom, owl:hasValue) o la cardinalidad de los mismos (owl:maxCardinality, owl:minCardinality, owl:cardinality).
-	\item Axiomas: un axioma es una sentencia que es siempre cierta, OWL DL se basa en la lógica descriptiva para partiendo de la jerarquía y restricciones de clases poder inferir de forma automática razonamientos sobre los datos que tiene. En concreto, podemos definir desde controlar la integridad de nuestros datos mediante la definición de clases o propiedades disjuntas (owl:disjointWith, owl:AllDisjointClasses, owl:AllDisjointProperties); o indicar que nuestras clases y propiedades son equivalentes a clases y propiedades de otros vocabularios (owl:equivalentClass, owl:equivalentProperty). Esto último es lo que realmente le da utilidad a tener estructuras con un marco común, ya que es lo que permite la interoperabilidad, permiten que existan los datos enlazados.
-\end{itemize}
+
+\subsection{Restricciones y axiomas en OWL}	
+Una vez definidas las clases y las propiedades solo nos queda ver como se definen las restricciones sobre las propiedades. Además del dominio y el rango que ya podíamos definir con RDFS, OWL nos permite hacer restricciones más descriptivas como indicar de qué forma las instancias de una clase pueden tomar como únicos valores las instancias de otra clase (owl:allValuesFrom, owl:someValuesFrom, owl:hasValue) o la cardinalidad de los mismos (owl:maxCardinality, owl:minCardinality, owl:cardinality).
+
+Los axiomas son sentencias que siempre son ciertas, OWL DL se basa en la lógica descriptiva para partiendo de la jerarquía y restricciones de clases poder inferir de forma automática razonamientos sobre los datos que tiene. En concreto, podemos definir desde controlar la integridad de nuestros datos mediante la definición de clases o propiedades disjuntas (owl:disjointWith, owl:AllDisjointClasses, owl:AllDisjointProperties); o indicar que nuestras clases y propiedades son equivalentes a clases y propiedades de otros vocabularios (owl:equivalentClass, owl:equivalentProperty). Esto último es lo que realmente le da utilidad a tener estructuras con un marco común, ya que es lo que permite la interoperabilidad, permiten que existan los datos enlazados.
 
 \section{SPARQL}
+
+SPARQL es el lenguaje recomendado por la W3C para acceder a datos almacenados en RDF. Las consultas SPARQL se hacen sobre un almacén de datos RDF, pero además de la propia consulta será necesario especificar el espacio de nombres mediante el URI de las ontologías cuyos términos vamos a usar a la hora de realizar las consultas. Además, independientemente del lenguaje en el que estén almacenados los datos (RDF/XML, N3, Turtle, RDFa) las consultas se escribirán con sintaxis Turtle, lo que además de aportar simplicidad tiene otras ventajas como permite abreviar los URIs mediante el uso de prefijos.
+
+\bigskip
+Al igual que los triples RDF, las consultas SPARQL se contruyen a partir de tres elementos: sujeto, predicado y objeto; el sujeto y el objeto serían variables que se relacionan a través del predicado, el valor de cada uno de estos pares de variables es el resultado que obtendremos de una consulta SPARQL. Todas las variables a utilizar en la consulta (cuyos nombres siempre llevan un signo de interrogación delante para indicar que son variables) son declaradas con la sentencia SELECT al indicar los datos que se van a seleccionar de entre toda la información almacenada, será después con la sentencia WHERE donde al indicar cómo se relacionan sujetos y predicados cuando filtremos los datos que vamos a obtener. Un ejemplo de consulta simple: 
+
+\begin{minted}{sparql}
+PREFIX ugr: <http://cabas.ugr.es/ontology/ugr#>
+
+SELECT ?X ?nombre
+WHERE {
+    ?X ex:titulacion ?nombre
+}
+LIMIT 5
+\end{minted}
+
+Esta consulta lo que nos daría como resultado son todos los vínculos de los recursos existentes en nuestros datos que se corresponden al nombre de una titulación. Algo similar a lo que podemos ver en la siguiente tabla.
+
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{|p{.45\textwidth}|p{.50\textwidth}|}
+		\hline
+		\textbf{X} &
+		\textbf{nombre}
+		\\ \hline
+		ENLACE\_A\_RECURSO\#1&
+		"TITULACIÓN 1"
+		\\ \hline
+		ENLACE\_A\_RECURSO\#2&
+		"TITULACIÓN 2"
+		\\ \hline
+		ENLACE\_A\_RECURSO\#3&
+		"TITULACIÓN 3"
+		\\ \hline
+		ENLACE\_A\_RECURSO\#4&
+		"TITULACIÓN 4"
+		\\ \hline
+		ENLACE\_A\_RECURSO\#5&
+		"TITULACIÓN 5"
+		\\ \hline
+	\end{tabular}
+	\caption{Resultado consulta de ejemplo}
+	\label{consulta-ejemplo}
+\end{table}
+
+\subsection{Operadores en SPARQL}
+
+Además de las sentencias SELECT y WHERE, tenemos varios operadores que podemos utilizar a la hora de crear consultas; no obstante, ni siquiera todas las consultas tienen por qué ser de selección, podemos realizar consultas de otros tipos diferentes:
+
+\begin{itemize}
+	\item CONSTRUCT: nos devuelve el resultado en forma de triples RDF con el formato que le hayamos indicado como plantilla.
+	\item ASK: nos devuelve como resultado si la consulta que hemos realizado tiene solución o no, pero a diferencia de SELECT no nos devuelve la información correspondiente.
+	\item DESCRIBE: devuelve toda la información contenida sobre un recurso solicitado.
+\end{itemize}
+
+Y como ya decíamos, hay una serie de operadores que nos permiten hacer consultas de una mayor complejidad:
+
+\begin{itemize}
+	\item UNION: nos permite obtener el conjunto de resultados de dos consultas distintas, como por ejemplo, todos los resultados de dos consultas SELECT distintas se podrían agrupar en una misma respuesta.
+	\item OPTIONAL: nos permite obtener como resultado el conjunto de recursos que cumplan alguna de las condiciones indicadas en la clausula WHERE.
+	\item FILTER: nos permite obtener como resultado el conjunto de recursos que cumplan con las condiciones indicadas en la clausula WHERE añadiendo además criterios de selección arbitrarios.
+\end{itemize}
+
+Y para terminar lo único que nos faltaría es hablar sobre los modificadores que podemos usar en las consultas SPARQL:
+
+\begin{itemize}
+	\item ORDER BY: nos permite indicar bajo qué criterio queremos que se ordenen los resultados obtenidos.
+	\item DISTINCT: nos permite obtener una solución sin soluciones duplicadas.
+	\item REDUCED: nos permite obtener un resultado en que las soluciones podrán aparecer duplicadas o no en función de otros aspectos, como que el conjunto fuera demasiado grande para comprobar uno por uno que no hay duplicados.
+	\item LIMIT: nos permite indicar el número máximo de resultados que queremos obtener.
+	\item OFFSET: nos permite indicar el número de resultados que queremos despreciar antes de devolver la solución, como podría ser usar "OFFSET 10" para devolver a partir de 11º resultado (considerando que haya más de 10 resultados.)
+\end{itemize}
 
 \section{Razonamiento e inferencia}
 
