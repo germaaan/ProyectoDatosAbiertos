@@ -8,10 +8,12 @@ pass.sh
 *.lol
 *.lot
 *.out
+*.pdf
+*.pyg
 *.pygstyle
 *.pygtex
 *.synctex.gz
 *.toc
-*.pdf
 
 pruebas/*
+*_minted-project/*
