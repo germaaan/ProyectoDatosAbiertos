@@ -54,13 +54,9 @@ Aclarado este punto, lo siguiente es concretar que cada uno de estos conjuntos d
 
 \section{Descripción de las propiedades}
 
-Con las clases definidas, lo siguiente sería definir sus atributos, las relaciones y restricciones para tener la estructura completa de nuestro sistema. Para esto se usan básicamente dos tipos de propiedades diferentes definidas en OWL, ambas subclases de la clase rdf:Property definida en el estándar RDF:
+Con las clases definidas, lo siguiente sería definir sus atributos, las relaciones y restricciones para tener la estructura completa de nuestro sistema. Para esto usaremos {\tt owl:DatatypeProperty} que es subclases de la clase {\tt rdf:Property} definida en el estándar {\tt RDF}. Con {\tt owl:DatatypeProperty} podemos vincular valores del tipo que definamos con instancias de las clases que hemos definido.
 
-\begin{itemize}
-	\item Por un lado los atributos los definiremos con owl:DatatypeProperty, que es la propiedad que nos permite vincular valores del tipo que definamos con instancias de las clases que hemos definido.
-	\item Por el otro lado las relaciones las definiremos con owl:ObjectProperty, que es la propiedad que nos permite vincular instancias de las distintas clases que hemos definido.
-\end{itemize}
-
+\bigskip
 En lo que se refiere a los atributos, debemos tener en cuenta que hay atributos que se repiten en varias clases, por lo que tendremos que especificarlo en los dominios de dichas propiedades.
 
 \begin{itemize}
@@ -78,9 +74,9 @@ En lo que se refiere a los atributos, debemos tener en cuenta que hay atributos 
 	\item \textbf{Mayores 25} representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de personas mayores de 25 años.
 	\item \textbf{Mayores 40 y 45 } representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de personas mayores de 40 y de 45 años.
 	\item \textbf{Mujeres} representa el número de estudiantes del sexo masculino que estudian alguna titulación en la universidad.
-	\item \textbf{Número medio de créditos matriculados}:
-	\item \textbf{Número medio de créditos presentados}:
-	\item \textbf{Número medio de créditos superados}:
+	\item \textbf{Número medio de créditos matriculados}: representa el número medio de créditos matriculados por los estudiantes matriculados en titulaciones de una misma rama de conocimiento.
+	\item \textbf{Número medio de créditos presentados}: representa el número medio de créditos a los que estudiantes matriculados en titulaciones de una misma rama de conocimiento se han presentado a las evaluaciones oficiales.
+	\item \textbf{Número medio de créditos superados}: representa el número medio de créditos a los que estudiantes matriculados en titulaciones de una misma rama de conocimiento han superado las evaluaciones oficiales.
 	\item \textbf{País de origen} representa el número de estudiantes procedentes de un mismo país de origen que estudian alguna titulación en la universidad.
 	\item \textbf{Personas} representa el número de estudiantes que estudian alguna titulación en la universidad.
 	\item \textbf{Plan de estudios} representa el plan de estudios al que pertenece una titulación.
@@ -138,17 +134,17 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 \newpage
 \section{Vocabularios usados}
 
-En el diseño de la ontología todas las clases son del lenguaje definido propio, sí que se han usado otros vocabularios para definir los metadatos de la ontología (Dublin Core\footnote{\url{http://dublincore.org/documents/2012/06/14/dcmi-terms/}}, FOAF\footnote{\url{http://xmlns.com/foaf/spec/}}, Creative Commons\footnote{\url{https://creativecommons.org/ns}} y VANN\footnote{\url{http://vocab.org/vann/}}). \bigskip
+En el diseño de la ontología todas las clases son del lenguaje definido propio, sí que se han usado otros vocabularios para definir los metadatos de la ontología ({\tt Dublin Core}\footnote{\url{http://dublincore.org/documents/2012/06/14/dcmi-terms/}}, {\tt FOAF}\footnote{\url{http://xmlns.com/foaf/spec/}}, {\tt Creative Commons}\footnote{\url{https://creativecommons.org/ns}} y {\tt VANN}\footnote{\url{http://vocab.org/vann/}}). \bigskip
 
-Para la definición del propio vocabulario (cuyo prefijo de espacio de nombres preferido es \textbf{ugr}), solo se han utilizado los estándares definidos RDF, RDFS, OWL y XMLS\footnote{\url{https://www.w3.org/2001/XMLSchema}} (para los tipos de datos); sin embargo, para conseguir el objetivo de conseguir disponer de datos enlazados en las diferentes propiedades se referencian propiedades equivalentes dentro de otros vocabularios de nivel superior como DBpedia\footnote{\url{http://dbpedia.org/ontology/}} Wikidata\footnote{\url{https://www.wikidata.org/wiki/}} o Scheme.org\footnote{\url{http://schema.org/}}.
+Para la definición del propio vocabulario (cuyo prefijo de espacio de nombres preferido es \textbf{ugr}), solo se han utilizado los estándares definidos {\tt RDF}, {\tt RDFS}, {\tt OWL} y {\tt XMLS}\footnote{\url{https://www.w3.org/2001/XMLSchema}} (para los tipos de datos); sin embargo, para conseguir el objetivo de conseguir disponer de datos enlazados en las diferentes propiedades se referencian propiedades equivalentes dentro de otros vocabularios de nivel superior como {\tt DBpedia}\footnote{\url{http://dbpedia.org/ontology/}} {\tt Wikidata}\footnote{\url{https://www.wikidata.org/wiki/}} o {\tt Scheme.org}\footnote{\url{http://schema.org/}}.
 
 \section{Definición de las clases del sistema}
 
-Las tablas 3.1 a 3.11 contienen la lista de propiedades de cada una de las clases, así como un ejemplo de una instancia de la clase en formato RDF/XML. 
+Las tablas 3.1 a 3.11 contienen la lista de propiedades de cada una de las clases, así como un ejemplo de una instancia de la clase en formato {\tt RDF/XML}. 
 
 \section{Definición de las propiedades del sistema y sus restricciones}
 
-Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran presentes), el rango (el tipo de dato), subpropiedad de (en caso de que lo sea), las propiedades equivalentes en otros vocabularios de nivel superior y su descripción dentro de la ontología en formato RDF/XML.
+Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran presentes), el rango (el tipo de dato), subpropiedad de (en caso de que lo sea), las propiedades equivalentes en otros vocabularios de nivel superior y su descripción dentro de la ontología en formato {\tt RDF/XML}.
 \bigskip
 
 \begin{table}[!ht]
