@@ -10,7 +10,7 @@ sudo pip install Pygments
 sudo apt-get install texlive texlive-latex-extra texlive-lang-spanish xzdec
 tlmgr init-usertree
 tlmgr install xcolor
-doc/makePDF.sh
+./makePDF.sh
 ```
 
 _Código_ liberado bajo licencia **GNU GENERAL PUBLIC LICENSE Version 3**.
