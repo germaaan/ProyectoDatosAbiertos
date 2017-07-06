@@ -9,10 +9,12 @@
 
 \section*{Resumen}
 
+% Tienes que decir primero el objetivo. Empiezas por lo que has hecho, luego cómo lo has hecho, y finalmente el objetivo. Tiene que ser al revés. ¿Qué te propones? ¿Cómo lo has hecho? ¿Qué has conseguido? ¿Por qué quieres esa información?
+
 En este {\tt Trabajo de Fin de Máster} se ha propuesto transformar conjuntos de datos que se consideren relevantes de los disponibles en el portal de datos abiertos de la {Universidad de Granada}, {\tt OpenData UGR}, a un formato que permita que la información contenida en dichos datos sea comprensible y razonablemente automáticamente por máquinas. El objetivo final de esto es tener una interfaz que, a través de la ejecución de consultas, devuelva esta información ya procesada por la máquina.
 
 \bigskip
-Para resolver este problema se diseñara una ontología para describir y representar la información contenida en los datos almacenados. Esto se hará utilizando diferentes estándares definidos por el {\tt World Wide Web Council (W3C)} para la definición de la web semántica como son {\tt RDF}, {\tt RDFS} y {\tt OW}L. Será necesario transformar los datos originales (con diferentes distribuciones, todos en formato {\tt CSV}) en un formato compatible con este sistema, principalmente {\tt RDF/XML}, aunque también se utilizará el formato {\tt Turtle (Terse RDF Triple Language)}. Para ello, se usarán scripts escritos en {\tt Python} para ese propósito.
+Para resolver este problema se diseñará una ontología para describir y representar la información contenida en los datos almacenados. Esto se hará utilizando diferentes estándares definidos por el {\tt World Wide Web Council (W3C)} para la definición de la web semántica como son {\tt RDF}, {\tt RDFS} y {\tt OW}L. Será necesario transformar los datos originales (con diferentes distribuciones, todos en formato {\tt CSV}) en un formato compatible con este sistema, principalmente {\tt RDF/XML}, aunque también se utilizará el formato {\tt Turtle (Terse RDF Triple Language)}. Para ello, se usarán scripts escritos en {\tt Python} para ese propósito.
 
 \bigskip
 Una vez que todos los datos son procesados, sólo será necesario proporcionar un punto final a un sistema de recuperación de datos utilizando {\tt SPARQL}, que en este caso será montado en {\tt OpenLink Virtuoso}, un servidor abierto {\tt ORDBMS} que permite el almacenamiento y gestión de datos en formato {\tt RDF}.
