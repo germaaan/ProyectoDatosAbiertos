@@ -2,16 +2,16 @@
 
 \section{Dominio y alcance de la ontología}
 
-La ontología propuesta tiene el objetivo de describir la información que está contenida en los diferentes conjuntos de datos del portal de datos abiertos de la {\tt Universidad de Granada}. Por eso el dominio que abarcará será el datos de carácter universitario como son información demanda académica, matriculaciones o tasas académicas entre otros.
+La ontología propuesta tiene el objetivo de describir la información que está contenida en los diferentes conjuntos de datos del portal de datos abiertos de la {\sf Universidad de Granada}. Por eso el dominio que abarcará será el datos de carácter universitario como son información demanda académica, matriculaciones o tasas académicas entre otros.
 \bigskip
 Esto lleva a que la ontología sea definida con el objetivo final de que pueda cubrir todos los conceptos que consideremos interesantes para luego obtener información que, aunque quizás no se pueda percibir a simple vista, la obtendremos de forma simplificada a través de las consultas que realizaremos al sistema.
 
 \section{Ontologías existentes}
 
-Aunque trabajamos con información típica que podemos encontrar en cualquier universidad, la organización propia no suele ser la misma de un organismo a otro. En cualquier caso, podemos encontrar ontologías existentes similares a la que vamos a desarrollar que se han utilizado en otras universidades como la {\tt Universitat Pompeu Fabra} o {\tt Universidad Pablo de Olavide}, pero el primer problema que encontramos y que impide que pudiéramos reutilizar conceptos definidos en su ontología es que al tener la mayoría de datos de tipo general (como son las matrículas) de forma individualizada (los datos no están agrupados, son los datos anonimizados que representan a personas físicas), no se pueden adaptar a nuestros orígenes de datos, donde todos los datos están agrupados.
+Aunque trabajamos con información típica que podemos encontrar en cualquier universidad, la organización propia no suele ser la misma de un organismo a otro. En cualquier caso, podemos encontrar ontologías existentes similares a la que vamos a desarrollar que se han utilizado en otras universidades como la {\sf Universitat Pompeu Fabra} o {\sf Universidad Pablo de Olavide}, pero el primer problema que encontramos y que impide que pudiéramos reutilizar conceptos definidos en su ontología es que al tener la mayoría de datos de tipo general (como son las matrículas) de forma individualizada (los datos no están agrupados, son los datos anonimizados que representan a personas físicas), no se pueden adaptar a nuestros orígenes de datos, donde todos los datos están agrupados.
 
 \newpage
-En cualquier caso, como otro los factores que queremos conseguir es fomentar la interoperabilidad entre sistemas sí que vamos a utilizar otras ontologías de nivel superior, como son {\tt DBpedia}\footnote{\url{http://dbpedia.org/ontology/}} o  {\tt Wikidata}\footnote{\url{https://www.wikidata.org/wiki/}}, la importancia que tiene esta última es que por ejemplo nos permitiría cruzar nuestros datos con la información contenida en la {\tt Wikipedia}, lo que podría ser muy interesante de cara a posibles futuros trabajos en los que se usara la ontología aquí desarrollada.
+En cualquier caso, como otro los factores que queremos conseguir es fomentar la interoperabilidad entre sistemas sí que vamos a utilizar otras ontologías de nivel superior, como son {\sf DBpedia}\footnote{\url{http://dbpedia.org/ontology/}} o  {\sf Wikidata}\footnote{\url{https://www.wikidata.org/wiki/}}, la importancia que tiene esta última es que por ejemplo nos permitiría cruzar nuestros datos con la información contenida en la {\sf Wikipedia}, lo que podría ser muy interesante de cara a posibles futuros trabajos en los que se usara la ontología aquí desarrollada.
 
 \section{Descripción de los conjuntos de datos}
 
@@ -54,7 +54,7 @@ Aclarado este punto, lo siguiente es concretar que cada uno de estos conjuntos d
 
 \section{Descripción de las propiedades}
 
-Con las clases definidas, lo siguiente sería definir sus atributos, las relaciones y restricciones para tener la estructura completa de nuestro sistema. Para esto usaremos {\tt owl:DatatypeProperty} que es subclases de la clase {\tt rdf:Property} definida en el estándar {\tt RDF}. Con {\tt owl:DatatypeProperty} podemos vincular valores del tipo que definamos con instancias de las clases que hemos definido.
+Con las clases definidas, lo siguiente sería definir sus atributos, las relaciones y restricciones para tener la estructura completa de nuestro sistema. Para esto usaremos {\tt owl:DatatypeProperty} que es subclases de la clase {\tt rdf:Property} definida en el estándar {\sf RDF}. Con {\tt owl:DatatypeProperty} podemos vincular valores del tipo que definamos con instancias de las clases que hemos definido.
 
 \bigskip
 En lo que se refiere a los atributos, debemos tener en cuenta que hay atributos que se repiten en varias clases, por lo que tendremos que especificarlo en los dominios de dichas propiedades.
@@ -134,17 +134,17 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 \newpage
 \section{Vocabularios usados}
 
-En el diseño de la ontología todas las clases son del lenguaje definido propio, sí que se han usado otros vocabularios para definir los metadatos de la ontología ({\tt Dublin Core}\footnote{\url{http://dublincore.org/documents/2012/06/14/dcmi-terms/}}, {\tt FOAF}\footnote{\url{http://xmlns.com/foaf/spec/}}, {\tt Creative Commons}\footnote{\url{https://creativecommons.org/ns}} y {\tt VANN}\footnote{\url{http://vocab.org/vann/}}). \bigskip
+En el diseño de la ontología todas las clases son del lenguaje definido propio, sí que se han usado otros vocabularios para definir los metadatos de la ontología ({\sf Dublin Core}\footnote{\url{http://dublincore.org/documents/2012/06/14/dcmi-terms/}}, {\sf FOAF}\footnote{\url{http://xmlns.com/foaf/spec/}}, {\sf Creative Commons}\footnote{\url{https://creativecommons.org/ns}} y {\sf VANN}\footnote{\url{http://vocab.org/vann/}}). \bigskip
 
-Para la definición del propio vocabulario (cuyo prefijo de espacio de nombres preferido es \textbf{ugr}), solo se han utilizado los estándares definidos {\tt RDF}, {\tt RDFS}, {\tt OWL} y {\tt XMLS}\footnote{\url{https://www.w3.org/2001/XMLSchema}} (para los tipos de datos); sin embargo, para conseguir el objetivo de conseguir disponer de datos enlazados en las diferentes propiedades se referencian propiedades equivalentes dentro de otros vocabularios de nivel superior como {\tt DBpedia}\footnote{\url{http://dbpedia.org/ontology/}} {\tt Wikidata}\footnote{\url{https://www.wikidata.org/wiki/}} o {\tt Scheme.org}\footnote{\url{http://schema.org/}}.
+Para la definición del propio vocabulario (cuyo prefijo de espacio de nombres preferido es \textbf{ugr}), solo se han utilizado los estándares definidos {\sf RDF}, {\sf RDFS}, {\sf OWL} y {\sf XMLS}\footnote{\url{https://www.w3.org/2001/XMLSchema}} (para los tipos de datos); sin embargo, para conseguir el objetivo de conseguir disponer de datos enlazados en las diferentes propiedades se referencian propiedades equivalentes dentro de otros vocabularios de nivel superior como {\sf DBpedia}\footnote{\url{http://dbpedia.org/ontology/}} {\sf Wikidata}\footnote{\url{https://www.wikidata.org/wiki/}} o {\sf Scheme.org}\footnote{\url{http://schema.org/}}.
 
 \section{Definición de las clases del sistema}
 
-Las tablas 3.1 a 3.11 contienen la lista de propiedades de cada una de las clases, así como un ejemplo de una instancia de la clase en formato {\tt RDF/XML}. 
+Las tablas 3.1 a 3.11 contienen la lista de propiedades de cada una de las clases, así como un ejemplo de una instancia de la clase en formato {\sf RDF/XML}. 
 
 \section{Definición de las propiedades del sistema y sus restricciones}
 
-Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran presentes), el rango (el tipo de dato), subpropiedad de (en caso de que lo sea), las propiedades equivalentes en otros vocabularios de nivel superior y su descripción dentro de la ontología en formato {\tt RDF/XML}.
+Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran presentes), el rango (el tipo de dato), subpropiedad de (en caso de que lo sea), las propiedades equivalentes en otros vocabularios de nivel superior y su descripción dentro de la ontología en formato {\sf RDF/XML}.
 \bigskip
 
 \begin{table}[!ht]
