@@ -4,9 +4,9 @@
 Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu/xenial64"
   config.vm.hostname = "virtuoso"
-#  config.vm.provision "ansible" do |ansible|
-#    ansible.playbook = "virtuoso.yml"
-#  end
+  config.vm.provision "ansible" do |ansible|
+    ansible.playbook = "../../ansible/virtuoso.yml"
+  end
   config.vm.network "forwarded_port", guest: 8890, host: 8890
   config.vm.network "private_network", ip: "192.168.33.20"
 
