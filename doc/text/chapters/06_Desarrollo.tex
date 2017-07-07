@@ -3,13 +3,13 @@
 Una vez tenemos la ontología completamente diseñada (cuya versión completa se puede encontrar en el \textbf{Anexo I)}, el trabajo restante se divide en dos tareas:
 
 \begin{itemize}
-	\item Convertir los datos a un formato triple RDF que siga la ontología que hemos diseñado.
+	\item Convertir los datos a un formato triple {\sf RDF} que siga la ontología que hemos diseñado.
 	\item Crear la infraestructura necesaria para disponer de un punto de acceso a la información.
 \end{itemize}
 
 \section{Conversión de los datos}
 
-Todos los datos están en archivos en formato CSV siguiendo la misma estructura: la primera fila representa el título del dato y el resto los valores. Para resolver esto la opción más sencilla es desarrollar scripts que nos permitan procesar los archivos originales, aunque se podría hacer en varios lenguajes, se ha elegido Python por ser con el que se está más familiarizado para este tipo de tareas.
+Todos los datos están en archivos en formato {\sf CSV} (disponibles en el servidor C{\sf KAN} de {\sf OpenData UGR}) siguiendo la misma estructura: la primera fila representa el título del dato y el resto los valores. Para resolver esto la opción más sencilla es desarrollar scripts que nos permitan procesar los archivos originales, aunque se podría hacer en varios lenguajes, se ha elegido {\sf Python} por ser con el que se está más familiarizado para este tipo de tareas.
 
 \bigskip
 El procedimiento consistiría en cargar el archivo con los datos, y después de escribir en el archivo de destino las cabeceras con las definiciones de los espacios de nombres, ir añadiendo cada uno de los datos con el formato necesitado. La forma esquemática sería la siguiente: 
@@ -53,4 +53,22 @@ ofile.write("</rdf:RDF>")
 ofile.close()
 \end{minted}
 
+\newpage
 \section{Infraestructura para el punto de acceso SPARQL}
+
+La infraestructura que necesitaremos para tener el punto consta de dos partes: 
+
+\begin{itemize}
+	\item Un servidor web con acceso público desde {\sf Internet} cuya dirección será el {\sf URI} que identifique a nuestra ontología y los recursos que la utilizan, ya que todos los archivos serán servidos por dicho servidor. En este caso utilizaremos el servidor web {\sf nginx}.
+	\item El propio punto de acceso {\sf SPARQL},  para el que necesitaremos un servidor que permita almacenar los recursos en formato {\sf RDF/XML} que hemos generado y sobre esa misma información realizar las consultas. Para esto utilizaremos el servidor {\sf ORDBMS} {\sf Virtuoso}, montando sistemas de pruebas que correrán en máquinas virtuales {\sf Vagrant} que configuraremos automáticamente con {\sf Ansible}.
+\end{itemize}
+
+\subsection{Servidor web}
+
+Tenemos que configurar nuestro servidor {\sf nginx} para que realice las siguiente acciones:
+
+\begin{itemize}
+	\item Sirva los archivos de la ontología y los recursos en formato {\sf RDF/XML}.
+	\item Resuelva los {\sf URIs} de la ontología y los recursos en formato {\sf RDF/XML}.
+	\item Aplique el tipo {\sf MIME} {\tt application/rdf+xml} cuando devuelva archivos con extensión {\tt rdf} y el tipo {\tt text/turtle} cuando devuelva archivos con extensión {\tt ttl}.
+\end{itemize}

@@ -6,13 +6,19 @@
   remote_user: "ubuntu"
   gather_facts: "no"
 
+
   vars:
     user: "vagrant"
     temp_dir: "/tmp"
     version_virtuoso: "7.2.4.2"
+    virtuoso_pass: "{{ lookup('env', 'VIRTUOSO_PASSWD') }}"
 
 
   tasks:
+    - fail:
+        msg: "The admin password has no value."
+      when: virtuoso_pass == ""
+
     - name: "Install Python (if not installed)"
       raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
     - name: "Install Aptitude"
@@ -55,7 +61,9 @@
         mode: "0550"
 
     - name: "Decompress Virtuoso Open-Source"
-      shell: "tar -zxvf virtuoso-opensource-{{ version_virtuoso }}.tar.gz"
+      unarchive:
+          src: "virtuoso-opensource-{{ version_virtuoso }}.tar.gz"
+          dest: "{{ temp_dir }}/virtuoso-opensource-{{ version_virtuoso }}"
       args:
         chdir: "{{ temp_dir }}"
 
@@ -63,18 +71,20 @@
       shell: "./configure --prefix=/usr/local/ --with-readline --program-transform-name='s/isql/isql-v/'"
       args:
         chdir: "{{ temp_dir }}/virtuoso-opensource-{{ version_virtuoso }}"
-
     - name: "Make Virtuoso Open-Source installation"
       shell: "make"
       args:
         chdir: "{{ temp_dir }}/virtuoso-opensource-{{ version_virtuoso }}"
-
     - name: "Install Virtuoso Open-Source"
       shell: "make install"
       args:
         chdir: "{{ temp_dir }}/virtuoso-opensource-{{ version_virtuoso }}"
 
+    - name: "Set password admin"
+      shell: "set password dba {{ virtuoso_pass }}"
+      args:
+        chdir: "/usr/local/var/lib/virtuoso/db/"
     - name: "Run Virtuoso Open-Source"
-      shell: "virtuoso-t -fd"
+      shell: "virtuoso-t +wait +configfile /usr/local/var/lib/virtuoso/db/virtuoso.ini"
       args:
         chdir: "/usr/local/var/lib/virtuoso/db/"
