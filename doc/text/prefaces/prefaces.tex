@@ -9,15 +9,13 @@
 
 \section*{Resumen}
 
-% Tienes que decir primero el objetivo. Empiezas por lo que has hecho, luego cómo lo has hecho, y finalmente el objetivo. Tiene que ser al revés. ¿Qué te propones? ¿Cómo lo has hecho? ¿Qué has conseguido? ¿Por qué quieres esa información?
-
-En este {\sf Trabajo de Fin de Máster} se ha propuesto transformar conjuntos de datos que se consideren relevantes de los disponibles en el portal de datos abiertos de la {Universidad de Granada}, {\sf OpenData UGR}, a un formato que permita que la información contenida en dichos datos sea comprensible y razonablemente automáticamente por máquinas. El objetivo final de esto es tener una interfaz que, a través de la ejecución de consultas, devuelva esta información ya procesada por la máquina.
+En este {\sf Trabajo de Fin de Máster} se ha propuesto proporcionar un punto final a un sistema de información basado en grafos {\sf RDF}, de forma que los datos contenidos sean comprensibles y razonablemente automáticamente por máquinas, utilizando una interfaz para la recuperación de información mediante consultas en el lenguaje {\sf SPARQL}. 
 
 \bigskip
-Para resolver este problema se diseñará una ontología para describir y representar la información contenida en los datos almacenados. Esto se hará utilizando diferentes estándares definidos por el {\sf World Wide Web Council (W3C)} para la definición de la web semántica como son {\sf RDF}, {\sf RDFS} y {\sf OW}L. Será necesario transformar los datos originales (con diferentes distribuciones, todos en formato {\sf CSV}) en un formato compatible con este sistema, principalmente {\sf RDF/XML}, aunque también se utilizará el formato {\sf Turtle (Terse RDF Triple Language)}. Para ello, se usarán scripts escritos en {\sf Python} para ese propósito.
+Para hacer esto se ha propuesto transformar los conjuntos de datos que se consideren relevantes de los disponibles en el portal de datos abiertos de la {Universidad de Granada}, {\sf OpenData UGR}, al formato triple RDF siguiendo el modelo de una ontología diseñada para describir y representar la información contenida en los datos almacenados. Esto se hará utilizando diferentes estándares definidos por el {\sf World Wide Web Council (W3C)} para la definición de la web semántica como son {\sf RDF}, {\sf RDFS} y {\sf OWL}. Será necesario transformar los datos originales (con diferentes distribuciones, todos en formato {\sf CSV}) en un formato compatible con este sistema, principalmente {\sf RDF/XML}, aunque también se utilizará el formato {\sf Turtle (Terse RDF Triple Language)}. Para ello, se usarán scripts escritos en {\sf Python} para ese propósito.
 
 \bigskip
-Una vez que todos los datos son procesados, sólo será necesario proporcionar un punto final a un sistema de recuperación de datos utilizando {\sf SPARQL}, que en este caso será montado en {\sf OpenLink Virtuoso}, un servidor abierto {\sf ORDBMS} que permite el almacenamiento y gestión de datos en formato {\sf RDF}.
+Como resultado del proyecto tendremos una interfaz mediante la cual usando consultas {\sf SPARQL} podremos obtener información que no consta literalmente en nuestros datos almacenados, pero que gracias a los mecanismos de inferencia el sistema puede procesar automáticamente. Esta información puede sernos útil para sacar conclusiones que a simple vista si analizamos los datos en su estado original es muy posible que no percibiéramos, en definitiva, esta información nos sirve para explotar al máximo el conocimiento que alberga el sistema.
 
 \newpage
 \begin{center}
@@ -28,6 +26,8 @@ Una vez que todos los datos son procesados, sólo será necesario proporcionar u
 \end{center}
 
 \textbf{Keywords: }{\keywordsEn}
+
+% Cambiar traducción cuando la versión en español sea correcta
 
 \section*{Abstract}
 
