@@ -8,7 +8,6 @@
 
 
   vars:
-    user: "vagrant"
     temp_dir: "/tmp"
     version_virtuoso: "7.2.4.2"
     virtuoso_pass: "{{ lookup('env', 'VIRTUOSO_PASSWD') }}"
@@ -61,9 +60,7 @@
         mode: "0550"
 
     - name: "Decompress Virtuoso Open-Source"
-      unarchive:
-          src: "virtuoso-opensource-{{ version_virtuoso }}.tar.gz"
-          dest: "{{ temp_dir }}/virtuoso-opensource-{{ version_virtuoso }}"
+      shell: "tar -zxvf virtuoso-opensource-{{ version_virtuoso }}.tar.gz"
       args:
         chdir: "{{ temp_dir }}"
 

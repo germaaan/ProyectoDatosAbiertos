@@ -158,3 +158,40 @@ types {
 \
 \newpage
 \subsection{Punto de acceso SPARQL}
+
+El software que vamos a usar para proveer de un punto de acceso {\bf SPARQL} ya hemos comentado que será {\bf Openlink Virtuoso}; aunque existen muchas soluciones, unas más sencillas ({\bf Stardog}\footnote{\url{http://www.stardog.com/}}, {\bf Blazegraph}\footnote{\url{https://www.blazegraph.com/}}, {\bf RDF4J}{\footnote{\url{http://rdf4j.org/}}}) y otras de una complejidad similar ({\bf Apache Jena}{\footnote{\url{https://jena.apache.org/}}}, {\bf 4Store}\footnote{\url{https://github.com/4store/4store}}), ninguna tiene las capacidades de almacenamiento de datos, gestión de base de datos y provisión de punto {\bf SPARQL} que tiene Virtuoso, esto es lo que ha hecho que su uso sea tan extendido en proyectos de dimensiones considerables, como el que ya hemos mencionado en varias ocasiones que es {\bf DBpedia}.
+
+\bigskip
+Debido a que Virtuoso es un software algo pesado, las pruebas se realizaran sobre máquinas virtuales de prueba. Estos servidores virtuales los crearemos con {\bf Vagrant}, una herramienta para la creación y configuración de entornos de desarrollo virtualizados que se monta como una capa de abstracción sobre máquinas virtuales creadas con el software de virtualización {\bf VirtualBox} (en nuestro caso particular, ya que es compatible con otros sistemas de virtualización como {\bf VMware\footnote{\url{https://www.vmware.com/es.html}}} o {\bf Amazon EC2\footnote{\url{https://aws.amazon.com/es/ec2/}}}). Además, estos entornos de desarrollo serán configurados automáticamente con {\bf Ansible}, un software que se encarga de configurar y administrar sistemas de forma automática según especifiquemos en un {\bf playbook}, que es el nombre que reciben sus archivos de configuración.
+
+\bigskip
+Los archivos de configuración de las máquinas {\bf Vagrant} permiten indicar una gran cantidades de especificaciones de la propia máquina, pero en nuestro caso solo tenemos dos propiedades imprescindibles: la dirección de red privada mediante a la cual nos conectaremos internamente a la máquina virtual y el puerto redireccionado que nos permitirá realizar peticiones al puerto de la máquina virtual del que {\bf Virtuoso} escucha las peticiones desde nuestro sistema anfitrión. Aunque {\bf Vagrant} nos ejecutar de forma automática {\bf playbooks} de {\bf Ansible}, por ahora esto lo vamos a hacer manualmente hasta que sepamos que todo funciona correctamente.
+
+\begin{listing}[!ht]
+\begin{minted}{ruby}
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+    config.vm.box = "ubuntu/xenial64"
+    config.vm.hostname = "virtuoso"
+    
+    config.vm.network "forwarded_port", guest: 8890, host: 8890
+    config.vm.network "private_network", ip: "192.168.33.20"
+
+    config.vm.provider "virtualbox" do |v|
+        v.memory = 2048
+        v.cpus = 1
+        v.name = config.vm.hostname.to_s
+    end
+
+end
+\end{minted}
+\caption{Vagrantfile del sistema de prueba de Virtuoso}
+\end{listing}
+
+\newpage
+Cuando comprobemos que nuestro sistema de pruebas funciona correctamente, lo siguiente sería mediante {\bf Ansible} instalar en él de forma automática todo lo necesario para tener Virtuoso funcionando. En el \hyperref[anexo_v]{Anexo V} tenemos la configuración completa para instalar {\bf Virtuoso} mediante {\bf Ansible}. Para comprobar que {\bf Virtuoso} está funcionando correctamente deberíamos acceder a la dirección de la máquina virtual y el puerto que escucha {\bf Virtuoso}: \url{http://192.168.33.20:8890/}. Con Virtuoso funcionando, lo siguiente será proceder con la carga de datos.
+
+\bigskip
+Aunque podemos cargar los datos desde la interfaz web, deberíamos hacerlo uno por uno, lo que es sería un trabajo laborioso. Para estas situaciones la mejor opción es usar la carga masiva de recursos, esta opción nos permite cargar desde terminal todos los archivos en una ubicación de una vez.

@@ -1,3 +1,107 @@
-\addcontentsline{toc}{chapter}{Anexo}
-\chapter*{Anexo I: Ontología completa del sistema}
+%\begin{appendices}
+\addcontentsline{toc}{chapter}{Anexos}
+%\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+\chapter*{Anexo I: Ontología formato RDF/XML}
 
+\chapter*{Anexo II: Ontología formato Terse RDF Triple Language}
+
+\chapter*{Anexo III: Ejemplo recurso formato RDF/XML}
+
+\chapter*{Anexo IV: Ejemplo recurso formato Terse RDF Triple Language}
+
+\chapter*{Anexo V: Instalación Virtuoso con Ansible}
+\label{anexo_v}
+\begin{minted}{yaml}
+# ansible	2.1
+
+---
+- hosts: "virtuoso"
+  become: "yes"
+  remote_user: "ubuntu"
+  gather_facts: "no"
+
+
+  vars:
+    user: "vagrant"
+    temp_dir: "/tmp"
+    version_virtuoso: "7.2.4.2"
+    virtuoso_pass: "{{ lookup('env', 'VIRTUOSO_PASSWD') }}"
+
+
+  tasks:
+    - fail:
+        msg: "The admin password has no value."
+      when: virtuoso_pass == ""
+
+    - name: "Install Python (if not installed)"
+      raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
+    - name: "Install Aptitude"
+      raw: apt -y update && apt install -y aptitude
+
+    - name: "Update cache"
+      apt:
+        update_cache: "yes"
+        cache_valid_time: "1800"
+        upgrade: "safe"
+        dpkg_options: "force-confold"
+    - name: "Install dependencies"
+      apt:
+        name: "{{ item }}"
+        state: "latest"
+        dpkg_options: "force-confold"
+      with_items:
+        - "autoconf"
+        - "automake"
+        - "bison"
+        - "build-essential"
+        - "dpkg-dev"
+        - "flex"
+        - "gawk"
+        - "gperf"
+        - "libreadline-dev"
+        - "libssl-dev"
+        - "libtool"
+        - "libxml2-dev"
+        - "m4"
+        - "make"
+        - "odbcinst"
+        - "openssl"
+
+    - name: "Download Virtuoso Open-Source"
+      get_url:
+        url: "https://github.com/openlink/virtuoso-opensource/releases/download/v{{ version_virtuoso }}/virtuoso-opensource-{{ version_virtuoso }}.tar.gz"
+        dest: "{{ temp_dir }}"
+        mode: "0550"
+
+    - name: "Decompress Virtuoso Open-Source"
+      unarchive:
+          src: "virtuoso-opensource-{{ version_virtuoso }}.tar.gz"
+          dest: "{{ temp_dir }}/virtuoso-opensource-{{ version_virtuoso }}"
+      args:
+        chdir: "{{ temp_dir }}"
+
+    - name: "Configure Virtuoso Open-Source installation"
+      shell: "./configure --prefix=/usr/local/ --with-readline --program-transform-name='s/isql/isql-v/'"
+      args:
+        chdir: "{{ temp_dir }}/virtuoso-opensource-{{ version_virtuoso }}"
+    - name: "Make Virtuoso Open-Source installation"
+      shell: "make"
+      args:
+        chdir: "{{ temp_dir }}/virtuoso-opensource-{{ version_virtuoso }}"
+    - name: "Install Virtuoso Open-Source"
+      shell: "make install"
+      args:
+        chdir: "{{ temp_dir }}/virtuoso-opensource-{{ version_virtuoso }}"
+
+    - name: "Set password admin"
+      shell: "set password dba {{ virtuoso_pass }}"
+      args:
+        chdir: "/usr/local/var/lib/virtuoso/db/"
+    - name: "Run Virtuoso Open-Source"
+      shell: "virtuoso-t +wait +configfile /usr/local/var/lib/virtuoso/db/virtuoso.ini"
+      args:
+        chdir: "/usr/local/var/lib/virtuoso/db/"
+\end{minted}
+
+\chapter*{Anexo VI: Instalación CKAN con Ansible}
+%\end{appendices}
