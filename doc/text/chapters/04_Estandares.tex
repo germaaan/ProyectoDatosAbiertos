@@ -84,6 +84,7 @@ Los axiomas son sentencias que siempre son ciertas, {\sf OWL DL} se basa en la l
 \bigskip
 Al igual que los triples {\sf RDF}, las consultas {\sf SPARQL} se contruyen a partir de tres elementos: sujeto, predicado y objeto; el sujeto y el objeto serían variables que se relacionan a través del predicado, el valor de cada uno de estos pares de variables es el resultado que obtendremos de una consulta {\sf SPARQL}. Todas las variables a utilizar en la consulta (cuyos nombres siempre llevan un signo de interrogación delante para indicar que son variables) son declaradas con la sentencia {\tt SELECT} al indicar los datos que se van a seleccionar de entre toda la información almacenada, será después con la sentencia {\tt WHERE} donde al indicar cómo se relacionan sujetos y predicados cuando filtremos los datos que vamos a obtener. Un ejemplo de consulta simple: 
 
+\begin{listing}[!ht]
 \begin{minted}{sparql}
 PREFIX ugr: <http://cabas.ugr.es/ontology/ugr#>
 
@@ -93,6 +94,8 @@ WHERE {
 }
 LIMIT 5
 \end{minted}
+\caption{Consulta {\bf SPARQL} de prueba}
+\end{listing}
 
 Esta consulta lo que nos daría como resultado son todos los vínculos de los recursos existentes en nuestros datos que se corresponden al nombre de una titulación. Algo similar a lo que podemos ver en la siguiente tabla.
 

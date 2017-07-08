@@ -15,6 +15,7 @@ Todos los datos están en archivos en formato {\sf CSV} (disponibles en el servi
 El procedimiento consistiría en cargar el archivo con los datos, y después de escribir en el archivo de destino las cabeceras con las definiciones de los espacios de nombres, ir añadiendo cada uno de los datos con el formato necesitado. La forma esquemática sería la siguiente: 
 
 \newpage
+\begin{listing}[!ht]
 \begin{minted}{python}
 import csv
 
@@ -52,6 +53,8 @@ ofile = open('DESTINO.rdf', 'a')
 ofile.write("</rdf:RDF>")
 ofile.close()
 \end{minted}
+\caption{Plantilla script procesamiento archivos CSV}
+\end{listing}
 
 \newpage
 \section{Infraestructura para el punto de acceso SPARQL}
@@ -59,13 +62,13 @@ ofile.close()
 La infraestructura que necesitaremos para tener el punto consta de dos partes: 
 
 \begin{itemize}
-	\item Un servidor web con acceso público desde {\sf Internet} cuya dirección será el {\sf URI} que identifique a nuestra ontología y los recursos que la utilizan, ya que todos los archivos serán servidos por dicho servidor. En este caso utilizaremos el servidor web {\sf nginx}.
+	\item Un servidor web con acceso público desde {\sf Internet} cuya dirección será el {\sf URI} que identifique a nuestra ontología y los recursos que la utilizan, ya que todos los archivos serán servidos por dicho servidor. En este caso utilizaremos el servidor web {\sf Nginx}.
 	\item El propio punto de acceso {\sf SPARQL},  para el que necesitaremos un servidor que permita almacenar los recursos en formato {\sf RDF/XML} que hemos generado y sobre esa misma información realizar las consultas. Para esto utilizaremos el servidor {\sf ORDBMS} {\sf Virtuoso}, montando sistemas de pruebas que correrán en máquinas virtuales {\sf Vagrant} que configuraremos automáticamente con {\sf Ansible}.
 \end{itemize}
 
 \subsection{Servidor web}
 
-Tenemos que configurar nuestro servidor {\sf nginx} para que realice las siguiente acciones:
+Tenemos que configurar nuestro servidor {\sf NGINX} para que realice las siguiente acciones:
 
 \begin{itemize}
 	\item Sirva los archivos de la ontología y los recursos en formato {\sf RDF/XML}.
@@ -73,5 +76,85 @@ Tenemos que configurar nuestro servidor {\sf nginx} para que realice las siguien
 	\item Aplique el tipo {\sf MIME} {\tt application/rdf+xml} cuando devuelva archivos con extensión {\tt rdf} y el tipo {\tt text/turtle} cuando devuelva archivos con extensión {\tt ttl}.
 \end{itemize}
 
-Para configurar nginx de forma que podamos servir archivos 
+Como mencionábamos en el capítulo de planificación, todos los servidores de los que vamos a hacer uso (tanto para pruebas como para despliegue final) tienen un sistema operativo {\bf Ubuntu}, así que este es el sistema que se tomará como referencia para todas las configuraciones. Para la configuración que queremos establecer, fundamentalmente tendremos que editar tres archivos de la configuración de {\bf NGINX}.
 
+\begin{itemize}
+	\item {\tt nginx.conf}: es el archivo de configuración principal de {\bf NGINX}.
+	\item {\tt sites-availables} / {\tt sites-enabled}: son los directorios donde se encuentran los archivos de configuración de los {\bf hosts virtuales}. Un host virtual es configuración usada para tener varios sitios web en un único ser compartiendo la misma IP, generalmente siendo redireccionados en función de un nombre.
+	\item {\tt mime.types}: es el archivo que nos permite configurar la respuesta de nuestro servidor ante las peticiones de diferentes tipos de archivos.
+\end{itemize}
+
+\subsubsection{nginx.conf}
+
+El archivo {\tt nginx.conf} se divide en varias secciones, en nuestro caso particular la sección que nos interesa es la que se refiere al contexto en el que se especifican las directivas del {\bf servidor HTTP}, la sección {\tt http}; concretamente, lo que queremos es poder cargar archivos de configuración de host virtuales desde el directorio {\tt sites-enabled} lo que podemos conseguir mediante la directiva {\tt include}.
+\bigskip
+
+\begin{listing}[!ht]
+\begin{minted}{bash}
+user  nginx;
+...
+
+http {
+...
+
+    include sites-enabled/*;
+}
+\end{minted}
+\caption{Archivo de configuración de {\bf NGINX}}
+\end{listing}
+
+\subsubsection{sites-availables}
+
+Como la configuración de host virtual que necesitamos es muy básica, podemos usar el propio archivo de host virtual que viene por defecto, lo que tendremos que añadir es una ubicación para el {\tt URI} de la ontología, una ubicación para el {\tt URI} de cada uno de los recursos, una ubicación para la ruta de acceso al directorio con los archivos de la ontología en diferentes formatos y una ubicación para la ruta de acceso al directorio con los archivos de los recursos en diferentes formatos. Es importante tener en cuenta que con la directiva {\tt root} se indica la ruta que se toma como base de la estructura de la archivos que estarán disponibles.
+
+\bigskip
+\begin{listing}[!ht]
+\begin{minted}{bash}
+server {
+...
+
+    root /var/www/html;
+	
+    location /ontology/ {
+        try_files $uri $uri/ =404;
+        autoindex on;
+    }
+	
+    location /ontology/ugr {
+        rewrite ^/ontology/ugr$ /ontology/ugr.ttl;
+    }
+
+    location /resources/ {
+        try_files $uri $uri/ =404;
+        autoindex on;
+    }
+
+    location /resources/CLASE {
+        rewrite ^/resources/CLASE$ /ontology/CLASE.ttl;
+    }
+}
+\end{minted}
+\caption{Archivo de configuración del {\bf host virtual} por defecto}
+\end{listing}
+
+\subsubsection{mimes.type}
+
+Lo único que nos queda por configurar de nuestro servidor web es el tipo de respuesta que va a dar cuando se le haga la petición de un archivo con extensión {\tt .rdf} {formato {\tt RDF/XML} o extensión {\tt .ttl} {formato {\tt Terse RDF Triple Language}, ya que en caso de no especificarlo, al ser extensiones desconocidas para nuestro servidor los devolverá como tipo texto, lo que puede provocar problemas a la hora de realizar las peticiones de nuestro punto de acceso {\bf SPARQL}.
+
+\bigskip
+\begin{listing}[!ht]
+\begin{minted}{bash}
+types {
+...
+
+    application/rdf+xml    rdf;
+    text/turtle    ttl;
+}
+\end{minted}
+\caption{Archivo de configuración de tipos {\bf MIME}}
+\end{listing}
+
+\newpage
+\
+\newpage
+\subsection{Punto de acceso SPARQL}
