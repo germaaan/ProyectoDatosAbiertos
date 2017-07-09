@@ -19,9 +19,9 @@
       when: virtuoso_pass == ""
 
     - name: "Install Python (if not installed)"
-      raw: test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)
+      raw: "test -e /usr/bin/python || (apt -y update && apt install -y python-minimal)"
     - name: "Install Aptitude"
-      raw: apt -y update && apt install -y aptitude
+      raw: "apt -y update && apt install -y aptitude"
 
     - name: "Update cache"
       apt:

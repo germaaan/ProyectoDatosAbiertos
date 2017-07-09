@@ -28,7 +28,7 @@ Los conjuntos de datos con los que se ha decidido trabajar son los siguientes:
 	\item \textbf{Oferta de titulaciones: másteres oficiales} contiene información relativa a la oferta de titulaciones para estudios de másteres oficiales, agrupándola por titulación, rama de conocimiento, centro y campus. Datos desde el curso 2013/2014 hasta el curso 2015/2016.
 	\item \textbf{Origen geográfico de estudiantes por país} contiene información relativa al origen geográfico de los estudiantes de la universidad, agrupándola por país de origen y sexo del estudiante. Datos desde el curso 2013/2014 hasta el curso 2015/2016.
 	\item \textbf{Origen geográfico de estudiantes por provincia} contiene información relativa al origen geográfico de los estudiantes de la universidad, agrupándola por provincia de origen y sexo del estudiante. Datos desde el curso 2013/2014 hasta el curso 2015/2016.
-	\item \textbf{Tasas académicas por titulaciones} contiene información relativa a la tasa de rendimiento, tasa de éxito, tasa de abandono inicial, tasa de eficiencia, tasa de graduación y tasa de abandono de los estudiantes según la titulación que estén estudiando en la universidad, agrupándola por titulación, tasa de rendimiento, tasa de éxito, tasa de abandono inicial, tasa de eficiencia, tasa de graduación y tasa de abandono. Datos desde el curso 2011/2012 hasta el curso 2015/2016.
+	\item \textbf{Tasas académicas por titulaciones} contiene información relativa a las tasas académicas de los estudiantes según la titulación que estén estudiando en la universidad, agrupándola por titulación, tasa de rendimiento, tasa de éxito, tasa de abandono inicial, tasa de eficiencia, tasa de graduación y tasa de abandono. Datos desde el curso 2011/2012 hasta el curso 2015/2016.
 \end{itemize}
 
 El motivo de haber seleccionado solo estos 11 conjuntos de datos de entre los 40 totales, es que dado la gran cantidad de datos que podemos encontrar en el portal, podemos encontrarnos datos de todo tipo; podemos encontrar datos de fácil interpretación como son los datos relacionados con matrículas, pero también podemos encontranos por ejemplo datos de carácter económico que utiliza una serie de códigos que nos permiten hacer un uso tan natural de la información que contienen, por eso en una primera aproximación solo vamos a incluir datos de los que como personas podríamos sacar información válida a simple vista. Además, si no se tienen datos de varios años tampoco se considerará un conjunto de datos interesante ya que no se puede comprobar si esos datos representan un hecho anecdótico o una tendencia.
@@ -779,7 +779,6 @@ Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran
 		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
 		\tab\textless rdfs:domain\newline
 		\tab\tab rdf:resource=``\#OfertaTitulacionDoctorado"\ /\textgreater\newline
-		\tab\textless rdfs:domain\newline
 		\tab\textless owl:equivalentProperty\newline
 		\tab\tab rdf:resource=``http://dbpedia.org/page/Doctorate"\  /\textgreater\newline
 		\tab\textless owl:equivalentProperty\newline
@@ -864,7 +863,6 @@ Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran
 		\tab\tab rdf:resource=``\#OfertaTitulacionGrado"\ /\textgreater\newline
 		\tab\textless rdfs:domain\newline
 		\tab\tab rdf:resource=``\#TasasAcademicasTitulacion"\ /\textgreater\newline
-		\tab\textless rdfs:domain\newline
 		\tab\textless owl:equivalentProperty\newline
 		\tab\tab rdf:resource=``http://dbpedia.org/page/Bachelor\%27s\_degree"\  /\textgreater\newline
 		\tab\textless owl:equivalentProperty\newline
@@ -973,7 +971,6 @@ Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran
 		\tab\tab rdf:resource=``\#MatriculasPosgrado"\ /\textgreater\newline
 		\tab\textless rdfs:domain\newline
 		\tab\tab rdf:resource=``\#OfertaTitulacionMaster"\ /\textgreater\newline
-		\tab\textless rdfs:domain\newline
 		\tab\textless owl:equivalentProperty\newline
 		\tab\tab rdf:resource=\newline\tab\tab``http://dbpedia-live.openlinksw.com/page/Master's\_degree"\  /\textgreater\newline
 		\tab\textless owl:equivalentProperty\newline

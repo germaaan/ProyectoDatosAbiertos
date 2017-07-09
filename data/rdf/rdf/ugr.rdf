@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
+<!DOCTYPE rdf:RDF [
+    <!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dcterms "http://purl.org/dc/terms/" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY cc "http://creativecommons.org/ns#" >
+    <!ENTITY vann "http://purl.org/vocab/vann/" >
+]>
+
 <rdf:RDF
     xmlns="http://cabas.ugr.es/ontology/ugr#"
+    xmlns:base="http://cabas.ugr.es/ontology/ugr"
+    xmlns:ugr="http://cabas.ugr.es/ontology/ugr#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
@@ -13,161 +28,366 @@
     <owl:Ontology rdf:about="http://cabas.ugr.es/ontology/ugr#">
         <rdfs:label xml:lang="es">Ontología de la Universidad de Granada</rdfs:label>
         <rdfs:label xml:lang="en">Ontology of the University of Granada</rdfs:label>
-        <rdfs:comment xml:lang="es">
-            Ontología creada para describir los conjuntos de datos abiertos de la Universidad de Granada.
-        </rdfs:comment>
-        <rdfs:comment xml:lang="en">
-            Ontology created to describe the open data sets of the University of Granada.
-        </rdfs:comment>
+        <rdfs:comment xml:lang="es">Ontología creada para describir los conjuntos de datos abiertos de la Universidad de Granada.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Ontology created to describe the open data sets of the University of Granada.</rdfs:comment>
         <dcterms:title xml:lang="es">Ontología de la Universidad de Granada</dcterms:title>
         <dcterms:title xml:lang="en">Ontology of the University of Granada</dcterms:title>
-        <dcterms:description xml:lang="es">
-            La ontología de la Universidad de Granada define las clases y propiedades utilizadas en los conjuntos de datos abiertos de la propia Universidad.
-        </dcterms:description>
-        <dcterms:description xml:lang="en">
-            The ontology of the University of Granada defines the classes and properties used in the open data sets of the University itself.
-        </dcterms:description>
+        <dcterms:description xml:lang="es">La ontología de la Universidad de Granada define las clases y propiedades utilizadas en los conjuntos de datos abiertos de la propia Universidad.</dcterms:description>
+        <dcterms:description xml:lang="en">The ontology of the University of Granada defines the classes and properties used in the open data sets of the University itself.</dcterms:description>
         <owl:versionInfo xml:lang="es">1.0</owl:versionInfo>
         <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-06-18</dcterms:created>
         <vann:preferredNamespacePrefix>ugr</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://cabas.ugr.es/ontology/ugr#</vann:preferredNamespaceUri>
-        <foaf:homepage rdf:resource="http://opendata.ugr.es" />
-        <dcterms:source rdf:resource="http://opendata.ugr.es" />
+        <foaf:homepage rdf:resource="http://opendata.ugr.es"/>
+        <dcterms:source rdf:resource="http://opendata.ugr.es"/>
         <dcterms:creator>Germán Martínez Maldonado</dcterms:creator>
-        <foaf:maker rdf:resource="https://github.com/germaaan" />
+        <foaf:maker rdf:resource="https://github.com/germaaan"/>
         <dcterms:publisher>Oficina de Software Libre de la Universidad de Granada</dcterms:publisher>
-        <cc:license rdf:resource="http://www.gnu.org/copyleft/fdl.html" />
-        <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <cc:license rdf:resource="http://www.gnu.org/copyleft/fdl.html"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
     </owl:Ontology>
 
-    <!--
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- CLASES -->
 
-     <owl:Class rdf:about="#RamaConocimiento">
-         <rdfs:label xml:lang="es">Rama de conocimiento</rdfs:label>
-         <rdfs:label xml:lang="en">Branch of knowledge</rdfs:label>
-         <rdfs:comment xml:lang="es">Una rama de conocimiento es el campo en el que se agrupan diferentes titulaciones con un conjunto de materias similares lo que hace que tengan una identidad semejante.</rdfs:comment>
-         <rdfs:comment xml:lang="en">A branch of knowledge is the field in which different degrees are grouped with a set of similar subjects which makes them have a similar identity.</rdfs:comment>
-     </owl:Class>
-
-    <owl:Class rdf:about="#Titulación">
-        <rdfs:subClassOf rdf:resource="#RamaConocimiento"/>
-        <rdfs:label xml:lang="es">Titulación</rdfs:label>
-        <rdfs:label xml:lang="en">Degree</rdfs:label>
-        <rdfs:comment xml:lang="es">Una titulación es el reconocimiento que se obtiene después de superar los estudios universitarios de grado o máster; reconocíendo una formación general, en una o varias disciplinas, orientada a la preparación para el
-            desempeño de actividades de carácter profesional.</rdfs:comment>
-        <rdfs:comment xml:lang="en">A degree is the recognition that is obtained after overcoming university studies of degree or masters; Recognizing a general formation, in one or several disciplines, oriented to the preparation for the performance of professional activities.</rdfs:comment>
+    <owl:Class rdf:about="#DemandaAcademicaAcceso">
+        <rdfs:label xml:lang="es">Demanda académica: procedimientos acceso</rdfs:label>
+        <rdfs:comment xml:lang="es">Número total de solicitudes de matrícula demandadas en la universidad.</rdfs:comment>
     </owl:Class>
 
-    <owl:Class rdf:about="#Persona">
-        <rdfs:label xml:lang="es">Persona</rdfs:label>
-        <rdfs:label xml:lang="en">Person</rdfs:label>
-        <rdfs:comment xml:lang="es">Una persona es un ser racional e inteligente, consciente de sí mismo y de sus actos que cuenta con identidad propia.</rdfs:comment>
-        <rdfs:comment xml:lang="en">A person is a rational and intelligent being, aware of himself and his acts that has its own identity.</rdfs:comment>
-        <!--
-        <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Person" />
-        <owl:equivalentClass rdf:resource="https://www.wikidata.org/wiki/Q215627" />
-        -->
+    <owl:Class rdf:about="#DemandaAcademicaTitulacion">
+        <rdfs:label xml:lang="es">Demanda académica: titulaciones</rdfs:label>
+        <rdfs:comment xml:lang="es">Demanda de matrícula en relación con las plazas ofertadas en titulaciones oficiales de grado en la universidad.</rdfs:comment>
     </owl:Class>
 
-    <owl:Class rdf:about="#Hombres">
-        <rdfs:subClassOf rdf:resource="#Persona"/>
-        <rdfs:label xml:lang="es">Hombres</rdfs:label>
-        <rdfs:label xml:lang="en">Men</rdfs:label>
-        <rdfs:comment xml:lang="es">Número de estudiantes hombres.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Number of male students.</rdfs:comment>
-        <!--
-        <owl:equivalentClass rdf:resource="http://schema.org/Male" />
-        <owl:equivalentClass rdf:resource="https://www.wikidata.org/wiki/Q6581097" />
-        -->
+    <owl:Class rdf:about="#MatriculasGrado">
+        <rdfs:label xml:lang="es">Matrículas: grado</rdfs:label>
+        <rdfs:comment xml:lang="es">Matrículas de titulaciones de grado realizadas en la universidad, agrupándola por rama de conocimiento, titulación y sexo del estudiante.</rdfs:comment>
     </owl:Class>
 
-    <owl:Class rdf:about="#Mujeres">
-        <rdfs:subPropertyOf rdf:resource="#Persona"/>
-        <rdfs:label xml:lang="es">Mujeres</rdfs:label>
-        <rdfs:label xml:lang="en">Women</rdfs:label>
-        <rdfs:comment xml:lang="es">Número de estudiantes mujeres.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Number of female students.</rdfs:comment>
-        <!--
-        <owl:equivalentClass rdf:resource="http://schema.org/Female" />
-        <owl:equivalentClass rdf:resource="https://www.wikidata.org/wiki/Q6581072" />
-        -->
+    <owl:Class rdf:about="#MatriculasPosgrado">
+        <rdfs:label xml:lang="es">Matrículas: posgrado</rdfs:label>
+        <rdfs:comment xml:lang="es">Matrículas de titulaciones de posgrado realizadas en la universidad, agrupándola por rama de conocimiento, titulación y sexo del estudiante.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#NumMedioCreditos">
+        <rdfs:label xml:lang="es">Número medio de créditos</rdfs:label>
+        <rdfs:comment xml:lang="es">Número medio de créditos de los estudiantes de la universidad, agrupándola por rama de conocimiento, plan de estudios, número medio de créditos matriculados, número medio de créditos presentados y número medio de créditos superados.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#OfertaTitulacionDoctorado">
+        <rdfs:label xml:lang="es">Oferta de titulaciones: doctorado</rdfs:label>
+        <rdfs:comment xml:lang="es">Oferta de titulaciones para estudios de doctorado, agrupándola por titulación, rama de conocimiento, centro y campus.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#OfertaTitulacionGrado">
+        <rdfs:label xml:lang="es">Oferta de titulaciones: grado</rdfs:label>
+        <rdfs:comment xml:lang="es">Oferta de titulaciones para estudios de grado, agrupándola por titulación, rama de conocimiento, centro y campus.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#OfertaTitulacionMaster">
+        <rdfs:label xml:lang="es">Oferta de titulaciones: másteres oficiales</rdfs:label>
+        <rdfs:comment xml:lang="es">Oferta de titulaciones para estudios de másteres oficiales, agrupándola por titulación, rama de conocimiento, centro y campus.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#OrigenPais">
+        <rdfs:label xml:lang="es">Origen geográfico de estudiantes por país</rdfs:label>
+        <rdfs:comment xml:lang="es">Origen geográfico de los estudiantes de la universidad, agrupándola por país de origen y sexo del estudiante.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#OrigenProvincia">
+        <rdfs:label xml:lang="es">Origen geográfico de estudiantes por provincia</rdfs:label>
+        <rdfs:comment xml:lang="es">Origen geográfico de los estudiantes de la universidad, agrupándola por provincia de origen y sexo del estudiante.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#TasasAcademicasTitulacion">
+        <rdfs:label xml:lang="es">Tasas académicas por titulaciones</rdfs:label>
+        <rdfs:comment xml:lang="es">Tasas académicas de los estudiantes según la titulación que estén estudiando en la universidad, agrupándola por titulación, tasa de rendimiento, tasa de éxito, tasa de abandono inicial, tasa de eficiencia, tasa de graduación y tasa de abandono.</rdfs:comment>
+    </owl:Class>
+
+    <!-- PROPIEDADES -->
+
+    <owl:DatatypeProperty rdf:about="#campus">
+        <rdfs:label xml:lang="es">Campus</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="#universidad"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionDoctorado"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionGrado"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionMaster"/>
+        <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/campus"/>
+        <owl:equivalentProperty rdf:resource="https://www.wikidata.org/wiki/Q209465"/>
     </owl:DatatypeProperty>
 
-    <!--
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <owl:DatatypeProperty rdf:about="#centro">
+        <rdfs:label xml:lang="es">Centro</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="#campus"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionDoctorado"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionGrado"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionMaster"/>
+    </owl:DatatypeProperty>
 
-    <owl:ObjectProperty rdf:about="#tieneRamaConocimiento">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty" />
-        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
-        <rdfs:label xml:lang="es">tiene rama de conocimiento</rdfs:label>
-        <rdfs:label xml:lang="en">has branch of knowledge</rdfs:label>
-        <rdfs:comment xml:lang="es">Una titulación pertenece a una rama de conocimiento.</rdfs:comment>
-        <rdfs:comment xml:lang="en">A degree belongs to a branch of knowledge.</rdfs:comment>
-        <rdfs:domain rdf:resource="#Titulación" />
-        <rdfs:range rdf:resource="#RamaConocimiento" />
-        <owl:sameAs rdf:resource="#tieneRamaConocimiento" />
-        <owl:inverseOf rdf:resource="#tieneTitulación" />
-    </owl:ObjectProperty>
+    <owl:DatatypeProperty rdf:about="#cupoGral">
+        <rdfs:label xml:lang="es">Cupo general</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:domain rdf:resource="#DemandaAcademicaTitulacion"/>
+    </owl:DatatypeProperty>
 
-    <owl:ObjectProperty rdf:about="#tieneTitulación">
-        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
-        <rdfs:label xml:lang="es">tiene titulación</rdfs:label>
-        <rdfs:label xml:lang="en">has degree</rdfs:label>
-        <rdfs:comment xml:lang="es">Una rama de conocimiento engloba diferentes titulaciones.</rdfs:comment>
-        <rdfs:comment xml:lang="en">A branch of knowledge encompasses different degrees.</rdfs:comment>
-        <rdfs:domain rdf:resource="#RamaConocimiento" />
-        <rdfs:range rdf:resource="#Titulación" />
-        <owl:sameAs rdf:resource="#tieneTitulacion" />
-        <owl:inverseOf rdf:resource="#tieneRamaConocimiento" />
-    </owl:ObjectProperty>
+    <owl:DatatypeProperty rdf:about="#curso">
+        <rdfs:label xml:lang="es">Curso</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="#DemandaAcademicaAcceso"/>
+        <rdfs:domain rdf:resource="#DemandaAcademicaTitulacion"/>
+        <rdfs:domain rdf:resource="#MatriculasGrado"/>
+        <rdfs:domain rdf:resource="#MatriculasPosgrado"/>
+        <rdfs:domain rdf:resource="#NumMedioCreditos"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionDoctorado"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionGrado"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionMaster"/>
+        <rdfs:domain rdf:resource="#OrigenPais"/>
+        <rdfs:domain rdf:resource="#OrigenProvincia"/>
+        <rdfs:domain rdf:resource="#TasasAcademicasTitulacion"/>
+        <owl:equivalentProperty rdf:resource="http://purl.org/dc/terms/coverage"/>
+    </owl:DatatypeProperty>
 
-    <!--
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatype properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <owl:DatatypeProperty rdf:about="#deportistas">
+        <rdfs:label xml:lang="es">Deportistas</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+        <rdfs:domain rdf:resource="#DemandaAcademicaTitulacion"/>
+        <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/Athlete"/>
+        <owl:equivalentProperty rdf:resource="http://schema.org/athlete"/>
+        <owl:equivalentProperty rdf:resource="https://www.wikidata.org/wiki/Q2066131"/>
+    </owl:DatatypeProperty>
 
+    <owl:DatatypeProperty rdf:about="#discapacitados">
+        <rdfs:label xml:lang="es">Discapacitados</rdfs:label>
+        <rdfs:range resource="&xsd;nonNegativeInteger"/>
+        <rdfs:domain rdf:resource="#DemandaAcademicaTitulacion"/>
+        <owl:equivalentProperty rdf:resource="https://www.wikidata.org/wiki/Q15978181"/>
+    </owl:DatatypeProperty>
 
+    <owl:DatatypeProperty rdf:about="#doctorado">
+        <rdfs:label xml:lang="es">Doctorado</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="#titulacion"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionDoctorado"/>
+        <owl:equivalentProperty rdf:resource="http://dbpedia.org/page/Doctorate"/>
+        <owl:equivalentProperty rdf:resource="https://www.wikidata.org/wiki/Q849697"/>
+    </owl:DatatypeProperty>
 
-    <!--
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <owl:DatatypeProperty rdf:about="#estado">
+        <rdfs:label xml:lang="es">Estado</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="#DemandaAcademicaAcceso"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#grado">
+        <rdfs:label xml:lang="es">Grado</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="#titulacion"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="#DemandaAcademicaTitulacion"/>
+        <rdfs:domain rdf:resource="#MatriculasGrado"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionGrado"/>
+        <rdfs:domain rdf:resource="#TasasAcademicasTitulacion"/>
+        <owl:equivalentProperty rdf:resource="http://dbpedia.org/page/Bachelor's_degree"/>
+        <owl:equivalentProperty rdf:resource="https://www.wikidata.org/wiki/Q6008527"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#hombres">
+        <rdfs:label xml:lang="es">Hombres</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="#personas"/>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+        <rdfs:domain rdf:resource="#DemandaAcademicaAcceso"/>
+        <rdfs:domain rdf:resource="#MatriculasGrado"/>
+        <rdfs:domain rdf:resource="#MatriculasPosgrado"/>
+        <rdfs:domain rdf:resource="#OrigenPais"/>
+        <rdfs:domain rdf:resource="#OrigenProvincia"/>
+        <owl:equivalentProperty rdf:resource="http://dbpedia.org/page/Man"/>
+        <owl:equivalentProperty rdf:resource="https://schema.org/Male"/>
+        <owl:equivalentProperty rdf:resource="https://www.wikidata.org/wiki/Q8441"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#master">
+        <rdfs:label xml:lang="es">Máster</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="#titulacion"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="#MatriculasPosgrado"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionMaster"/>
+        <owl:equivalentProperty rdf:resource="http://dbpedia-live.openlinksw.com/page/Master's_degree"/>
+        <owl:equivalentProperty rdf:resource="https://www.wikidata.org/wiki/Q183816"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#mayor25">
+        <rdfs:label xml:lang="es">Mayores de 25</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+        <rdfs:domain rdf:resource="#DemandaAcademicaTitulacion"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#mayor40">
+        <rdfs:label xml:lang="es">Mayores de 40 y 45</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+        <rdfs:domain rdf:resource="#DemandaAcademicaTitulacion"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#mujeres">
+        <rdfs:label xml:lang="es">Mujeres</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="#personas"/>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+        <rdfs:domain rdf:resource="#DemandaAcademicaAcceso"/>
+        <rdfs:domain rdf:resource="#MatriculasGrado"/>
+        <rdfs:domain rdf:resource="#MatriculasPosgrado"/>
+        <rdfs:domain rdf:resource="#OrigenPais"/>
+        <rdfs:domain rdf:resource="#OrigenProvincia"/>
+        <owl:equivalentProperty rdf:resource="http://dbpedia.org/page/Woman"/>
+        <owl:equivalentProperty rdf:resource="https://schema.org/Female"/>
+        <owl:equivalentProperty rdf:resource="https://www.wikidata.org/wiki/Q467"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#creditosMatriculados">
+        <rdfs:label xml:lang="es">Número medio de créditos matriculados</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:domain rdf:resource="#NumMedioCreditos"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#creditosPresentados">
+        <rdfs:label xml:lang="es">Número medio de créditos presentados</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:domain rdf:resource="#NumMedioCreditos"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#creditosSuperados">
+        <rdfs:label xml:lang="es">Número medio de créditos superados</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:domain rdf:resource="#NumMedioCreditos"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#pais">
+        <rdfs:label xml:lang="es">Pais de origen</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="#OrigenPais"/>
+        <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/country"/>
+        <owl:equivalentProperty rdf:resource="http://schema.org/Country"/>
+        <owl:equivalentProperty rdf:resource="https://www.wikidata.org/wiki/Q6256"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#personas">
+        <rdfs:label xml:lang="es">Personas</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+        <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/person"/>
+        <owl:equivalentProperty rdf:resource="http://schema.org/Person"/>
+        <owl:equivalentProperty rdf:resource="https://www.wikidata.org/wiki/Q215627"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#planEstudios">
+        <rdfs:label xml:lang="es">Plan de estudios</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="#NumMedioCreditos"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#plazasOfertadas">
+        <rdfs:label xml:lang="es">Plazas ofertadas</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+        <rdfs:domain rdf:resource="#DemandaAcademicaTitulacion"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#provincia">
+        <rdfs:label xml:lang="es">Provincia</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="#OrigenProvincia"/>
+        <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/province"/>
+        <owl:equivalentProperty rdf:resource="http://schema.org/State"/>
+        <owl:equivalentProperty rdf:resource="https://www.wikidata.org/wiki/Q34876"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#ramaConocimiento">
+        <rdfs:label xml:lang="es">Rama de conocimiento</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="#MatriculasGrado"/>
+        <rdfs:domain rdf:resource="#MatriculasPosgrado"/>
+        <rdfs:domain rdf:resource="#NumMedioCreditos"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionDoctorado"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionGrado"/>
+        <rdfs:domain rdf:resource="#OfertaTitulacionMaster"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#tasaAbandono">
+        <rdfs:label xml:lang="es">Tasa de abandono</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:domain rdf:resource="#TasasAcademicasTitulacion"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#tasaAbandonoInicial">
+        <rdfs:label xml:lang="es">Tasa de abandono inicial</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:domain rdf:resource="#TasasAcademicasTitulacion"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#tasaEficiencia">
+        <rdfs:label xml:lang="es">Tasa de eficiencia</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:domain rdf:resource="#TasasAcademicasTitulacion"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#tasaGraduacion">
+        <rdfs:label xml:lang="es">Tasa de graduación</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:domain rdf:resource="#TasasAcademicasTitulacion"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#tasaRendimiento">
+        <rdfs:label xml:lang="es">Tasa de rendimiento</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;decimal"/>
+        <rdfs:domain rdf:resource="#TasasAcademicasTitulacion"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#tipoProcedimiento">
+        <rdfs:label xml:lang="es">Tipo de procedimiento</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="#tipoProcedimiento"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="#DemandaAcademicaAcceso"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#titulacion">
+        <rdfs:label xml:lang="es">Titulacion</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="#ramaConocimiento"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <owl:equivalentProperty rdf:resource="http://dbpedia.org/page/Academic degree"/>
+        <owl:equivalentProperty rdf:resource="https://www.wikidata.org/wiki/Q189533"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#titulados">
+        <rdfs:label xml:lang="es">Titulados</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+        <rdfs:domain rdf:resource="#DemandaAcademicaTitulacion"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="#universidad">
+        <rdfs:label xml:lang="es">Titulados</rdfs:label>
+        <rdfs:range rdf:resource="&xsd;nonNegativeInteger"/>
+        <owl:equivalentProperty rdf:resource="http://dbpedia.org/ontology/university"/>
+        <owl:equivalentProperty rdf:resource="http://schema.org/CollegeOrUniversity"/>
+        <owl:equivalentProperty rdf:resource="https://www.wikidata.org/wiki/Q3918"/>
+    </owl:DatatypeProperty>
+
+    <!-- AXIOMAS -->
 
     <owl:AllDisjointProperties>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="#tieneRamaConocimiento" />
-            <rdf:Description rdf:about="#tieneTitulacion" />
+            <rdf:Description rdf:about="#tieneRamaConocimiento"/>
+            <rdf:Description rdf:about="#tieneTitulacion"/>
         </owl:members>
     </owl:AllDisjointProperties>
 
     <owl:AllDisjointProperties>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="#Hombres" />
-            <rdf:Description rdf:about="#Mujeres" />
+            <rdf:Description rdf:about="#Hombres"/>
+            <rdf:Description rdf:about="#Mujeres"/>
         </owl:members>
     </owl:AllDisjointProperties>
 
     <owl:AllDisjointClasses>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="#Titulación" />
-            <rdf:Description rdf:about="#RamaConocimiento" />
+            <rdf:Description rdf:about="#Titulación"/>
+            <rdf:Description rdf:about="#RamaConocimiento"/>
         </owl:members>
     </owl:AllDisjointClasses>
 </rdf:RDF>

@@ -1,6 +1,6 @@
 \chapter{Desarrollo}
 
-Una vez tenemos la ontología completamente diseñada (cuya versión completa se puede encontrar en el \textbf{Anexo I)}, el trabajo restante se divide en dos tareas:
+Una vez tenemos la ontología completamente diseñada (cuya versión completa se puede encontrar en el \hyperref[anexo_i]{Anexo I}), el trabajo restante se divide en dos tareas:
 
 \begin{itemize}
 	\item Convertir los datos a un formato triple {\sf RDF} que siga la ontología que hemos diseñado.
@@ -16,7 +16,7 @@ El procedimiento consistiría en cargar el archivo con los datos, y después de 
 
 \newpage
 \begin{listing}[!ht]
-\begin{minted}{python}
+\begin{minted}[tabsize=2,breaklines]{python}
 import csv
 
 id = 0
@@ -76,21 +76,21 @@ Tenemos que configurar nuestro servidor {\sf NGINX} para que realice las siguien
 	\item Aplique el tipo {\sf MIME} {\tt application/rdf+xml} cuando devuelva archivos con extensión {\tt rdf} y el tipo {\tt text/turtle} cuando devuelva archivos con extensión {\tt ttl}.
 \end{itemize}
 
-Como mencionábamos en el capítulo de planificación, todos los servidores de los que vamos a hacer uso (tanto para pruebas como para despliegue final) tienen un sistema operativo {\bf Ubuntu}, así que este es el sistema que se tomará como referencia para todas las configuraciones. Para la configuración que queremos establecer, fundamentalmente tendremos que editar tres archivos de la configuración de {\bf NGINX}.
+Como mencionábamos en el capítulo de planificación, todos los servidores de los que vamos a hacer uso (tanto para pruebas como para despliegue final) tienen un sistema operativo {\sf Ubuntu}, así que este es el sistema que se tomará como referencia para todas las configuraciones. Para la configuración que queremos establecer, fundamentalmente tendremos que editar tres archivos de la configuración de {\sf NGINX}.
 
 \begin{itemize}
-	\item {\tt nginx.conf}: es el archivo de configuración principal de {\bf NGINX}.
-	\item {\tt sites-availables} / {\tt sites-enabled}: son los directorios donde se encuentran los archivos de configuración de los {\bf hosts virtuales}. Un host virtual es configuración usada para tener varios sitios web en un único ser compartiendo la misma IP, generalmente siendo redireccionados en función de un nombre.
+	\item {\tt nginx.conf}: es el archivo de configuración principal de {\sf NGINX}.
+	\item {\tt sites-availables} / {\tt sites-enabled}: son los directorios donde se encuentran los archivos de configuración de los {\sf hosts virtuales}. Un host virtual es configuración usada para tener varios sitios web en un único ser compartiendo la misma IP, generalmente siendo redireccionados en función de un nombre.
 	\item {\tt mime.types}: es el archivo que nos permite configurar la respuesta de nuestro servidor ante las peticiones de diferentes tipos de archivos.
 \end{itemize}
 
 \subsubsection{nginx.conf}
 
-El archivo {\tt nginx.conf} se divide en varias secciones, en nuestro caso particular la sección que nos interesa es la que se refiere al contexto en el que se especifican las directivas del {\bf servidor HTTP}, la sección {\tt http}; concretamente, lo que queremos es poder cargar archivos de configuración de host virtuales desde el directorio {\tt sites-enabled} lo que podemos conseguir mediante la directiva {\tt include}.
+El archivo {\tt nginx.conf} se divide en varias secciones, en nuestro caso particular la sección que nos interesa es la que se refiere al contexto en el que se especifican las directivas del {\sf servidor HTTP}, la sección {\tt http}; concretamente, lo que queremos es poder cargar archivos de configuración de host virtuales desde el directorio {\tt sites-enabled} lo que podemos conseguir mediante la directiva {\tt include}.
 \bigskip
 
 \begin{listing}[!ht]
-\begin{minted}{bash}
+\begin{minted}[tabsize=2,breaklines]{text}
 user  nginx;
 ...
 
@@ -100,7 +100,7 @@ http {
     include sites-enabled/*;
 }
 \end{minted}
-\caption{Archivo de configuración de {\bf NGINX}}
+\caption{Archivo de configuración de {\sf NGINX}}
 \end{listing}
 
 \subsubsection{sites-availables}
@@ -109,7 +109,7 @@ Como la configuración de host virtual que necesitamos es muy básica, podemos u
 
 \bigskip
 \begin{listing}[!ht]
-\begin{minted}{bash}
+\begin{minted}[tabsize=2,breaklines]{text}
 server {
 ...
 
@@ -134,16 +134,16 @@ server {
     }
 }
 \end{minted}
-\caption{Archivo de configuración del {\bf host virtual} por defecto}
+\caption{Archivo de configuración del {\sf host virtual} por defecto}
 \end{listing}
 
 \subsubsection{mimes.type}
 
-Lo único que nos queda por configurar de nuestro servidor web es el tipo de respuesta que va a dar cuando se le haga la petición de un archivo con extensión {\tt .rdf} {formato {\tt RDF/XML} o extensión {\tt .ttl} {formato {\tt Terse RDF Triple Language}, ya que en caso de no especificarlo, al ser extensiones desconocidas para nuestro servidor los devolverá como tipo texto, lo que puede provocar problemas a la hora de realizar las peticiones de nuestro punto de acceso {\bf SPARQL}.
+Lo único que nos queda por configurar de nuestro servidor web es el tipo de respuesta que va a dar cuando se le haga la petición de un archivo con extensión {\tt .rdf} {formato {\tt RDF/XML} o extensión {\tt .ttl} {formato {\tt Terse RDF Triple Language}, ya que en caso de no especificarlo, al ser extensiones desconocidas para nuestro servidor los devolverá como tipo texto, lo que puede provocar problemas a la hora de realizar las peticiones de nuestro punto de acceso {\sf SPARQL}.
 
 \bigskip
 \begin{listing}[!ht]
-\begin{minted}{bash}
+\begin{minted}[tabsize=2,breaklines]{text}
 types {
 ...
 
@@ -151,7 +151,7 @@ types {
     text/turtle    ttl;
 }
 \end{minted}
-\caption{Archivo de configuración de tipos {\bf MIME}}
+\caption{Archivo de configuración de tipos {\sf MIME}}
 \end{listing}
 
 \newpage
@@ -159,39 +159,21 @@ types {
 \newpage
 \subsection{Punto de acceso SPARQL}
 
-El software que vamos a usar para proveer de un punto de acceso {\bf SPARQL} ya hemos comentado que será {\bf Openlink Virtuoso}; aunque existen muchas soluciones, unas más sencillas ({\bf Stardog}\footnote{\url{http://www.stardog.com/}}, {\bf Blazegraph}\footnote{\url{https://www.blazegraph.com/}}, {\bf RDF4J}{\footnote{\url{http://rdf4j.org/}}}) y otras de una complejidad similar ({\bf Apache Jena}{\footnote{\url{https://jena.apache.org/}}}, {\bf 4Store}\footnote{\url{https://github.com/4store/4store}}), ninguna tiene las capacidades de almacenamiento de datos, gestión de base de datos y provisión de punto {\bf SPARQL} que tiene Virtuoso, esto es lo que ha hecho que su uso sea tan extendido en proyectos de dimensiones considerables, como el que ya hemos mencionado en varias ocasiones que es {\bf DBpedia}.
+El software que vamos a usar para proveer de un punto de acceso {\sf SPARQL} ya hemos comentado que será {\sf Openlink Virtuoso}; aunque existen muchas soluciones, unas más sencillas ({\sf Stardog}\footnote{\url{http://www.stardog.com/}}, {\sf Blazegraph}\footnote{\url{https://www.blazegraph.com/}}, {\sf RDF4J}{\footnote{\url{http://rdf4j.org/}}}) y otras de una complejidad similar ({\sf Apache Jena}{\footnote{\url{https://jena.apache.org/}}}, {\sf 4Store}\footnote{\url{https://github.com/4store/4store}}), ninguna tiene las capacidades de almacenamiento de datos, gestión de base de datos y provisión de punto {\sf SPARQL} que tiene Virtuoso, esto es lo que ha hecho que su uso sea tan extendido en proyectos de dimensiones considerables, como el que ya hemos mencionado en varias ocasiones que es {\sf DBpedia}.
 
 \bigskip
-Debido a que Virtuoso es un software algo pesado, las pruebas se realizaran sobre máquinas virtuales de prueba. Estos servidores virtuales los crearemos con {\bf Vagrant}, una herramienta para la creación y configuración de entornos de desarrollo virtualizados que se monta como una capa de abstracción sobre máquinas virtuales creadas con el software de virtualización {\bf VirtualBox} (en nuestro caso particular, ya que es compatible con otros sistemas de virtualización como {\bf VMware\footnote{\url{https://www.vmware.com/es.html}}} o {\bf Amazon EC2\footnote{\url{https://aws.amazon.com/es/ec2/}}}). Además, estos entornos de desarrollo serán configurados automáticamente con {\bf Ansible}, un software que se encarga de configurar y administrar sistemas de forma automática según especifiquemos en un {\bf playbook}, que es el nombre que reciben sus archivos de configuración.
+Debido a que Virtuoso es un software algo pesado, las pruebas se realizaran sobre máquinas virtuales de prueba. Estos servidores virtuales los crearemos con {\sf Vagrant}, una herramienta para la creación y configuración de entornos de desarrollo virtualizados que se monta como una capa de abstracción sobre máquinas virtuales creadas con el software de virtualización {\sf VirtualBox} (en nuestro caso particular, ya que es compatible con otros sistemas de virtualización como {\sf VMware\footnote{\url{https://www.vmware.com/es.html}}} o {\sf Amazon EC2\footnote{\url{https://aws.amazon.com/es/ec2/}}}). Además, estos entornos de desarrollo serán configurados automáticamente con {\sf Ansible}, un software que se encarga de configurar y administrar sistemas de forma automática según especifiquemos en un {\sf playbook}, que es el nombre que reciben sus archivos de configuración.
 
 \bigskip
-Los archivos de configuración de las máquinas {\bf Vagrant} permiten indicar una gran cantidades de especificaciones de la propia máquina, pero en nuestro caso solo tenemos dos propiedades imprescindibles: la dirección de red privada mediante a la cual nos conectaremos internamente a la máquina virtual y el puerto redireccionado que nos permitirá realizar peticiones al puerto de la máquina virtual del que {\bf Virtuoso} escucha las peticiones desde nuestro sistema anfitrión. Aunque {\bf Vagrant} nos ejecutar de forma automática {\bf playbooks} de {\bf Ansible}, por ahora esto lo vamos a hacer manualmente hasta que sepamos que todo funciona correctamente.
+Los archivos de configuración de las máquinas {\sf Vagrant} permiten indicar una gran cantidades de especificaciones de la propia máquina, pero en nuestro caso solo tenemos dos propiedades imprescindibles: la dirección de red privada mediante a la cual nos conectaremos internamente a la máquina virtual y el puerto redireccionado que nos permitirá realizar peticiones al puerto de la máquina virtual del que {\sf Virtuoso} escucha las peticiones desde nuestro sistema anfitrión. Aunque {\sf Vagrant} nos ejecutar de forma automática {\sf playbooks} de {\sf Ansible}, por ahora esto lo vamos a hacer manualmente hasta que sepamos que todo funciona correctamente.
 
 \begin{listing}[!ht]
-\begin{minted}{ruby}
-# -*- mode: ruby -*-
-# vi: set ft=ruby :
-
-Vagrant.configure(2) do |config|
-    config.vm.box = "ubuntu/xenial64"
-    config.vm.hostname = "virtuoso"
-    
-    config.vm.network "forwarded_port", guest: 8890, host: 8890
-    config.vm.network "private_network", ip: "192.168.33.20"
-
-    config.vm.provider "virtualbox" do |v|
-        v.memory = 2048
-        v.cpus = 1
-        v.name = config.vm.hostname.to_s
-    end
-
-end
-\end{minted}
+\inputminted[tabsize=2,breaklines]{ruby}{../../vagrant/virtuoso/Vagrantfile}
 \caption{Vagrantfile del sistema de prueba de Virtuoso}
 \end{listing}
 
 \newpage
-Cuando comprobemos que nuestro sistema de pruebas funciona correctamente, lo siguiente sería mediante {\bf Ansible} instalar en él de forma automática todo lo necesario para tener Virtuoso funcionando. En el \hyperref[anexo_v]{Anexo V} tenemos la configuración completa para instalar {\bf Virtuoso} mediante {\bf Ansible}. Para comprobar que {\bf Virtuoso} está funcionando correctamente deberíamos acceder a la dirección de la máquina virtual y el puerto que escucha {\bf Virtuoso}: \url{http://192.168.33.20:8890/}. Con Virtuoso funcionando, lo siguiente será proceder con la carga de datos.
+Cuando comprobemos que nuestro sistema de pruebas funciona correctamente, lo siguiente sería mediante {\sf Ansible} instalar en él de forma automática todo lo necesario para tener Virtuoso funcionando. En el \hyperref[anexo_v]{Anexo V} tenemos la configuración completa para instalar {\sf Virtuoso} mediante {\sf Ansible}. Para comprobar que {\sf Virtuoso} está funcionando correctamente deberíamos acceder a la dirección de la máquina virtual y el puerto que escucha {\sf Virtuoso}: \url{http://192.168.33.20:8890/}. Con Virtuoso funcionando, lo siguiente será proceder con la carga de datos.
 
 \bigskip
 Aunque podemos cargar los datos desde la interfaz web, deberíamos hacerlo uno por uno, lo que es sería un trabajo laborioso. Para estas situaciones la mejor opción es usar la carga masiva de recursos, esta opción nos permite cargar desde terminal todos los archivos en una ubicación de una vez.
