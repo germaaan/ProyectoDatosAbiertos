@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
+]>
+
+<rdf:RDF
+	xmlns="http://cabas.ugr.es/resources/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#1">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>CONVOCATORIA ORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
+	<ugr:estado>PRESENTADOS FASE GENERAL</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2181</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2860</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#2">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>CONVOCATORIA ORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
+	<ugr:estado>APTOS FASE GENERAL</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2039</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2644</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#3">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>CONVOCATORIA ORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
+	<ugr:estado>NO APTOS FASE GENERAL</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">142</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">216</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#4">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>CONVOCATORIA ORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
+	<ugr:estado>MATRICULADOS FASE ESPECIFICA</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2441</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">3223</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#5">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>CONVOCATORIA EXTRAORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
+	<ugr:estado>PRESENTADOS FASE GENERAL</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">554</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">591</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#6">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>CONVOCATORIA EXTRAORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
+	<ugr:estado>APTOS FASE GENERAL</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">448</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">438</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#7">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>CONVOCATORIA EXTRAORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
+	<ugr:estado>NO APTOS FASE GENERAL</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">106</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">153</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#8">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>CONVOCATORIA EXTRAORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
+	<ugr:estado>PRESENTADOS FASE ESPECIFICA</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">601</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">748</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#9">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 25 AÑOS</ugr:tipoProcedimiento>
+	<ugr:estado>NO PRESENTADOS</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">13</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#10">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 25 AÑOS</ugr:tipoProcedimiento>
+	<ugr:estado>APTOS</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">104</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">71</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#11">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 25 AÑOS</ugr:tipoProcedimiento>
+	<ugr:estado>NO APTOS</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">71</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">67</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#12">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>PROCEDIMIENTO DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 40 AÑOS CON EXPERIENCIA LABORAL O PROFESIONAL</ugr:tipoProcedimiento>
+	<ugr:estado>EXCLUIDOS</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#13">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>PROCEDIMIENTO DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 40 AÑOS CON EXPERIENCIA LABORAL O PROFESIONAL</ugr:tipoProcedimiento>
+	<ugr:estado>APTOS </ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#14">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>PROCEDIMIENTO DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 40 AÑOS CON EXPERIENCIA LABORAL O PROFESIONAL</ugr:tipoProcedimiento>
+	<ugr:estado>NO APTOS</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#15">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 45 AÑOS</ugr:tipoProcedimiento>
+	<ugr:estado>NO PRESENTADOS</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#16">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 45 AÑOS</ugr:tipoProcedimiento>
+	<ugr:estado>APTOS</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">22</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaAcceso1415#17">
+	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 45 AÑOS</ugr:tipoProcedimiento>
+	<ugr:estado>NO APTOS</ugr:estado>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+</rdf:RDF>
