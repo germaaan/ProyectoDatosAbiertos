@@ -62,6 +62,9 @@ En lo que se refiere a los atributos, debemos tener en cuenta que hay atributos 
 \begin{itemize}
 	\item \textbf{Campus} representa cada uno de los campus universitarios en los que está dividida la universidad.
 	\item \textbf{Centro} representa cada uno de los centros de la universidad, ya sean facultades, escuelas o centros adscritos.
+	\item \textbf{Número medio de créditos matriculados}: representa el número medio de créditos matriculados por los estudiantes matriculados en titulaciones de una misma rama de conocimiento.
+	\item \textbf{Número medio de créditos presentados}: representa el número medio de créditos a los que estudiantes matriculados en titulaciones de una misma rama de conocimiento se han presentado a las evaluaciones oficiales.
+	\item \textbf{Número medio de créditos superados}: representa el número medio de créditos a los que estudiantes matriculados en titulaciones de una misma rama de conocimiento han superado las evaluaciones oficiales.
 	\item \textbf{Cupo general} representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo general de estudiantes.
 	\item \textbf{Curso} representa el curso académico al que pertenecen los datos.
 	\item \textbf{Deportistas} representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de deportistas de alto nivel o alto rendimiento.
@@ -73,15 +76,12 @@ En lo que se refiere a los atributos, debemos tener en cuenta que hay atributos 
 	\item \textbf{Máster} representa las titulaciones de másteres oficiales que se ofertan en la universidad.
 	\item \textbf{Mayores 25} representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de personas mayores de 25 años.
 	\item \textbf{Mayores 40 y 45 } representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de personas mayores de 40 y de 45 años.
-	\item \textbf{Mujeres} representa el número de estudiantes del sexo masculino que estudian alguna titulación en la universidad.
-	\item \textbf{Número medio de créditos matriculados}: representa el número medio de créditos matriculados por los estudiantes matriculados en titulaciones de una misma rama de conocimiento.
-	\item \textbf{Número medio de créditos presentados}: representa el número medio de créditos a los que estudiantes matriculados en titulaciones de una misma rama de conocimiento se han presentado a las evaluaciones oficiales.
-	\item \textbf{Número medio de créditos superados}: representa el número medio de créditos a los que estudiantes matriculados en titulaciones de una misma rama de conocimiento han superado las evaluaciones oficiales.
-	\item \textbf{País de origen} representa el número de estudiantes procedentes de un mismo país de origen que estudian alguna titulación en la universidad.
+	\item \textbf{Mujeres} representa el número de estudiantes del sexo femenino que estudian alguna titulación en la universidad.
+	\item \textbf{País de origen} representa el país de origen de los estudiantes matriculados en alguna titulación en la universidad.
 	\item \textbf{Personas} representa el número de estudiantes que estudian alguna titulación en la universidad.
 	\item \textbf{Plan de estudios} representa el plan de estudios al que pertenece una titulación.
 	\item \textbf{Plazas ofertadas} representa el número de plazas ofertadas para una determinada titulación.
-	\item \textbf{Provincia} representa el número de estudiantes procedentes de una misma provincia del territorio español que estudian alguna titulación en la universidad.
+	\item \textbf{Provincia} representa la provincia de origen de los estudiantes matriculados en alguna titulación en la universidad.
 	\item \textbf{Rama} representa la rama de conocimiento a la que pertenece alguna titulación.
 	\item \textbf{Tasa de abandono} representa el porcentaje entre el número total de estudiantes de nuevo ingreso en una titulación que debieron obtener el título el año académico anterior y que no se han matriculado ni en ese año académico ni en el anterior.
 	\item \textbf{Tasa de abandono inicial} representa el porcentaje entre los estudiantes matriculados en una determinada titulación en un curso académico que no se matricularon en dicha titulación en los dos años siguientes y el número total de estudiantes que accedieron a esa misma titulación en ese mismo curso académico.
@@ -91,7 +91,7 @@ En lo que se refiere a los atributos, debemos tener en cuenta que hay atributos 
 	\item \textbf{Tipo de procedimiento} representa la forma de acceso por la que los estudiantes han realizado la solicitud de matrícula en la universidad.
 	\item \textbf{Titulación} representa las titulaciones de grado que se ofertan en la universidad.
 	\item \textbf{Titulados} representa el número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de titulados universitarios.
-	\item \textbf{Universidad} representa el conjunto de todos los campus de la universidad.
+	\item \textbf{Universidad} Universidad compuesta por una serie de campus que a su vez se componen de diversos centros.
 \end{itemize}
 
 Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a referenciar en nuestra ontología y el tipo de dato que serán.
@@ -99,6 +99,9 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 \begin{itemize}
 	\item \textbf{Campus} $\rightarrow$ {\tt campus}. Tipo de dato cadena de caracteres.
 	\item \textbf{Centro} $\rightarrow$ {\tt centro}. Tipo de dato cadena de caracteres.
+	\item \textbf{Número medio de créditos matriculados} $\rightarrow$ {\tt creditosMatriculados}. Tipo de dato numérico real no negativo.
+	\item \textbf{Número medio de créditos presentados} $\rightarrow$ {\tt creditosPresentados}. Tipo de dato numérico real no negativo.
+	\item \textbf{Número medio de créditos superados} $\rightarrow$ {\tt creditosSuperados}. Tipo de dato numérico real no negativo.
 	\item \textbf{Cupo general} $\rightarrow$ {\tt cupoGral}. Tipo de dato numérico entero no negativo.
 	\item \textbf{Curso} $\rightarrow$ {\tt curso}. Tipo de dato cadena de caracteres.
 	\item \textbf{Deportistas} $\rightarrow$ {\tt deportistas}. Tipo de dato numérico entero no negativo.
@@ -111,9 +114,6 @@ Con todos los atributos descritos ahora solo nos queda indicar cómo los vamos a
 	\item \textbf{Mayores 25} $\rightarrow$ {\tt mayor25}. Tipo de dato numérico entero no negativo.
 	\item \textbf{Mayores 40 y 45 } $\rightarrow$ {\tt mayor40}. Tipo de dato numérico entero no negativo.
 	\item \textbf{Mujeres} $\rightarrow$ {\tt mujeres}. Tipo de dato numérico entero no negativo.
-	\item \textbf{Número medio de créditos matriculados} $\rightarrow$ {\tt creditosMatriculados}. Tipo de dato numérico real no negativo.
-	\item \textbf{Número medio de créditos presentados} $\rightarrow$ {\tt creditosPresentados}. Tipo de dato numérico real no negativo.
-	\item \textbf{Número medio de créditos superados} $\rightarrow$ {\tt creditosSuperados}. Tipo de dato numérico real no negativo.
 	\item \textbf{País de origen} $\rightarrow$ {\tt pais}. Tipo de dato cadena de caracteres.
 	\item \textbf{Personas} $\rightarrow$ {\tt personas}. Tipo de dato numérico entero no negativo.
 	\item \textbf{Plan de estudios} $\rightarrow$ {\tt planEstudios}. Tipo de dato cadena de caracteres.
@@ -583,6 +583,105 @@ Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran
 	\centering
 	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
 		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{creditosMatriculados}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item NumMedioCreditos
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#decimal
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#creditosMatriculados"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Número medio de créditos matriculados\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless owl:minCardinality \newline
+		\tab\tab rdf:datatype=``\&xsd;decimal"\textgreater0\newline
+		\tab\textless /owl:minCardinality\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#NumMedioCreditos"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad creditosMatriculados}
+	\label{propiedad-creditosmatriculados}
+\end{table}
+
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{creditosPresentados}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item NumMedioCreditos
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#decimal
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#creditosPresentados"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Número medio de créditos presentados\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless owl:minCardinality \newline
+		\tab\tab rdf:datatype=``\&xsd;decimal"\textgreater0\newline
+		\tab\textless /owl:minCardinality\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#NumMedioCreditos"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad creditosPresentados}
+	\label{propiedad-creditospresentados}
+\end{table}
+
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
+		\multicolumn{2}{|l|}{Propiedad: \textbf{creditosSuperados}}
+		\\ \hline
+		Dominio:&
+		\begin{itemize}
+			\item NumMedioCreditos
+		\end{itemize}
+		\\ \hline
+		Rango:&
+		http://www.w3.org/2001/XMLSchema\#decimal
+		\\ \hline
+		Descripción:&
+		\textless owl:DatatypeProperty rdf:about=``\#creditosSuperados"\textgreater\newline 
+		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
+		\tab\tab Número medio de créditos superados\newline
+		\tab\textless /rdfs:label\textgreater\newline
+		\tab\textless rdfs:range\newline
+		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless owl:minCardinality \newline
+		\tab\tab rdf:datatype=``\&xsd;decimal"\textgreater0\newline
+		\tab\textless /owl:minCardinality\textgreater\newline
+		\tab\textless rdfs:domain\newline
+		\tab\tab rdf:resource=``\#NumMedioCreditos"\ /\textgreater\newline
+		\textless /owl:DatatypeProperty\textgreater
+		\\ \hline
+	\end{tabular}
+	\caption{Propiedad creditosSuperados}
+	\label{propiedad-creditossuperados}
+\end{table}
+
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
+		\hline
 		\multicolumn{2}{|l|}{Propiedad: \textbf{cupoGral}}
 		\\ \hline
 		Dominio:&
@@ -600,6 +699,9 @@ Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran
 		\tab\textless /rdfs:label\textgreater\newline
 		\tab\textless rdfs:range\newline
 		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless owl:minCardinality \newline
+		\tab\tab rdf:datatype=``\&xsd;decimal"\textgreater0\newline
+		\tab\textless /owl:minCardinality\textgreater\newline
 		\tab\textless rdfs:domain\newline
 		\tab\tab rdf:resource=``\#DemandaAcademicaTitulacion"\ /\textgreater\newline
 		\textless /owl:DatatypeProperty\textgreater
@@ -1106,96 +1208,6 @@ Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran
 	\centering
 	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
 		\hline
-		\multicolumn{2}{|l|}{Propiedad: \textbf{creditosMatriculados}}
-		\\ \hline
-		Dominio:&
-		\begin{itemize}
-			\item NumMedioCreditos
-		\end{itemize}
-		\\ \hline
-		Rango:&
-		http://www.w3.org/2001/XMLSchema\#decimal
-		\\ \hline
-		Descripción:&
-		\textless owl:DatatypeProperty rdf:about=``\#creditosMatriculados"\textgreater\newline 
-		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
-		\tab\tab Número medio de créditos matriculados\newline
-		\tab\textless /rdfs:label\textgreater\newline
-		\tab\textless rdfs:range\newline
-		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
-		\tab\textless rdfs:domain\newline
-		\tab\tab rdf:resource=``\#NumMedioCreditos"\ /\textgreater\newline
-		\textless /owl:DatatypeProperty\textgreater
-		\\ \hline
-	\end{tabular}
-	\caption{Propiedad creditosMatriculados}
-	\label{propiedad-creditosmatriculados}
-\end{table}
-
-\begin{table}[!ht]
-	\centering
-	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
-		\hline
-		\multicolumn{2}{|l|}{Propiedad: \textbf{creditosPresentados}}
-		\\ \hline
-		Dominio:&
-		\begin{itemize}
-			\item NumMedioCreditos
-		\end{itemize}
-		\\ \hline
-		Rango:&
-		http://www.w3.org/2001/XMLSchema\#decimal
-		\\ \hline
-		Descripción:&
-		\textless owl:DatatypeProperty rdf:about=``\#creditosPresentados"\textgreater\newline 
-		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
-		\tab\tab Número medio de créditos presentados\newline
-		\tab\textless /rdfs:label\textgreater\newline
-		\tab\textless rdfs:range\newline
-		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
-		\tab\textless rdfs:domain\newline
-		\tab\tab rdf:resource=``\#NumMedioCreditos"\ /\textgreater\newline
-		\textless /owl:DatatypeProperty\textgreater
-		\\ \hline
-	\end{tabular}
-	\caption{Propiedad creditosPresentados}
-	\label{propiedad-creditospresentados}
-\end{table}
-
-\begin{table}[!ht]
-	\centering
-	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
-		\hline
-		\multicolumn{2}{|l|}{Propiedad: \textbf{creditosSuperados}}
-		\\ \hline
-		Dominio:&
-		\begin{itemize}
-			\item NumMedioCreditos
-		\end{itemize}
-		\\ \hline
-		Rango:&
-		http://www.w3.org/2001/XMLSchema\#decimal
-		\\ \hline
-		Descripción:&
-		\textless owl:DatatypeProperty rdf:about=``\#creditosSuperados"\textgreater\newline 
-		\tab\textless rdfs:label xml:lang=``es"\textgreater\newline
-		\tab\tab Número medio de créditos superados\newline
-		\tab\textless /rdfs:label\textgreater\newline
-		\tab\textless rdfs:range\newline
-		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
-		\tab\textless rdfs:domain\newline
-		\tab\tab rdf:resource=``\#NumMedioCreditos"\ /\textgreater\newline
-		\textless /owl:DatatypeProperty\textgreater
-		\\ \hline
-	\end{tabular}
-	\caption{Propiedad creditosSuperados}
-	\label{propiedad-creditossuperados}
-\end{table}
-
-\begin{table}[!ht]
-	\centering
-	\begin{tabular}{|p{.25\textwidth}|p{.9\textwidth}|}
-		\hline
 		\multicolumn{2}{|l|}{Propiedad: \textbf{pais}}
 		\\ \hline
 		Dominio:&
@@ -1440,6 +1452,9 @@ Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran
 		\tab\textless /rdfs:label\textgreater\newline
 		\tab\textless rdfs:range\newline
 		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless owl:minCardinality \newline
+		\tab\tab rdf:datatype=``\&xsd;decimal"\textgreater0\newline
+		\tab\textless /owl:minCardinality\textgreater\newline
 		\tab\textless rdfs:domain\newline
 		\tab\tab rdf:resource=``\#TasasAcademicasTitulacion"\ /\textgreater\newline
 		\textless /owl:DatatypeProperty\textgreater
@@ -1470,6 +1485,9 @@ Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran
 		\tab\textless /rdfs:label\textgreater\newline
 		\tab\textless rdfs:range\newline
 		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless owl:minCardinality \newline
+		\tab\tab rdf:datatype=``\&xsd;decimal"\textgreater0\newline
+		\tab\textless /owl:minCardinality\textgreater\newline
 		\tab\textless rdfs:domain\newline
 		\tab\tab rdf:resource=``\#TasasAcademicasTitulacion"\ /\textgreater\newline
 		\textless /owl:DatatypeProperty\textgreater
@@ -1500,6 +1518,9 @@ Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran
 		\tab\textless /rdfs:label\textgreater\newline
 		\tab\textless rdfs:range\newline
 		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless owl:minCardinality \newline
+		\tab\tab rdf:datatype=``\&xsd;decimal"\textgreater0\newline
+		\tab\textless /owl:minCardinality\textgreater\newline
 		\tab\textless rdfs:domain\newline
 		\tab\tab rdf:resource=``\#TasasAcademicasTitulacion"\ /\textgreater\newline
 		\textless /owl:DatatypeProperty\textgreater
@@ -1530,6 +1551,9 @@ Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran
 		\tab\textless /rdfs:label\textgreater\newline
 		\tab\textless rdfs:range\newline
 		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless owl:minCardinality \newline
+		\tab\tab rdf:datatype=``\&xsd;decimal"\textgreater0\newline
+		\tab\textless /owl:minCardinality\textgreater\newline
 		\tab\textless rdfs:domain\newline
 		\tab\tab rdf:resource=``\#TasasAcademicasTitulacion"\ /\textgreater\newline
 		\textless /owl:DatatypeProperty\textgreater
@@ -1560,6 +1584,9 @@ Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran
 		\tab\textless /rdfs:label\textgreater\newline
 		\tab\textless rdfs:range\newline
 		\tab\tab rdf:resource=``\&xsd;decimal"\ /\textgreater\newline
+		\tab\textless owl:minCardinality \newline
+		\tab\tab rdf:datatype=``\&xsd;decimal"\textgreater0\newline
+		\tab\textless /owl:minCardinality\textgreater\newline
 		\tab\textless rdfs:domain\newline
 		\tab\tab rdf:resource=``\#TasasAcademicasTitulacion"\ /\textgreater\newline
 		\textless /owl:DatatypeProperty\textgreater
@@ -1691,7 +1718,7 @@ Las tablas 3.12 a 3.41 contienen el dominio (las clases en las que se encuentran
 		\tab\tab Titulados\newline
 		\tab\textless /rdfs:label\textgreater\newline
 		\tab\textless rdfs:range\newline
-		\tab\tab rdf:resource=``\&xsd;nonNegativeInteger"\ /\textgreater\newline
+		\tab\tab rdf:resource=``\&xsd;string"\ /\textgreater\newline
 		\tab\textless owl:equivalentProperty\newline
 		\tab\tab rdf:resource=``http://dbpedia.org/ontology/university"\ /\textgreater\newline
 		\tab\textless owl:equivalentProperty\newline
