@@ -16,7 +16,7 @@
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#1">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#1">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>CONVOCATORIA ORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>PRESENTADOS FASE GENERAL</ugr:estado>
@@ -25,7 +25,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#2">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#2">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>CONVOCATORIA ORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>APTOS FASE GENERAL</ugr:estado>
@@ -34,7 +34,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#3">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#3">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>CONVOCATORIA ORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>NO APTOS FASE GENERAL</ugr:estado>
@@ -43,7 +43,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#4">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#4">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>CONVOCATORIA ORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>PRESENTADOS FASE ESPECI­FICA</ugr:estado>
@@ -52,7 +52,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#5">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#5">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>CONVOCATORIA EXTRAORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>PRESENTADOS FASE GENERAL</ugr:estado>
@@ -61,7 +61,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#6">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#6">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>CONVOCATORIA EXTRAORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>APTOS FASE GENERAL</ugr:estado>
@@ -70,7 +70,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#7">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#7">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>CONVOCATORIA EXTRAORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>NO APTOS FASE GENERAL</ugr:estado>
@@ -79,7 +79,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#8">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#8">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>CONVOCATORIA EXTRAORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>PRESENTADOS FASE ESPECIFICA</ugr:estado>
@@ -88,7 +88,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#9">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#9">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 25 AÑOS</ugr:tipoProcedimiento>
 	<ugr:estado>NO PRESENTADOS</ugr:estado>
@@ -97,7 +97,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#10">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#10">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 25 AÑOS</ugr:tipoProcedimiento>
 	<ugr:estado>APTOS</ugr:estado>
@@ -106,7 +106,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#11">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#11">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 25 AÑOS</ugr:tipoProcedimiento>
 	<ugr:estado>NO APTOS</ugr:estado>
@@ -115,7 +115,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#12">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#12">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>PROCEDIMIENTO DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 40 AÑOS CON EXPERIENCIA LABORAL O PROFESIONAL</ugr:tipoProcedimiento>
 	<ugr:estado>APTOS</ugr:estado>
@@ -124,7 +124,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#13">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#13">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>PROCEDIMIENTO DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 40 AÑOS CON EXPERIENCIA LABORAL O PROFESIONAL</ugr:tipoProcedimiento>
 	<ugr:estado>NO APTOS</ugr:estado>
@@ -133,7 +133,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#14">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#14">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 45 AÑOS</ugr:tipoProcedimiento>
 	<ugr:estado>NO PRESENTADOS</ugr:estado>
@@ -142,7 +142,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#15">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#15">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 45 AÑOS</ugr:tipoProcedimiento>
 	<ugr:estado>APTOS</ugr:estado>
@@ -151,7 +151,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="DemandaAcademicaAcceso1213#16">
+<rdf:Description rdf:about="DemandaAcademicaAcceso/1213#16">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
 	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 45 AÑOS</ugr:tipoProcedimiento>
 	<ugr:estado>NO APTOS</ugr:estado>

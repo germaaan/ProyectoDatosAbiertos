@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
+]>
+
+<rdf:RDF
+	xmlns="http://cabas.ugr.es/resources/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#1">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>PRIMER Y SEGUNDO CICLO</ugr:planEstudios>
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">52.40</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">40.06</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">35.08</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#2">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>PRIMER Y SEGUNDO CICLO</ugr:planEstudios>
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">59.00</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">42.36</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">34.71</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#3">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>PRIMER Y SEGUNDO CICLO</ugr:planEstudios>
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">71.34</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">54.65</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">46.55</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#4">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>PRIMER Y SEGUNDO CICLO</ugr:planEstudios>
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">54.40</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">41.83</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">33.05</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#5">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>PRIMER Y SEGUNDO CICLO</ugr:planEstudios>
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">47.56</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">32.71</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">26.62</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#6">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>GRADO</ugr:planEstudios>
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">57.40</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">50.99</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">45.21</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#7">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>GRADO</ugr:planEstudios>
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">60.13</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">52.07</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">39.00</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#8">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>GRADO</ugr:planEstudios>
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">60.84</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">57.28</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">50.95</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#9">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>GRADO</ugr:planEstudios>
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">60.75</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">56.34</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">48.80</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#10">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>GRADO</ugr:planEstudios>
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">57.73</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">46.91</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">34.58</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#11">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>MASTER</ugr:planEstudios>
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">45.56</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">41.05</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">40.98</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#12">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>MASTER</ugr:planEstudios>
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">51.53</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">47.97</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">47.80</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#13">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>MASTER</ugr:planEstudios>
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">54.29</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">52.01</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">51.95</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#14">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>MASTER</ugr:planEstudios>
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">51.50</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">46.94</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">46.85</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="NumMedioCreditos/1213#15">
+	<rdf:type rdf:resource="#NumMedioCreditos" />
+	<ugr:planEstudios>MASTER</ugr:planEstudios>
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:creditosMatriculados rdf:datatype="&xsd;decimal">47.33</ugr:creditosMatriculados>
+	<ugr:creditosPresentados rdf:datatype="&xsd;decimal">42.93</ugr:creditosPresentados>
+	<ugr:creditosSuperados rdf:datatype="&xsd;decimal">42.92</ugr:creditosSuperados>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+</rdf:RDF>

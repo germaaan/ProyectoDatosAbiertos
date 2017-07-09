@@ -1,64 +1,51 @@
 #!/usr/bin/python3
 
-'''
-  Copyright (C) 2017 Germán Martínez Maldonado
-
-  This program is free software: you can redistribute it and/or modify
-  it under the terms of the GNU General Public License as published by
-  the Free Software Foundation, either version 3 of the License, or
-  (at your option) any later version.
-
-  This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-  GNU General Public License for more details.
-
-  You should have received a copy of the GNU General Public License
-  along with this program. If not, see <http://www.gnu.org/licenses/>.
-'''
-
 import csv
 
-files = ["DemandaAcademicaAcceso1213", "DemandaAcademicaAcceso1314", "DemandaAcademicaAcceso1415"]
+files = [("1415", "2014/2015"), ("1516", "2015/2016")]
 
-for file in files:
+for x in files:
     id = 0
 
-    with open('../origin/' + file + '.csv', 'r') as ifile:
+    with open("../origin/DemandaAcademicaTitulacion" + x[0] + ".csv", "r") as ifile:
       reader = csv.reader(ifile)
       data = list(reader)
 
-    ofile = open('../converted/rdf/' + file + '.rdf', 'w')
-    ofile.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n"+
-    "<!DOCTYPE rdf:RDF [\n"+
-    "\t<!ENTITY rdf \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" >\n"+
-    "\t<!ENTITY rdfs \"http://www.w3.org/2000/01/rdf-schema#\" >\n"+
-    "\t<!ENTITY xsd \"http://www.w3.org/2001/XMLSchema#\" >\n"+
-    "\t<!ENTITY owl \"http://www.w3.org/2002/07/owl#\" >\n"+
-    "\t<!ENTITY ugr \"http://cabas.ugr.es/ontology/ugr#\" >\n"+
-    "]>\n\n"+
-    "<rdf:RDF\n"+
-    "\txmlns=\"http://cabas.ugr.es/resources/\"\n"+
-    "\txmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n"+
-    "\txmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"\n"+
-    "\txmlns:xsd=\"http://www.w3.org/2001/XMLSchema#\"\n"+
-    "\txmlns:owl=\"http://www.w3.org/2002/07/owl#\"\n"+
+    ofile = open("../converted/rdf/DemandaAcademicaTitulacion" + x[0] + ".rdf", "w")
+    ofile.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n" +
+    "<!DOCTYPE rdf:RDF [\n" +
+    "\t<!ENTITY rdf \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" >\n" +
+    "\t<!ENTITY rdfs \"http://www.w3.org/2000/01/rdf-schema#\" >\n" +
+    "\t<!ENTITY xsd \"http://www.w3.org/2001/XMLSchema#\" >\n" +
+    "\t<!ENTITY owl \"http://www.w3.org/2002/07/owl#\" >\n" +
+    "\t<!ENTITY ugr \"http://cabas.ugr.es/ontology/ugr#\" >\n" +
+    "]>\n\n" +
+    "<rdf:RDF\n" +
+    "\txmlns=\"http://cabas.ugr.es/resources/\"\n" +
+    "\txmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n" +
+    "\txmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"\n" +
+    "\txmlns:xsd=\"http://www.w3.org/2001/XMLSchema#\"\n" +
+    "\txmlns:owl=\"http://www.w3.org/2002/07/owl#\"\n" +
     "\txmlns:ugr=\"http://cabas.ugr.es/ontology/ugr#\">\n\n")
     ofile.close()
 
-    with open('../converted/rdf/' + file + '.rdf', 'a') as ofile:
+    with open("../converted/rdf/DemandaAcademicaTitulacion" + x[0] + ".rdf", "a") as ofile:
             for lines in data:
                 if id > 0:
-                    ofile.write("<rdf:Description rdf:about=\"" + file + "#"+str(id)+"\">\n"+
-                    "\t<rdf:type rdf:resource=\"#DemandaAcademicaAcceso\" />\n"+
-                    "\t<ugr:tipoProcedimiento>"+lines[0]+"</ugr:tipoProcedimiento>\n"+
-                    "\t<ugr:estado>"+lines[1]+"</ugr:estado>\n"+
-                    "\t<ugr:hombres rdf:datatype=\"&xsd;nonNegativeInteger\">"+lines[2]+"</ugr:hombres>\n"+
-                    "\t<ugr:mujeres rdf:datatype=\"&xsd;nonNegativeInteger\">"+lines[3]+"</ugr:mujeres>\n"+
-                    "\t<ugr:curso>2012/2013</ugr:curso>\n"+
+                    ofile.write("<rdf:Description rdf:about=\"DemandaAcademicaTitulacion/" + x[0] + "#" + str(id) + "\">\n" +
+                    "\t<rdf:type rdf:resource=\"#DemandaAcademicaTitulacion\" />\n" +
+                    "\t<ugr:titulacion>" + lines[0] + "</ugr:titulacion>\n" +
+                    "\t<ugr:plazasOfertadas rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[1] + "</ugr:plazasOfertadas>\n" +
+                    "\t<ugr:cupoGral rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[2] + "</ugr:cupoGral>\n" +
+                    "\t<ugr:mayor25 rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[3] + "</ugr:mayor25>\n" +
+                    "\t<ugr:mayor40 rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[4] + "</ugr:mayor40>\n" +
+                    "\t<ugr:titulados rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[5] + "</ugr:titulados>\n" +
+                    "\t<ugr:discapacitados rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[6] + "</ugr:discapacitados>\n" +
+                    "\t<ugr:deportistas rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[7] + "</ugr:deportistas>\n" +
+                    "\t<ugr:curso>" + x[1] + "</ugr:curso>\n" +
                     "</rdf:Description>\n\n")
                 id += 1
 
-    ofile = open('../converted/rdf/' + file + '.rdf', 'a')
+    ofile = open("../converted/rdf/DemandaAcademicaTitulacion" + x[0] + ".rdf", "a")
     ofile.write("</rdf:RDF>")
     ofile.close()

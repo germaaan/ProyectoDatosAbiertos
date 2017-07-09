@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
+]>
+
+<rdf:RDF
+	xmlns="http://cabas.ugr.es/resources/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#1">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER ERASMUS MUNDUS EN EL COLOR EN LA INFORMATICA Y LA TECNOLOGIA DE LOS MEDIOS / ERASMUS MUNDUS IN COLOR IN INFORMATICS AND MEDIA TECHNOLOGY (CIMET)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#2">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER ERASMUS MUNDUS EN ESTUDIOS DE LAS MUJERES Y DE GENERO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">69</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#3">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ABOGACIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">33</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">44</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#4">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ANALISIS BIOLOGICO Y DIAGNOSTICO DE LABORATORIO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#5">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ANTROPOLOGIA FISICA Y FORENSE </ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">21</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">52</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#6">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ARQUEOLOGIA </ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">29</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">34</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#7">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ARQUEOLOGIA PREHISTORICA, DEL MUNDO ANTIGUO Y MEDIEVAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#8">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ARQUEOLOGIA Y TERRITORIO </ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#9">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ARTES VISUALES Y EDUCACION. UN ENFOQUE CONSTRUCCIONISTA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">26</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#10">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ATENCION FARMACEUTICA EUROPHARMNES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#11">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN AVANCES EN CALIDAD Y TECNOLOGIA ALIMENTARIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">36</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#12">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN AVANCES EN RADIOLOGIA DIAGNOSTICA Y TERAPEUTICA Y MEDICINA FISICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">22</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#13">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN BIOLOGIA AGRARIA Y ACUICULTURA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#14">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN BIOLOGIA MOLECULAR APLICADA A EMPRESAS BIOTECNOLOGICAS (BIOENTERPRISE)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#15">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN BIOMEDICINA REGENERATIVA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#16">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN BIOTECNOLOGIA </ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#17">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN CIENCIA Y TECNOLOGIA EN PATRIMONIO ARQUITECTONICO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">20</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#18">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN CIENCIAS DE LA ANTIGÜEDAD Y EDAD MEDIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#19">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN CLAVES DEL MUNDO CONTEMPORANEO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#20">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN CONDICIONANTES GENETICOS, NUTRICIONALES Y AMBIENTALES DEL CRECIMIENTO Y DESARROLLO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#21">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN CONSERVACION, GESTION Y RESTAURACION DE LA BIODIVERSIDAD</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">21</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#22">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN COOPERACION AL DESARROLLO, GESTION PUBLICA Y DE LAS ONGDS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">39</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#23">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN CRIMINALIDAD E INTERVENCION SOCIAL EN MENORES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">55</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#24">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN CUIDADOS DE SALUD EN LA DISCAPACIDAD, LA DEPENDENCIA Y EL FINAL DE LA VIDA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#25">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN CUIDADOS DE SALUD PARA LA PROMOCION DE LA AUTONOMIA DE LAS PERSONAS Y LA ATENCION A LOS PROCESOS DEL FIN DE LA VIDA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">27</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#26">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN CULTURA DE PAZ, CONFLICTOS, EDUCACION Y DERECHOS HUMANOS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">13</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">29</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#27">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN CULTURAS ARABE Y HEBREA. PASADO Y PRESENTE</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#28">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN DERECHO CONSTITUCIONAL EUROPEO </ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#29">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN DERECHO DE LOS NEGOCIOS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">20</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#30">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN DERECHO INTERNACIONAL Y RELACIONES INTERNACIONALES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">33</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#31">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN DERECHO SANITARIO, BIOETICA Y DERECHO A LA SALUD EN LA UNION EUROPEA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#32">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN DESARROLLO DEL SOFTWARE</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">40</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#33">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN DIBUJO - CREACION, PRODUCCION Y DIFUSION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">13</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">20</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#34">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN DIDACTICA DE LA MATEMATICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">14</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#35">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN DIRECCION Y GESTION PUBLICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#36">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN DISEÑOS DE INVESTIGACION Y APLICACIONES EN PSICOLOGIA Y SALUD</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#37">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN DIVERSIDAD CULTURAL. UN ENFOQUE MULTIDISCIPLINAR Y TRANSFRONTERIZO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">21</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#38">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ECONOMIA Y ORGANIZACION DE EMPRESAS </ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#39">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ECONOMIA / ECONOMICS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#40">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN EDUCACION MUSICAL: UNA PERSPECTIVA MULTIDISCIPLINAR</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">23</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#41">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN EDUCACION SOCIAL: INVESTIGACION Y DESARROLLO PROFESIONAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">29</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#42">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN EDUCADOR / EDUCADORA AMBIENTAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">13</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#43">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN EL ANALISIS GEOGRAFICO EN LA ORDENACION DEL TERRITORIO. TECNOLOGIAS DE LA INFORMACION GEOGRAFICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#44">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ENSEÑANZA DE ELE: LENGUA, CULTURA Y METODOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">41</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#45">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTADISTICA APLICADA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">35</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#46">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTRUCTURAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#47">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS E INTERVENCION SOCIAL EN INMIGRACION, DESARROLLO Y GRUPOS VULNERABLES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">33</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#48">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS LATINOAMERICANOS: CULTURA Y GESTION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">23</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#49">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS LITERARIOS Y TEATRALES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">13</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#50">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS MIGRATORIOS. DESARROLLO E INTERVENCION SOCIAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#51">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS SUPERIORES DE FILOLOGIA Y TRADICION CLASICAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#52">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS SUPERIORES DE LENGUA ESPAÑOLA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#53">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN FILOSOFIA CONTEMPORANEA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#54">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN FISICA Y MATEMATICAS </ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">25</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#55">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN GENETICA Y EVOLUCION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#56">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN GEOFISICA Y METEOROLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#57">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN GEOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#58">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN GEOLOGIA APLICADA A LA OBRA CIVIL Y LOS RECURSOS HIDRICOS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#59">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN GERONTOLOGIA, DEPENDENCIA Y PROTECCION DE LOS MAYORES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">32</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#60">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN GESTION Y SEGURIDAD INTEGRAL EN LA EDIFICACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">36</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">23</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#61">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN GESTION Y TECNOLOGIAS DE PROCESOS DE NEGOCIO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#62">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN HIDRAULICA AMBIENTAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#63">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN HISTORIA DEL ARTE. CONOCIMIENTO Y TUTELA DEL PATRIMONIO HISTORICO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">27</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#64">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN HISTORIA: DE EUROPA A AMERICA. SOCIEDADES, PODERES, CULTURAS (EURAME)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">13</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#65">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INFORMACION CIENTIFICA: TRATAMIENTO, ACCESO Y EVALUACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#66">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INFORMACION Y COMUNICACION CIENTIFICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#67">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INGENIERIA ACUSTICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#68">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INGENIERIA ACUSTICA: CONTAMINACION ACUSTICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#69">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INGENIERIA DE COMPUTADORES Y REDES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">22</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#70">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INGENIERIA TISULAR</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">14</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#71">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INTERPRETACION DE CONFERENCIAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#72">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INTERVENCION PSICOPEDAGOGICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">26</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#73">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION E INNOVACION EN CURRICULUM Y FORMACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">22</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#74">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION EN ACTIVIDAD FISICA Y DEPORTE</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">37</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#75">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION ODONTOLOGICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#76">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION Y AVANCES EN ANALISIS BIOLOGICO Y DIAGNOSTICO DE LABORATORIO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#77">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION Y AVANCES EN INMUNOLOGIA MOLECULAR Y CELULAR</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#78">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION Y AVANCES EN MEDICINA PREVENTIVA Y SALUD PUBLICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#79">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION Y AVANCES EN MICROBIOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#80">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION, DESARROLLO, CONTROL E INNOVACION DE MEDICAMENTOS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#81">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN LA MONARQUIA CATOLICA. EL SIGLO DE ORO ESPAÑOL Y LA EUROPA BARROCA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#82">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN LINGÜISTICA Y LITERATURA INGLESAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#83">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN MARKETING Y COMPORTAMIENTO DEL CONSUMIDOR</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">21</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#84">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN MATEMATICAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#85">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN METODOS Y TECNICAS AVANZADAS EN FISICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#86">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN NEUROCIENCIA COGNITIVA Y DEL COMPORTAMIENTO </ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">14</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#87">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN NEUROCIENCIA Y DOLOR</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">26</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#88">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN NUTRICION HUMANA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#89">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN PATRIMONIO MUSICAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#90">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN PREVENCION DE RIESGOS LABORALES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">27</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">33</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#91">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN PROBLEMAS SOCIALES. DIRECCION Y GESTION DE PROGRAMAS SOCIALES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#92">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN PRODUCCION E INVESTIGACION EN ARTE</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">29</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#93">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN PROFESORADO DE ENSEÑANZA SECUNDARIA OBLIGATORIA Y BACHILLERATO, FORMACION PROFESIONAL Y ENSEÑANZA DE IDIOMAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">273</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">345</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#94">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN PSICOLOGIA DE LA INTERVENCION SOCIAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#95">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN PSICOLOGIA DE LA SALUD</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#96">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN QUIMICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#97">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN SEGURIDAD INTEGRAL EN EDIFICACION </ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#98">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN SOFT COMPUTING Y SISTEMAS INTELIGENTES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">23</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#99">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN TECNICAS CUANTITATIVAS EN GESTION EMPRESARIAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#100">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN TECNICAS Y CIENCIAS DE LA CALIDAD DEL AGUA (IDEA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#101">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN TECNOLOGIAS MULTIMEDIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#102">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN TRADUCCION E INTERPRETACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#103">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO EN URBANISMO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#104">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO ERASMUS MUNDUS EN EXCELENCIA EN SALUD PUBLICA / EUROPUBHEALTH</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasPosgrado/1314#105">
+	<rdf:type rdf:resource="#MatriculasPosgrado" />
+	<ugr:titulacion>MASTER UNIVERSITARIO ERASMUS MUNDUS EN FORMACION DE PROFESIONALES DE LA FORMACION (MUNDUSFOR)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+</rdf:RDF>

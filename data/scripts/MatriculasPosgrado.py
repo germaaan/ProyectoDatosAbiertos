@@ -2,16 +2,16 @@
 
 import csv
 
-files = [("1213", "2012/2013"), ("1314", "2013/2014"), ("1415", "2014/2015")]
+files = [("1011", "2010/2011"), ("1112", "2011/2012"), ("1213", "2012/2013"), ("1314", "2013/2014"), ("1415", "2014/2015")]
 
 for x in files:
     id = 0
 
-    with open("../origin/DemandaAcademicaAcceso" + x[0] + ".csv", "r") as ifile:
+    with open("../origin/MatriculasPosgrado" + x[0] + ".csv", "r") as ifile:
       reader = csv.reader(ifile)
       data = list(reader)
 
-    ofile = open("../converted/rdf/DemandaAcademicaAcceso" + x[0] + ".rdf", "w")
+    ofile = open("../converted/rdf/MatriculasPosgrado" + x[0] + ".rdf", "w")
     ofile.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n" +
     "<!DOCTYPE rdf:RDF [\n" +
     "\t<!ENTITY rdf \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" >\n" +
@@ -29,19 +29,18 @@ for x in files:
     "\txmlns:ugr=\"http://cabas.ugr.es/ontology/ugr#\">\n\n")
     ofile.close()
 
-    with open("../converted/rdf/DemandaAcademicaAcceso" + x[0] + ".rdf", "a") as ofile:
+    with open("../converted/rdf/MatriculasPosgrado" + x[0] + ".rdf", "a") as ofile:
             for lines in data:
                 if id > 0:
-                    ofile.write("<rdf:Description rdf:about=\"DemandaAcademicaAcceso/" + x[0] + "#" + str(id) + "\">\n" +
-                    "\t<rdf:type rdf:resource=\"#DemandaAcademicaAcceso\" />\n" +
-                    "\t<ugr:tipoProcedimiento>" + lines[0] + "</ugr:tipoProcedimiento>\n" +
-                    "\t<ugr:estado>" + lines[1] + "</ugr:estado>\n" +
-                    "\t<ugr:hombres rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[2] + "</ugr:hombres>\n" +
-                    "\t<ugr:mujeres rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[3] + "</ugr:mujeres>\n" +
+                    ofile.write("<rdf:Description rdf:about=\"MatriculasPosgrado/" + x[0] + "#" + str(id) + "\">\n" +
+                    "\t<rdf:type rdf:resource=\"#MatriculasPosgrado\" />\n" +
+                    "\t<ugr:titulacion>" + lines[0] + "</ugr:titulacion>\n" +
+                    "\t<ugr:hombres rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[1] + "</ugr:hombres>\n" +
+                    "\t<ugr:mujeres rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[2] + "</ugr:mujeres>\n" +
                     "\t<ugr:curso>" + x[1] + "</ugr:curso>\n" +
                     "</rdf:Description>\n\n")
                 id += 1
 
-    ofile = open("../converted/rdf/DemandaAcademicaAcceso" + x[0] + ".rdf", "a")
+    ofile = open("../converted/rdf/MatriculasPosgrado" + x[0] + ".rdf", "a")
     ofile.write("</rdf:RDF>")
     ofile.close()

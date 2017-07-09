@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
+]>
+
+<rdf:RDF
+	xmlns="http://cabas.ugr.es/resources/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#1">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN BIOMEDICINA</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#2">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN BIOQUIMICA Y BIOLOGIA MOLECULAR</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#3">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN FARMACIA</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#4">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN MEDICINA CLINICA Y SALUD PUBLICA</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#5">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN NUTRICION Y CIENCIA DE LOS ALIMENTOS</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#6">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN PSICOLOGIA</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#7">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#8">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>CIENCIAS DE LA EDUCACION</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#9">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CIENCIAS JURIDICAS</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#10">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CIENCIAS SOCIALES</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#11">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN ESTUDIOS MIGRATORIOS</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#12">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CRIMINOLOGIA</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#13">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN FILOSOFIA</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#14">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN HISTORIA Y ARTES</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#15">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN LENGUAS, TEXTOS Y CONTEXTOS</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#16">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN BIOLOGIA FUNDAMENTAL Y DE SISTEMAS</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#17">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CIENCIAS DE LA TIERRA</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#18">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN DINAMICA DE FLUJOS BIOGEOQUIMICOS Y SUS APLICACIONES</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#19">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN ESTADISTICA MATEMATICA Y APLICADA</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#20">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN FISICA Y CIENCIAS DEL ESPACIO</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#21">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN FISICA Y MATEMATICAS</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#22">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN INGENIERIA CIVIL</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#23">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN MATEMATICAS</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#24">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN QUIMICA</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1415#25">
+	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
+	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
+	<ugr:titulacion>PROGRAMA DE DOCTORADO EN TECNOLOGIAS DE LA INFORMACION Y LA COMUNICACION</ugr:titulacion>
+	<ugr:campus>ESCUELA DE DOCTORADO</ugr:campus>
+	<ugr:centro>UGR</ugr:centro>
+	<ugr:curso>2014/2015</ugr:curso>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
+]>
+
+<rdf:RDF
+	xmlns="http://cabas.ugr.es/resources/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
+
+<rdf:Description rdf:about="OrigenProvincia/1314#1">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>ALAVA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">47</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#2">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>ALBACETE</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">61</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">97</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#3">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>ALICANTE</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">172</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">247</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#4">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>ALMERIA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1372</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1906</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#5">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>ASTURIAS</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">30</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#6">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>AVILA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#7">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>BADAJOZ</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">140</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">199</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#8">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>BALEARES</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">131</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">250</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#9">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>BARCELONA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">247</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">340</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#10">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>BURGOS</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">14</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">26</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#11">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>CACERES</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">57</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">63</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#12">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>CADIZ</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">948</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1200</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#13">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>CANTABRIA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">27</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#14">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>CASTELLON</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#15">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>CEUTA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">408</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">609</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#16">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>CIUDAD REAL</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">215</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">353</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#17">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>CORDOBA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1016</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1471</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#18">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>A CORUÑA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">33</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#19">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>CUENCA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">27</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#20">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>EXTRANJERO</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#21">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>GERONA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">54</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">69</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#22">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>GRANADA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">10728</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">13556</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#23">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>GUADALAJARA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#24">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>GUIPUZCUA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">25</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#25">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>HUELVA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">156</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">179</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#26">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>HUESCA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#27">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>JAEN</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1864</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2542</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#28">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>LA RIOJA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#29">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>LEON</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#30">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>LERIDA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">27</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#31">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>LUGO</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#32">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>MADRID</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">252</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">325</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#33">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>MALAGA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1493</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1810</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#34">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>MELILLA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">451</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">708</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#35">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>MURCIA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">329</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">427</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#36">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>NAVARRA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">34</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#37">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>NINGUNA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">400</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">196</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#38">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>ORENSE</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#39">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>PALENCIA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#40">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>LAS PALMAS</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">168</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">232</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#41">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>PONTEVEDRA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">20</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#42">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>SALAMANCA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">20</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#43">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>SEGOVIA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#44">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>SEVILLA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">294</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">421</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#45">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>SORIA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#46">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>SANTA CRUZ DE TENERIFE</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">110</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">119</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#47">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>TARRAGONA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">40</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#48">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>TERUEL</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#49">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>TOLEDO</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">30</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">48</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#50">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>VALENCIA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">64</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">92</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#51">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>VALLADOLID</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">22</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">25</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#52">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>VIZCAYA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">41</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">29</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#53">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>ZAMORA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenProvincia/1314#54">
+	<rdf:type rdf:resource="#OrigenProvincia" />
+	<ugr:provincia>ZARAGOZA</ugr:provincia>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">32</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">37</ugr:mujeres>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+</rdf:RDF>

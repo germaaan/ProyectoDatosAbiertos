@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
+]>
+
+<rdf:RDF
+	xmlns="http://cabas.ugr.es/resources/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
+
+<rdf:Description rdf:about="OrigenPais/1516#1">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>AFGANISTAN</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#2">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ALBANIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#3">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ALEMANIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">157</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">315</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#4">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ANDORRA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#5">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ANGOLA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#6">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ANTIGUA Y BARBUDA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#7">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ARGELIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#8">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ARGENTINA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">82</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">122</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#9">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ARMENIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#10">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>AUSTRALIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#11">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>AUSTRIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">31</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#12">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>AZERBAIYAN</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#13">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>BARBADOS</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#14">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>BAHREIN</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#15">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>BIELORRUSIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#16">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>BOLIVIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">14</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">22</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#17">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>BOSNIA Y HERZEGOVINA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#18">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>BRASIL</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">37</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">64</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#19">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>BULGARIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#20">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>BELGICA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">34</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">62</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#21">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>CABO VERDE</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#22">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>CANADA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#23">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>CHECOSLOVAQUIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#24">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>CHILE</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">20</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">56</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#25">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>CHINA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">14</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">78</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#26">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>CHIPRE</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#27">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>COLOMBIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">56</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">84</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#28">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>COREA DEL SUR</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#29">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>COSTA DE MARFIL</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#30">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>COSTA RICA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#31">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>CUBA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#32">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>DINAMARCA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#33">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ECUADOR</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">39</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">51</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#34">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>EE. UU. DE AMERICA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">43</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">124</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#35">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>EGIPTO</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#36">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>EL SALVADOR</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#37">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ESLOVAQUIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">33</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#38">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ESLOVENIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#39">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ESTONIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#40">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>FILIPINAS</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#41">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>FINLANDIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#42">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>FRANCIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">100</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">252</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#43">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>GEORGIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#44">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>GHANA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#45">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>GIBRALTAR</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#46">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>GRECIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">30</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#47">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>GRENADA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#48">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>GUATEMALA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#49">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>REPUBLICA DE GUINEA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#50">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>GUINEA BISSAU</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#51">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>GUINEA ECUATORIAL</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#52">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>HOLANDA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">49</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#53">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>HONDURAS</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#54">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>HUNGRIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#55">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>INDIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#56">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>IRAK</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#57">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>IRLANDA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">20</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#58">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>IRAN</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#59">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ISLANDIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#60">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ISRAEL</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#61">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>ITALIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">202</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">328</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#62">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>JAMAICA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#63">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>JAPON</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#64">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>JORDANIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#65">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>KAZAJISTAN</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#66">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>KENIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#67">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>KOSOVO</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#68">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>LETONIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#69">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>LITUANIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">14</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#70">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>LUXEMBURGO</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#71">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>LIBANO</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#72">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>MALASIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#73">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>MALTA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#74">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>MARRUECOS</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">282</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">353</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#75">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>MAURITANIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#76">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>MOLDAVIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#77">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>MEXICO</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">66</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">137</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#78">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>NICARAGUA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#79">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>NORUEGA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#80">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>PAKISTAN</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#81">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>PANAMA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#82">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>PARAGUAY</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#83">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>PERU</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#84">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>POLONIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">106</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#85">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>PORTUGAL</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">48</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#86">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>PUERTO RICO</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">39</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#87">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>QATAR</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#88">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>REINO UNIDO</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">67</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">164</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#89">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>REPUBLICA DOMINICANA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#90">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>REPUBLICA MALGACHEAR</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#91">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>REPUBLICA SUDAFRICANA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#92">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>REPUBLICA CHECA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">40</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#93">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>RUMANIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">29</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">86</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#94">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>RUSIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">64</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#95">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>SAHARA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#96">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>SARAWAK</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#97">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>SENEGAL</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#98">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>SERBIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#99">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>SINGAPUR</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#100">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>SIRIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#101">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>SUECIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#102">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>SUIZA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">31</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">54</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#103">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>TAIWAN</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#104">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>TANZANIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#105">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>TURKMENISTAN</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#106">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>TURQUIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#107">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>TUNEZ</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#108">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>UCRANIA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">39</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#109">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>URUGUAY</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#110">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>UZBEKISTAN</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#111">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>VENEZUELA</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">34</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#112">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>VIETNAM</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OrigenPais/1516#113">
+	<rdf:type rdf:resource="#OrigenPais" />
+	<ugr:pais>DESCONOCIDO/SIN ESPECIFICAR</ugr:pais>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">310</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">417</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+</rdf:RDF>

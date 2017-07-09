@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
+]>
+
+<rdf:RDF
+	xmlns="http://cabas.ugr.es/resources/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#1">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ARQUEOLOGI­A</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#2">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN BELLAS ARTES</ugr:titulacion>
+	<ugr:campus>FACULTAD DE BELLAS ARTES</ugr:campus>
+	<ugr:centro>AYNADAMAR</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#3">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CONSERVACION Y RESTAURACION DE BIENES CULTURALES</ugr:titulacion>
+	<ugr:campus>FACULTAD DE BELLAS ARTES</ugr:campus>
+	<ugr:centro>AYNADAMAR</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#4">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ESTUDIOS IRABES E ISLAMICOS</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#5">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ESTUDIOS FRANCESES</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#6">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ESTUDIOS INGLESES</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#7">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FILOLOGI­A CLASICA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#8">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FILOLOGI­A HISPANICA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#9">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FILOSOFI­A</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#10">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN HISTORIA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#11">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN HISTORIA DEL ARTE</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#12">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN HISTORIA Y CIENCIAS DE LA MIºSICA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#13">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN LENGUAS MODERNAS Y SUS LITERATURAS</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#14">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN LITERATURAS COMPARADAS</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#15">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION</ugr:titulacion>
+	<ugr:campus>FACULTAD DE TRADUCCION E INTERPRETACION</ugr:campus>
+	<ugr:centro>CENTRO</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#16">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN BIOLOGI­A</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#17">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN BIOQUI­MICA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#18">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN BIOTECNOLOGI­A</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#19">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIA Y TECNOLOGI­A DE LOS ALIMENTOS</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FARMACIA</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#20">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIAS AMBIENTALES</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#21">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ESTADI­STICA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#22">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FI­SICA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#23">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN GEOLOGI­A</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#24">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERI­A INFORMATICA Y MATEMATICAS</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#25">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MATEMATICAS</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#26">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN IPTICA Y OPTOMETRI­A</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#27">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN QUI­MICA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#28">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ENFERMERI­A</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS DE LA SALUD</ugr:campus>
+	<ugr:centro>CIENCIAS DE LA SALUD</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#29">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ENFERMERI­A (CEUTA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS DE LA SALUD DE CEUTA</ugr:campus>
+	<ugr:centro>CEUTA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#30">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ENFERMERI­A (MELILLA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE ENFERMERI­A DE MELILLA</ugr:campus>
+	<ugr:centro>MELILLA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#31">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FARMACIA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FARMACIA</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#32">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FISIOTERAPIA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS DE LA SALUD</ugr:campus>
+	<ugr:centro>CIENCIAS DE LA SALUD</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#33">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN LOGOPEDIA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE PSICOLOGI­A</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#34">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MEDICINA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE MEDICINA</ugr:campus>
+	<ugr:centro>CENTRO</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#35">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN NUTRICION HUMANA Y DIETETICA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FARMACIA</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#36">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ODONTOLOGI­A</ugr:titulacion>
+	<ugr:campus>FACULTAD DE ODONTOLOGI­A</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#37">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN PSICOLOGI­A</ugr:titulacion>
+	<ugr:campus>FACULTAD DE PSICOLOGI­A</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#38">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN TERAPIA OCUPACIONAL</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS DE LA SALUD</ugr:campus>
+	<ugr:centro>CIENCIAS DE LA SALUD</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#39">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#40">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS (CEUTA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE EDUCACION, ECONOMI­A Y TECNOLOGI­A DE CEUTA</ugr:campus>
+	<ugr:centro>CEUTA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#41">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS (MELILLA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS SOCIALES DE MELILLA</ugr:campus>
+	<ugr:centro>MELILLA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#42">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS Y DERECHO</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES Y FACULTAD DE DERECHO</ugr:campus>
+	<ugr:centro>CARTUJA Y CENTRO</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#43">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS Y DERECHO (MELILLA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS SOCIALES DE MELILLA</ugr:campus>
+	<ugr:centro>MELILLA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#44">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ANTROPOLOGI­A SOCIAL Y CULTURAL</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#45">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIAS DE LA ACTIVIDAD FI­SICA Y DEL DEPORTE</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS DEL DEPORTE</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#46">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIAS POLI­TICAS Y DE LA ADMINISTRACION</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS POLI­TICAS Y SOCIOLOGI­A</ugr:campus>
+	<ugr:centro>CENTRO</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#47">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN COMUNICACION AUDIOVISUAL</ugr:titulacion>
+	<ugr:campus>FACULTAD DE COMUNICACION Y DOCUMENTACION</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#48">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CRIMINOLOGI­A</ugr:titulacion>
+	<ugr:campus>FACULTAD DE DERECHO</ugr:campus>
+	<ugr:centro>CENTRO</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#49">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN DERECHO</ugr:titulacion>
+	<ugr:campus>FACULTAD DE DERECHO</ugr:campus>
+	<ugr:centro>CENTRO</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#50">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN DERECHO (MELILLA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS SOCIALES DE MELILLA</ugr:campus>
+	<ugr:centro>MELILLA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#51">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIAS POLI­TICAS DE LA ADMINISTRACION Y DERECHO</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS POLI­TICAS Y SOCIOLOGI­A Y FACULTAD DE DERECHO</ugr:campus>
+	<ugr:centro>CENTRO</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#52">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ECONOMI­A</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#53">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION INFANTIL</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS DE LA EDUCACION</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#54">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION INFANTIL</ugr:titulacion>
+	<ugr:campus>CENTRO DE MAGISTERIO LA INMACULADA</ugr:campus>
+	<ugr:centro>CENTROS ADSCRITOS</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#55">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (CEUTA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE EDUCACION, ECONOMI­A Y TECNOLOGI­A DE CEUTA</ugr:campus>
+	<ugr:centro>CEUTA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#56">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (MELILLA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE EDUCACION Y HUMANIDADES DE MELILLA</ugr:campus>
+	<ugr:centro>MELILLA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#57">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS DE LA EDUCACION</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#58">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA</ugr:titulacion>
+	<ugr:campus>CENTRO DE MAGISTERIO LA INMACULADA</ugr:campus>
+	<ugr:centro>CENTROS ADSCRITOS</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#59">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (CEUTA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE EDUCACION, ECONOMI­A Y TECNOLOGI­A DE CEUTA</ugr:campus>
+	<ugr:centro>CEUTA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#60">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (MELILLA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE EDUCACION Y HUMANIDADES DE MELILLA</ugr:campus>
+	<ugr:centro>MELILLA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#61">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA Y CIENCIAS DE LA ACTIVIDAD FI­SICA Y DEL DEPORTE</ugr:titulacion>
+	<ugr:campus>FACULTAD DE EDUCACION Y HUMANIDADES DE MELILLA</ugr:campus>
+	<ugr:centro>MELILLA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#62">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION SOCIAL</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS DE LA EDUCACION</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#63">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION SOCIAL (CEUTA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE EDUCACION, ECONOMI­A Y TECNOLOGI­A DE CEUTA</ugr:campus>
+	<ugr:centro>CEUTA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#64">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION SOCIAL (MELILLA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE EDUCACION Y HUMANIDADES DE MELILLA</ugr:campus>
+	<ugr:centro>MELILLA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#65">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FINANZAS Y CONTABILIDAD</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#66">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN GEOGRAFI­A Y GESTION DEL TERRITORIO</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#67">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN GESTION Y ADMINISTRACION PIºBLICA (MELILLA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS SOCIALES DE MELILLA</ugr:campus>
+	<ugr:centro>MELILLA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#68">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INFORMACION Y DOCUMENTACION</ugr:titulacion>
+	<ugr:campus>FACULTAD DE COMUNICACION Y DOCUMENTACION</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#69">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MARKETING E INVESTIGACION DE MERCADOS</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#70">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN PEDAGOGI­A</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS DE LA EDUCACION</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#71">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS DEL TRABAJO</ugr:campus>
+	<ugr:centro>CENTRO</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#72">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS (MELILLA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS SOCIALES DE MELILLA</ugr:campus>
+	<ugr:centro>MELILLA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#73">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN SOCIOLOGI­A</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS POLI­TICAS Y SOCIOLOGI­A</ugr:campus>
+	<ugr:centro>CENTRO</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#74">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN TRABAJO SOCIAL</ugr:titulacion>
+	<ugr:campus>FACULTAD DE TRABAJO SOCIAL</ugr:campus>
+	<ugr:centro>CENTRO</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#75">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN TURISMO</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#76">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ARQUITECTURA</ugr:titulacion>
+	<ugr:campus>ESCUELA TECNICA SUPERIOR DE ARQUITECTURA</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#77">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERI­A CIVIL</ugr:titulacion>
+	<ugr:campus>ESCUELA TECNICA SUPERIOR DE INGENIERI­A DE CAMINOS, CANALES Y PUERTOS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#78">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDIFICACION</ugr:titulacion>
+	<ugr:campus>ESCUELA TECNICA SUPERIOR DE INGENIERI­A DE EDIFICACION</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#79">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERI­A DE TECNOLOGI­AS DE TELECOMUNICACION</ugr:titulacion>
+	<ugr:campus>ESCUELA TECNICA SUPERIOR DE INGEIERI­AS INFORMATICA Y DE TELECOMUNICACION</ugr:campus>
+	<ugr:centro>AYNADAMAR</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#80">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERI­A ELECTRONICA INDUSTRIAL</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#81">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERI­A INFORMATICA</ugr:titulacion>
+	<ugr:campus>ESCUELA TECNICA SUPERIOR DE INGENIERI­AS INFORMATICA Y DE TELECOMUNICACION</ugr:campus>
+	<ugr:centro>AYNADAMAR</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#82">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERI­A INFORMATICA (CEUTA)</ugr:titulacion>
+	<ugr:campus>FACULTAD DE EDUCACION, ECONOMI­A Y TECNOLOGI­A DE CEUTA</ugr:campus>
+	<ugr:centro>CEUTA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#83">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERI­A INFORMATICA Y MATEMATICAS</ugr:titulacion>
+	<ugr:campus>ESCUELA TECNICA SUPERIOR DE INGEIERI­AS INFORMATICA Y DE TELECOMUNICACION</ugr:campus>
+	<ugr:centro>AYNADAMAR</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="OfertaTitulacionDoctoradoGrado/1516#84">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERI­A QUI­MICA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+</rdf:RDF>

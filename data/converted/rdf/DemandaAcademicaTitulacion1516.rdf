@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
+]>
+
+<rdf:RDF
+	xmlns="http://cabas.ugr.es/resources/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#1">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">281</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">275</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">1</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#2">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS (CEUTA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">70</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">45</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#3">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS (MELILLA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">70</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">45</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#4">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS + DERECHO</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">143</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">144</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#5">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS + DERECHO (MELILLA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">60</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">41</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#6">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ANTROPOLOGIA SOCIAL Y CULTURAL</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">58</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#7">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ARQUEOLOGIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">63</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#8">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ARQUITECTURA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">160</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">143</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#9">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN BELLAS ARTES</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">235</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">224</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#10">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN BIOLOGIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">210</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">213</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#11">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN BIOQUIMICA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">55</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">53</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#12">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN BIOTECNOLOGIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">50</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">1</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#13">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN CIENCIAS AMBIENTALES</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">150</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">142</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#14">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN CIENCIAS DE LA ACTIVIDAD FISICA Y DEL DEPORTE</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">190</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">175</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">4</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">8</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#15">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN CIENCIAS DE LA ACTIVIDAD FISICA Y DEL DEPORTE + EDUCACION PRIMARIA (MELILLA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">60</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#16">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN CIENCIAS POLITICAS Y DE LA ADMINISTRACION</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">150</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">142</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#17">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN CIENCIAS POLITICAS Y DE LA ADMINISTRACION + DERECHO</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">145</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">141</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#18">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN CIENCIAS Y TECNOLOGIA DE LOS ALIMENTOS</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">63</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#19">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN COMUNICACION AUDIOVISUAL</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">62</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#20">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN CONSERVACION Y RESTAURACION DE BIENES CULTURALES</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">50</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#21">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN CRIMINOLOGIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">75</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">73</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#22">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN DERECHO</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">500</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">478</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">8</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">5</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">1</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#23">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ECONOMIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">237</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">235</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#24">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN EDIFICACION </ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">250</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">83</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#25">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (CIENCIAS DE LA EDUCACION)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">330</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">319</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">4</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">1</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#26">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (C. MAGISTERIO INMACULADA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">130</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">84</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#27">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (CEUTA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">70</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">41</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#28">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (MELILLA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">28</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#29">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (CIENCIAS DE LA EDUCACION)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">540</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">520</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">6</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">1</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#30">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (C. MAGISTERIO INMACULADA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">220</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">147</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">11</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#31">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (BILINGÜE)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">67</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">64</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#32">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (CEUTA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">140</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">61</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">6</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#33">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (MELILLA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">43</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">4</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#34">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN EDUCACION SOCIAL (CIENCIAS DE LA EDUCACION)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">135</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">133</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#35">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN EDUCACION SOCIAL (CEUTA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">80</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">47</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#36">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN EDUCACION SOCIAL (MELILLA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">80</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">30</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#37">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ENFERMERIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">200</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">186</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">4</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">4</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">1</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#38">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ENFERMERIA (CEUTA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">135</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">139</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#39">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ENFERMERIA (MELILLA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">110</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">108</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#40">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ESTADISTICA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">60</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">61</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#41">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ESTUDIOS ARABES E ISLAMICOS</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">34</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#42">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ESTUDIOS FRANCESES</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">75</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">69</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#43">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ESTUDIOS INGLESES</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">150</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">151</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#44">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN FARMACIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">320</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">316</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#45">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN FILOLOGIA CLASICA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">35</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#46">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN FILOLOGIA HISPANICA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">75</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">73</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#47">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN FILOSOFIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">80</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">78</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#48">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN FINANZAS Y CONTABILIDAD</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">129</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">127</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#49">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN FISICA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">130</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">129</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#50">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN FISIOTERAPIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">60</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">56</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">7</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#51">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN GEOGRAFIA Y GESTION DEL TERRITORIO</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">60</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">48</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#52">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN GEOLOGIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">75</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">71</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#53">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN HISTORIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">150</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">141</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#54">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN HISTORIA DEL ARTE</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">150</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">133</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#55">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN HISTORIA Y CIENCIAS DE LA MUSICA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">63</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#56">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN INFORMACION Y DOCUMENTACION</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">100</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">47</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">4</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#57">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN INGENIERIA DE TECNOLOGIAS DE TELECOMUNICACION</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">100</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">99</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">1</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#58">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN INGENIERIA CIVIL</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">200</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">172</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#59">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN INGENIERIA ELECTRONICA INDUSTRIAL</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">65</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#60">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">300</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">294</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#61">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA + MATEMATICAS</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">50</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#62">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA (CEUTA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">18</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#63">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN INGENIERIA QUIMICA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">120</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">118</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#64">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN LENGUAS MODERNAS Y SUS LITERATURAS</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">75</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">72</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#65">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN LITERATURAS COMPARADAS</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">44</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#66">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN LOGOPEDIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">70</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">69</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#67">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN MARKETING E INVESTIGACION DE MERCADOS</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">129</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">127</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#68">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN MATEMATICAS</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">110</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">107</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#69">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN MEDICINA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">253</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">221</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">7</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">13</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">7</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#70">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN NUTRICION HUMANA Y DIETETICA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">100</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">94</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">1</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#71">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN ODONTOLOGIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">85</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">82</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#72">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN OPTICA Y OPTOMETRIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">135</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">132</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#73">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN PEDAGOGIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">135</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">136</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#74">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN PSICOLOGIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">300</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">284</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">4</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#75">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN QUIMICA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">90</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">89</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#76">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">365</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">331</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">8</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#77">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS (MELILLA)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">17</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#78">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN SOCIOLOGIA</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">160</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">150</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#79">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN TERAPIA OCUPACIONAL</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">60</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">60</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#80">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN TRABAJO SOCIAL</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">180</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">173</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">4</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#81">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION (ALEMAN)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">37</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">38</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#82">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION (ARABE)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">35</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">37</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#83">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION (FRANCES)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">80</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">80</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">1</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#84">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION (INGLES)</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">120</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">110</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">4</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">3</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="DemandaAcademicaTitulacion/1516#85">
+	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<ugr:titulacion>GRADO EN TURISMO</ugr:titulacion>
+	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">144</ugr:plazasOfertadas>
+	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">142</ugr:cupoGral>
+	<ugr:mayor25 rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mayor25>
+	<ugr:mayor40 rdf:datatype="&xsd;nonNegativeInteger">0</ugr:mayor40>
+	<ugr:titulados rdf:datatype="&xsd;nonNegativeInteger">2</ugr:titulados>
+	<ugr:discapacitados rdf:datatype="&xsd;nonNegativeInteger">0</ugr:discapacitados>
+	<ugr:deportistas rdf:datatype="&xsd;nonNegativeInteger">0</ugr:deportistas>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,1684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
+]>
+
+<rdf:RDF
+	xmlns="http://cabas.ugr.es/resources/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
+
+<rdf:Description rdf:about="MatriculasGrado/1213#1">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN BELLAS ARTES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">299</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">420</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#2">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CONSERVACION Y RESTAURACION DE BIENES CULTURALES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">33</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">104</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#3">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ESTUDIOS ARABES E ISLAMICOS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">52</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">54</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#4">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ESTUDIOS FRANCESES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">46</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">132</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#5">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ESTUDIOS INGLESES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">147</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">278</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#6">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FILOLOGIA CLASICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">34</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">66</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#7">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FILOLOGIA HISPANICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">254</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">151</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#8">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FILOSOFIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">125</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">62</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#9">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN HISTORIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">301</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">119</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#10">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN HISTORIA DEL ARTE</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">118</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">236</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#11">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN HISTORIA Y CIENCIAS DE LA MUSICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">105</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">74</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#12">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN LENGUAS MODERNAS Y SUS LITERATURAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">155</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">153</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#13">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN LITERATURAS COMPARADAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">44</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">55</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#14">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">390</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">662</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#15">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN ANTROPOLOGIA SOCIAL Y CULTURAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">46</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">100</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#16">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN BELLAS ARTES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">217</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">335</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#17">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN FILOLOGIA ARABE</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#18">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN FILOLOGIA CLASICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">21</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">25</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#19">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN FILOLOGIA ESLAVA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">14</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#20">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN FILOLOGIA FRANCESA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">26</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">50</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#21">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN FILOLOGIA HISPANICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">103</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">131</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#22">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN FILOLOGIA INGLESA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">117</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">246</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#23">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN FILOLOGIA ITALIANA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#24">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN FILOLOGIA ROMANICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#25">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN FILOSOFIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">99</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">47</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#26">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN GEOGRAFIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">51</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">22</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#27">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN HISTORIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">220</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">108</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#28">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN HISTORIA DEL ARTE</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">102</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">175</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#29">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN HISTORIA Y CIENCIAS DE LA MUSICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">33</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">27</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#30">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN TEORIA DE LA LITERATURA Y LITERATURA COMPARADA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">14</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">22</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#31">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN TRADUCCION E INTERPRETACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">150</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">459</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#32">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN ESTADISTICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#33">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN NUTRICION HUMANA Y DIETETICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">21</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">58</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#34">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN OPTICA Y OPTOMETRIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">41</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">78</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#35">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN BIOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">346</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">365</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#36">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN BIOQUIMICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">55</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">83</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#37">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIA Y TECNOLOGIA DE LOS ALIMENTOS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">37</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">80</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#38">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIAS AMBIENTALES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">243</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">133</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#39">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ESTADISTICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">59</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">47</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#40">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FISICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">208</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">54</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#41">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN GEOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">120</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">53</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#42">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MATEMATICAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">150</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">116</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#43">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN OPTICA Y OPTOMETRIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">109</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">230</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#44">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN QUIMICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">124</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">108</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#45">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN BIOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">225</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">383</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#46">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN BIOQUIMICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">35</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">46</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#47">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN CIENCIA Y TECNOLOGIA DE LOS ALIMENTOS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">29</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">110</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#48">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN CIENCIAS AMBIENTALES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">212</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">189</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#49">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN CIENCIAS Y TECNICAS ESTADISTICAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">27</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#50">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN FISICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">146</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">67</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#51">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN GEOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">52</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">31</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#52">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN MATEMATICAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">97</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">74</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#53">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN QUIMICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">100</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">111</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#54">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN BIBLIOTECONOMIA Y DOCUMENTACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">13</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#55">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN CIENCIAS EMPRESARIALES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">291</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">349</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#56">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN CIENCIAS EMPRESARIALES (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#57">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN CIENCIAS EMPRESARIALES (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">23</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#58">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN EDUCACION SOCIAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">38</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#59">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN GESTION Y ADMINISTRACION PUBLICA (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#60">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN RELACIONES LABORALES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">240</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">421</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#61">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN RELACIONES LABORALES (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#62">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN TRABAJO SOCIAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">36</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">78</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#63">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN TURISMO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">53</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">167</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#64">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">521</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">503</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#65">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">75</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">76</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#66">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">102</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">80</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#67">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS Y DERECHO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">160</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">247</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#68">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ANTROPOLOGIA SOCIAL Y CULTURAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">104</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">64</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#69">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIAS DE LA ACTIVIDAD FISICA Y DEL DEPORTE</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">479</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">121</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#70">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIAS POLITICAS Y DE LA ADMINISTRACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">346</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">127</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#71">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIAS POLITICAS Y DE LA ADMINISTRACION Y DERECHO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">158</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">167</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#72">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN COMUNICACION AUDIOVISUAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">124</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">102</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#73">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CRIMINOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">31</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">48</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#74">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN DERECHO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">774</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">809</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#75">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ECONOMIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">445</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">340</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#76">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION SOCIAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">87</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">306</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#77">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION SOCIAL (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">31</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">85</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#78">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION SOCIAL (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">77</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#79">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FINANZAS Y CONTABILIDAD</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">206</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">216</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#80">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN GEOGRAFIA Y GESTION DEL TERRITORIO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">108</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">39</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#81">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN GESTION Y ADMINISTRACION PUBLICA (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">13</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#82">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INFORMACION Y DOCUMENTACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">86</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">142</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#83">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MAESTRO DE EDUCACION INFANTIL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">48</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">829</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#84">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MAESTRO DE EDUCACION INFANTIL (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">14</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">124</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#85">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MAESTRO DE EDUCACION INFANTIL (LA INMACULADA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">30</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">305</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#86">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MAESTRO DE EDUCACION INFANTIL (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">81</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#87">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MAESTRO DE EDUCACION PRIMARIA (BILINGÜE)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">27</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">108</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#88">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MAESTRO EN EDUCACION PRIMARIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">770</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1004</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#89">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MAESTRO EN EDUCACION PRIMARIA (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">87</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">122</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#90">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MAESTRO EN EDUCACION PRIMARIA (LA INMACULADA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">254</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">287</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#91">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MAESTRO EN EDUCACION PRIMARIA (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">69</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">109</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#92">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MARKETING E INVESTIGACION DE MERCADOS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">221</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">182</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#93">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN PEDAGOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">64</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">264</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#94">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">405</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">592</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#95">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">20</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">41</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#96">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN SOCIOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">179</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">210</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#97">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN TRABAJO SOCIAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">146</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">404</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#98">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN TURISMO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">162</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">279</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#99">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN ADMINISTRACION Y DIRECCION DE EMPRESAS Y DERECHO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">176</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">322</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#100">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN ADMINISTRACION Y DIRECCION DE EMPRESAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">505</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">675</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#101">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN CIENCIAS DE LA ACTIVIDAD FISICA Y DEL DEPORTE</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">575</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">139</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#102">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN CIENCIAS DEL TRABAJO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">104</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">228</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#103">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN CIENCIAS POLITICAS Y DE LA ADMINISTRACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">165</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">107</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#104">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN CIENCIAS POLITICAS Y DE LA ADMON. Y DERECHO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">95</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">131</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#105">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN COMUNICACION AUDIOVISUAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#106">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN DERECHO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">808</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">985</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#107">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN DOCUMENTACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">58</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">88</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#108">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN ECONOMIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">379</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">420</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#109">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN INVESTIGACION Y TECNICAS DE MERCADO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">29</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">37</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#110">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN PEDAGOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">107</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">407</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#111">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN PSICOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">208</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">652</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#112">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN PSICOPEDAGOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">97</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">244</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#113">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN PSICOPEDAGOGIA (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#114">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN PSICOPEDAGOGIA (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">53</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#115">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN SOCIOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">107</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">127</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#116">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE AUDICION Y LENGUAJE</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">38</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#117">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE AUDICION Y LENGUAJE</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#118">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE AUDICION Y LENGUAJE (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#119">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE AUDICION Y LENGUAJE (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#120">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION ESPECIAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">13</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#121">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION ESPECIAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">39</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#122">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION ESPECIAL (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">20</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#123">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION ESPECIAL (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#124">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION FISICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">48</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#125">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION FISICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">31</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#126">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION FISICA (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">44</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#127">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION FISICA (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#128">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION INFANTIL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#129">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION INFANTIL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">51</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#130">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION INFANTIL (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">42</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#131">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION INFANTIL (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">25</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#132">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION MUSICAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">48</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">43</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#133">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION MUSICAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#134">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION MUSICAL (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#135">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION MUSICAL (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#136">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION PRIMARIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">21</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#137">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION PRIMARIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">54</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">112</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#138">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION PRIMARIA (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">20</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#139">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE EDUCACION PRIMARIA (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">50</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#140">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE LENGUA EXTRANJERA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">38</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">83</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#141">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE LENGUA EXTRANJERA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#142">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE LENGUA EXTRANJERA (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#143">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>MAESTRO ESPECIALIDAD DE LENGUA EXTRANJERA (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#144">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>ARQUITECTURA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">649</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">506</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#145">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>ARQUITECTURA TECNICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">621</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">325</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#146">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ARQUITECTURA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">293</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">199</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#147">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA CIVIL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">518</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">189</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#148">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA DE EDIFICACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">727</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">350</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#149">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA DE TECNOLOGIAS DE TELECOMUNICACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">284</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">61</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#150">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA ELECTRONICA INDUSTRIAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">102</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#151">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA EN EDIFICACION (CURSO PUENTE)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">29</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">38</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#152">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">809</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">75</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#153">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">25</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#154">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA Y MATEMATICAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">54</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">23</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#155">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA QUIMICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">166</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">121</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#156">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>INGENIERIA EN TELECOMUNICACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">257</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">70</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#157">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>INGENIERIA EN ELECTRONICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">100</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#158">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>INGENIERIA EN INFORMATICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">315</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">42</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#159">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>INGENIERIA QUIMICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">184</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">168</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#160">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>INGENIERIA TECNICA EN INFORMATICA DE GESTION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">124</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">25</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#161">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>INGENIERIA TECNICA EN INFORMATICA DE GESTION (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#162">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>INGENIERIA TECNICA EN INFORMATICA DE SISTEMAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">106</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#163">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>INGENIERIA DE CAMINOS, CANALES Y PUERTOS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">622</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">263</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#164">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN ENFERMERIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">44</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#165">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN ENFERMERIA (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">25</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">61</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#166">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN ENFERMERIA (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">14</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#167">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN ENFERMERIA (VIRGEN DE LAS NIEVES)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#168">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN FISIOTERAPIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#169">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN LOGOPEDIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">30</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#170">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>DIPLOMATURA EN TERAPIA OCUPACIONAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">21</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#171">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ENFERMERIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">128</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">358</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#172">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ENFERMERIA (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">101</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">260</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#173">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ENFERMERIA (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">53</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">129</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#174">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ENFERMERIA (VIRGEN DE LA NIEVES)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">27</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">83</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#175">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FARMACIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">378</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">695</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#176">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FISIOTERAPIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">81</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">82</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#177">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN LOGOPEDIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">23</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">157</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#178">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MEDICINA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">278</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">482</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#179">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN NUTRICION HUMANA Y DIETETICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">76</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">212</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#180">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ODONTOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">94</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">150</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#181">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN PSICOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">323</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">674</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#182">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN TERAPIA OCUPACIONAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">41</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">134</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#183">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN FARMACIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">453</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">946</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#184">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN MEDICINA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">402</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">580</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1213#185">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>LICENCIATURA EN ODONTOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">80</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">139</ugr:mujeres>
+	<ugr:curso>2012/2013</ugr:curso>
+</rdf:Description>
+
+</rdf:RDF>

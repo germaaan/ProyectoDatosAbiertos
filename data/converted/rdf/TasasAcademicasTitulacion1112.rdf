@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
+]>
+
+<rdf:RDF
+	xmlns="http://cabas.ugr.es/resources/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#1">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN BIOLOGIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">72.57</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">82.68</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#2">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN ODONTOLOGIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">75.58</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">85.5</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#3">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN NUTRICION HUMANA Y DIETETICA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">84.97</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">92.61</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#4">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN FARMACIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">64.13</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">74.72</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#5">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN CIENCIAS AMBIENTALES</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">48.61</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">63.44</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#6">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN ENFERMERIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">81.88</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">93.46</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#7">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN GEOGRAFIA Y GESTION DEL TERRITORIO</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">56.38</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">74.13</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#8">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN ARQUITECTURA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">63.67</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">75.95</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#9">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN CIENCIAS POLITICAS Y DE LA ADMINISTRACION</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">59.5</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">73.41</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#10">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN CIENCIAS POLITICAS Y DE LA ADMINISTRACION Y DERECHO</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">63.51</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">81.18</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#11">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN SOCIOLOGIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">56.41</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">72.13</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#12">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN INGENIERIA QUIMICA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">44.98</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">61.67</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#13">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN INGENIERIA DE TECNOLOGIAS DE TELECOMUNICACION</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">65.34</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">77.31</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#14">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN MEDICINA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">93.63</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">96.48</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#15">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN ESTADISTICA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">42.79</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">58.78</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#16">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN COMUNICACION AUDIOVISUAL</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">83.49</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">89.8</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#17">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS Y DERECHO</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">76.15</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">85.1</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#18">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN INGENIERIA DE EDIFICACION</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">57.11</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">71.87</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#19">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN INFORMACION Y DOCUMENTACION</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">64.25</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">75</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#20">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN FINANZAS Y CONTABILIDAD</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">76.39</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">82.96</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#21">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">80.4</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">86.78</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#22">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN MARKETING E INVESTIGACION DE MERCADOS</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">72.98</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">79.8</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#23">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN INGENIERIA CIVIL</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">72.86</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">82.21</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#24">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN TURISMO</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">74.29</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">83.2</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#25">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN ECONOMIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">57.55</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">67.03</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#26">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN FISIOTERAPIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">84.74</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">97.01</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#27">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN DERECHO</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">67.05</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">76.16</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#28">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN TERAPIA OCUPACIONAL</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">79.33</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">90.24</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#29">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN EDUCACION SOCIAL</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">90.88</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">96.6</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#30">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN TRABAJO SOCIAL</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">88.49</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">93.95</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#31">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">86.32</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">93.43</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#32">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN MAESTRO EN EDUCACION PRIMARIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">83.45</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">89.23</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#33">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN MAESTRO DE EDUCACION INFANTIL</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">90.68</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">97.37</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#34">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">64.72</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">76.04</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#35">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN BELLAS ARTES</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">82.68</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">93.43</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#36">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN BIOQUIMICA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">69.68</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">75.69</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#37">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN FILOSOFIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">54.1</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">77.07</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#38">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN PSICOLOGIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">84.89</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">90.98</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#39">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN CONSERVACION Y RESTAURACION DE BIENES CULTURALES</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">83.03</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">91.75</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#40">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN FISICA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">51.42</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">71.39</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#41">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN GEOLOGIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">39.81</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">58.49</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#42">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN MATEMATICAS</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">43.59</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">55.24</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#43">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN LENGUAS MODERNAS Y SUS LITERATURAS</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">70.33</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">83.79</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#44">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN FILOLOGIA CLASICA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">52.45</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">68.68</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#45">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN ESTUDIOS FRANCESES</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">54.71</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">67.74</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#46">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN ESTUDIOS ARABES E ISLAMICOS</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">48.77</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">68.53</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#47">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN FILOLOGIA HISPANICA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">68.26</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">80.1</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#48">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN ESTUDIOS INGLESES</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">77</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">82.96</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#49">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN LOGOPEDIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">77.57</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">87.45</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#50">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN OPTICA Y OPTOMETRIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">67.59</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">72.26</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#51">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN CIENCIAS DE LA ACTIVIDAD FISICA Y DEL DEPORTE</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">81.59</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">88.78</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#52">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN LITERATURAS COMPARADAS</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">49.51</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">79.69</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#53">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN QUIMICA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">48.83</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">62.75</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#54">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN HISTORIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">54.14</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">75.92</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#55">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN HISTORIA DEL ARTE</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">59.12</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">70.91</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#56">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">33.45</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">53.5</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#57">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN PEDAGOGIA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">80.77</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">88.48</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#58">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN HISTORIA Y CIENCIAS DE LA MUSICA</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">57.62</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">82.1</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#59">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN ENFERMERIA (CEUTA)</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">69.42</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">82.7</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#60">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS (CEUTA)</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">59.78</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">83.27</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#61">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN MAESTRO EN EDUCACION PRIMARIA (CEUTA)</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">71.02</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">86.83</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#62">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN MAESTRO DE EDUCACION INFANTIL (CEUTA)</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">64.34</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">77.57</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#63">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA (CEUTA)</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">21.64</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">56.06</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#64">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN ENFERMERIA (MELILLA)</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">77.57</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">81.13</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#65">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS (MELILLA)</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">43.86</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">71.01</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#66">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>DIPLOMATURA EN CIENCIAS EMPRESARIALES (MELILLA)</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">56.34</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">81.4</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#67">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>DIPLOMATURA EN RELACIONES LABORALES (MELILLA)</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">59.99</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">93.21</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#68">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>DIPLOMATURA EN GESTION Y ADMINISTRACION PUBLICA (MELILLA)</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">59.98</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">90.48</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#69">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN GESTION Y ADMINISTRACION PUBLICA (MELILLA)</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">15.03</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">36.51</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#70">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN MAESTRO EN EDUCACION PRIMARIA (MELILLA)</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">62.35</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">74.43</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#71">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN MAESTRO DE EDUCACION INFANTIL (MELILLA)</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">66.82</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">79.44</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="TasasAcademicasTitulacion/1112#72">
+	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS (MELILLA)</ugr:titulacion>
+	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">32.22</ugr:tasaRendimiento>
+	<ugr:tasaExito rdf:datatype="&xsd;decimal">59.18</ugr:tasaExito>
+	<ugr:tasaAbandonoInicial rdf:datatype="&xsd;decimal">0</ugr:tasaAbandonoInicial>
+	<ugr:tasaEficiencia rdf:datatype="&xsd;decimal">0</ugr:tasaEficiencia>
+	<ugr:tasaGraduacion rdf:datatype="&xsd;decimal">0</ugr:tasaGraduacion>
+	<ugr:tasaAbandono rdf:datatype="&xsd;decimal">0</ugr:tasaAbandono>
+	<ugr:curso>2011/2012</ugr:curso>
+</rdf:Description>
+
+</rdf:RDF>
