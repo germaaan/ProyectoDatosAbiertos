@@ -19,10 +19,10 @@ _Texto_ liberado bajo la licencia **Creative Commons Attribution-ShareAlike 4.0 
 
 <p align="center">
 <a href="http://www.gnu.org/licenses/gpl-3.0.html">
-<img alt="GPL-3.0" width="800" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/GPLv3_Logo.svg/2000px-GPLv3_Logo.svg.png">
+<img alt="GPL-3.0" width="500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/GPLv3_Logo.svg/2000px-GPLv3_Logo.svg.png">
 </a>
 <br><br><br>
 <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">
-<img alt="CC-BY-SA-4.0" width="800" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/2000px-CC-BY-SA_icon.svg.png">
+<img alt="CC-BY-SA-4.0" width="500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/CC-BY-SA_icon.svg/2000px-CC-BY-SA_icon.svg.png">
 </a>
 </p>
