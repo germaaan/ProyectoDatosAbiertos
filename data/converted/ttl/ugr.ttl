@@ -1,0 +1,323 @@
+@prefix :      <http://cabas.ugr.es/ontology/ugr#> .
+@prefix cc:    <http://creativecommons.org/ns#> .
+@prefix ugr:   <http://cabas.ugr.es/ontology/ugr#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+ugr:    a                              owl:Ontology ;
+        rdfs:comment                   "Ontology created to describe the open data sets of the University of Granada."@en , "Ontología creada para describir los conjuntos de datos abiertos de la Universidad de Granada."@es ;
+        rdfs:label                     "Ontología de la Universidad de Granada"@es , "Ontology of the University of Granada"@en ;
+        cc:license                     <http://creativecommons.org/licenses/by-sa/4.0/> , <http://www.gnu.org/copyleft/fdl.html> ;
+        dcterms:created                "2017-06-18"^^xsd:date ;
+        dcterms:creator                "Germán Martínez Maldonado" ;
+        dcterms:description            "La ontología de la Universidad de Granada define las clases y propiedades utilizadas en los conjuntos de datos abiertos de la propia Universidad."@es , "The ontology of the University of Granada defines the classes and properties used in the open data sets of the University itself."@en ;
+        dcterms:publisher              "Oficina de Software Libre de la Universidad de Granada" ;
+        dcterms:source                 <http://opendata.ugr.es> ;
+        dcterms:title                  "Ontología de la Universidad de Granada"@es , "Ontology of the University of Granada"@en ;
+        vann:preferredNamespacePrefix  "ugr" ;
+        vann:preferredNamespaceUri     "http://cabas.ugr.es/ontology/ugr#" ;
+        owl:versionInfo                "1.0"@es ;
+        foaf:homepage                  <http://opendata.ugr.es> ;
+        foaf:maker                     <https://github.com/germaaan> .
+
+<#DemandaAcademicaAcceso>
+        a             owl:Class ;
+        rdfs:comment  "Número total de solicitudes de matrícula demandadas en la universidad."@es ;
+        rdfs:label    "Demanda académica: procedimientos acceso"@es .
+
+<#DemandaAcademicaTitulacion>
+        a             owl:Class ;
+        rdfs:comment  "Demanda de matrícula en relación con las plazas ofertadas en titulaciones oficiales de grado en la universidad."@es ;
+        rdfs:label    "Demanda académica: titulaciones"@es .
+
+<#MatriculasGrado>  a  owl:Class ;
+        rdfs:comment  "Matrículas de titulaciones de grado realizadas en la universidad, agrupándola por rama de conocimiento, titulación y sexo del estudiante."@es ;
+        rdfs:label    "Matrículas: grado"@es .
+
+<#MatriculasPosgrado>
+        a             owl:Class ;
+        rdfs:comment  "Matrículas de titulaciones de posgrado realizadas en la universidad, agrupándola por rama de conocimiento, titulación y sexo del estudiante."@es ;
+        rdfs:label    "Matrículas: posgrado"@es .
+
+<#NumMedioCreditos>  a  owl:Class ;
+        rdfs:comment  "Número medio de créditos de los estudiantes de la universidad, agrupándola por rama de conocimiento, plan de estudios, número medio de créditos matriculados, número medio de créditos presentados y número medio de créditos superados."@es ;
+        rdfs:label    "Número medio de créditos"@es .
+
+<#OfertaTitulacionDoctorado>
+        a             owl:Class ;
+        rdfs:comment  "Oferta de titulaciones para estudios de doctorado, agrupándola por titulación, rama de conocimiento, centro y campus."@es ;
+        rdfs:label    "Oferta de titulaciones: doctorado"@es .
+
+<#OfertaTitulacionGrado>
+        a             owl:Class ;
+        rdfs:comment  "Oferta de titulaciones para estudios de grado, agrupándola por titulación, rama de conocimiento, centro y campus."@es ;
+        rdfs:label    "Oferta de titulaciones: grado"@es .
+
+<#OfertaTitulacionMaster>
+        a             owl:Class ;
+        rdfs:comment  "Oferta de titulaciones para estudios de másteres oficiales, agrupándola por titulación, rama de conocimiento, centro y campus."@es ;
+        rdfs:label    "Oferta de titulaciones: másteres oficiales"@es .
+
+<#OrigenPais>  a      owl:Class ;
+        rdfs:comment  "Origen geográfico de los estudiantes de la universidad, agrupándola por país de origen y sexo del estudiante."@es ;
+        rdfs:label    "Origen geográfico de estudiantes por país"@es .
+
+<#OrigenProvincia>  a  owl:Class ;
+        rdfs:comment  "Origen geográfico de los estudiantes de la universidad, agrupándola por provincia de origen y sexo del estudiante."@es ;
+        rdfs:label    "Origen geográfico de estudiantes por provincia"@es .
+
+<#TasasAcademicasTitulacion>
+        a             owl:Class ;
+        rdfs:comment  "Tasas académicas de los estudiantes según la titulación que estén estudiando en la universidad, agrupándola por titulación, tasa de rendimiento, tasa de éxito, tasa de abandono inicial, tasa de eficiencia, tasa de graduación y tasa de abandono."@es ;
+        rdfs:label    "Tasas académicas por titulaciones"@es .
+
+<#campus>  a                    owl:DatatypeProperty ;
+        rdfs:comment            "Cada uno de los campus universitarios en los que está dividida la universidad."@es ;
+        rdfs:domain             <#OfertaTitulacionMaster> , <#OfertaTitulacionDoctorado> , <#OfertaTitulacionGrado> ;
+        rdfs:label              "Campus"@es ;
+        rdfs:range              xsd:string ;
+        rdfs:subPropertyOf      <#universidad> ;
+        owl:equivalentProperty  <https://www.wikidata.org/wiki/Q209465> , <http://dbpedia.org/ontology/campus> .
+
+<#centro>  a                owl:DatatypeProperty ;
+        rdfs:comment        "Cada uno de los centros de la universidad, ya sean facultades, escuelas o centros adscritos."@es ;
+        rdfs:domain         <#OfertaTitulacionGrado> , <#OfertaTitulacionMaster> , <#OfertaTitulacionDoctorado> ;
+        rdfs:label          "Centro"@es ;
+        rdfs:range          xsd:string ;
+        rdfs:subPropertyOf  <#campus> .
+
+<#creditosMatriculados>
+        a                   owl:DatatypeProperty ;
+        rdfs:comment        "Número medio de créditos matriculados por los estudiantes matriculados en titulaciones de una misma rama de conocimiento."@es ;
+        rdfs:domain         <#NumMedioCreditos> ;
+        rdfs:label          "Número medio de créditos matriculados"@es ;
+        rdfs:range          xsd:decimal ;
+        owl:minCardinality  "0"^^xsd:decimal .
+
+<#creditosPresentados>
+        a                   owl:DatatypeProperty ;
+        rdfs:comment        "Número medio de créditos a los que estudiantes matriculados en titulaciones de una misma rama de conocimiento se han presentado a las evaluaciones oficiales."@es ;
+        rdfs:domain         <#NumMedioCreditos> ;
+        rdfs:label          "Número medio de créditos presentados"@es ;
+        rdfs:range          xsd:decimal ;
+        owl:minCardinality  "0"^^xsd:decimal .
+
+<#creditosSuperados>  a     owl:DatatypeProperty ;
+        rdfs:comment        "Número medio de créditos a los que estudiantes matriculados en titulaciones de una misma rama de conocimiento han superado las evaluaciones oficiales."@es ;
+        rdfs:domain         <#NumMedioCreditos> ;
+        rdfs:label          "Número medio de créditos superados"@es ;
+        rdfs:range          xsd:decimal ;
+        owl:minCardinality  "0"^^xsd:decimal .
+
+<#cupoGral>  a              owl:DatatypeProperty ;
+        rdfs:comment        "Número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo general de estudiantes."@es ;
+        rdfs:domain         <#DemandaAcademicaTitulacion> ;
+        rdfs:label          "Cupo general"@es ;
+        rdfs:range          xsd:decimal ;
+        owl:minCardinality  "0"^^xsd:decimal .
+
+<#curso>  a                     owl:DatatypeProperty ;
+        rdfs:comment            "Curso académico al que pertenecen los datos."@es ;
+        rdfs:domain             <#OrigenPais> , <#OfertaTitulacionMaster> , <#MatriculasGrado> , <#OfertaTitulacionDoctorado> , <#DemandaAcademicaAcceso> , <#MatriculasPosgrado> , <#OfertaTitulacionGrado> , <#DemandaAcademicaTitulacion> , <#NumMedioCreditos> , <#TasasAcademicasTitulacion> , <#OrigenProvincia> ;
+        rdfs:label              "Curso"@es ;
+        rdfs:range              xsd:string ;
+        owl:equivalentProperty  dcterms:coverage .
+
+<#deportistas>  a               owl:DatatypeProperty ;
+        rdfs:comment            "Número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de deportistas de alto nivel o alto rendimiento."@es ;
+        rdfs:domain             <#DemandaAcademicaTitulacion> ;
+        rdfs:label              "Deportistas"@es ;
+        rdfs:range              xsd:nonNegativeInteger ;
+        owl:equivalentProperty  <https://www.wikidata.org/wiki/Q2066131> , <http://dbpedia.org/ontology/Athlete> , <http://schema.org/athlete> .
+
+<#discapacitados>  a            owl:DatatypeProperty ;
+        rdfs:comment            "Número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de personas con minusvalías reconocidas."@es ;
+        rdfs:domain             <#DemandaAcademicaTitulacion> ;
+        rdfs:label              "Discapacitados"@es ;
+        rdfs:range              xsd:nonNegativeInteger ;
+        owl:equivalentProperty  <https://www.wikidata.org/wiki/Q15978181> .
+
+<#doctorado>  a                 owl:DatatypeProperty ;
+        rdfs:comment            "Titulaciones de doctorado que se ofertan en la universidad."@es ;
+        rdfs:domain             <#OfertaTitulacionDoctorado> ;
+        rdfs:label              "Doctorado"@es ;
+        rdfs:range              xsd:string ;
+        rdfs:subPropertyOf      <#titulacion> ;
+        owl:equivalentProperty  <https://www.wikidata.org/wiki/Q849697> , <http://dbpedia.org/page/Doctorate> .
+
+<#estado>  a         owl:DatatypeProperty ;
+        rdfs:comment  "Estado de las solicitudes de matrículas demandadas en la universidad."@es ;
+        rdfs:domain  <#DemandaAcademicaAcceso> ;
+        rdfs:label   "Estado"@es ;
+        rdfs:range   xsd:string .
+
+<#grado>  a                     owl:DatatypeProperty ;
+        rdfs:comment            "Titulaciones de grado que se ofertan en la universidad."@es ;
+        rdfs:domain             <#TasasAcademicasTitulacion> , <#OfertaTitulacionGrado> , <#DemandaAcademicaTitulacion> , <#MatriculasGrado> ;
+        rdfs:label              "Grado"@es ;
+        rdfs:range              xsd:string ;
+        rdfs:subPropertyOf      <#titulacion> ;
+        owl:equivalentProperty  <http://dbpedia.org/page/Bachelor's_degree> , <https://www.wikidata.org/wiki/Q6008527> .
+
+<#hombres>  a                   owl:DatatypeProperty ;
+        rdfs:comment            "Número de estudiantes del sexo masculino que estudian alguna titulación en la universidad."@es ;
+        rdfs:domain             <#DemandaAcademicaAcceso> , <#MatriculasGrado> , <#MatriculasPosgrado> , <#OrigenProvincia> , <#OrigenPais> ;
+        rdfs:label              "Hombres"@es ;
+        rdfs:range              xsd:nonNegativeInteger ;
+        rdfs:subPropertyOf      <#personas> ;
+        owl:equivalentProperty  <https://schema.org/Male> , <http://dbpedia.org/page/Man> , <https://www.wikidata.org/wiki/Q8441> ;
+        owl:inverseOf           <#mujeres> .
+
+<#master>  a                    owl:DatatypeProperty ;
+        rdfs:comment            "Titulaciones de másteres oficiales que se ofertan en la universidad."@es ;
+        rdfs:domain             <#OfertaTitulacionMaster> , <#MatriculasPosgrado> ;
+        rdfs:label              "Máster"@es ;
+        rdfs:range              xsd:string ;
+        rdfs:subPropertyOf      <#titulacion> ;
+        owl:equivalentProperty  <https://www.wikidata.org/wiki/Q183816> , <http://dbpedia-live.openlinksw.com/page/Master's_degree> .
+
+<#mayor25>  a        owl:DatatypeProperty ;
+        rdfs:comment  "Número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de personas mayores de 25 años."@es ;
+        rdfs:domain  <#DemandaAcademicaTitulacion> ;
+        rdfs:label   "Mayores de 25"@es ;
+        rdfs:range   xsd:nonNegativeInteger .
+
+<#mayor40>  a        owl:DatatypeProperty ;
+        rdfs:comment  "Número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de personas mayores de 40 y de 45 años."@es ;
+        rdfs:domain  <#DemandaAcademicaTitulacion> ;
+        rdfs:label   "Mayores de 40 y 45"@es ;
+        rdfs:range   xsd:nonNegativeInteger .
+
+<#mujeres>  a                   owl:DatatypeProperty ;
+        rdfs:comment            "Número de estudiantes del sexo femenino que estudian alguna titulación en la universidad."@es ;
+        rdfs:domain             <#OrigenPais> , <#MatriculasPosgrado> , <#MatriculasGrado> , <#OrigenProvincia> , <#DemandaAcademicaAcceso> ;
+        rdfs:label              "Mujeres"@es ;
+        rdfs:range              xsd:nonNegativeInteger ;
+        rdfs:subPropertyOf      <#personas> ;
+        owl:equivalentProperty  <http://dbpedia.org/page/Woman> , <https://www.wikidata.org/wiki/Q467> , <https://schema.org/Female> ;
+        owl:inverseOf           <#hombres> .
+
+<#pais>  a                      owl:DatatypeProperty ;
+        rdfs:comment            "País de origen de los estudiantes matriculados en alguna titulación en la universidad."@es ;
+        rdfs:domain             <#OrigenPais> ;
+        rdfs:label              "Pais de origen"@es ;
+        rdfs:range              xsd:string ;
+        owl:equivalentProperty  <https://www.wikidata.org/wiki/Q6256> , <http://dbpedia.org/ontology/country> , <http://schema.org/Country> .
+
+<#personas>  a                  owl:DatatypeProperty ;
+        rdfs:comment            "Número de estudiantes que estudian alguna titulación en la universidad."@es ;
+        rdfs:label              "Personas"@es ;
+        rdfs:range              xsd:nonNegativeInteger ;
+        owl:equivalentProperty  <http://dbpedia.org/ontology/person> , <http://schema.org/Person> , <https://www.wikidata.org/wiki/Q215627> .
+
+<#planEstudios>  a   owl:DatatypeProperty ;
+        rdfs:comment  "Plan de estudios al que pertenece una titulación."@es ;
+        rdfs:domain  <#NumMedioCreditos> ;
+        rdfs:label   "Plan de estudios"@es ;
+        rdfs:range   xsd:string .
+
+<#plazasOfertadas>  a  owl:DatatypeProperty ;
+        rdfs:comment  "Número de plazas ofertadas para una determinada titulación."@es ;
+        rdfs:domain  <#DemandaAcademicaTitulacion> ;
+        rdfs:label   "Plazas ofertadas"@es ;
+        rdfs:range   xsd:nonNegativeInteger .
+
+<#provincia>  a                 owl:DatatypeProperty ;
+        rdfs:comment            "Provincia de origen de los estudiantes matriculados en alguna titulación en la universidad."@es ;
+        rdfs:domain             <#OrigenProvincia> ;
+        rdfs:label              "Provincia"@es ;
+        rdfs:range              xsd:string ;
+        owl:equivalentProperty  <https://www.wikidata.org/wiki/Q34876> , <http://dbpedia.org/ontology/province> , <http://schema.org/State> .
+
+<#ramaConocimiento>  a  owl:DatatypeProperty ;
+        rdfs:comment  "Rama de conocimiento a la que pertenece alguna titulación."@es ;
+        rdfs:domain  <#OfertaTitulacionDoctorado> , <#OfertaTitulacionGrado> , <#MatriculasPosgrado> , <#NumMedioCreditos> , <#MatriculasGrado> , <#OfertaTitulacionMaster> ;
+        rdfs:label   "Rama de conocimiento"@es ;
+        rdfs:range   xsd:string .
+
+<#tasaAbandono>  a          owl:DatatypeProperty ;
+        rdfs:comment        "Porcentaje entre el número total de estudiantes de nuevo ingreso en una titulación que debieron obtener el título el año académico anterior y que no se han matriculado ni en ese año académico ni en el anterior."@es ;
+        rdfs:domain         <#TasasAcademicasTitulacion> ;
+        rdfs:label          "Tasa de abandono"@es ;
+        rdfs:range          xsd:decimal ;
+        owl:minCardinality  "0"^^xsd:decimal .
+
+<#tasaAbandonoInicial>
+        a                   owl:DatatypeProperty ;
+        rdfs:comment        "Porcentaje entre los estudiantes matriculados en una determinada titulación en un curso académico que no se matricularon en dicha titulación en los dos años siguientes y el número total de estudiantes que accedieron a esa misma titulación en ese mismo curso académico."@es ;
+        rdfs:domain         <#TasasAcademicasTitulacion> ;
+        rdfs:label          "Tasa de abandono inicial"@es ;
+        rdfs:range          xsd:decimal ;
+        owl:minCardinality  "0"^^xsd:decimal .
+
+<#tasaEficiencia>  a        owl:DatatypeProperty ;
+        rdfs:comment        "Porcentaje entre el número total de créditos de la titulación a los que deberían haberse matriculado el conjunto de estudiantes graduados en un año académico y el número total de créditos que se matricularon finalmente."@es ;
+        rdfs:domain         <#TasasAcademicasTitulacion> ;
+        rdfs:label          "Tasa de eficiencia"@es ;
+        rdfs:range          xsd:decimal ;
+        owl:minCardinality  "0"^^xsd:decimal .
+
+<#tasaGraduacion>  a        owl:DatatypeProperty ;
+        rdfs:comment        "Porcentaje de estudiantes que finalizan una titulación en el tiempo previsto por el plan de estudios o en un año académico más y el número de estudiantes que entraron en esa misma titulación."@es ;
+        rdfs:domain         <#TasasAcademicasTitulacion> ;
+        rdfs:label          "Tasa de graduación"@es ;
+        rdfs:range          xsd:decimal ;
+        owl:minCardinality  "0"^^xsd:decimal .
+
+<#tasaRendimiento>  a       owl:DatatypeProperty ;
+        rdfs:comment        "Porcentaje entre el número total de créditos superados (menos los créditos adaptados, convalidados y reconocidos) por los estudiantes de una titulación y el número total de créditos matriculados."@es ;
+        rdfs:domain         <#TasasAcademicasTitulacion> ;
+        rdfs:label          "Tasa de rendimiento"@es ;
+        rdfs:range          xsd:decimal ;
+        owl:minCardinality  "0"^^xsd:decimal .
+
+<#tipoProcedimiento>  a     owl:DatatypeProperty ;
+        rdfs:comment        "Forma de acceso por la que los estudiantes han realizado la solicitud de matrícula en la universidad."@es ;
+        rdfs:domain         <#DemandaAcademicaAcceso> ;
+        rdfs:label          "Tipo de procedimiento"@es ;
+        rdfs:range          xsd:string ;
+        rdfs:subPropertyOf  <#tipoProcedimiento> .
+
+<#titulacion>  a                owl:DatatypeProperty ;
+        rdfs:comment            "Titulaciones de grado que se ofertan en la universidad."@es ;
+        rdfs:label              "Titulacion"@es ;
+        rdfs:range              xsd:string ;
+        rdfs:subPropertyOf      <#ramaConocimiento> ;
+        owl:equivalentProperty  <https://www.wikidata.org/wiki/Q189533> , <http://dbpedia.org/page/Academic_degree> .
+
+<#titulados>  a      owl:DatatypeProperty ;
+        rdfs:comment  "Número de matrículas realizadas por el grupo de estudiantes que pertenece al cupo de titulados universitarios."@es ;
+        rdfs:domain  <#DemandaAcademicaTitulacion> ;
+        rdfs:label   "Titulados"@es ;
+        rdfs:range   xsd:nonNegativeInteger .
+
+<#universidad>  a               owl:DatatypeProperty ;
+        rdfs:comment            "Universidad compuesta por una serie de campus que a su vez se componen de diversos centros."@es ;
+        rdfs:label              "Universidad"@es ;
+        rdfs:range              xsd:string ;
+        owl:equivalentProperty  <http://dbpedia.org/ontology/university> , <http://schema.org/CollegeOrUniversity> , <https://www.wikidata.org/wiki/Q3918> .
+
+[ a            owl:AllDisjointProperties ;
+  owl:members  ( <#tasaAbandono> <#tasaAbandonoInicial> <#tasaEficiencia> <#tasaGraduacion> <#tasaRendimiento> )
+] .
+
+[ a            owl:AllDisjointProperties ;
+  owl:members  ( <#hombres> <#mujeres> )
+] .
+
+[ a            owl:AllDisjointProperties ;
+  owl:members  ( <#creditosMatriculados> <#creditosPresentados> <#creditosSuperados> )
+] .
+
+[ a            owl:AllDisjointProperties ;
+  owl:members  ( <#cupoGral> <#mayor25> <#mayor40> <#titulados> <#discapacitados> <#deportistas> )
+] .
+
+[ a            owl:AllDisjointProperties ;
+  owl:members  ( <#grado> <#master> <#doctorado> )
+] .
