@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 import csv
+import os
+import errno
 
 titulaciones = ["Doctorado", "Grado", "Master"]
 files = [("1314", "2013/2014"), ("1415", "2014/2015"), ("1516", "2015/2016")]
@@ -10,11 +12,18 @@ for tipo in titulaciones:
     for x in files:
         id = 0
 
-        with open("../origin/OfertaTitulacion" + tipo + x[0] + ".csv", "r") as ifile:
+        with open("../csv/OfertaTitulacion" + tipo + x[0] + ".csv", "r") as ifile:
           reader = csv.reader(ifile)
           data = list(reader)
 
-        ofile = open("../converted/rdf/OfertaTitulacion" + tipo + x[0] + ".rdf", "w")
+        if not os.path.exists("../semantic/resources/OfertaTitulacion/" + tipo + "/"):
+            try:
+                os.makedirs("../semantic/resources/OfertaTitulacion/" + tipo + "/")
+            except OSError as exc:
+                if exc.errno != errno.EEXIST:
+                    raise
+
+        ofile = open("../semantic/resources/OfertaTitulacion/" + tipo + "/OfertaTitulacion" + tipo + x[0] + ".rdf", "w")
         ofile.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n" +
         "<!DOCTYPE rdf:RDF [\n" +
         "\t<!ENTITY rdf \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" >\n" +
@@ -32,7 +41,7 @@ for tipo in titulaciones:
         "\txmlns:ugr=\"http://cabas.ugr.es/ontology/ugr#\">\n\n")
         ofile.close()
 
-        with open("../converted/rdf/OfertaTitulacion" + tipo + x[0] + ".rdf", "a") as ofile:
+        with open("../semantic/resources/OfertaTitulacion/" + tipo + "/OfertaTitulacion" + tipo + x[0] + ".rdf", "a") as ofile:
                 for lines in data:
                     if id > 0:
                         ofile.write("<rdf:Description rdf:about=\"OfertaTitulacionDoctorado" + tipo + "/" + x[0] + "#" + str(id) + "\">\n" +
@@ -45,6 +54,6 @@ for tipo in titulaciones:
                         "</rdf:Description>\n\n")
                     id += 1
 
-        ofile = open("../converted/rdf/OfertaTitulacion" + tipo + x[0] + ".rdf", "a")
+        ofile = open("../semantic/resources/OfertaTitulacion/" + tipo + "/OfertaTitulacion" + tipo + x[0] + ".rdf", "a")
         ofile.write("</rdf:RDF>")
         ofile.close()

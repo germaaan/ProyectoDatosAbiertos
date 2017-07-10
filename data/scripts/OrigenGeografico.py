@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 import csv
+import os
+import errno
 
 origen = [("Pais", "pais"), ("Provincia", "provincia")]
 files = [("1314", "2013/2014"), ("1415", "2014/2015"), ("1516", "2015/2016")]
@@ -10,11 +12,18 @@ for tipo in origen:
     for x in files:
         id = 0
 
-        with open("../origin/Origen" + tipo[0] + x[0] + ".csv", "r") as ifile:
+        with open("../csv/Origen" + tipo[0] + x[0] + ".csv", "r") as ifile:
           reader = csv.reader(ifile)
           data = list(reader)
 
-        ofile = open("../converted/rdf/Origen" + tipo[0] + x[0] + ".rdf", "w")
+        if not os.path.exists("../semantic/resources/OrigenGeografico/" + tipo[0] + "/"):
+            try:
+                os.makedirs("../semantic/resources/OrigenGeografico/" + tipo[0] + "/")
+            except OSError as exc:
+                if exc.errno != errno.EEXIST:
+                    raise
+
+        ofile = open("../semantic/resources/OrigenGeografico/" + tipo[0] + "/Origen" + tipo[0] + x[0] + ".rdf", "w")
         ofile.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n" +
         "<!DOCTYPE rdf:RDF [\n" +
         "\t<!ENTITY rdf \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" >\n" +
@@ -32,7 +41,7 @@ for tipo in origen:
         "\txmlns:ugr=\"http://cabas.ugr.es/ontology/ugr#\">\n\n")
         ofile.close()
 
-        with open("../converted/rdf/Origen" + tipo[0] + x[0] + ".rdf", "a") as ofile:
+        with open("../semantic/resources/OrigenGeografico/" + tipo[0] + "/Origen" + tipo[0] + x[0] + ".rdf", "a") as ofile:
                 for lines in data:
                     if id > 0:
                         ofile.write("<rdf:Description rdf:about=\"Origen" + tipo[0] + "/" + x[0] + "#" + str(id) + "\">\n" +
@@ -44,6 +53,6 @@ for tipo in origen:
                         "</rdf:Description>\n\n")
                     id += 1
 
-        ofile = open("../converted/rdf/Origen" + tipo[0] + x[0] + ".rdf", "a")
+        ofile = open("../semantic/resources/OrigenGeografico/" + tipo[0] + "/Origen" + tipo[0] + x[0] + ".rdf", "a")
         ofile.write("</rdf:RDF>")
         ofile.close()
