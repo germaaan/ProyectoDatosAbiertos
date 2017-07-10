@@ -44,7 +44,7 @@ for tipo in titulaciones:
         with open("../semantic/resources/OfertaTitulacion/" + tipo + "/OfertaTitulacion" + tipo + x[0] + ".rdf", "a") as ofile:
                 for lines in data:
                     if id > 0:
-                        ofile.write("<rdf:Description rdf:about=\"OfertaTitulacionDoctorado" + tipo + "/" + x[0] + "#" + str(id) + "\">\n" +
+                        ofile.write("<rdf:Description rdf:about=\"OfertaTitulacion" + tipo + "/" + x[0] + "#" + str(id) + "\">\n" +
                             "\t<rdf:type rdf:resource=\"#OfertaTitulacion" + tipo + "\" />\n" +
                             "\t<ugr:ramaConocimiento>" + lines[0] + "</ugr:ramaConocimiento>\n" +
                             "\t<ugr:titulacion>" + lines[1] + "</ugr:titulacion>\n" +

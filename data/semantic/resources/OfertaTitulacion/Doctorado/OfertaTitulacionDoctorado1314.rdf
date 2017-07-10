@@ -16,7 +16,7 @@
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#1">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#1">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN BIOMEDICINA</ugr:titulacion>
@@ -25,7 +25,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#2">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#2">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN BIOQUIMICA Y BIOLOGIA MOLECULAR</ugr:titulacion>
@@ -34,7 +34,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#3">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#3">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN FARMACIA</ugr:titulacion>
@@ -43,7 +43,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#4">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#4">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN MEDICINA CLINICA Y SALUD PUBLICA</ugr:titulacion>
@@ -52,7 +52,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#5">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#5">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN NUTRICION Y CIENCIA DE LOS ALIMENTOS</ugr:titulacion>
@@ -61,7 +61,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#6">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#6">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN PSICOLOGIA</ugr:titulacion>
@@ -70,7 +70,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#7">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#7">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>ACTIVIDAD FISICA Y SALUD</ugr:titulacion>
@@ -79,7 +79,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#8">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#8">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>INVESTIGACION MULTIDISCIPLINAR E INNOVACION EN PROCESOS DE DISCAPACIDAD, DEPENDENCIA Y FIN DE VIDA</ugr:titulacion>
@@ -88,7 +88,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#9">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#9">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:titulacion>
@@ -97,7 +97,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#10">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#10">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>CIENCIAS DE LA EDUCACION</ugr:titulacion>
@@ -106,7 +106,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#11">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#11">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CIENCIAS JURIDICAS</ugr:titulacion>
@@ -115,7 +115,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#12">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#12">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CIENCIAS SOCIALES</ugr:titulacion>
@@ -124,7 +124,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#13">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#13">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN ESTUDIOS MIGRATORIOS</ugr:titulacion>
@@ -133,7 +133,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#14">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#14">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN FILOSOFIA</ugr:titulacion>
@@ -142,7 +142,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#15">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#15">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN HISTORIA Y ARTES</ugr:titulacion>
@@ -151,7 +151,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#16">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#16">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN LENGUAS, TEXTOS Y CONTEXTOS</ugr:titulacion>
@@ -160,7 +160,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#17">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#17">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>ESTUDIOS DE LAS MUJERES Y DE GENERO</ugr:titulacion>
@@ -169,7 +169,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#18">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#18">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>HUMANIDADES, CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MODELOS DE ENSEÑANZA-APRENDIZAJE Y DESARROLLO DE LAS INSTITUCIONES EDUCATIVAS (CEUTA)</ugr:titulacion>
@@ -178,7 +178,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#19">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#19">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN BIOLOGIA FUNDAMENTAL Y DE SISTEMAS</ugr:titulacion>
@@ -187,7 +187,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#20">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#20">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CIENCIAS DE LA TIERRA</ugr:titulacion>
@@ -196,7 +196,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#21">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#21">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN DINAMICA DE FLUJOS BIOGEOQUIMICOS Y SUS APLICACIONES</ugr:titulacion>
@@ -205,7 +205,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#22">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#22">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN ESTADISTICA MATEMATICA Y APLICADA</ugr:titulacion>
@@ -214,7 +214,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#23">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#23">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN FISICA Y CIENCIAS DEL ESPACIO</ugr:titulacion>
@@ -223,7 +223,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#24">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#24">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN FISICA Y MATEMATICAS</ugr:titulacion>
@@ -232,7 +232,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#25">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#25">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN INGENIERIA CIVIL</ugr:titulacion>
@@ -241,7 +241,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#26">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#26">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN MATEMATICAS</ugr:titulacion>
@@ -250,7 +250,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#27">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#27">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN QUIMICA</ugr:titulacion>
@@ -259,7 +259,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#28">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#28">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN TECNOLOGIAS DE LA INFORMACION Y LA COMUNICACION</ugr:titulacion>
@@ -268,7 +268,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="OfertaTitulacionDoctoradoDoctorado/1314#29">
+<rdf:Description rdf:about="OfertaTitulacionDoctorado/1314#29">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS, TECNOLOGIAS E INGENIERIA</ugr:ramaConocimiento>
 	<ugr:titulacion>INGENIERIA CIVIL Y ARQUITECTURA</ugr:titulacion>
