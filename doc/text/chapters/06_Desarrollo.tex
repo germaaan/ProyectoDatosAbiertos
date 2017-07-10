@@ -1,6 +1,6 @@
 \chapter{Desarrollo}
 
-Una vez tenemos la ontología completamente diseñada (cuya versión completa se puede encontrar en el \hyperref[anexo_i]{Anexo I}), el trabajo restante se divide en dos tareas:
+Una vez tenemos la ontología completamente diseñada (cuya versión completa se puede encontrar en los anexos \hyperref[anexo_i]{I (formato RDF)} y \hyperref[anexo_ii]{II (formato Turtle)}), el trabajo restante se divide en dos tareas:
 
 \begin{itemize}
 	\item Convertir los datos a un formato triple {\sf RDF} que siga la ontología que hemos diseñado.
@@ -12,51 +12,11 @@ Una vez tenemos la ontología completamente diseñada (cuya versión completa se
 Todos los datos están en archivos en formato {\sf CSV} (disponibles en el servidor C{\sf KAN} de {\sf OpenData UGR}) siguiendo la misma estructura: la primera fila representa el título del dato y el resto los valores. Para resolver esto la opción más sencilla es desarrollar scripts que nos permitan procesar los archivos originales, aunque se podría hacer en varios lenguajes, se ha elegido {\sf Python} por ser con el que se está más familiarizado para este tipo de tareas.
 
 \bigskip
-El procedimiento consistiría en cargar el archivo con los datos, y después de escribir en el archivo de destino las cabeceras con las definiciones de los espacios de nombres, ir añadiendo cada uno de los datos con el formato necesitado. La forma esquemática sería la siguiente: 
+El procedimiento consistiría en cargar el archivo con los datos, y después de escribir en el archivo de destino las cabeceras con las definiciones de los espacios de nombres, ir añadiendo cada uno de los datos con el formato necesitado. Todos los scripts desarrollados se encuentran dentro del repositorio en {\sf GitHub} en el que está publicado el {\sf TFM}, específicamente la dirección de acceso a los scripts es \url{https://github.com/germaaan/ProyectoDatosAbiertos/tree/master/data/scripts}. 
 
 \newpage
-\begin{listing}[!ht]
-\begin{minted}[tabsize=2,breaklines]{python}
-import csv
+En cualquier caso, en el \hyperref[anexo_ii]{anexo III} se incluye a modo de ejemplo el script desarrollado para convertir los conjuntos de datos relacionados con la oferta de titulaciones. Partiendo de un extracto de los datos sobre la oferta de titulaciones de grado para el curso 2013-2014 (cuya versión completa, al igual que el resto de datos se encuentra accesible desde \url{https://github.com/germaaan/ProyectoDatosAbiertos/tree/master/data/csv}), obtendremos una salida como la que podemos ver en el \hyperref[anexo_ii]{anexo IV}.
 
-id = 0
-
-with open('ORIGEN.csv', 'r') as ifile:
-    reader = csv.reader(ifile)
-    data = list(reader)
-
-ofile = open('DESTINO.rdf', 'w')
-ofile.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"+
-"<rdf:RDF\n"+
-"\txmlns=\"http://cabas.ugr.es/resources/\"\n"+
-"\txmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\n"+
-"\txmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"\n"+
-"\txmlns:xsd=\"http://www.w3.org/2001/XMLSchema#\"\n"+
-"\txmlns:owl=\"http://www.w3.org/2002/07/owl#\"\n"+
-"\txmlns:dcterms=\"http://purl.org/dc/terms/\"\n"+
-"\txmlns:ugr=\"http://cabas.ugr.es/ontology/ugr#\">\n\n")
-ofile.close()
-
-with open('DESTINO.rdf', 'a') as ofile:
-    for lines in data:
-        if id > 0:
-            ofile.write("<rdf:Description rdf:about=\"CLASE#"+
-            str(id)+"\">\n"+
-            "\t<rdfs:label>"+lines[1]+"</rdfs:label>\n"+
-            "\t<ugr:PROPIEDAD_1>"+lines[0]+"</ugr:PROPIEDAD_1>\n"+
-            "\t<ugr:PROPIEDAD_2>"+lines[1]+"</ugr:PROPIEDAD_2>\n"+
-            "\t<ugr:PROPIEDAD_n>"+lines[n-1]+"</ugr:PROPIEDAD_n>\n"+
-            "</rdf:Description>\n\n")
-        id += 1
-
-ofile = open('DESTINO.rdf', 'a')
-ofile.write("</rdf:RDF>")
-ofile.close()
-\end{minted}
-\caption{Plantilla script procesamiento archivos CSV}
-\end{listing}
-
-\newpage
 \section{Infraestructura para el punto de acceso SPARQL}
 
 La infraestructura que necesitaremos para tener el punto consta de dos partes: 
@@ -76,7 +36,7 @@ Tenemos que configurar nuestro servidor {\sf NGINX} para que realice las siguien
 	\item Aplique el tipo {\sf MIME} {\tt application/rdf+xml} cuando devuelva archivos con extensión {\tt rdf} y el tipo {\tt text/turtle} cuando devuelva archivos con extensión {\tt ttl}.
 \end{itemize}
 
-Como mencionábamos en el capítulo de planificación, todos los servidores de los que vamos a hacer uso (tanto para pruebas como para despliegue final) tienen un sistema operativo {\sf Ubuntu}, así que este es el sistema que se tomará como referencia para todas las configuraciones. Para la configuración que queremos establecer, fundamentalmente tendremos que editar tres archivos de la configuración de {\sf NGINX}.
+Como mencionábamos en el capítulo de planificación, todos los servidores de los que vamos a hacer uso (tanto para pruebas como para despliegue final) tienen un sistema operativo {\sf Ubuntu}, así que este es el sistema que se tomará como referencia para todas las configuraciones. Para la configuración que queremos establecer, fundamentalmente tendremos que editar tres archivos de la configuración de {\sf NGINX} (todos ellos disponibles en \url{https://github.com/germaaan/ProyectoDatosAbiertos/tree/master/nginx}).
 
 \begin{itemize}
 	\item {\tt nginx.conf}: es el archivo de configuración principal de {\sf NGINX}.
@@ -115,23 +75,18 @@ server {
 
     root /var/www/html;
 	
-    location /ontology/ {
-        try_files $uri $uri/ =404;
-        autoindex on;
-    }
+	location / {
+		try_files $uri $uri/ =404;
+		autoindex on;
+	}
 	
-    location /ontology/ugr {
-        rewrite ^/ontology/ugr$ /ontology/ugr.ttl;
-    }
-
-    location /resources/ {
-        try_files $uri $uri/ =404;
-        autoindex on;
-    }
-
-    location /resources/CLASE {
-        rewrite ^/resources/CLASE$ /ontology/CLASE.ttl;
-    }
+	location /ontology/ugr {
+		rewrite ^/ontology/ugr$ /ontology/ugr.ttl;
+	}
+	
+	location /resources/CLASE/CURSO {
+		rewrite ^/resources/CLASE/CURSO$ /resources/RUTA/ARCHIVO.rdf;
+	}
 }
 \end{minted}
 \caption{Archivo de configuración del {\sf host virtual} por defecto}
@@ -155,8 +110,6 @@ types {
 \end{listing}
 
 \newpage
-\
-\newpage
 \subsection{Punto de acceso SPARQL}
 
 El software que vamos a usar para proveer de un punto de acceso {\sf SPARQL} ya hemos comentado que será {\sf Openlink Virtuoso}; aunque existen muchas soluciones, unas más sencillas ({\sf Stardog}\footnote{\url{http://www.stardog.com/}}, {\sf Blazegraph}\footnote{\url{https://www.blazegraph.com/}}, {\sf RDF4J}{\footnote{\url{http://rdf4j.org/}}}) y otras de una complejidad similar ({\sf Apache Jena}{\footnote{\url{https://jena.apache.org/}}}, {\sf 4Store}\footnote{\url{https://github.com/4store/4store}}), ninguna tiene las capacidades de almacenamiento de datos, gestión de base de datos y provisión de punto {\sf SPARQL} que tiene Virtuoso, esto es lo que ha hecho que su uso sea tan extendido en proyectos de dimensiones considerables, como el que ya hemos mencionado en varias ocasiones que es {\sf DBpedia}.
@@ -176,4 +129,11 @@ Los archivos de configuración de las máquinas {\sf Vagrant} permiten indicar u
 Cuando comprobemos que nuestro sistema de pruebas funciona correctamente, lo siguiente sería mediante {\sf Ansible} instalar en él de forma automática todo lo necesario para tener Virtuoso funcionando. En el \hyperref[anexo_v]{Anexo V} tenemos la configuración completa para instalar {\sf Virtuoso} mediante {\sf Ansible}. Para comprobar que {\sf Virtuoso} está funcionando correctamente deberíamos acceder a la dirección de la máquina virtual y el puerto que escucha {\sf Virtuoso}: \url{http://192.168.33.20:8890/}. Con Virtuoso funcionando, lo siguiente será proceder con la carga de datos.
 
 \bigskip
-Aunque podemos cargar los datos desde la interfaz web, deberíamos hacerlo uno por uno, lo que es sería un trabajo laborioso. Para estas situaciones la mejor opción es usar la carga masiva de recursos, esta opción nos permite cargar desde terminal todos los archivos en una ubicación de una vez.
+Aunque podemos cargar los datos desde la interfaz web, deberíamos hacerlo uno por uno, lo que es sería un trabajo laborioso. Para estas situaciones la mejor opción es usar la carga masiva de recursos, esta opción nos permite cargar desde terminal todos los archivos en una ubicación de una vez. Necesitaremos crear un archivo llamado {\tt global.graph} cuyo contenido sea  nombre del grafo IRI que nos permitirá enlazar los resultados que obtengamos de las consultas con nuestros recursos accesibles en nuestro servidor público; que en este caso es \url{http://cabas.ugr.es/resources/} (la dirección que hemos configurado en nuestro servidor {\bf NGINX} para servir los recursos). Una vez lo tenemos, lo movemos al igual que todos los archivos de los recursos RDF que queremos cargar al directorio {\tt /usr/local/share/virtuoso/vad/} y ejecutamos el script que hemos creado para la carga de datos.
+
+\begin{listing}[!ht]
+\inputminted[tabsize=2,breaklines]{bash}{../../data/scripts/bulk_loading.sh}
+\caption{Carga de datos en Virtuoso}
+\end{listing}
+
+Una vez finalizado esto, ya tendremos nuestro punto de acceso {\sf SPARQL} corriendo sobre Virtuoso en la dirección de nuestra máquina en el puerto {\bf 8890}, que en el caso de nuestro servidor público sería \url{http://cabas.ugr.es:8890/sparql}

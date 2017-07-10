@@ -10,9 +10,81 @@
 \label{anexo_ii}
 \inputminted[tabsize=2,breaklines]{text}{../../data/semantic/ontology/ugr.ttl}
 
-\chapter*{Anexo III: Ejemplo recurso formato RDF/XML}
+\chapter*{Anexo III: Script para la conversión de uno de los conjuntos de datos}
+\label{anexo_iii}
+\inputminted[tabsize=2,breaklines]{python}{../../data/scripts/OfertaTitulacion.py}
 
-\chapter*{Anexo IV: Ejemplo recurso formato Terse RDF Triple Language}
+\chapter*{Anexo IV: Ejemplo de conversión de un conjunto de datos}
+\label{anexo_iv}
+
+\subsubsection{Datos originales}
+
+\begin{minted}[tabsize=2,breaklines]{text}
+RAMA,TITULACION,CENTRO,CAMPUS
+CIENCIAS EXPERIMENTALES,GRADO EN BIOLOGI­A,FACULTAD DE CIENCIAS,FUENTENUEVA
+CIENCIAS EXPERIMENTALES,GRADO EN BIOQUI­MICA,FACULTAD DE CIENCIAS,FUENTENUEVA
+CIENCIAS EXPERIMENTALES,GRADO EN CIENCIA Y TECNOLOGI­A DE LOS ALIMENTOS,FACULTAD DE FARMACIA,CARTUJA
+CIENCIAS EXPERIMENTALES,GRADO EN CIENCIAS AMBIENTALES,FACULTAD DE CIENCIAS,FUENTENUEVA
+\end{minted}
+
+\subsubsection{Datos convertidos}
+
+\begin{minted}[tabsize=2,breaklines]{xml}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
+]>
+
+<rdf:RDF
+	xmlns="http://cabas.ugr.es/resources/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
+
+<rdf:Description rdf:about="1314#1">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN BIOLOGI­A</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="1314#2">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN BIOQUI­MICA</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="1314#3">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIA Y TECNOLOGI­A DE LOS ALIMENTOS</ugr:titulacion>
+	<ugr:campus>FACULTAD DE FARMACIA</ugr:campus>
+	<ugr:centro>CARTUJA</ugr:centro>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="1314#4">
+	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIAS AMBIENTALES</ugr:titulacion>
+	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
+	<ugr:centro>FUENTENUEVA</ugr:centro>
+	<ugr:curso>2013/2014</ugr:curso>
+</rdf:Description>
+
+</rdf:RDF>
+\end{minted}
 
 \chapter*{Anexo V: Instalación Virtuoso con Ansible}
 
