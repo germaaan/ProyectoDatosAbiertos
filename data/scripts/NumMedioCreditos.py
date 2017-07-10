@@ -14,14 +14,14 @@ for x in files:
       reader = csv.reader(ifile)
       data = list(reader)
 
-    if not os.path.exists("../semantic/rdf/NumMedioCreditos/"):
+    if not os.path.exists("../semantic/resources/NumMedioCreditos/"):
         try:
-            os.makedirs("../semantic/rdf/NumMedioCreditos/")
+            os.makedirs("../semantic/resources/NumMedioCreditos/")
         except OSError as exc:
             if exc.errno != errno.EEXIST:
                 raise
 
-    ofile = open("../semantic/rdf/NumMedioCreditos/NumMedioCreditos" + x[0] + ".rdf", "w")
+    ofile = open("../semantic/resources/NumMedioCreditos/NumMedioCreditos" + x[0] + ".rdf", "w")
     ofile.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n" +
     "<!DOCTYPE rdf:RDF [\n" +
     "\t<!ENTITY rdf \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" >\n" +
@@ -39,7 +39,7 @@ for x in files:
     "\txmlns:ugr=\"http://cabas.ugr.es/ontology/ugr#\">\n\n")
     ofile.close()
 
-    with open("../semantic/rdf/NumMedioCreditos/NumMedioCreditos" + x[0] + ".rdf", "a") as ofile:
+    with open("../semantic/resources/NumMedioCreditos/NumMedioCreditos" + x[0] + ".rdf", "a") as ofile:
             for lines in data:
                 if id > 0:
                     ofile.write("<rdf:Description rdf:about=\"NumMedioCreditos/" + x[0] + "#" + str(id) + "\">\n" +
@@ -53,6 +53,6 @@ for x in files:
                     "</rdf:Description>\n\n")
                 id += 1
 
-    ofile = open("../semantic/rdf/NumMedioCreditos/NumMedioCreditos" + x[0] + ".rdf", "a")
+    ofile = open("../semantic/resources/NumMedioCreditos/NumMedioCreditos" + x[0] + ".rdf", "a")
     ofile.write("</rdf:RDF>")
     ofile.close()
