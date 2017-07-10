@@ -1,18 +1,92 @@
 \chapter{Resultados}
 
-Antes de pasar a las pruebas, debemos comprobar que tanto la ontología como nuestros recursos se han cargado correctamente, ya que en caso contrario no podremos hacer nada. Para hacer esto, vamos ejecutar una consulta que nos devuelta todos los triples "{\bf sujeto - predicado - objeto}".
+Antes de pasar a las pruebas, debemos comprobar que tanto la ontología como nuestros recursos se han cargado correctamente, ya que en caso contrario no podremos hacer nada. Para hacer esto, vamos ejecutar una consulta que nos devuelta todos los triples {\bf sujeto - predicado - objeto}.
 
 \begin{listing}[!ht]
 \begin{minted}[tabsize=2,breaklines]{sparql}
 SELECT DISTINCT *
-WHERE
-	{
+WHERE {
 	?s ?p ?o
-	}
+}
 \end{minted}
 \caption{Obtiene todos los triples en el sistema}
 \end{listing}
 
 \section{Consultas SPARQL}
 
-Vamos a empezar a realizar consultas simples e ir subiendo el nivel de complejidad.
+Vamos a empezar a realizar consultas simples e ir subiendo el nivel de complejidad. Por ejemplo, primero obtener el número de hombres y mujeres matriculados en titulaciones de grado en el curso 2015/2016 y después obtener el total de personas matriculadas en esas mismas titulaciones ese mismo curso.
+\bigskip
+
+\begin{listing}[!ht]
+\begin{minted}[tabsize=2,breaklines]{sparql}
+PREFIX ugr: <http://cabas.ugr.es/ontology/ugr#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT ?X ?titulacion ?hombres ?mujeres 
+WHERE {
+	?X ugr:titulacion ?titulacion .
+	?X ugr:hombres ?hombres .
+	?X ugr:mujeres ?mujeres .
+	?X ugr:curso ?curso .
+	?X dcterms:type ?tipo .
+	FILTER (?curso = "2015/2016" && ?tipo = "MatriculasGrado")
+}
+ORDER BY ?titulacion
+\end{minted}
+\caption{Consulta SPARQL 1}
+\end{listing}
+
+\begin{listing}[!ht]
+	\begin{minted}[tabsize=2,breaklines]{sparql}
+PREFIX ugr: <http://cabas.ugr.es/ontology/ugr#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+
+SELECT ?X ?titulacion (sum(?_personas) as ?personas) 
+WHERE {
+	?X ugr:titulacion ?titulacion .
+	?p rdfs:subPropertyOf* ugr:personas .
+	?X ugr:curso ?curso .
+	?X dcterms:type ?tipo .
+	?X ?p ?_personas .
+	FILTER (?curso = "2015/2016" && ?tipo = "MatriculasGrado")
+}
+GROUP BY ?X ?titulacion
+ORDER BY ?titulacion
+\end{minted}
+\caption{Consulta SPARQL 2}
+\end{listing}
+
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{|p{.7\textwidth}|p{.1\textwidth}|p{.1\textwidth}|}
+		\hline
+		\multicolumn{1}{|c|}{\textbf{titulacion}} & \multicolumn{1}{c|}{\textbf{hombres}} & \multicolumn{1}{c|}{\textbf{mujeres}} \\ \hline
+		"GRADO CC ACT FISICA Y ED.PRIMA (MELILLA)" & 79 & 25 \\ \hline
+		"GRADO"GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS (CEUTA)" & 91 & 100 \\ \hline
+		"GRADOEN ADMINISTRACION Y DIRECCION DE EMPRESAS" & 740 & 835 \\ \hline
+		"GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS-DERECHO" & 273 & 454 \\ \hline
+	\end{tabular}
+	\label{salida_consulta_1}
+	\caption{Resumen salida consulta SPARQL 1}
+\end{table}
+
+\begin{table}[]
+	\centering
+	\begin{tabular}{|p{.7\textwidth}|p{.1\textwidth}|}
+		\hline
+		\multicolumn{1}{|c|}{\textbf{titulacion}} & \multicolumn{1}{c|}{\textbf{personas}} \\ \hline
+		"GRADO CC ACT FISICA Y ED.PRIMA (MELILLA)" & 104 \\ \hline
+		"GRADO"GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS (CEUTA)" & 191 \\ \hline
+		"GRADOEN ADMINISTRACION Y DIRECCION DE EMPRESAS" & 1575 \\ \hline
+		"GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS-DERECHO" & 727 \\ \hline
+	\end{tabular}
+	\label{salida_consulta_2}
+	\caption{Resumen salida consulta SPARQL 2}
+\end{table}
+
+Aquí podemos ver un ejemplo simple del motor de inferencia de Virtuoso. Cuando estábamos definiendo la ontología de nuestro sistema, definimos una propiedad llamada {\tt personas}, que aunque no pertenecía al dominio específico de ninguna clase, sí que tenía dos subpropiedades que descendían de ella, {\tt hombres} y {\tt mujeres}. Esto es una situación típica a la hora de procesar cantidades, el obtener totales; pero lo realmente importante es que estamos demostrando que la máquina entiende el significado de los datos, como le hemos dicho que sume todas las cantidades de {\tt personas} y sabe que {\tt hombres} y {\tt mujeres} son {\tt personas}, automáticamente toma la decisión de sumarlos y devolvérnoslo como resultado.
+\bigskip
+
+\newpage \
+\newpage
+En resumen, todo esto quiere decir que nuestra ontología es consistente, ya que acabamos de comprobar la taxonomía al hacer que la máquina razone e infiera la jerarquía de clases habiendo obtenido el resultado esperado. También hemos comprobado que existen instancias de todas las clases y que además dichas instancias cumplen con las especificaciones de las mismas. Por lo que podemos decir que hemos comprobado que el resultado de la ontología es el correcto para lo que se diseño inicialmente.
