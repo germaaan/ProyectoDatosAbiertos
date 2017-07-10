@@ -5,6 +5,7 @@
 	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
 	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
 	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY dcterms "http://purl.org/dc/terms/" >
 	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
 ]>
 
@@ -14,10 +15,12 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
 
 <rdf:Description rdf:about="1314#1">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN BIOLOGI­A</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -27,6 +30,7 @@
 
 <rdf:Description rdf:about="1314#2">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN BIOQUI­MICA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -36,6 +40,7 @@
 
 <rdf:Description rdf:about="1314#3">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN CIENCIA Y TECNOLOGI­A DE LOS ALIMENTOS</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FARMACIA</ugr:campus>
@@ -45,6 +50,7 @@
 
 <rdf:Description rdf:about="1314#4">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN CIENCIAS AMBIENTALES</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -54,6 +60,7 @@
 
 <rdf:Description rdf:about="1314#5">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ESTADI­STICA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -63,6 +70,7 @@
 
 <rdf:Description rdf:about="1314#6">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN FI­SICA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -72,6 +80,7 @@
 
 <rdf:Description rdf:about="1314#7">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN GEOLOGI­A</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -81,6 +90,7 @@
 
 <rdf:Description rdf:about="1314#8">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INGENIERI­A INFORMATICA Y MATEMATICAS (DOBLE GRADO)</ugr:titulacion>
 	<ugr:campus>E. T. S. DE INGENIERI­AS INFORMATICA Y DE TELECOMUNICACION</ugr:campus>
@@ -90,6 +100,7 @@
 
 <rdf:Description rdf:about="1314#9">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN MATEMATICAS</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -99,6 +110,7 @@
 
 <rdf:Description rdf:about="1314#10">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN OPTICA Y OPTOMETRI­A</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -108,6 +120,7 @@
 
 <rdf:Description rdf:about="1314#11">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN QUI­MICA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -117,6 +130,7 @@
 
 <rdf:Description rdf:about="1314#12">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES / FACULTAD DE CIENCIAS SOCIALES DE MELILLA / FACULTAD DE EDUCACION, ECONOMI­A Y TECNOLOGI­A DE CEUTA</ugr:campus>
@@ -126,6 +140,7 @@
 
 <rdf:Description rdf:about="1314#13">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS Y DERECHO (DOBLE GRADO)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE DERECHO / FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
@@ -135,6 +150,7 @@
 
 <rdf:Description rdf:about="1314#14">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ANTROPOLOGI­A SOCIAL Y CULTURAL</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
@@ -144,6 +160,7 @@
 
 <rdf:Description rdf:about="1314#15">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN CIENCIAS DE LA ACTIVIDAD FI­SICA Y DEL DEPORTE</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DEL DEPORTE</ugr:campus>
@@ -153,6 +170,7 @@
 
 <rdf:Description rdf:about="1314#16">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN CIENCIAS POLI­TICAS Y DE LA ADMINISTRACION</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS POLI­TICAS Y SOCIOLOGI­A</ugr:campus>
@@ -162,6 +180,7 @@
 
 <rdf:Description rdf:about="1314#17">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN COMUNICACION AUDIOVISUAL</ugr:titulacion>
 	<ugr:campus>FACULTAD DE COMUNICACION Y DOCUMENTACION</ugr:campus>
@@ -171,6 +190,7 @@
 
 <rdf:Description rdf:about="1314#18">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN CRIMINOLOGI­A</ugr:titulacion>
 	<ugr:campus>FACULTAD DE DERECHO</ugr:campus>
@@ -180,6 +200,7 @@
 
 <rdf:Description rdf:about="1314#19">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN DERECHO</ugr:titulacion>
 	<ugr:campus>FACULTAD DE DERECHO</ugr:campus>
@@ -189,6 +210,7 @@
 
 <rdf:Description rdf:about="1314#20">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN CIENCIAS POLI­TICAS DE LA ADMINISTRACION Y DERECHO (DOBLE GRADO)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE DERECHO / FACULTAD DE CIENCIAS POLI­TICAS Y SOCIOLOGI­A</ugr:campus>
@@ -198,6 +220,7 @@
 
 <rdf:Description rdf:about="1314#21">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ECONOMI­A</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
@@ -207,6 +230,7 @@
 
 <rdf:Description rdf:about="1314#22">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN MAESTRO EN EDUCACION INFANTIL</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DE LA EDUCACION / FACULTAD DE EDUCACION, ECONOMI­A Y TECNOLOGI­A DE CEUTA / FACULTAD DE EDUCACION Y HUMANIDADES DE MELILLA / CENTRO DE MAGISTERIO LA INMACULADA</ugr:campus>
@@ -216,6 +240,7 @@
 
 <rdf:Description rdf:about="1314#23">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN MAESTRO EN EDUCACION PRIMARIA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DE LA EDUCACION / FACULTAD DE EDUCACION, ECONOMI­A Y TECNOLOGI­A DE CEUTA / FACULTAD DE EDUCACION Y HUMANIDADES DE MELILLA / CENTRO DE MAGISTERIO LA INMACULADA</ugr:campus>
@@ -225,6 +250,7 @@
 
 <rdf:Description rdf:about="1314#24">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN EDUCACION SOCIAL</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DE LA EDUCACION / FACULTAD DE EDUCACION, ECONOMI­A Y TECNOLOGI­A DE CEUTA / FACULTAD DE EDUCACION Y HUMANIDADES DE MELILLA</ugr:campus>
@@ -234,6 +260,7 @@
 
 <rdf:Description rdf:about="1314#25">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN FINANZAS Y CONTABILIDAD</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
@@ -243,6 +270,7 @@
 
 <rdf:Description rdf:about="1314#26">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN GEOGRAFI­A Y GESTION DEL TERRITORIO</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
@@ -252,6 +280,7 @@
 
 <rdf:Description rdf:about="1314#27">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN GESTION Y ADMINISTRACION PUBLICA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS SOCIALES DE MELILLA</ugr:campus>
@@ -261,6 +290,7 @@
 
 <rdf:Description rdf:about="1314#28">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INFORMACION Y DOCUMENTACION</ugr:titulacion>
 	<ugr:campus>FACULTAD DE COMUNICACION Y DOCUMENTACION</ugr:campus>
@@ -270,6 +300,7 @@
 
 <rdf:Description rdf:about="1314#29">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN MARKETING E INVESTIGACION DE MERCADOS</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
@@ -279,6 +310,7 @@
 
 <rdf:Description rdf:about="1314#30">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN PEDAGOGI­A</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DE LA EDUCACION</ugr:campus>
@@ -288,6 +320,7 @@
 
 <rdf:Description rdf:about="1314#31">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DEL TRABAJO</ugr:campus>
@@ -297,6 +330,7 @@
 
 <rdf:Description rdf:about="1314#32">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN SOCIOLOGI­A</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS POLI­TICAS Y SOCIOLOGI­A</ugr:campus>
@@ -306,6 +340,7 @@
 
 <rdf:Description rdf:about="1314#33">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN TRABAJO SOCIAL</ugr:titulacion>
 	<ugr:campus>FACULTAD DE TRABAJO SOCIAL</ugr:campus>
@@ -315,6 +350,7 @@
 
 <rdf:Description rdf:about="1314#34">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN TURISMO</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
@@ -324,6 +360,7 @@
 
 <rdf:Description rdf:about="1314#35">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ARQUEOLOGI­A</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
@@ -333,6 +370,7 @@
 
 <rdf:Description rdf:about="1314#36">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN BELLAS ARTES</ugr:titulacion>
 	<ugr:campus>FACULTAD DE BELLAS ARTES</ugr:campus>
@@ -342,6 +380,7 @@
 
 <rdf:Description rdf:about="1314#37">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN CONSERVACION Y RESTAURACION DE BIENES CULTURALES</ugr:titulacion>
 	<ugr:campus>FACULTAD DE BELLAS ARTES</ugr:campus>
@@ -351,6 +390,7 @@
 
 <rdf:Description rdf:about="1314#38">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ESTUDIOS ARABES E ISLAMICOS</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
@@ -360,6 +400,7 @@
 
 <rdf:Description rdf:about="1314#39">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ESTUDIOS FRANCESES</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
@@ -369,6 +410,7 @@
 
 <rdf:Description rdf:about="1314#40">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ESTUDIOS INGLESES</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
@@ -378,6 +420,7 @@
 
 <rdf:Description rdf:about="1314#41">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN FILOLOGI­A CLASICA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
@@ -387,6 +430,7 @@
 
 <rdf:Description rdf:about="1314#42">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN FILOLOGI­A HISPANICA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
@@ -396,6 +440,7 @@
 
 <rdf:Description rdf:about="1314#43">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN FILOSOFI­A</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
@@ -405,6 +450,7 @@
 
 <rdf:Description rdf:about="1314#44">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN HISTORIA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
@@ -414,6 +460,7 @@
 
 <rdf:Description rdf:about="1314#45">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN HISTORIA DEL ARTE</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
@@ -423,6 +470,7 @@
 
 <rdf:Description rdf:about="1314#46">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN HISTORIA Y CIENCIAS DE LA MUSICA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
@@ -432,6 +480,7 @@
 
 <rdf:Description rdf:about="1314#47">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN LENGUAS MODERNAS Y SUS LITERATURAS</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
@@ -441,6 +490,7 @@
 
 <rdf:Description rdf:about="1314#48">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN LITERATURAS COMPARADAS</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFI­A Y LETRAS</ugr:campus>
@@ -450,6 +500,7 @@
 
 <rdf:Description rdf:about="1314#49">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION</ugr:titulacion>
 	<ugr:campus>FACULTAD DE TRADUCCION E INTERPRETACION</ugr:campus>
@@ -459,6 +510,7 @@
 
 <rdf:Description rdf:about="1314#50">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ENFERMERI­A</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DE LA SALUD / FACULTAD DE CIENCIAS DE LA SALUD DE CEUTA</ugr:campus>
@@ -468,6 +520,7 @@
 
 <rdf:Description rdf:about="1314#51">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN FARMACIA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FARMACIA</ugr:campus>
@@ -477,6 +530,7 @@
 
 <rdf:Description rdf:about="1314#52">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN FISIOTERAPIA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DE LA SALUD</ugr:campus>
@@ -486,6 +540,7 @@
 
 <rdf:Description rdf:about="1314#53">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN LOGOPEDIA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE PSICOLOGI­A</ugr:campus>
@@ -495,6 +550,7 @@
 
 <rdf:Description rdf:about="1314#54">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN MEDICINA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE MEDICINA</ugr:campus>
@@ -504,6 +560,7 @@
 
 <rdf:Description rdf:about="1314#55">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN NUTRICION HUMANA Y DIETETICA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FARMACIA</ugr:campus>
@@ -513,6 +570,7 @@
 
 <rdf:Description rdf:about="1314#56">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ODONTOLOGI­A</ugr:titulacion>
 	<ugr:campus>FACULTAD DE ODONTOLOGI­A</ugr:campus>
@@ -522,6 +580,7 @@
 
 <rdf:Description rdf:about="1314#57">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN PSICOLOGI­A</ugr:titulacion>
 	<ugr:campus>FACULTAD DE PSICOLOGI­A</ugr:campus>
@@ -531,6 +590,7 @@
 
 <rdf:Description rdf:about="1314#58">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN TERAPIA OCUPACIONAL</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DE LA SALUD</ugr:campus>
@@ -540,6 +600,7 @@
 
 <rdf:Description rdf:about="1314#59">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ARQUITECTURA</ugr:titulacion>
 	<ugr:campus>E. T. S. DE ARQUITECTURA</ugr:campus>
@@ -549,6 +610,7 @@
 
 <rdf:Description rdf:about="1314#60">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INGENIERI­A CIVIL</ugr:titulacion>
 	<ugr:campus>E. T. S. DE INGENIERI­A DE CAMINOS, CANALES Y PUERTOS</ugr:campus>
@@ -558,6 +620,7 @@
 
 <rdf:Description rdf:about="1314#61">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento> INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN EDIFICACION</ugr:titulacion>
 	<ugr:campus>ESCUELA TECNICA SUPERIOR DE INGENIERI­A Y EDIFICACION</ugr:campus>
@@ -567,6 +630,7 @@
 
 <rdf:Description rdf:about="1314#62">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INGENIERI­A DE TECNOLOGI­AS DE TELECOMUNICACION</ugr:titulacion>
 	<ugr:campus>E. T. S. DE INGENIERI­AS INFORMATICA Y DE TELECOMUNICACION</ugr:campus>
@@ -576,6 +640,7 @@
 
 <rdf:Description rdf:about="1314#63">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INGENIERI­A ELECTRONICA INDUSTRIAL</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS / E. T. S. DE CAMINOS, CANALES Y PUERTOS</ugr:campus>
@@ -585,6 +650,7 @@
 
 <rdf:Description rdf:about="1314#64">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INGENIERI­A INFORMATICA</ugr:titulacion>
 	<ugr:campus>E. T. S. DE INGENIERI­AS INFORMATICA Y DE TELECOMUNICACION / FACULTAD DE EDUCACION, ECONOMI­A Y TECNOLOGI­A DE CEUTA</ugr:campus>
@@ -594,6 +660,7 @@
 
 <rdf:Description rdf:about="1314#65">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INGENIERI­A INFORMATICA Y MATEMATICAS (DOBLE GRADO)</ugr:titulacion>
 	<ugr:campus>E. T. S. DE INGENIERI­AS INFORMATICA Y DE TELECOMUNICACION</ugr:campus>
@@ -603,6 +670,7 @@
 
 <rdf:Description rdf:about="1314#66">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
+	<dcterms:type>OfertaTitulacionGrado</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INGENIERI­A QUI­MICA</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>

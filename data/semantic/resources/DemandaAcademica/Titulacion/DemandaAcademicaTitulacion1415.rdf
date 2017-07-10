@@ -5,6 +5,7 @@
 	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
 	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
 	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY dcterms "http://purl.org/dc/terms/" >
 	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
 ]>
 
@@ -14,10 +15,12 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
 
 <rdf:Description rdf:about="1415#1">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">281</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">271</ugr:cupoGral>
@@ -31,6 +34,7 @@
 
 <rdf:Description rdf:about="1415#2">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS (CEUTA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">70</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">48</ugr:cupoGral>
@@ -44,6 +48,7 @@
 
 <rdf:Description rdf:about="1415#3">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS (MELILLA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">80</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">38</ugr:cupoGral>
@@ -57,6 +62,7 @@
 
 <rdf:Description rdf:about="1415#4">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS + DERECHO</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">143</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">139</ugr:cupoGral>
@@ -70,6 +76,7 @@
 
 <rdf:Description rdf:about="1415#5">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS + DERECHO (MELILLA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">43</ugr:cupoGral>
@@ -83,6 +90,7 @@
 
 <rdf:Description rdf:about="1415#6">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ANTROPOLOGIA SOCIAL Y CULTURAL</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">61</ugr:cupoGral>
@@ -96,6 +104,7 @@
 
 <rdf:Description rdf:about="1415#7">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ARQUEOLOGIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">62</ugr:cupoGral>
@@ -109,6 +118,7 @@
 
 <rdf:Description rdf:about="1415#8">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ARQUITECTURA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">158</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">149</ugr:cupoGral>
@@ -122,6 +132,7 @@
 
 <rdf:Description rdf:about="1415#9">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN BELLAS ARTES</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">235</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">219</ugr:cupoGral>
@@ -135,6 +146,7 @@
 
 <rdf:Description rdf:about="1415#10">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN BIOLOGIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">215</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">203</ugr:cupoGral>
@@ -148,6 +160,7 @@
 
 <rdf:Description rdf:about="1415#11">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN BIOQUIMICA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">55</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">55</ugr:cupoGral>
@@ -161,6 +174,7 @@
 
 <rdf:Description rdf:about="1415#12">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN BIOTECNOLOGIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">48</ugr:cupoGral>
@@ -174,6 +188,7 @@
 
 <rdf:Description rdf:about="1415#13">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CIENCIAS AMBIENTALES</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">150</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">144</ugr:cupoGral>
@@ -187,6 +202,7 @@
 
 <rdf:Description rdf:about="1415#14">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CIENCIAS DE LA ACTIVIDAD FISICA Y DEL DEPORTE</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">190</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">173</ugr:cupoGral>
@@ -200,6 +216,7 @@
 
 <rdf:Description rdf:about="1415#15">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CIENCIAS DE LA ACTIVIDAD FISICA Y DEL DEPORTE + EDUCACION PRIMARIA (MELILLA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">59</ugr:cupoGral>
@@ -213,6 +230,7 @@
 
 <rdf:Description rdf:about="1415#16">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CIENCIAS POLITICAS Y DE LA ADMINISTRACION</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">160</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">157</ugr:cupoGral>
@@ -226,6 +244,7 @@
 
 <rdf:Description rdf:about="1415#17">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CIENCIAS POLITICAS Y DE LA ADMINISTRACION + DERECHO</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">143</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">141</ugr:cupoGral>
@@ -239,6 +258,7 @@
 
 <rdf:Description rdf:about="1415#18">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CIENCIAS Y TECNOLOGIA DE LOS ALIMENTOS</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">61</ugr:cupoGral>
@@ -252,6 +272,7 @@
 
 <rdf:Description rdf:about="1415#19">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN COMUNICACION AUDIOVISUAL</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">63</ugr:cupoGral>
@@ -265,6 +286,7 @@
 
 <rdf:Description rdf:about="1415#20">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CONSERVACION Y RESTAURACION DE BIENES CULTURALES</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">46</ugr:cupoGral>
@@ -278,6 +300,7 @@
 
 <rdf:Description rdf:about="1415#21">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CRIMINOLOGIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">75</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">72</ugr:cupoGral>
@@ -291,6 +314,7 @@
 
 <rdf:Description rdf:about="1415#22">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN DERECHO</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">500</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">470</ugr:cupoGral>
@@ -304,6 +328,7 @@
 
 <rdf:Description rdf:about="1415#23">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ECONOMIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">237</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">230</ugr:cupoGral>
@@ -317,6 +342,7 @@
 
 <rdf:Description rdf:about="1415#24">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (CIENCIAS DE LA EDUCACION)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">330</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">314</ugr:cupoGral>
@@ -330,6 +356,7 @@
 
 <rdf:Description rdf:about="1415#25">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (C. MAGISTERIO INMACULADA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">130</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">90</ugr:cupoGral>
@@ -343,6 +370,7 @@
 
 <rdf:Description rdf:about="1415#26">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (CEUTA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">70</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">41</ugr:cupoGral>
@@ -356,6 +384,7 @@
 
 <rdf:Description rdf:about="1415#27">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (MELILLA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">38</ugr:cupoGral>
@@ -369,6 +398,7 @@
 
 <rdf:Description rdf:about="1415#28">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (CIENCIAS DE LA EDUCACION)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">540</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">518</ugr:cupoGral>
@@ -382,6 +412,7 @@
 
 <rdf:Description rdf:about="1415#29">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (C. MAGISTERIO INMACULADA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">260</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">168</ugr:cupoGral>
@@ -395,6 +426,7 @@
 
 <rdf:Description rdf:about="1415#30">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (BILINGÜE)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">67</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">66</ugr:cupoGral>
@@ -408,6 +440,7 @@
 
 <rdf:Description rdf:about="1415#31">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (CEUTA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">140</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">68</ugr:cupoGral>
@@ -421,6 +454,7 @@
 
 <rdf:Description rdf:about="1415#32">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (MELILLA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">56</ugr:cupoGral>
@@ -434,6 +468,7 @@
 
 <rdf:Description rdf:about="1415#33">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION SOCIAL (CIENCIAS DE LA EDUCACION)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">135</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">131</ugr:cupoGral>
@@ -447,6 +482,7 @@
 
 <rdf:Description rdf:about="1415#34">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION SOCIAL (CEUTA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">80</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">40</ugr:cupoGral>
@@ -460,6 +496,7 @@
 
 <rdf:Description rdf:about="1415#35">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION SOCIAL (MELILLA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">80</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">43</ugr:cupoGral>
@@ -473,6 +510,7 @@
 
 <rdf:Description rdf:about="1415#36">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ENFERMERIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">200</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">193</ugr:cupoGral>
@@ -486,6 +524,7 @@
 
 <rdf:Description rdf:about="1415#37">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ENFERMERIA (CEUTA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">135</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">137</ugr:cupoGral>
@@ -499,6 +538,7 @@
 
 <rdf:Description rdf:about="1415#38">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ENFERMERIA (MELILLA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">110</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">102</ugr:cupoGral>
@@ -512,6 +552,7 @@
 
 <rdf:Description rdf:about="1415#39">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ESTADISTICA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">60</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">51</ugr:cupoGral>
@@ -525,6 +566,7 @@
 
 <rdf:Description rdf:about="1415#40">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ESTUDIOS ARABES E ISLAMICOS</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">49</ugr:cupoGral>
@@ -538,6 +580,7 @@
 
 <rdf:Description rdf:about="1415#41">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ESTUDIOS FRANCESES</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">75</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">73</ugr:cupoGral>
@@ -551,6 +594,7 @@
 
 <rdf:Description rdf:about="1415#42">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ESTUDIOS INGLESES</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">150</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">145</ugr:cupoGral>
@@ -564,6 +608,7 @@
 
 <rdf:Description rdf:about="1415#43">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN FARMACIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">320</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">306</ugr:cupoGral>
@@ -577,6 +622,7 @@
 
 <rdf:Description rdf:about="1415#44">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN FILOLOGIA CLASICA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">45</ugr:cupoGral>
@@ -590,6 +636,7 @@
 
 <rdf:Description rdf:about="1415#45">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN FILOLOGIA HISPANICA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">75</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">75</ugr:cupoGral>
@@ -603,6 +650,7 @@
 
 <rdf:Description rdf:about="1415#46">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN FILOSOFIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">80</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">71</ugr:cupoGral>
@@ -616,6 +664,7 @@
 
 <rdf:Description rdf:about="1415#47">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN FINANZAS Y CONTABILIDAD</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">129</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">123</ugr:cupoGral>
@@ -629,6 +678,7 @@
 
 <rdf:Description rdf:about="1415#48">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN FISICA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">130</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">123</ugr:cupoGral>
@@ -642,6 +692,7 @@
 
 <rdf:Description rdf:about="1415#49">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN FISIOTERAPIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">57</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">48</ugr:cupoGral>
@@ -655,6 +706,7 @@
 
 <rdf:Description rdf:about="1415#50">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN GEOGRAFIA Y GESTION DEL TERRITORIO</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">60</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">58</ugr:cupoGral>
@@ -668,6 +720,7 @@
 
 <rdf:Description rdf:about="1415#51">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN GEOLOGIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">75</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">64</ugr:cupoGral>
@@ -681,6 +734,7 @@
 
 <rdf:Description rdf:about="1415#52">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN HISTORIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">150</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">146</ugr:cupoGral>
@@ -694,6 +748,7 @@
 
 <rdf:Description rdf:about="1415#53">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN HISTORIA DEL ARTE</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">150</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">126</ugr:cupoGral>
@@ -707,6 +762,7 @@
 
 <rdf:Description rdf:about="1415#54">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN HISTORIA Y CIENCIAS DE LA MUSICA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">62</ugr:cupoGral>
@@ -720,6 +776,7 @@
 
 <rdf:Description rdf:about="1415#55">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INFORMACION Y DOCUMENTACION</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">100</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">61</ugr:cupoGral>
@@ -733,6 +790,7 @@
 
 <rdf:Description rdf:about="1415#56">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA DE TECNOLOGIAS DE TELECOMUNICACION</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">100</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">98</ugr:cupoGral>
@@ -746,6 +804,7 @@
 
 <rdf:Description rdf:about="1415#57">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA CIVIL</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">200</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">198</ugr:cupoGral>
@@ -759,6 +818,7 @@
 
 <rdf:Description rdf:about="1415#58">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA DE EDIFICACION </ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">300</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">134</ugr:cupoGral>
@@ -772,6 +832,7 @@
 
 <rdf:Description rdf:about="1415#59">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA ELECTRONICA INDUSTRIAL</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">65</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">64</ugr:cupoGral>
@@ -785,6 +846,7 @@
 
 <rdf:Description rdf:about="1415#60">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">300</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">293</ugr:cupoGral>
@@ -798,6 +860,7 @@
 
 <rdf:Description rdf:about="1415#61">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA + MATEMATICAS</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">51</ugr:cupoGral>
@@ -811,6 +874,7 @@
 
 <rdf:Description rdf:about="1415#62">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA (CEUTA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">21</ugr:cupoGral>
@@ -824,6 +888,7 @@
 
 <rdf:Description rdf:about="1415#63">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA QUIMICA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">120</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">115</ugr:cupoGral>
@@ -837,6 +902,7 @@
 
 <rdf:Description rdf:about="1415#64">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN LENGUAS MODERNAS Y SUS LITERATURAS</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">75</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">70</ugr:cupoGral>
@@ -850,6 +916,7 @@
 
 <rdf:Description rdf:about="1415#65">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN LITERATURAS COMPARADAS</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">49</ugr:cupoGral>
@@ -863,6 +930,7 @@
 
 <rdf:Description rdf:about="1415#66">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN LOGOPEDIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">70</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">67</ugr:cupoGral>
@@ -876,6 +944,7 @@
 
 <rdf:Description rdf:about="1415#67">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN MARKETING E INVESTIGACION DE MERCADOS</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">129</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">125</ugr:cupoGral>
@@ -889,6 +958,7 @@
 
 <rdf:Description rdf:about="1415#68">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN MATEMATICAS</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">110</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">106</ugr:cupoGral>
@@ -902,6 +972,7 @@
 
 <rdf:Description rdf:about="1415#69">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN MEDICINA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">253</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">227</ugr:cupoGral>
@@ -915,6 +986,7 @@
 
 <rdf:Description rdf:about="1415#70">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN NUTRICION HUMANA Y DIETETICA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">100</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">96</ugr:cupoGral>
@@ -928,6 +1000,7 @@
 
 <rdf:Description rdf:about="1415#71">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ODONTOLOGIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">85</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">79</ugr:cupoGral>
@@ -941,6 +1014,7 @@
 
 <rdf:Description rdf:about="1415#72">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN OPTICA Y OPTOMETRIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">135</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">113</ugr:cupoGral>
@@ -954,6 +1028,7 @@
 
 <rdf:Description rdf:about="1415#73">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN PEDAGOGIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">135</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">128</ugr:cupoGral>
@@ -967,6 +1042,7 @@
 
 <rdf:Description rdf:about="1415#74">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN PSICOLOGIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">300</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">281</ugr:cupoGral>
@@ -980,6 +1056,7 @@
 
 <rdf:Description rdf:about="1415#75">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN QUIMICA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">90</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">90</ugr:cupoGral>
@@ -993,6 +1070,7 @@
 
 <rdf:Description rdf:about="1415#76">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">365</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">351</ugr:cupoGral>
@@ -1006,6 +1084,7 @@
 
 <rdf:Description rdf:about="1415#77">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS (MELILLA)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">50</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">13</ugr:cupoGral>
@@ -1019,6 +1098,7 @@
 
 <rdf:Description rdf:about="1415#78">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN SOCIOLOGIA</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">160</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">149</ugr:cupoGral>
@@ -1032,6 +1112,7 @@
 
 <rdf:Description rdf:about="1415#79">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN TERAPIA OCUPACIONAL</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">60</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">60</ugr:cupoGral>
@@ -1045,6 +1126,7 @@
 
 <rdf:Description rdf:about="1415#80">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN TRABAJO SOCIAL</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">180</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">172</ugr:cupoGral>
@@ -1058,6 +1140,7 @@
 
 <rdf:Description rdf:about="1415#81">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION (ALEMAN)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">37</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">36</ugr:cupoGral>
@@ -1071,6 +1154,7 @@
 
 <rdf:Description rdf:about="1415#82">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION (ARABE)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">35</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">34</ugr:cupoGral>
@@ -1084,6 +1168,7 @@
 
 <rdf:Description rdf:about="1415#83">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION (FRANCES)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">80</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">77</ugr:cupoGral>
@@ -1097,6 +1182,7 @@
 
 <rdf:Description rdf:about="1415#84">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION (INGLES)</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">120</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">113</ugr:cupoGral>
@@ -1110,6 +1196,7 @@
 
 <rdf:Description rdf:about="1415#85">
 	<rdf:type rdf:resource="#DemandaAcademicaTitulacion" />
+	<dcterms:type>DemandaAcademicaTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN TURISMO</ugr:titulacion>
 	<ugr:plazasOfertadas rdf:datatype="&xsd;nonNegativeInteger">144</ugr:plazasOfertadas>
 	<ugr:cupoGral rdf:datatype="&xsd;nonNegativeInteger">139</ugr:cupoGral>

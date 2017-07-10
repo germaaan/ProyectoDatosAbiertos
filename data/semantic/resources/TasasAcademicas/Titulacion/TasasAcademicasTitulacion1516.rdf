@@ -5,6 +5,7 @@
 	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
 	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
 	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY dcterms "http://purl.org/dc/terms/" >
 	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
 ]>
 
@@ -14,10 +15,12 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
 
 <rdf:Description rdf:about="1516#1">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN BIOLOGIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">74.02</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">83.12</ugr:tasaExito>
@@ -30,6 +33,7 @@
 
 <rdf:Description rdf:about="1516#2">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ODONTOLOGIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">89.42</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">94.77</ugr:tasaExito>
@@ -42,6 +46,7 @@
 
 <rdf:Description rdf:about="1516#3">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN NUTRICION HUMANA Y DIETETICA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">84</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">89.4</ugr:tasaExito>
@@ -54,6 +59,7 @@
 
 <rdf:Description rdf:about="1516#4">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CIENCIA Y TECNOLOGIA DE LOS ALIMENTOS</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">75.4</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">82.27</ugr:tasaExito>
@@ -66,6 +72,7 @@
 
 <rdf:Description rdf:about="1516#5">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN FARMACIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">63.37</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">75.34</ugr:tasaExito>
@@ -78,6 +85,7 @@
 
 <rdf:Description rdf:about="1516#6">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA ELECTRONICA INDUSTRIAL</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">66.97</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">77.88</ugr:tasaExito>
@@ -90,6 +98,7 @@
 
 <rdf:Description rdf:about="1516#7">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CIENCIAS AMBIENTALES</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">59</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">72.26</ugr:tasaExito>
@@ -102,6 +111,7 @@
 
 <rdf:Description rdf:about="1516#8">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ENFERMERIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">93.17</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">96.25</ugr:tasaExito>
@@ -114,6 +124,7 @@
 
 <rdf:Description rdf:about="1516#9">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN GEOGRAFIA Y GESTION DEL TERRITORIO</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">71.16</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">80.63</ugr:tasaExito>
@@ -126,6 +137,7 @@
 
 <rdf:Description rdf:about="1516#10">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ARQUITECTURA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">68.71</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">81.95</ugr:tasaExito>
@@ -138,6 +150,7 @@
 
 <rdf:Description rdf:about="1516#11">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA EN EDIFICACION (CURSO PUENTE)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">40.82</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">64.52</ugr:tasaExito>
@@ -150,6 +163,7 @@
 
 <rdf:Description rdf:about="1516#12">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CIENCIAS POLITICAS Y DE LA ADMINISTRACION</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">68.07</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">80.66</ugr:tasaExito>
@@ -162,6 +176,7 @@
 
 <rdf:Description rdf:about="1516#13">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CIENCIAS POLITICAS Y DE LA ADMINIST. Y DERECHO</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">69.47</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">80.03</ugr:tasaExito>
@@ -174,6 +189,7 @@
 
 <rdf:Description rdf:about="1516#14">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN SOCIOLOGIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">72.84</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">82.02</ugr:tasaExito>
@@ -186,6 +202,7 @@
 
 <rdf:Description rdf:about="1516#15">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA QUIMICA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">59.89</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">72.27</ugr:tasaExito>
@@ -198,6 +215,7 @@
 
 <rdf:Description rdf:about="1516#16">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA DE TECNOLOGIAS DE TELECOMUNICACION</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">74.51</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">83.73</ugr:tasaExito>
@@ -210,6 +228,7 @@
 
 <rdf:Description rdf:about="1516#17">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN MEDICINA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">92.14</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">95.9</ugr:tasaExito>
@@ -222,6 +241,7 @@
 
 <rdf:Description rdf:about="1516#18">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ESTADISTICA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">57.33</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">75.18</ugr:tasaExito>
@@ -234,6 +254,7 @@
 
 <rdf:Description rdf:about="1516#19">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN COMUNICACION AUDIOVISUAL</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">93.15</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">96.74</ugr:tasaExito>
@@ -246,6 +267,7 @@
 
 <rdf:Description rdf:about="1516#20">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS-DERECHO</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">83</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">88.93</ugr:tasaExito>
@@ -258,6 +280,7 @@
 
 <rdf:Description rdf:about="1516#21">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDIFICACION</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">61.01</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">77.25</ugr:tasaExito>
@@ -270,6 +293,7 @@
 
 <rdf:Description rdf:about="1516#22">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INFORMACION Y DOCUMENTACION</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">77.8</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">86.33</ugr:tasaExito>
@@ -282,6 +306,7 @@
 
 <rdf:Description rdf:about="1516#23">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN FINANZAS Y CONTABILIDAD</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">66.75</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">75.65</ugr:tasaExito>
@@ -294,6 +319,7 @@
 
 <rdf:Description rdf:about="1516#24">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">73.24</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">82.53</ugr:tasaExito>
@@ -306,6 +332,7 @@
 
 <rdf:Description rdf:about="1516#25">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN MARKETING E INVESTIGACION DE MERCADOS</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">74.7</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">81.58</ugr:tasaExito>
@@ -318,6 +345,7 @@
 
 <rdf:Description rdf:about="1516#26">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA CIVIL</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">57.24</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">71.55</ugr:tasaExito>
@@ -330,6 +358,7 @@
 
 <rdf:Description rdf:about="1516#27">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN TURISMO</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">81.59</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">88.1</ugr:tasaExito>
@@ -342,6 +371,7 @@
 
 <rdf:Description rdf:about="1516#28">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ECONOMIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">68.12</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">78.1</ugr:tasaExito>
@@ -354,6 +384,7 @@
 
 <rdf:Description rdf:about="1516#29">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN FISIOTERAPIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">93.88</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">98.08</ugr:tasaExito>
@@ -366,6 +397,7 @@
 
 <rdf:Description rdf:about="1516#30">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN DERECHO</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">69.09</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">79.92</ugr:tasaExito>
@@ -378,6 +410,7 @@
 
 <rdf:Description rdf:about="1516#31">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN TERAPIA OCUPACIONAL</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">91.72</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">94.28</ugr:tasaExito>
@@ -390,6 +423,7 @@
 
 <rdf:Description rdf:about="1516#32">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION SOCIAL</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">94.52</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">97.49</ugr:tasaExito>
@@ -402,6 +436,7 @@
 
 <rdf:Description rdf:about="1516#33">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CRIMINOLOGIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">89.95</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">93.94</ugr:tasaExito>
@@ -414,6 +449,7 @@
 
 <rdf:Description rdf:about="1516#34">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN TRABAJO SOCIAL</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">89.39</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">93.62</ugr:tasaExito>
@@ -426,6 +462,7 @@
 
 <rdf:Description rdf:about="1516#35">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN BIOTECNOLOGIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">88.5</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">93.85</ugr:tasaExito>
@@ -438,6 +475,7 @@
 
 <rdf:Description rdf:about="1516#36">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">85.07</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">91.75</ugr:tasaExito>
@@ -450,6 +488,7 @@
 
 <rdf:Description rdf:about="1516#37">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (BILINGÜE)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">93.93</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">97.03</ugr:tasaExito>
@@ -462,6 +501,7 @@
 
 <rdf:Description rdf:about="1516#38">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">91.7</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">94.68</ugr:tasaExito>
@@ -474,6 +514,7 @@
 
 <rdf:Description rdf:about="1516#39">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION INFANTIL</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">95.74</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">97.62</ugr:tasaExito>
@@ -486,6 +527,7 @@
 
 <rdf:Description rdf:about="1516#40">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">69.32</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">80.48</ugr:tasaExito>
@@ -498,6 +540,7 @@
 
 <rdf:Description rdf:about="1516#41">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN BELLAS ARTES</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">86.53</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">95.85</ugr:tasaExito>
@@ -510,6 +553,7 @@
 
 <rdf:Description rdf:about="1516#42">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN BIOQUIMICA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">93.29</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">95.48</ugr:tasaExito>
@@ -522,6 +566,7 @@
 
 <rdf:Description rdf:about="1516#43">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN FILOSOFIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">70.6</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">86.1</ugr:tasaExito>
@@ -534,6 +579,7 @@
 
 <rdf:Description rdf:about="1516#44">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN PSICOLOGIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">86.53</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">91.14</ugr:tasaExito>
@@ -546,6 +592,7 @@
 
 <rdf:Description rdf:about="1516#45">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CONSERVACION Y RESTAURACION DE BIENES CULTURAL</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">86.52</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">93.88</ugr:tasaExito>
@@ -558,6 +605,7 @@
 
 <rdf:Description rdf:about="1516#46">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ARQUEOLOGIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">73.43</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">84.5</ugr:tasaExito>
@@ -570,6 +618,7 @@
 
 <rdf:Description rdf:about="1516#47">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN FISICA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">57.74</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">75.09</ugr:tasaExito>
@@ -582,6 +631,7 @@
 
 <rdf:Description rdf:about="1516#48">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN GEOLOGIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">60.47</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">70.34</ugr:tasaExito>
@@ -594,6 +644,7 @@
 
 <rdf:Description rdf:about="1516#49">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN MATEMATICAS</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">63.9</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">75.83</ugr:tasaExito>
@@ -606,6 +657,7 @@
 
 <rdf:Description rdf:about="1516#50">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN LENGUAS MODERNAS Y SUS LITERATURAS</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">79.63</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">89.19</ugr:tasaExito>
@@ -618,6 +670,7 @@
 
 <rdf:Description rdf:about="1516#51">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN FILOLOGIA CLASICA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">60.84</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">75.43</ugr:tasaExito>
@@ -630,6 +683,7 @@
 
 <rdf:Description rdf:about="1516#52">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ESTUDIOS FRANCESES</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">71.53</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">79.13</ugr:tasaExito>
@@ -642,6 +696,7 @@
 
 <rdf:Description rdf:about="1516#53">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ESTUDIOS ARABES E ISLAMICOS</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">69.01</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">86.04</ugr:tasaExito>
@@ -654,6 +709,7 @@
 
 <rdf:Description rdf:about="1516#54">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN FILOLOGIA HISPANICA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">83.35</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">92.01</ugr:tasaExito>
@@ -666,6 +722,7 @@
 
 <rdf:Description rdf:about="1516#55">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ESTUDIOS INGLESES</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">73.71</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">81.89</ugr:tasaExito>
@@ -678,6 +735,7 @@
 
 <rdf:Description rdf:about="1516#56">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN LOGOPEDIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">91.74</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">94.62</ugr:tasaExito>
@@ -690,6 +748,7 @@
 
 <rdf:Description rdf:about="1516#57">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN OPTICA Y OPTOMETRIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">66.5</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">72.12</ugr:tasaExito>
@@ -702,6 +761,7 @@
 
 <rdf:Description rdf:about="1516#58">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN CIENCIAS DE LA ACTIVIDAD FISICA Y DEL DEPORTE</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">87.9</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">92.22</ugr:tasaExito>
@@ -714,6 +774,7 @@
 
 <rdf:Description rdf:about="1516#59">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN LITERATURAS COMPARADAS</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">73.48</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">87.79</ugr:tasaExito>
@@ -726,6 +787,7 @@
 
 <rdf:Description rdf:about="1516#60">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN QUIMICA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">64.43</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">77.69</ugr:tasaExito>
@@ -738,6 +800,7 @@
 
 <rdf:Description rdf:about="1516#61">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN HISTORIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">75.12</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">87.05</ugr:tasaExito>
@@ -750,6 +813,7 @@
 
 <rdf:Description rdf:about="1516#62">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN HISTORIA DEL ARTE</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">74.47</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">84.4</ugr:tasaExito>
@@ -762,6 +826,7 @@
 
 <rdf:Description rdf:about="1516#63">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ANTROPOLOGIA SOCIAL Y CULTURAL</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">79.54</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">90.89</ugr:tasaExito>
@@ -774,6 +839,7 @@
 
 <rdf:Description rdf:about="1516#64">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">57.76</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">72.42</ugr:tasaExito>
@@ -786,6 +852,7 @@
 
 <rdf:Description rdf:about="1516#65">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA Y MATEMATICAS</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">76.33</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">83.71</ugr:tasaExito>
@@ -798,6 +865,7 @@
 
 <rdf:Description rdf:about="1516#66">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN PEDAGOGIA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">92.24</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">96.08</ugr:tasaExito>
@@ -810,6 +878,7 @@
 
 <rdf:Description rdf:about="1516#67">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN HISTORIA Y CIENCIAS DE LA MUSICA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">76.22</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">87.12</ugr:tasaExito>
@@ -822,6 +891,7 @@
 
 <rdf:Description rdf:about="1516#68">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ENFERMERIA (CEUTA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">92.89</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">94.7</ugr:tasaExito>
@@ -834,6 +904,7 @@
 
 <rdf:Description rdf:about="1516#69">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION SOCIAL (CEUTA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">90.09</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">95.08</ugr:tasaExito>
@@ -846,6 +917,7 @@
 
 <rdf:Description rdf:about="1516#70">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS (CEUTA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">77.87</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">86.71</ugr:tasaExito>
@@ -858,6 +930,7 @@
 
 <rdf:Description rdf:about="1516#71">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (CEUTA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">79.91</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">88.69</ugr:tasaExito>
@@ -870,6 +943,7 @@
 
 <rdf:Description rdf:about="1516#72">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (CEUTA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">89.1</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">93.09</ugr:tasaExito>
@@ -882,6 +956,7 @@
 
 <rdf:Description rdf:about="1516#73">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA (CEUTA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">54.28</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">65.71</ugr:tasaExito>
@@ -894,6 +969,7 @@
 
 <rdf:Description rdf:about="1516#74">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ENFERMERIA (MELILLA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">88.66</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">90.84</ugr:tasaExito>
@@ -906,6 +982,7 @@
 
 <rdf:Description rdf:about="1516#75">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION SOCIAL (MELILLA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">85.86</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">92.74</ugr:tasaExito>
@@ -918,6 +995,7 @@
 
 <rdf:Description rdf:about="1516#76">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION EMPRESAS Y DCHO MELILLA</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">54.55</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">72.6</ugr:tasaExito>
@@ -930,6 +1008,7 @@
 
 <rdf:Description rdf:about="1516#77">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EN ADMINISTRACION Y DIRECCION DE EMPRESAS (MELILLA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">69.39</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">82.27</ugr:tasaExito>
@@ -942,6 +1021,7 @@
 
 <rdf:Description rdf:about="1516#78">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>DIPLOMATURA EN CIENCIAS EMPRESARIALES (MELILLA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">75.34</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">100</ugr:tasaExito>
@@ -954,6 +1034,7 @@
 
 <rdf:Description rdf:about="1516#79">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>DIPLOMATURA EN GESTION Y ADMINISTRACION PUBLICA (MELILLA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">100</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">100</ugr:tasaExito>
@@ -966,6 +1047,7 @@
 
 <rdf:Description rdf:about="1516#80">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN GESTION Y ADMINISTRACION PUBLICA (MELILLA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">72.71</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">85.27</ugr:tasaExito>
@@ -978,6 +1060,7 @@
 
 <rdf:Description rdf:about="1516#81">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (MELILLA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">74.67</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">81.6</ugr:tasaExito>
@@ -990,6 +1073,7 @@
 
 <rdf:Description rdf:about="1516#82">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (MELILLA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">83.06</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">90.27</ugr:tasaExito>
@@ -1002,6 +1086,7 @@
 
 <rdf:Description rdf:about="1516#83">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS (MEL.)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">74.86</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">87.25</ugr:tasaExito>
@@ -1014,6 +1099,7 @@
 
 <rdf:Description rdf:about="1516#84">
 	<rdf:type rdf:resource="#TasasAcademicasTitulacion" />
+	<dcterms:type>TasasAcademicasTitulacion</dcterms:type>
 	<ugr:titulacion>GRADO CC ACT FISICA Y ED.PRIMA (MELILLA)</ugr:titulacion>
 	<ugr:tasaRendimiento rdf:datatype="&xsd;decimal">79.94</ugr:tasaRendimiento>
 	<ugr:tasaExito rdf:datatype="&xsd;decimal">83.99</ugr:tasaExito>

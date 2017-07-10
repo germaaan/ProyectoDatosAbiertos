@@ -30,6 +30,7 @@ for tipo in origen:
             "\t<!ENTITY rdfs \"http://www.w3.org/2000/01/rdf-schema#\" >\n" +
             "\t<!ENTITY xsd \"http://www.w3.org/2001/XMLSchema#\" >\n" +
             "\t<!ENTITY owl \"http://www.w3.org/2002/07/owl#\" >\n" +
+            "\t<!ENTITY dcterms \"http://purl.org/dc/terms/\" >\n" +
             "\t<!ENTITY ugr \"http://cabas.ugr.es/ontology/ugr#\" >\n" +
             "]>\n\n" +
             "<rdf:RDF\n" +
@@ -38,6 +39,7 @@ for tipo in origen:
             "\txmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\"\n" +
             "\txmlns:xsd=\"http://www.w3.org/2001/XMLSchema#\"\n" +
             "\txmlns:owl=\"http://www.w3.org/2002/07/owl#\"\n" +
+            "\txmlns:dcterms=\"http://purl.org/dc/terms/\"\n" +
             "\txmlns:ugr=\"http://cabas.ugr.es/ontology/ugr#\">\n\n")
         ofile.close()
 
@@ -46,6 +48,7 @@ for tipo in origen:
                     if id > 0:
                         ofile.write("<rdf:Description rdf:about=\"" + x[0] + "#" + str(id) + "\">\n" +
                             "\t<rdf:type rdf:resource=\"#Origen" + tipo[0] + "\" />\n" +
+                            "\t<dcterms:type>Origen" + tipo[0] + "</dcterms:type>\n" +
                             "\t<ugr:" + tipo[1] + ">" + lines[0] + "</ugr:" + tipo[1] + ">\n" +
                             "\t<ugr:hombres rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[1] + "</ugr:hombres>\n" +
                             "\t<ugr:mujeres rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[2] + "</ugr:mujeres>\n" +

@@ -5,6 +5,7 @@
 	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
 	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
 	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY dcterms "http://purl.org/dc/terms/" >
 	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
 ]>
 
@@ -14,10 +15,12 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
 
 <rdf:Description rdf:about="1415#1">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER ERASMUS MUNDUS EN EL COLOR EN LA INFORMATICA Y LA TECNOLOGIA DE LOS MEDIOS / ERASMUS MUNDUS IN COLOR IN INFORMATICS AND MEDIA TECHNOLOGY (CIMET) (M14.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -27,6 +30,7 @@
 
 <rdf:Description rdf:about="1415#2">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER ERASMUS MUNDUS EN ESTUDIOS DE LAS MUJERES Y DE GENERO (M15.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFIA Y LETRAS</ugr:campus>
@@ -36,6 +40,7 @@
 
 <rdf:Description rdf:about="1415#3">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER ERASMUS MUNDUS EN EXCELENCIA EN SALUD PUBLICA / EUROPUBHEALTH (M18.56.2)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
@@ -45,6 +50,7 @@
 
 <rdf:Description rdf:about="1415#4">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ABOGACIA (M99.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE DERECHO</ugr:campus>
@@ -54,6 +60,7 @@
 
 <rdf:Description rdf:about="1415#5">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ANALISIS BIOLOGICO Y DIAGNOSTICO DE LABORATORIO (M41.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FARMACIA</ugr:campus>
@@ -63,6 +70,7 @@
 
 <rdf:Description rdf:about="1415#6">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ANTROPOLOGIA FISICA Y FORENSE (M34.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE MEDICINA</ugr:campus>
@@ -72,6 +80,7 @@
 
 <rdf:Description rdf:about="1415#7">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ARQUEOLOGIA (M71.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFIA Y LETRAS</ugr:campus>
@@ -81,6 +90,7 @@
 
 <rdf:Description rdf:about="1415#8">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ARTES VISUALES Y EDUCACION. UN ENFOQUE CONSTRUCCIONISTA (M06.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE BELLAS ARTES</ugr:campus>
@@ -90,6 +100,7 @@
 
 <rdf:Description rdf:about="1415#9">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ATENCION FARMACEUTICA EUROPHARMNES (M22.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FARMACIA</ugr:campus>
@@ -99,6 +110,7 @@
 
 <rdf:Description rdf:about="1415#10">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN AUDITORIA (M99.56.2)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE DERECHO</ugr:campus>
@@ -108,6 +120,7 @@
 
 <rdf:Description rdf:about="1415#11">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN AVANCES EN BIOLOGIA AGRARIA Y ACUICULTURA (M48.56.2)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -117,6 +130,7 @@
 
 <rdf:Description rdf:about="1415#12">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN AVANCES EN CALIDAD Y TECNOLOGIA ALIMENTARIA (M79.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FARMACIA</ugr:campus>
@@ -126,6 +140,7 @@
 
 <rdf:Description rdf:about="1415#13">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN AVANCES EN RADIOLOGIA DIAGNOSTICA Y TERAPEUTICA Y MEDICINA FISICA (M29.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE MEDICINA</ugr:campus>
@@ -135,6 +150,7 @@
 
 <rdf:Description rdf:about="1415#14">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN BIOLOGIA MOLECULAR APLICADA A EMPRESAS BIOTECNOLOGICAS (BIOENTERPRISE) (M78.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -144,6 +160,7 @@
 
 <rdf:Description rdf:about="1415#15">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN BIOMEDICINA REGENERATIVA (M31.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE MEDICINA</ugr:campus>
@@ -153,6 +170,7 @@
 
 <rdf:Description rdf:about="1415#16">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN BIOTECNOLOGIA (M38.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -162,6 +180,7 @@
 
 <rdf:Description rdf:about="1415#17">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN CIENCIA DE DATOS E INGENIERIA DE COMPUTADORES (M51.56.2)</ugr:titulacion>
 	<ugr:campus>E.T.S. DE INGENIERIAS INFORMATICA Y DE TELECOMUNICACION</ugr:campus>
@@ -171,6 +190,7 @@
 
 <rdf:Description rdf:about="1415#18">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN CIENCIA Y TECNOLOGIA EN PATRIMONIO ARQUITECTONICO (M80.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -180,6 +200,7 @@
 
 <rdf:Description rdf:about="1415#19">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN CIENCIAS Y TECNOLOGIAS QUIMICAS, KHEMIA (M43.56.2)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -189,6 +210,7 @@
 
 <rdf:Description rdf:about="1415#20">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN CONDICIONANTES GENETICOS, NUTRICIONALES Y AMBIENTALES DEL CRECIMIENTO Y DESARROLLO (M36.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE MEDICINA</ugr:campus>
@@ -198,6 +220,7 @@
 
 <rdf:Description rdf:about="1415#21">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN CONSERVACION, GESTION Y RESTAURACION DE LA BIODIVERSIDAD (M64.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -207,6 +230,7 @@
 
 <rdf:Description rdf:about="1415#22">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN COOPERACION AL DESARROLLO, GESTION PUBLICA Y DE LAS ONGDS (M25.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS POLITICAS Y SOCIOLOGIA</ugr:campus>
@@ -216,6 +240,7 @@
 
 <rdf:Description rdf:about="1415#23">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN CRIMINALIDAD E INTERVENCION SOCIAL EN MENORES (M04.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE DERECHO</ugr:campus>
@@ -225,6 +250,7 @@
 
 <rdf:Description rdf:about="1415#24">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN CUIDADOS DE SALUD PARA LA PROMOCION DE LA AUTONOMIA DE LAS PERSONAS Y LA ATENCION A LOS PROCESOS DEL FIN DE LA VIDA (M61.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DE LA SALUD</ugr:campus>
@@ -234,6 +260,7 @@
 
 <rdf:Description rdf:about="1415#25">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN CULTURA DE PAZ, CONFLICTOS, EDUCACION Y DERECHOS HUMANOS (M75.56.1)</ugr:titulacion>
 	<ugr:campus>INSTITUTO DE LA PAZ Y LOS CONFLICTOS DE LA UGR</ugr:campus>
@@ -243,6 +270,7 @@
 
 <rdf:Description rdf:about="1415#26">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DERECHO CONSTITUCIONAL EUROPEO (M03.56.1)</ugr:titulacion>
 	<ugr:campus>DERECHO CONSTITUCIONAL</ugr:campus>
@@ -252,6 +280,7 @@
 
 <rdf:Description rdf:about="1415#27">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DERECHO DE LOS NEGOCIOS (M83.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE DERECHO</ugr:campus>
@@ -261,6 +290,7 @@
 
 <rdf:Description rdf:about="1415#28">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DERECHO INTERNACIONAL Y RELACIONES INTERNACIONALES (M84.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE DERECHO</ugr:campus>
@@ -270,6 +300,7 @@
 
 <rdf:Description rdf:about="1415#29">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DERECHO SANITARIO, BIOETICA Y DERECHO A LA SALUD EN LA UNION EUROPEA (M85.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE DERECHO</ugr:campus>
@@ -279,6 +310,7 @@
 
 <rdf:Description rdf:about="1415#30">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DESARROLLO DEL SOFTWARE (M52.56.1)</ugr:titulacion>
 	<ugr:campus>E.T.S. DE INGENIERIAS INFORMATICA Y DE TELECOMUNICACION</ugr:campus>
@@ -288,6 +320,7 @@
 
 <rdf:Description rdf:about="1415#31">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DIBUJO - CREACION, PRODUCCION Y DIFUSION (M60.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE BELLAS ARTES</ugr:campus>
@@ -297,6 +330,7 @@
 
 <rdf:Description rdf:about="1415#32">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DIDACTICA DE LA MATEMATICA (M05.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DE LA EDUCACION</ugr:campus>
@@ -306,6 +340,7 @@
 
 <rdf:Description rdf:about="1415#33">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DIRECCION Y GESTION PUBLICA (M87.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS POLITICAS Y SOCIOLOGIA</ugr:campus>
@@ -315,6 +350,7 @@
 
 <rdf:Description rdf:about="1415#34">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DIVERSIDAD CULTURAL. UN ENFOQUE MULTIDISCIPLINAR Y TRANSFRONTERIZO (MA1.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE EDUCACION Y HUMANIDADES DE MELILLA</ugr:campus>
@@ -324,6 +360,7 @@
 
 <rdf:Description rdf:about="1415#35">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ECONOMIA Y ORGANIZACION DE EMPRESAS (M02.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
@@ -333,6 +370,7 @@
 
 <rdf:Description rdf:about="1415#36">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ECONOMIA / ECONOMICS (M56.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
@@ -342,6 +380,7 @@
 
 <rdf:Description rdf:about="1415#37">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN EDUCACION MUSICAL: UNA PERSPECTIVA MULTIDISCIPLINAR (M72.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE EDUCACION Y HUMANIDADES DE MELILLA</ugr:campus>
@@ -351,6 +390,7 @@
 
 <rdf:Description rdf:about="1415#38">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN EDUCACION SOCIAL: INVESTIGACION Y DESARROLLO PROFESIONAL (M88.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DE LA EDUCACION</ugr:campus>
@@ -360,6 +400,7 @@
 
 <rdf:Description rdf:about="1415#39">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN EDUCADOR / EDUCADORA AMBIENTAL (M54.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DE LA EDUCACION</ugr:campus>
@@ -369,6 +410,7 @@
 
 <rdf:Description rdf:about="1415#40">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ENSEÑANZA DEL ELE: CULTURA Y METODOLOGIA (M73.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFIA Y LETRAS</ugr:campus>
@@ -378,6 +420,7 @@
 
 <rdf:Description rdf:about="1415#41">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTADISTICA APLICADA (M42.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -387,6 +430,7 @@
 
 <rdf:Description rdf:about="1415#42">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTRUCTURAS (M63.56.1)</ugr:titulacion>
 	<ugr:campus>E.T.S. DE INGENIERIA DE CAMINOS, CANALES Y PUERTOS</ugr:campus>
@@ -396,6 +440,7 @@
 
 <rdf:Description rdf:about="1415#43">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS DE ASIA ORIENTAL (MA2.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFIA Y LETRAS</ugr:campus>
@@ -405,6 +450,7 @@
 
 <rdf:Description rdf:about="1415#44">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS E INTERVENCION SOCIAL EN INMIGRACION, DESARROLLO Y GRUPOS VULNERABLES (M09.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE DERECHO</ugr:campus>
@@ -414,6 +460,7 @@
 
 <rdf:Description rdf:about="1415#45">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS LATINOAMERICANOS: CULTURA Y GESTION (M20.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFIA Y LETRAS</ugr:campus>
@@ -423,6 +470,7 @@
 
 <rdf:Description rdf:about="1415#46">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS LITERARIOS Y TEATRALES (M90.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFIA Y LETRAS</ugr:campus>
@@ -432,6 +480,7 @@
 
 <rdf:Description rdf:about="1415#47">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS SUPERIORES DE LENGUA ESPAÑOLA (M70.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFIA Y LETRAS</ugr:campus>
@@ -441,6 +490,7 @@
 
 <rdf:Description rdf:about="1415#48">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN FILOSOFIA CONTEMPORANEA (M16.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFIA Y LETRAS</ugr:campus>
@@ -450,6 +500,7 @@
 
 <rdf:Description rdf:about="1415#49">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN FISICA: RADIACIONES, NANOTECNOLOGIA, PARTICULAS Y ASTROFISICA (M44.56.2)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -459,6 +510,7 @@
 
 <rdf:Description rdf:about="1415#50">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN FISICA Y MATEMATICAS (M53.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -468,6 +520,7 @@
 
 <rdf:Description rdf:about="1415#51">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN GENETICA Y EVOLUCION (M58.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -477,6 +530,7 @@
 
 <rdf:Description rdf:about="1415#52">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN GEOFISICA Y METEOROLOGIA (M40.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -486,6 +540,7 @@
 
 <rdf:Description rdf:about="1415#53">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN GEOLOGIA APLICADA A LOS RECURSOS MINERALES Y ENERGETICOS (M45.56.2)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -495,6 +550,7 @@
 
 <rdf:Description rdf:about="1415#54">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN GERONTOLOGIA, DEPENDENCIA Y PROTECCION DE LOS MAYORES (M65.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE PSICOLOGIA</ugr:campus>
@@ -504,6 +560,7 @@
 
 <rdf:Description rdf:about="1415#55">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN GESTION Y SEGURIDAD INTEGRAL EN LA EDIFICACION (M74.56.1)</ugr:titulacion>
 	<ugr:campus>E.T.S. DE INGENIERIA DE EDIFICACION / E.T.S. DE INGENIERIAS DE INFORMATICA Y DE TELECOMUNICACION</ugr:campus>
@@ -513,6 +570,7 @@
 
 <rdf:Description rdf:about="1415#56">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN GESTION Y TECNOLOGIAS DE PROCESOS DE NEGOCIO (M93.56.1)</ugr:titulacion>
 	<ugr:campus>E.T.S. DE INGENIERIAS INFORMATICA Y DE TELECOMUNICACION</ugr:campus>
@@ -522,6 +580,7 @@
 
 <rdf:Description rdf:about="1415#57">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN HIDRAULICA AMBIENTAL (M62.56.1)</ugr:titulacion>
 	<ugr:campus>E.T.S. DE INGENIERIA DE CAMINOS, CANALES Y PUERTOS</ugr:campus>
@@ -531,6 +590,7 @@
 
 <rdf:Description rdf:about="1415#58">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN HISTORIA: DE EUROPA A AMERICA. SOCIEDADES, PODERES, CULTURAS (EURAME) (MA3.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFIA Y LETRAS</ugr:campus>
@@ -540,6 +600,7 @@
 
 <rdf:Description rdf:about="1415#59">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN HISTORIA DEL ARTE. CONOCIMIENTO Y TUTELA DEL PATRIMONIO HISTORICO (M55.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFIA Y LETRAS</ugr:campus>
@@ -549,6 +610,7 @@
 
 <rdf:Description rdf:about="1415#60">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INFORMACION Y COMUNICACION CIENTIFICA (M12.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE COMUNICACION Y DOCUMENTACION</ugr:campus>
@@ -558,6 +620,7 @@
 
 <rdf:Description rdf:about="1415#61">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INGENIERIA ACUSTICA (MA8.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -567,6 +630,7 @@
 
 <rdf:Description rdf:about="1415#62">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INGENIERIA DE CAMINOS, CANALES Y PUERTOS (MA9.56.1)</ugr:titulacion>
 	<ugr:campus>E.T.S. DE INGENIERIA DE CAMINOS, CANALES Y PUERTOS</ugr:campus>
@@ -576,6 +640,7 @@
 
 <rdf:Description rdf:about="1415#63">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INGENIERIA DE TELECOMUNICACION (M92.56.1)</ugr:titulacion>
 	<ugr:campus>E.T.S. DE INGENIERIAS INFORMATICA Y DE TELECOMUNICACION</ugr:campus>
@@ -585,6 +650,7 @@
 
 <rdf:Description rdf:about="1415#64">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INGENIERIA INFORMATICA (M50.56.2)</ugr:titulacion>
 	<ugr:campus>E.T.S. DE INGENIERIAS INFORMATICA Y DE TELECOMUNICACION</ugr:campus>
@@ -594,6 +660,7 @@
 
 <rdf:Description rdf:about="1415#65">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INGENIERIA QUIMICA (M43.56.3)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -603,6 +670,7 @@
 
 <rdf:Description rdf:about="1415#66">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INGENIERIA TISULAR (M35.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE MEDICINA</ugr:campus>
@@ -612,6 +680,7 @@
 
 <rdf:Description rdf:about="1415#67">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INTERPRETACION DE CONFERENCIAS (MA5.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE TRADUCCION E INTERPRETACION</ugr:campus>
@@ -621,6 +690,7 @@
 
 <rdf:Description rdf:about="1415#68">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INTERVENCION PSICOPEDAGOGICA (M11.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DE LA EDUCACION</ugr:campus>
@@ -630,6 +700,7 @@
 
 <rdf:Description rdf:about="1415#69">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION, DESARROLLO, CONTROL E INNOVACION DE MEDICAMENTOS (M91.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FARMACIA</ugr:campus>
@@ -639,6 +710,7 @@
 
 <rdf:Description rdf:about="1415#70">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION E INNOVACION EN CURRICULUM Y FORMACION (M98.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DE LA EDUCACION</ugr:campus>
@@ -648,6 +720,7 @@
 
 <rdf:Description rdf:about="1415#71">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION EN ACTIVIDAD FISICA Y DEPORTE (M57.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS DEL DEPORTE</ugr:campus>
@@ -657,6 +730,7 @@
 
 <rdf:Description rdf:about="1415#72">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION ODONTOLOGICA (M39.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE ODONTOLOGIA</ugr:campus>
@@ -666,6 +740,7 @@
 
 <rdf:Description rdf:about="1415#73">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION Y AVANCES EN INMUNOLOGIA MOLECULAR Y CELULAR (M26.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE MEDICINA</ugr:campus>
@@ -675,6 +750,7 @@
 
 <rdf:Description rdf:about="1415#74">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION Y AVANCES EN MEDICINA PREVENTIVA Y SALUD PUBLICA (M24.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE MEDICINA</ugr:campus>
@@ -684,6 +760,7 @@
 
 <rdf:Description rdf:about="1415#75">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION Y AVANCES EN MICROBIOLOGIA (M46.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE MEDICINA</ugr:campus>
@@ -693,6 +770,7 @@
 
 <rdf:Description rdf:about="1415#76">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN LITERATURA Y LINGÜISTICA INGLESAS (M19.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFIA Y LETRAS</ugr:campus>
@@ -702,6 +780,7 @@
 
 <rdf:Description rdf:about="1415#77">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN LOGICA Y FILOSOFIA DE LA CIENCIA (MA7.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFIA Y LETRAS</ugr:campus>
@@ -711,6 +790,7 @@
 
 <rdf:Description rdf:about="1415#78">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN MARKETING Y COMPORTAMIENTO DEL CONSUMIDOR (M01.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
@@ -720,6 +800,7 @@
 
 <rdf:Description rdf:about="1415#79">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN MATEMATICAS (M37.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -729,6 +810,7 @@
 
 <rdf:Description rdf:about="1415#80">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN NEUROCIENCIA COGNITIVA Y DEL COMPORTAMIENTO (M30.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE PSICOLOGIA</ugr:campus>
@@ -738,6 +820,7 @@
 
 <rdf:Description rdf:about="1415#81">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN NEUROCIENCIA Y DOLOR (M27.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE MEDICINA</ugr:campus>
@@ -747,6 +830,7 @@
 
 <rdf:Description rdf:about="1415#82">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN NUTRICION HUMANA (M28.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FARMACIA</ugr:campus>
@@ -756,6 +840,7 @@
 
 <rdf:Description rdf:about="1415#83">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN OPTICA Y OPTOMETRIA AVANZADAS (M47.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS</ugr:campus>
@@ -765,6 +850,7 @@
 
 <rdf:Description rdf:about="1415#84">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN PATRIMONIO MUSICAL (M68.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE FILOSOFIA Y LETRAS</ugr:campus>
@@ -774,6 +860,7 @@
 
 <rdf:Description rdf:about="1415#85">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN PREVENCION DE RIESGOS LABORALES (M67.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE PSICOLOGIA</ugr:campus>
@@ -783,6 +870,7 @@
 
 <rdf:Description rdf:about="1415#86">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN PROBLEMAS SOCIALES. DIRECCION Y GESTION DE PROGRAMAS SOCIALES (M08.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS POLITICAS Y SOCIOLOGIA</ugr:campus>
@@ -792,6 +880,7 @@
 
 <rdf:Description rdf:about="1415#87">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN PRODUCCION E INVESTIGACION EN ARTE (M94.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE BELLAS ARTES</ugr:campus>
@@ -801,6 +890,7 @@
 
 <rdf:Description rdf:about="1415#88">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN PROFESORADO DE EDUCACION SECUNDARIA OBLIGATORIA Y BACHILLERATO, FORMACION PROFESIONAL Y ENSEÑANZA DE IDIOMAS (S01 A S45.56.1)</ugr:titulacion>
 	<ugr:campus>ESCUELA INTERNACIONAL DE POSGRADO</ugr:campus>
@@ -810,6 +900,7 @@
 
 <rdf:Description rdf:about="1415#89">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN PSICOLOGIA DE LA INTERVENCION SOCIAL (M10.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE PSICOLOGIA</ugr:campus>
@@ -819,6 +910,7 @@
 
 <rdf:Description rdf:about="1415#90">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN PSICOLOGIA GENERAL SANITARIA (M33.56.2)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE PSICOLOGIA</ugr:campus>
@@ -828,6 +920,7 @@
 
 <rdf:Description rdf:about="1415#91">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN REHABILITACION ARQUITECTONICA (M97.56.2)</ugr:titulacion>
 	<ugr:campus>E.T.S. DE INGENIERIA DE EDIFICACION</ugr:campus>
@@ -837,6 +930,7 @@
 
 <rdf:Description rdf:about="1415#92">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN TECNICAS CUANTITATIVAS EN GESTION EMPRESARIAL (MA4.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:campus>
@@ -846,6 +940,7 @@
 
 <rdf:Description rdf:about="1415#93">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN TECNICAS Y CIENCIAS DE LA CALIDAD DEL AGUA (IDEA) (M96.56.1)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE CIENCIAS / E.T.S. DE INGENIERIA DE CAMINOS, CANALES Y PUERTOS</ugr:campus>
@@ -855,6 +950,7 @@
 
 <rdf:Description rdf:about="1415#94">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
+	<dcterms:type>OfertaTitulacionMaster</dcterms:type>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN TRADUCCION PROFESIONAL (M21.56.2)</ugr:titulacion>
 	<ugr:campus>FACULTAD DE TRADUCCION E INTERPRETACION</ugr:campus>

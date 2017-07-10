@@ -1,3 +1,18 @@
 \chapter{Resultados}
 
+Antes de pasar a las pruebas, debemos comprobar que tanto la ontología como nuestros recursos se han cargado correctamente, ya que en caso contrario no podremos hacer nada. Para hacer esto, vamos ejecutar una consulta que nos devuelta todos los triples "{\bf sujeto - predicado - objeto}".
+
+\begin{listing}[!ht]
+\begin{minted}[tabsize=2,breaklines]{sparql}
+SELECT DISTINCT *
+WHERE
+	{
+	?s ?p ?o
+	}
+\end{minted}
+\caption{Obtiene todos los triples en el sistema}
+\end{listing}
+
 \section{Consultas SPARQL}
+
+Vamos a empezar a realizar consultas simples e ir subiendo el nivel de complejidad.

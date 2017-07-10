@@ -5,6 +5,7 @@
 	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
 	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
 	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY dcterms "http://purl.org/dc/terms/" >
 	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
 ]>
 
@@ -14,10 +15,12 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
 
 <rdf:Description rdf:about="1415#1">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>CONVOCATORIA ORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>PRESENTADOS FASE GENERAL</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2181</ugr:hombres>
@@ -27,6 +30,7 @@
 
 <rdf:Description rdf:about="1415#2">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>CONVOCATORIA ORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>APTOS FASE GENERAL</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2039</ugr:hombres>
@@ -36,6 +40,7 @@
 
 <rdf:Description rdf:about="1415#3">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>CONVOCATORIA ORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>NO APTOS FASE GENERAL</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">142</ugr:hombres>
@@ -45,6 +50,7 @@
 
 <rdf:Description rdf:about="1415#4">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>CONVOCATORIA ORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>MATRICULADOS FASE ESPECIFICA</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2441</ugr:hombres>
@@ -54,6 +60,7 @@
 
 <rdf:Description rdf:about="1415#5">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>CONVOCATORIA EXTRAORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>PRESENTADOS FASE GENERAL</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">554</ugr:hombres>
@@ -63,6 +70,7 @@
 
 <rdf:Description rdf:about="1415#6">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>CONVOCATORIA EXTRAORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>APTOS FASE GENERAL</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">448</ugr:hombres>
@@ -72,6 +80,7 @@
 
 <rdf:Description rdf:about="1415#7">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>CONVOCATORIA EXTRAORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>NO APTOS FASE GENERAL</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">106</ugr:hombres>
@@ -81,6 +90,7 @@
 
 <rdf:Description rdf:about="1415#8">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>CONVOCATORIA EXTRAORDINARIA: PRUEBA DE ACCESO A LA UNIVERSIDAD PARA ESTUDIANTES PROVENIENTES DE BACHILLERATO Y DE CICLOS FORMATIVOS DE GRADO SUPERIOR</ugr:tipoProcedimiento>
 	<ugr:estado>PRESENTADOS FASE ESPECIFICA</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">601</ugr:hombres>
@@ -90,6 +100,7 @@
 
 <rdf:Description rdf:about="1415#9">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 25 AÑOS</ugr:tipoProcedimiento>
 	<ugr:estado>NO PRESENTADOS</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">13</ugr:hombres>
@@ -99,6 +110,7 @@
 
 <rdf:Description rdf:about="1415#10">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 25 AÑOS</ugr:tipoProcedimiento>
 	<ugr:estado>APTOS</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">104</ugr:hombres>
@@ -108,6 +120,7 @@
 
 <rdf:Description rdf:about="1415#11">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 25 AÑOS</ugr:tipoProcedimiento>
 	<ugr:estado>NO APTOS</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">71</ugr:hombres>
@@ -117,6 +130,7 @@
 
 <rdf:Description rdf:about="1415#12">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>PROCEDIMIENTO DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 40 AÑOS CON EXPERIENCIA LABORAL O PROFESIONAL</ugr:tipoProcedimiento>
 	<ugr:estado>EXCLUIDOS</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
@@ -126,6 +140,7 @@
 
 <rdf:Description rdf:about="1415#13">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>PROCEDIMIENTO DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 40 AÑOS CON EXPERIENCIA LABORAL O PROFESIONAL</ugr:tipoProcedimiento>
 	<ugr:estado>APTOS </ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:hombres>
@@ -135,6 +150,7 @@
 
 <rdf:Description rdf:about="1415#14">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>PROCEDIMIENTO DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 40 AÑOS CON EXPERIENCIA LABORAL O PROFESIONAL</ugr:tipoProcedimiento>
 	<ugr:estado>NO APTOS</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
@@ -144,6 +160,7 @@
 
 <rdf:Description rdf:about="1415#15">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 45 AÑOS</ugr:tipoProcedimiento>
 	<ugr:estado>NO PRESENTADOS</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
@@ -153,6 +170,7 @@
 
 <rdf:Description rdf:about="1415#16">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 45 AÑOS</ugr:tipoProcedimiento>
 	<ugr:estado>APTOS</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
@@ -162,6 +180,7 @@
 
 <rdf:Description rdf:about="1415#17">
 	<rdf:type rdf:resource="#DemandaAcademicaAcceso" />
+	<dcterms:type>DemandaAcademicaAcceso</dcterms:type>
 	<ugr:tipoProcedimiento>PRUEBA DE ACCESO A LA UNIVERSIDAD PARA MAYORES DE 45 AÑOS</ugr:tipoProcedimiento>
 	<ugr:estado>NO APTOS</ugr:estado>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>

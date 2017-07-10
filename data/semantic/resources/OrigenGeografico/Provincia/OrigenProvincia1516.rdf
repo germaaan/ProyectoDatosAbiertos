@@ -5,6 +5,7 @@
 	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
 	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
 	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY dcterms "http://purl.org/dc/terms/" >
 	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
 ]>
 
@@ -14,10 +15,12 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
 	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
 
 <rdf:Description rdf:about="1516#1">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>AVILA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:mujeres>
@@ -26,6 +29,7 @@
 
 <rdf:Description rdf:about="1516#2">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>A CORUÑA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">27</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">49</ugr:mujeres>
@@ -34,6 +38,7 @@
 
 <rdf:Description rdf:about="1516#3">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>ALBACETE</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">61</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">93</ugr:mujeres>
@@ -42,6 +47,7 @@
 
 <rdf:Description rdf:about="1516#4">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>ALICANTE</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">122</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">208</ugr:mujeres>
@@ -50,6 +56,7 @@
 
 <rdf:Description rdf:about="1516#5">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>ALMERIA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1081</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1585</ugr:mujeres>
@@ -58,6 +65,7 @@
 
 <rdf:Description rdf:about="1516#6">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>ARABA/ALAVA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">20</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">29</ugr:mujeres>
@@ -66,6 +74,7 @@
 
 <rdf:Description rdf:about="1516#7">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>ASTURIAS</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:mujeres>
@@ -74,6 +83,7 @@
 
 <rdf:Description rdf:about="1516#8">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>BADAJOZ</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">124</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">196</ugr:mujeres>
@@ -82,6 +92,7 @@
 
 <rdf:Description rdf:about="1516#9">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>BARCELONA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">180</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">271</ugr:mujeres>
@@ -90,6 +101,7 @@
 
 <rdf:Description rdf:about="1516#10">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>BIZKAIA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">34</ugr:mujeres>
@@ -98,6 +110,7 @@
 
 <rdf:Description rdf:about="1516#11">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>BURGOS</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">14</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
@@ -106,6 +119,7 @@
 
 <rdf:Description rdf:about="1516#12">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>CANTABRIA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:mujeres>
@@ -114,6 +128,7 @@
 
 <rdf:Description rdf:about="1516#13">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>CASTELLON</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">20</ugr:mujeres>
@@ -122,6 +137,7 @@
 
 <rdf:Description rdf:about="1516#14">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>CEUTA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">342</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">519</ugr:mujeres>
@@ -130,6 +146,7 @@
 
 <rdf:Description rdf:about="1516#15">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>CIUDAD REAL</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">205</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">350</ugr:mujeres>
@@ -138,6 +155,7 @@
 
 <rdf:Description rdf:about="1516#16">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>CUENCA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">22</ugr:mujeres>
@@ -146,6 +164,7 @@
 
 <rdf:Description rdf:about="1516#17">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>CACERES</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">46</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">54</ugr:mujeres>
@@ -154,6 +173,7 @@
 
 <rdf:Description rdf:about="1516#18">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>CADIZ</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">793</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1118</ugr:mujeres>
@@ -162,6 +182,7 @@
 
 <rdf:Description rdf:about="1516#19">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>CORDOBA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">865</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1223</ugr:mujeres>
@@ -170,6 +191,7 @@
 
 <rdf:Description rdf:about="1516#20">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>GIPUZKOA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:mujeres>
@@ -178,6 +200,7 @@
 
 <rdf:Description rdf:about="1516#21">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>GIRONA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">37</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">59</ugr:mujeres>
@@ -186,6 +209,7 @@
 
 <rdf:Description rdf:about="1516#22">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>GRANADA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">9946</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12495</ugr:mujeres>
@@ -194,6 +218,7 @@
 
 <rdf:Description rdf:about="1516#23">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>GUADALAJARA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:mujeres>
@@ -202,6 +227,7 @@
 
 <rdf:Description rdf:about="1516#24">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>HUELVA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">151</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">179</ugr:mujeres>
@@ -210,6 +236,7 @@
 
 <rdf:Description rdf:about="1516#25">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>HUESCA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:mujeres>
@@ -218,6 +245,7 @@
 
 <rdf:Description rdf:about="1516#26">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>ILLES BALEARS</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">111</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">221</ugr:mujeres>
@@ -226,6 +254,7 @@
 
 <rdf:Description rdf:about="1516#27">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>JAEN</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1578</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2183</ugr:mujeres>
@@ -234,6 +263,7 @@
 
 <rdf:Description rdf:about="1516#28">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>LA RIOJA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
@@ -242,6 +272,7 @@
 
 <rdf:Description rdf:about="1516#29">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>LAS PALMAS</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">142</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">235</ugr:mujeres>
@@ -250,6 +281,7 @@
 
 <rdf:Description rdf:about="1516#30">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>LEON</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">17</ugr:mujeres>
@@ -258,6 +290,7 @@
 
 <rdf:Description rdf:about="1516#31">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>LLEIDA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:mujeres>
@@ -266,6 +299,7 @@
 
 <rdf:Description rdf:about="1516#32">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>LUGO</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mujeres>
@@ -274,6 +308,7 @@
 
 <rdf:Description rdf:about="1516#33">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>MADRID</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">165</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">267</ugr:mujeres>
@@ -282,6 +317,7 @@
 
 <rdf:Description rdf:about="1516#34">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>MELILLA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">384</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">636</ugr:mujeres>
@@ -290,6 +326,7 @@
 
 <rdf:Description rdf:about="1516#35">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>MURCIA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">244</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">356</ugr:mujeres>
@@ -298,6 +335,7 @@
 
 <rdf:Description rdf:about="1516#36">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>MALAGA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1246</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1534</ugr:mujeres>
@@ -306,6 +344,7 @@
 
 <rdf:Description rdf:about="1516#37">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>NAVARRA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">38</ugr:mujeres>
@@ -314,6 +353,7 @@
 
 <rdf:Description rdf:about="1516#38">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>OURENSE</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mujeres>
@@ -322,6 +362,7 @@
 
 <rdf:Description rdf:about="1516#39">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>PALENCIA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:mujeres>
@@ -330,6 +371,7 @@
 
 <rdf:Description rdf:about="1516#40">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>PONTEVEDRA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:mujeres>
@@ -338,6 +380,7 @@
 
 <rdf:Description rdf:about="1516#41">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>SALAMANCA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">21</ugr:mujeres>
@@ -346,6 +389,7 @@
 
 <rdf:Description rdf:about="1516#42">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>SANTA CRUZ DE TENERIFE</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">71</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">120</ugr:mujeres>
@@ -354,6 +398,7 @@
 
 <rdf:Description rdf:about="1516#43">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>SEGOVIA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:mujeres>
@@ -362,6 +407,7 @@
 
 <rdf:Description rdf:about="1516#44">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>SEVILLA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">253</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">429</ugr:mujeres>
@@ -370,6 +416,7 @@
 
 <rdf:Description rdf:about="1516#45">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>SORIA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:mujeres>
@@ -378,6 +425,7 @@
 
 <rdf:Description rdf:about="1516#46">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>TARRAGONA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">14</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">27</ugr:mujeres>
@@ -386,6 +434,7 @@
 
 <rdf:Description rdf:about="1516#47">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>TERUEL</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">14</ugr:mujeres>
@@ -394,6 +443,7 @@
 
 <rdf:Description rdf:about="1516#48">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>TOLEDO</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">26</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">51</ugr:mujeres>
@@ -402,6 +452,7 @@
 
 <rdf:Description rdf:about="1516#49">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>VALENCIA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">38</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">77</ugr:mujeres>
@@ -410,6 +461,7 @@
 
 <rdf:Description rdf:about="1516#50">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>VALLADOLID</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">18</ugr:mujeres>
@@ -418,6 +470,7 @@
 
 <rdf:Description rdf:about="1516#51">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>ZAMORA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:mujeres>
@@ -426,6 +479,7 @@
 
 <rdf:Description rdf:about="1516#52">
 	<rdf:type rdf:resource="#OrigenProvincia" />
+	<dcterms:type>OrigenProvincia</dcterms:type>
 	<ugr:provincia>ZARAGOZA</ugr:provincia>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">24</ugr:hombres>
 	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">33</ugr:mujeres>
