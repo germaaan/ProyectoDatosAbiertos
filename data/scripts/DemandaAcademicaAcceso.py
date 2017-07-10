@@ -41,7 +41,7 @@ for x in files:
     with open("../semantic/resources/DemandaAcademica/Acceso/DemandaAcademicaAcceso" + x[0] + ".rdf", "a") as ofile:
             for lines in data:
                 if id > 0:
-                    ofile.write("<rdf:Description rdf:about=\"DemandaAcademicaAcceso/" + x[0] + "#" + str(id) + "\">\n" +
+                    ofile.write("<rdf:Description rdf:about=\"/" + x[0] + "#" + str(id) + "\">\n" +
                         "\t<rdf:type rdf:resource=\"#DemandaAcademicaAcceso\" />\n" +
                         "\t<ugr:tipoProcedimiento>" + lines[0] + "</ugr:tipoProcedimiento>\n" +
                         "\t<ugr:estado>" + lines[1] + "</ugr:estado>\n" +

@@ -16,7 +16,7 @@
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#1">
+<rdf:Description rdf:about="/1213#1">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>PRIMER Y SEGUNDO CICLO</ugr:planEstudios>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
@@ -26,7 +26,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#2">
+<rdf:Description rdf:about="/1213#2">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>PRIMER Y SEGUNDO CICLO</ugr:planEstudios>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
@@ -36,7 +36,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#3">
+<rdf:Description rdf:about="/1213#3">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>PRIMER Y SEGUNDO CICLO</ugr:planEstudios>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
@@ -46,7 +46,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#4">
+<rdf:Description rdf:about="/1213#4">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>PRIMER Y SEGUNDO CICLO</ugr:planEstudios>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
@@ -56,7 +56,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#5">
+<rdf:Description rdf:about="/1213#5">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>PRIMER Y SEGUNDO CICLO</ugr:planEstudios>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
@@ -66,7 +66,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#6">
+<rdf:Description rdf:about="/1213#6">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>GRADO</ugr:planEstudios>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
@@ -76,7 +76,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#7">
+<rdf:Description rdf:about="/1213#7">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>GRADO</ugr:planEstudios>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
@@ -86,7 +86,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#8">
+<rdf:Description rdf:about="/1213#8">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>GRADO</ugr:planEstudios>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
@@ -96,7 +96,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#9">
+<rdf:Description rdf:about="/1213#9">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>GRADO</ugr:planEstudios>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
@@ -106,7 +106,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#10">
+<rdf:Description rdf:about="/1213#10">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>GRADO</ugr:planEstudios>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
@@ -116,7 +116,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#11">
+<rdf:Description rdf:about="/1213#11">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>MASTER</ugr:planEstudios>
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
@@ -126,7 +126,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#12">
+<rdf:Description rdf:about="/1213#12">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>MASTER</ugr:planEstudios>
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
@@ -136,7 +136,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#13">
+<rdf:Description rdf:about="/1213#13">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>MASTER</ugr:planEstudios>
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
@@ -146,7 +146,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#14">
+<rdf:Description rdf:about="/1213#14">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>MASTER</ugr:planEstudios>
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
@@ -156,7 +156,7 @@
 	<ugr:curso>2012/2013</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="NumMedioCreditos/1213#15">
+<rdf:Description rdf:about="/1213#15">
 	<rdf:type rdf:resource="#NumMedioCreditos" />
 	<ugr:planEstudios>MASTER</ugr:planEstudios>
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>

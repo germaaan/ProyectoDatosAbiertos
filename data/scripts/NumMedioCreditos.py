@@ -42,7 +42,7 @@ for x in files:
     with open("../semantic/resources/NumMedioCreditos/NumMedioCreditos" + x[0] + ".rdf", "a") as ofile:
             for lines in data:
                 if id > 0:
-                    ofile.write("<rdf:Description rdf:about=\"NumMedioCreditos/" + x[0] + "#" + str(id) + "\">\n" +
+                    ofile.write("<rdf:Description rdf:about=\"/" + x[0] + "#" + str(id) + "\">\n" +
                         "\t<rdf:type rdf:resource=\"#NumMedioCreditos\" />\n" +
                         "\t<ugr:planEstudios>" + lines[0] + "</ugr:planEstudios>\n" +
                         "\t<ugr:ramaConocimiento>" + lines[1] + "</ugr:ramaConocimiento>\n" +
