@@ -16,7 +16,7 @@
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
 
-<rdf:Description rdf:about="Pais/1314#1">
+<rdf:Description rdf:about="1314#1">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>ALBANIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:hombres>
@@ -24,7 +24,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#2">
+<rdf:Description rdf:about="1314#2">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>ALEMANIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">385</ugr:hombres>
@@ -32,7 +32,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#3">
+<rdf:Description rdf:about="1314#3">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>ANDORRA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:hombres>
@@ -40,7 +40,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#4">
+<rdf:Description rdf:about="1314#4">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>ANGOLA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
@@ -48,7 +48,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#5">
+<rdf:Description rdf:about="1314#5">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>ARGELIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
@@ -56,7 +56,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#6">
+<rdf:Description rdf:about="1314#6">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>ARGENTINA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">95</ugr:hombres>
@@ -64,7 +64,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#7">
+<rdf:Description rdf:about="1314#7">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>ARMENIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:hombres>
@@ -72,7 +72,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#8">
+<rdf:Description rdf:about="1314#8">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>AUSTRALIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:hombres>
@@ -80,7 +80,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#9">
+<rdf:Description rdf:about="1314#9">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>AUSTRIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">31</ugr:hombres>
@@ -88,7 +88,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#10">
+<rdf:Description rdf:about="1314#10">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>BARBADOS</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -96,7 +96,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#11">
+<rdf:Description rdf:about="1314#11">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>BILGICA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">69</ugr:hombres>
@@ -104,7 +104,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#12">
+<rdf:Description rdf:about="1314#12">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>BIELORUSIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
@@ -112,7 +112,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#13">
+<rdf:Description rdf:about="1314#13">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>BOLIVIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:hombres>
@@ -120,7 +120,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#14">
+<rdf:Description rdf:about="1314#14">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>BOSNIA Y HERZEGOVINA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
@@ -128,7 +128,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#15">
+<rdf:Description rdf:about="1314#15">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>BRASIL</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">59</ugr:hombres>
@@ -136,7 +136,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#16">
+<rdf:Description rdf:about="1314#16">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>BULGARIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">21</ugr:hombres>
@@ -144,7 +144,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#17">
+<rdf:Description rdf:about="1314#17">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>CABO VERDE</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -152,7 +152,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#18">
+<rdf:Description rdf:about="1314#18">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>CANADI</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">20</ugr:hombres>
@@ -160,7 +160,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#19">
+<rdf:Description rdf:about="1314#19">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>CHECOSLOVAQUIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
@@ -168,7 +168,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#20">
+<rdf:Description rdf:about="1314#20">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>CHILE</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">48</ugr:hombres>
@@ -176,7 +176,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#21">
+<rdf:Description rdf:about="1314#21">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>CHINA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
@@ -184,7 +184,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#22">
+<rdf:Description rdf:about="1314#22">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>CHIPRE</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:hombres>
@@ -192,7 +192,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#23">
+<rdf:Description rdf:about="1314#23">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>COLOMBIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">55</ugr:hombres>
@@ -200,7 +200,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#24">
+<rdf:Description rdf:about="1314#24">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>CONGO</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -208,7 +208,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#25">
+<rdf:Description rdf:about="1314#25">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>COREA DEL SUR</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">8</ugr:hombres>
@@ -216,7 +216,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#26">
+<rdf:Description rdf:about="1314#26">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>COSTA DE MARFIL</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
@@ -224,7 +224,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#27">
+<rdf:Description rdf:about="1314#27">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>COSTA RICA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
@@ -232,7 +232,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#28">
+<rdf:Description rdf:about="1314#28">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>CROACIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -240,7 +240,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#29">
+<rdf:Description rdf:about="1314#29">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>CUBA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">11</ugr:hombres>
@@ -248,7 +248,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#30">
+<rdf:Description rdf:about="1314#30">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>DINAMARCA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:hombres>
@@ -256,7 +256,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#31">
+<rdf:Description rdf:about="1314#31">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>DOMINICA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -264,7 +264,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#32">
+<rdf:Description rdf:about="1314#32">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>ECUADOR</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">33</ugr:hombres>
@@ -272,7 +272,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#33">
+<rdf:Description rdf:about="1314#33">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>EE. UU. DE AMERICA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">168</ugr:hombres>
@@ -280,7 +280,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#34">
+<rdf:Description rdf:about="1314#34">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>EGIPTO</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -288,7 +288,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#35">
+<rdf:Description rdf:about="1314#35">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>EL SALVADOR</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
@@ -296,7 +296,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#36">
+<rdf:Description rdf:about="1314#36">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>ESLOVAQUIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">21</ugr:hombres>
@@ -304,7 +304,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#37">
+<rdf:Description rdf:about="1314#37">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>ESLOVENIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
@@ -312,7 +312,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#38">
+<rdf:Description rdf:about="1314#38">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>ESTONIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
@@ -320,7 +320,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#39">
+<rdf:Description rdf:about="1314#39">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>ETIOPIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -328,7 +328,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#40">
+<rdf:Description rdf:about="1314#40">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>FILIPINAS</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
@@ -336,7 +336,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#41">
+<rdf:Description rdf:about="1314#41">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>FINLANDIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">26</ugr:hombres>
@@ -344,7 +344,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#42">
+<rdf:Description rdf:about="1314#42">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>FRANCIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">246</ugr:hombres>
@@ -352,7 +352,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#43">
+<rdf:Description rdf:about="1314#43">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>GEORGIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
@@ -360,7 +360,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#44">
+<rdf:Description rdf:about="1314#44">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>GHANA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
@@ -368,7 +368,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#45">
+<rdf:Description rdf:about="1314#45">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>GIBRALTAR</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
@@ -376,7 +376,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#46">
+<rdf:Description rdf:about="1314#46">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>GRECIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">41</ugr:hombres>
@@ -384,7 +384,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#47">
+<rdf:Description rdf:about="1314#47">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>GUATEMALA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -392,7 +392,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#48">
+<rdf:Description rdf:about="1314#48">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>GUINEA BISSAU</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -400,7 +400,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#49">
+<rdf:Description rdf:about="1314#49">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>GUINEA ECUATORIAL</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:hombres>
@@ -408,7 +408,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#50">
+<rdf:Description rdf:about="1314#50">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>GUYANA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -416,7 +416,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#51">
+<rdf:Description rdf:about="1314#51">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>HAITI</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -424,7 +424,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#52">
+<rdf:Description rdf:about="1314#52">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>HOLANDA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">46</ugr:hombres>
@@ -432,7 +432,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#53">
+<rdf:Description rdf:about="1314#53">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>HONDURAS</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
@@ -440,7 +440,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#54">
+<rdf:Description rdf:about="1314#54">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>HUNGRIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:hombres>
@@ -448,7 +448,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#55">
+<rdf:Description rdf:about="1314#55">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>INDIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
@@ -456,7 +456,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#56">
+<rdf:Description rdf:about="1314#56">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>INDONESIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
@@ -464,7 +464,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#57">
+<rdf:Description rdf:about="1314#57">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>IRAK</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
@@ -472,7 +472,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#58">
+<rdf:Description rdf:about="1314#58">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>IRLANDA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">20</ugr:hombres>
@@ -480,7 +480,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#59">
+<rdf:Description rdf:about="1314#59">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>ISRAEL</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:hombres>
@@ -488,7 +488,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#60">
+<rdf:Description rdf:about="1314#60">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>ITALIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">442</ugr:hombres>
@@ -496,7 +496,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#61">
+<rdf:Description rdf:about="1314#61">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>JAPIN</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
@@ -504,7 +504,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#62">
+<rdf:Description rdf:about="1314#62">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>JORDANIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
@@ -512,7 +512,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#63">
+<rdf:Description rdf:about="1314#63">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>KAZAJISTIN</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -520,7 +520,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#64">
+<rdf:Description rdf:about="1314#64">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>KENIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
@@ -528,7 +528,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#65">
+<rdf:Description rdf:about="1314#65">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>KIRGUISTIN</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:hombres>
@@ -536,7 +536,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#66">
+<rdf:Description rdf:about="1314#66">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>KUWAIT</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -544,7 +544,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#67">
+<rdf:Description rdf:about="1314#67">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>LETONIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">10</ugr:hombres>
@@ -552,7 +552,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#68">
+<rdf:Description rdf:about="1314#68">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>LIBANO</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
@@ -560,7 +560,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#69">
+<rdf:Description rdf:about="1314#69">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>LITUANIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
@@ -568,7 +568,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#70">
+<rdf:Description rdf:about="1314#70">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>LUXEMBURGO</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
@@ -576,7 +576,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#71">
+<rdf:Description rdf:about="1314#71">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>MACAO</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
@@ -584,7 +584,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#72">
+<rdf:Description rdf:about="1314#72">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>MARRUECOS</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">309</ugr:hombres>
@@ -592,7 +592,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#73">
+<rdf:Description rdf:about="1314#73">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>MIXICO</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">136</ugr:hombres>
@@ -600,7 +600,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#74">
+<rdf:Description rdf:about="1314#74">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>MOLDAVIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">5</ugr:hombres>
@@ -608,7 +608,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#75">
+<rdf:Description rdf:about="1314#75">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>MINACO</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -616,7 +616,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#76">
+<rdf:Description rdf:about="1314#76">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>MOZAMBIQUE</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
@@ -624,7 +624,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#77">
+<rdf:Description rdf:about="1314#77">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>NICARAGUA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
@@ -632,7 +632,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#78">
+<rdf:Description rdf:about="1314#78">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>NIGERIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -640,7 +640,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#79">
+<rdf:Description rdf:about="1314#79">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>NORUEGA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:hombres>
@@ -648,7 +648,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#80">
+<rdf:Description rdf:about="1314#80">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>NUEVA ZELANDA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -656,7 +656,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#81">
+<rdf:Description rdf:about="1314#81">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>PAKISTIN</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
@@ -664,7 +664,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#82">
+<rdf:Description rdf:about="1314#82">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>PALESTINA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -672,7 +672,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#83">
+<rdf:Description rdf:about="1314#83">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>PARAGUAY</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
@@ -680,7 +680,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#84">
+<rdf:Description rdf:about="1314#84">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>PERI</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">29</ugr:hombres>
@@ -688,7 +688,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#85">
+<rdf:Description rdf:about="1314#85">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>POLONIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">101</ugr:hombres>
@@ -696,7 +696,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#86">
+<rdf:Description rdf:about="1314#86">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>PORTUGAL</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">43</ugr:hombres>
@@ -704,7 +704,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#87">
+<rdf:Description rdf:about="1314#87">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>PUERTO RICO</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">15</ugr:hombres>
@@ -712,7 +712,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#88">
+<rdf:Description rdf:about="1314#88">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>REINO UNIDO</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">163</ugr:hombres>
@@ -720,7 +720,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#89">
+<rdf:Description rdf:about="1314#89">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>REPUBLICA DOMINICANA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">2</ugr:hombres>
@@ -728,7 +728,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#90">
+<rdf:Description rdf:about="1314#90">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>REPUBLICA MALGACHE</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -736,7 +736,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#91">
+<rdf:Description rdf:about="1314#91">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>REPUBLICA SUDAFRICANA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
@@ -744,7 +744,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#92">
+<rdf:Description rdf:about="1314#92">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>REPIBLICA CHECA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">36</ugr:hombres>
@@ -752,7 +752,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#93">
+<rdf:Description rdf:about="1314#93">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>RUMANIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">34</ugr:hombres>
@@ -760,7 +760,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#94">
+<rdf:Description rdf:about="1314#94">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>RUSIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -768,7 +768,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#95">
+<rdf:Description rdf:about="1314#95">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>UNION SOVIETICA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">33</ugr:hombres>
@@ -776,7 +776,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#96">
+<rdf:Description rdf:about="1314#96">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>SAHARA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
@@ -784,7 +784,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#97">
+<rdf:Description rdf:about="1314#97">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>SENEGAL</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">4</ugr:hombres>
@@ -792,7 +792,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#98">
+<rdf:Description rdf:about="1314#98">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>SERBIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">3</ugr:hombres>
@@ -800,7 +800,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#99">
+<rdf:Description rdf:about="1314#99">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>SIRIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">7</ugr:hombres>
@@ -808,7 +808,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#100">
+<rdf:Description rdf:about="1314#100">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>SUDIFRICA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -816,7 +816,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#101">
+<rdf:Description rdf:about="1314#101">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>SUECIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:hombres>
@@ -824,7 +824,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#102">
+<rdf:Description rdf:about="1314#102">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>SUIZA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">55</ugr:hombres>
@@ -832,7 +832,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#103">
+<rdf:Description rdf:about="1314#103">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>TAIWAN</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -840,7 +840,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#104">
+<rdf:Description rdf:about="1314#104">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>THAILANDIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -848,7 +848,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#105">
+<rdf:Description rdf:about="1314#105">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>TINEZ</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1</ugr:hombres>
@@ -856,7 +856,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#106">
+<rdf:Description rdf:about="1314#106">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>TURKMENISTIN</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">0</ugr:hombres>
@@ -864,7 +864,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#107">
+<rdf:Description rdf:about="1314#107">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>TURQUIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">27</ugr:hombres>
@@ -872,7 +872,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#108">
+<rdf:Description rdf:about="1314#108">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>UCRANIA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">19</ugr:hombres>
@@ -880,7 +880,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#109">
+<rdf:Description rdf:about="1314#109">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>URUGUAY</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:hombres>
@@ -888,7 +888,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#110">
+<rdf:Description rdf:about="1314#110">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>VENEZUELA</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:hombres>
@@ -896,7 +896,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Pais/1314#111">
+<rdf:Description rdf:about="1314#111">
 	<rdf:type rdf:resource="#OrigenPais" />
 	<ugr:pais>DESCONOCIDO/SIN ESPECIFICAR</ugr:pais>
 	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:hombres>

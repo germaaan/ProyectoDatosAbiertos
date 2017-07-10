@@ -16,7 +16,7 @@
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
 
-<rdf:Description rdf:about="Doctorado/1516#1">
+<rdf:Description rdf:about="1516#1">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN FILOSOFI­A</ugr:titulacion>
@@ -25,7 +25,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#2">
+<rdf:Description rdf:about="1516#2">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN HISTORIA Y ARTES</ugr:titulacion>
@@ -34,7 +34,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#3">
+<rdf:Description rdf:about="1516#3">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN LENGUAS, TEXTOS Y CONTEXTOS</ugr:titulacion>
@@ -43,7 +43,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#4">
+<rdf:Description rdf:about="1516#4">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN BIOLOGI­A FUNDAMENTAL Y DE SISTEMAS</ugr:titulacion>
@@ -52,7 +52,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#5">
+<rdf:Description rdf:about="1516#5">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CIENCIAS DE LA TIERRA</ugr:titulacion>
@@ -61,7 +61,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#6">
+<rdf:Description rdf:about="1516#6">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN DINAMICA DE FLUJOS BIOGEOQUI­MICOS Y SUS APLICACIONES</ugr:titulacion>
@@ -70,7 +70,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#7">
+<rdf:Description rdf:about="1516#7">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN ESTADI­STICA MATEMATICA Y APLICADA</ugr:titulacion>
@@ -79,7 +79,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#8">
+<rdf:Description rdf:about="1516#8">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN FI­SICA Y CIENCIAS DEL ESPACIO</ugr:titulacion>
@@ -88,7 +88,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#9">
+<rdf:Description rdf:about="1516#9">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN FI­SICA Y MATEMATICAS</ugr:titulacion>
@@ -97,7 +97,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#10">
+<rdf:Description rdf:about="1516#10">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN MATEMATICAS</ugr:titulacion>
@@ -106,7 +106,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#11">
+<rdf:Description rdf:about="1516#11">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN QUI­MICA</ugr:titulacion>
@@ -115,7 +115,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#12">
+<rdf:Description rdf:about="1516#12">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN BIOMEDICINA</ugr:titulacion>
@@ -124,7 +124,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#13">
+<rdf:Description rdf:about="1516#13">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN BIOQUI­MICA Y BIOLOGI­A MOLECULAR</ugr:titulacion>
@@ -133,7 +133,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#14">
+<rdf:Description rdf:about="1516#14">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN FARMACIA</ugr:titulacion>
@@ -142,7 +142,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#15">
+<rdf:Description rdf:about="1516#15">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN MEDICINA CLI­NICA Y SALUD PIºBLICA</ugr:titulacion>
@@ -151,7 +151,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#16">
+<rdf:Description rdf:about="1516#16">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN NUTRICION Y CIENCIAS DE LOS ALIMENTOS</ugr:titulacion>
@@ -160,7 +160,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#17">
+<rdf:Description rdf:about="1516#17">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN PSICOLOGI­A</ugr:titulacion>
@@ -169,7 +169,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#18">
+<rdf:Description rdf:about="1516#18">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN ARTES Y EDUCACION</ugr:titulacion>
@@ -178,7 +178,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#19">
+<rdf:Description rdf:about="1516#19">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CIENCIAS ECONOMICAS Y EMPRESARIALES</ugr:titulacion>
@@ -187,7 +187,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#20">
+<rdf:Description rdf:about="1516#20">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CIENCIAS DE LA EDUCACION</ugr:titulacion>
@@ -196,7 +196,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#21">
+<rdf:Description rdf:about="1516#21">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CIENCIAS JURI­DICAS</ugr:titulacion>
@@ -205,7 +205,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#22">
+<rdf:Description rdf:about="1516#22">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CIENCIAS SOCIALES</ugr:titulacion>
@@ -214,7 +214,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#23">
+<rdf:Description rdf:about="1516#23">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN CRIMINOLOGI­A</ugr:titulacion>
@@ -223,7 +223,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#24">
+<rdf:Description rdf:about="1516#24">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN ESTUDIOS DE LAS MUJERES, DISCURSOS Y PRACTICAS DE GENERO</ugr:titulacion>
@@ -232,7 +232,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#25">
+<rdf:Description rdf:about="1516#25">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN ESTUDIOS MIGRATORIOS</ugr:titulacion>
@@ -241,7 +241,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#26">
+<rdf:Description rdf:about="1516#26">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN INGENIERI­A CIVIL</ugr:titulacion>
@@ -250,7 +250,7 @@
 	<ugr:curso>2015/2016</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Doctorado/1516#27">
+<rdf:Description rdf:about="1516#27">
 	<rdf:type rdf:resource="#OfertaTitulacionDoctorado" />
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>PROGRAMA DE DOCTORADO EN TECNOLOGI­AS DE LA INFORMACION Y LA COMUNICACION</ugr:titulacion>

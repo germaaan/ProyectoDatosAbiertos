@@ -16,7 +16,7 @@
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
 
-<rdf:Description rdf:about="Master/1314#1">
+<rdf:Description rdf:about="1314#1">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ARQUEOLOGIA (M71.56.1)</ugr:titulacion>
@@ -25,7 +25,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#2">
+<rdf:Description rdf:about="1314#2">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN CULTURAS ARABE Y HEBREA. PASADO Y PRESENTE (M13.56.1)</ugr:titulacion>
@@ -34,7 +34,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#3">
+<rdf:Description rdf:about="1314#3">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DIBUJO - CREACION, PRODUCCION Y DIFUSION (M60.56.1)</ugr:titulacion>
@@ -43,7 +43,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#4">
+<rdf:Description rdf:about="1314#4">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ENSEÑANZA DEL ELE: CULTURA Y METODOLOGIA (M73.56.1)</ugr:titulacion>
@@ -52,7 +52,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#5">
+<rdf:Description rdf:about="1314#5">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS DE ASIA ORIENTAL (MA2.56.1)</ugr:titulacion>
@@ -61,7 +61,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#6">
+<rdf:Description rdf:about="1314#6">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS LATINOAMERICANOS: CULTURA Y GESTION (M20.56.1)</ugr:titulacion>
@@ -70,7 +70,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#7">
+<rdf:Description rdf:about="1314#7">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS LITERARIOS Y TEATRALES (M90.56.1)</ugr:titulacion>
@@ -79,7 +79,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#8">
+<rdf:Description rdf:about="1314#8">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS SUPERIORES DE FILOLOGIA Y TRADICION CLASICAS (M66.56.1)</ugr:titulacion>
@@ -88,7 +88,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#9">
+<rdf:Description rdf:about="1314#9">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS SUPERIORES DE LENGUA ESPAÑOLA (M70.56.1)</ugr:titulacion>
@@ -97,7 +97,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#10">
+<rdf:Description rdf:about="1314#10">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN FILOSOFIA CONTEMPORANEA (M16.56.1)</ugr:titulacion>
@@ -106,7 +106,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#11">
+<rdf:Description rdf:about="1314#11">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN HISTORIA: DE EUROPA A AMERICA. SOCIEDADES, PODERES, CULTURAS (EURAME) (MA3.56.1)</ugr:titulacion>
@@ -115,7 +115,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#12">
+<rdf:Description rdf:about="1314#12">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN HISTORIA DEL ARTE. CONOCIMIENTO Y TUTELA DEL PATRIMONIO HISTORICO (M55.56.1)</ugr:titulacion>
@@ -124,7 +124,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#13">
+<rdf:Description rdf:about="1314#13">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INTERPRETACION DE CONFERENCIAS (MA5.56.1)</ugr:titulacion>
@@ -133,7 +133,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#14">
+<rdf:Description rdf:about="1314#14">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN LITERATURA Y LINGÜISTICA INGLESAS (M19.56.1)</ugr:titulacion>
@@ -142,7 +142,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#15">
+<rdf:Description rdf:about="1314#15">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN PATRIMONIO MUSICAL (M68.56.1)</ugr:titulacion>
@@ -151,7 +151,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#16">
+<rdf:Description rdf:about="1314#16">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN PRODUCCION E INVESTIGACION EN ARTE (M94.56.1)</ugr:titulacion>
@@ -160,7 +160,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#17">
+<rdf:Description rdf:about="1314#17">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER ERASMUS MUNDUS EN EXCELENCIA EN SALUD PUBLICA / EUROPUBHEALTH (M18.56.1) </ugr:titulacion>
@@ -169,7 +169,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#18">
+<rdf:Description rdf:about="1314#18">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ANALISIS BIOLOGICO Y DIAGNOSTICO DE LABORATORIO (M41.56.1)</ugr:titulacion>
@@ -178,7 +178,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#19">
+<rdf:Description rdf:about="1314#19">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ANTROPOLOGIA FISICA Y FORENSE (M34.56.1) </ugr:titulacion>
@@ -187,7 +187,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#20">
+<rdf:Description rdf:about="1314#20">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ATENCION FARMACEUTICA EUROPHARMNES (M22.56.1)</ugr:titulacion>
@@ -196,7 +196,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#21">
+<rdf:Description rdf:about="1314#21">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN AVANCES EN CALIDAD Y TECNOLOGIA ALIMENTARIA (M79.56.1)</ugr:titulacion>
@@ -205,7 +205,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#22">
+<rdf:Description rdf:about="1314#22">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN AVANCES EN RADIOLOGIA DIAGNOSTICA Y TERAPEUTICA Y MEDICINA FISICA (M29.56.1)</ugr:titulacion>
@@ -214,7 +214,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#23">
+<rdf:Description rdf:about="1314#23">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN BIOMEDICINA REGENERATIVA (M31.56.1)</ugr:titulacion>
@@ -223,7 +223,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#24">
+<rdf:Description rdf:about="1314#24">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion> MASTER UNIVERSITARIO EN CONDICIONANTES GENETICOS, NUTRICIONALES Y AMBIENTALES DEL CRECIMIENTO Y DESARROLLO (M36.56.1)</ugr:titulacion>
@@ -232,7 +232,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#25">
+<rdf:Description rdf:about="1314#25">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN CUIDADOS DE SALUD PARA LA PROMOCION DE LA AUTONOMIA DE LAS PERSONAS Y LA ATENCION A LOS PROCESOS DEL FIN DE LA VIDA (M61.56.1)</ugr:titulacion>
@@ -241,7 +241,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#26">
+<rdf:Description rdf:about="1314#26">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DISEÑOS DE INVESTIGACION Y APLICACIONES EN PSICOLOGIA Y SALUD (M23.56.1) </ugr:titulacion>
@@ -250,7 +250,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#27">
+<rdf:Description rdf:about="1314#27">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INGENIERIA TISULAR (M35.56.1)</ugr:titulacion>
@@ -259,7 +259,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#28">
+<rdf:Description rdf:about="1314#28">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION, DESARROLLO, CONTROL E INNOVACION DE MEDICAMENTOS (M91.56.1)</ugr:titulacion>
@@ -268,7 +268,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#29">
+<rdf:Description rdf:about="1314#29">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION ODONTOLOGICA (M39.56.1)</ugr:titulacion>
@@ -277,7 +277,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#30">
+<rdf:Description rdf:about="1314#30">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION Y AVANCES EN INMUNOLOGIA MOLECULAR Y CELULAR (M26.56.1) </ugr:titulacion>
@@ -286,7 +286,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#31">
+<rdf:Description rdf:about="1314#31">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION Y AVANCES EN MEDICINA PREVENTIVA Y SALUD PUBLICA (M24.56.1)</ugr:titulacion>
@@ -295,7 +295,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#32">
+<rdf:Description rdf:about="1314#32">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN NEUROCIENCIA COGNITIVA Y DEL COMPORTAMIENTO (M30.56.1)</ugr:titulacion>
@@ -304,7 +304,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#33">
+<rdf:Description rdf:about="1314#33">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN NEUROCIENCIA Y DOLOR (M27.56.1) </ugr:titulacion>
@@ -313,7 +313,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#34">
+<rdf:Description rdf:about="1314#34">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN NUTRICION HUMANA (M28.56.1)</ugr:titulacion>
@@ -322,7 +322,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#35">
+<rdf:Description rdf:about="1314#35">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER ERASMUS MUNDUS EN ESTUDIOS DE LAS MUJERES Y DE GENERO (M15.56.1)</ugr:titulacion>
@@ -331,7 +331,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#36">
+<rdf:Description rdf:about="1314#36">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ABOGACIA (M99.56.1)</ugr:titulacion>
@@ -340,7 +340,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#37">
+<rdf:Description rdf:about="1314#37">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ARTES VISUALES Y EDUCACION. UN ENFOQUE CONSTRUCCIONISTA (M06.56.1)</ugr:titulacion>
@@ -349,7 +349,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#38">
+<rdf:Description rdf:about="1314#38">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN COOPERACION AL DESARROLLO, GESTION PUBLICA Y DE LAS ONGDS (M25.56.1)</ugr:titulacion>
@@ -358,7 +358,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#39">
+<rdf:Description rdf:about="1314#39">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN CRIMINALIDAD E INTERVENCION SOCIAL EN MENORES (M04.56.1)</ugr:titulacion>
@@ -367,7 +367,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#40">
+<rdf:Description rdf:about="1314#40">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN CULTURA DE PAZ, CONFLICTOS, EDUCACION Y DERECHOS HUMANOS (M75.56.1)</ugr:titulacion>
@@ -376,7 +376,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#41">
+<rdf:Description rdf:about="1314#41">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DERECHO CONSTITUCIONAL EUROPEO (M03.56.1)</ugr:titulacion>
@@ -385,7 +385,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#42">
+<rdf:Description rdf:about="1314#42">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DERECHO DE LOS NEGOCIOS (M83.56.1)</ugr:titulacion>
@@ -394,7 +394,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#43">
+<rdf:Description rdf:about="1314#43">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DERECHO INTERNACIONAL Y RELACIONES INTERNACIONALES (M84.56.1)</ugr:titulacion>
@@ -403,7 +403,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#44">
+<rdf:Description rdf:about="1314#44">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DERECHO SANITARIO, BIOETICA Y DERECHO A LA SALUD EN LA UNION EUROPEA (M85.56.1)</ugr:titulacion>
@@ -412,7 +412,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#45">
+<rdf:Description rdf:about="1314#45">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion> MASTER UNIVERSITARIO EN DIDACTICA DE LA MATEMATICA (M05.56.1)</ugr:titulacion>
@@ -421,7 +421,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#46">
+<rdf:Description rdf:about="1314#46">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DIRECCION Y GESTION PUBLICA (M87.56.1)</ugr:titulacion>
@@ -430,7 +430,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#47">
+<rdf:Description rdf:about="1314#47">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DIVERSIDAD CULTURAL. UN ENFOQUE MULTIDISCIPLINAR Y TRANSFRONTERIZO (MA1.56.1)</ugr:titulacion>
@@ -439,7 +439,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#48">
+<rdf:Description rdf:about="1314#48">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ECONOMIA Y ORGANIZACION DE EMPRESAS (M02.56.1)</ugr:titulacion>
@@ -448,7 +448,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#49">
+<rdf:Description rdf:about="1314#49">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ECONOMIA / ECONOMICS (M56.56.1)</ugr:titulacion>
@@ -457,7 +457,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#50">
+<rdf:Description rdf:about="1314#50">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN EDUCACION MUSICAL: UNA PERSPECTIVA MULTIDISCIPLINAR (M72.56.1)</ugr:titulacion>
@@ -466,7 +466,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#51">
+<rdf:Description rdf:about="1314#51">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN EDUCACION SOCIAL: INVESTIGACION Y DESARROLLO PROFESIONAL (M88.56.1) </ugr:titulacion>
@@ -475,7 +475,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#52">
+<rdf:Description rdf:about="1314#52">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN EDUCADOR / EDUCADORA AMBIENTAL (M54.56.1)</ugr:titulacion>
@@ -484,7 +484,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#53">
+<rdf:Description rdf:about="1314#53">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN EL ANALISIS GEOGRAFICO EN LA ORDENACION DEL TERRITORIO. TECNOLOGIAS DE LA INFORMACION GEOGRAFICA (M07.56.1)</ugr:titulacion>
@@ -493,7 +493,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#54">
+<rdf:Description rdf:about="1314#54">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTUDIOS E INTERVENCION SOCIAL EN INMIGRACION, DESARROLLO Y GRUPOS VULNERABLES (M09.56.1)</ugr:titulacion>
@@ -502,7 +502,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#55">
+<rdf:Description rdf:about="1314#55">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN GERONTOLOGIA, DEPENDENCIA Y PROTECCION DE LOS MAYORES (M65.56.1)</ugr:titulacion>
@@ -511,7 +511,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#56">
+<rdf:Description rdf:about="1314#56">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN GESTION Y TECNOLOGIAS DE PROCESOS DE NEGOCIO (M93.56.1) </ugr:titulacion>
@@ -520,7 +520,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#57">
+<rdf:Description rdf:about="1314#57">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INFORMACION Y COMUNICACION CIENTIFICA (M12.56.1) </ugr:titulacion>
@@ -529,7 +529,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#58">
+<rdf:Description rdf:about="1314#58">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INTERVENCION PSICOPEDAGOGICA (M11.56.1) </ugr:titulacion>
@@ -538,7 +538,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#59">
+<rdf:Description rdf:about="1314#59">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION E INNOVACION EN CURRICULUM Y FORMACION (M98.56.1) </ugr:titulacion>
@@ -547,7 +547,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#60">
+<rdf:Description rdf:about="1314#60">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION EN ACTIVIDAD FISICA Y DEPORTE (M57.56.1)</ugr:titulacion>
@@ -556,7 +556,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#61">
+<rdf:Description rdf:about="1314#61">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN MARKETING Y COMPORTAMIENTO DEL CONSUMIDOR (M01.56.1)</ugr:titulacion>
@@ -565,7 +565,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#62">
+<rdf:Description rdf:about="1314#62">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN PROBLEMAS SOCIALES. DIRECCION Y GESTION DE PROGRAMAS SOCIALES (M08.56.1) </ugr:titulacion>
@@ -574,7 +574,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#63">
+<rdf:Description rdf:about="1314#63">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN PROFESORADO DE EDUCACION SECUNDARIA OBLIGATORIA Y BACHILLERATO, FORMACION PROFESIONAL Y ENSEÑANZA DE IDIOMAS (S01 A S45.56.1)</ugr:titulacion>
@@ -583,7 +583,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#64">
+<rdf:Description rdf:about="1314#64">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN PSICOLOGIA DE LA INTERVENCION SOCIAL (M10.56.1)</ugr:titulacion>
@@ -592,7 +592,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#65">
+<rdf:Description rdf:about="1314#65">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN TECNICAS CUANTITATIVAS EN GESTION EMPRESARIAL (MA4.56.1)</ugr:titulacion>
@@ -601,7 +601,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#66">
+<rdf:Description rdf:about="1314#66">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS </ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER ERASMUS MUNDUS EN EL COLOR EN LA INFORMATICA Y LA TECNOLOGIA DE LOS MEDIOS / ERASMUS MUNDUS IN COLOR IN INFORMATICS AND MEDIA TECHNOLOGY (CIMET) (M14.56.1)
@@ -611,7 +611,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#67">
+<rdf:Description rdf:about="1314#67">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN BIOLOGIA AGRARIA Y ACUICULTURA (M48.56.1)</ugr:titulacion>
@@ -620,7 +620,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#68">
+<rdf:Description rdf:about="1314#68">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN BIOLOGIA MOLECULAR APLLICADA A EMPRESAS BIOTECNOLOGICAS (BIOENTERPRISE) (M78.56.1)</ugr:titulacion>
@@ -629,7 +629,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#69">
+<rdf:Description rdf:about="1314#69">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN BIOTECNOLOGIA (M38.56.1)</ugr:titulacion>
@@ -638,7 +638,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#70">
+<rdf:Description rdf:about="1314#70">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN CIENCIA Y TECNOLOGIA DE COLOIDES E INTERFASES (M69.56.1)</ugr:titulacion>
@@ -647,7 +647,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#71">
+<rdf:Description rdf:about="1314#71">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS </ugr:ramaConocimiento>
 	<ugr:titulacion> MASTER UNIVERSITARIO EN CIENCIA Y TECNOLOGIA EN PATRIMONIO ARQUITECTONICO (M80.56.1)</ugr:titulacion>
@@ -656,7 +656,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#72">
+<rdf:Description rdf:about="1314#72">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS </ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN CONSERVACION, GESTION Y RESTAURACION DE LA BIODIVERSIDAD (M64.56.1)</ugr:titulacion>
@@ -665,7 +665,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#73">
+<rdf:Description rdf:about="1314#73">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTADISTICA APLICADA (M42.56.1)</ugr:titulacion>
@@ -674,7 +674,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#74">
+<rdf:Description rdf:about="1314#74">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN FISICA Y MATEMATICAS (M53.56.1)</ugr:titulacion>
@@ -683,7 +683,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#75">
+<rdf:Description rdf:about="1314#75">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN GENETICA Y EVOLUCION (M58.56.1)</ugr:titulacion>
@@ -692,7 +692,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#76">
+<rdf:Description rdf:about="1314#76">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN GEOFISICA Y METEOROLOGIA (M40.56.1)</ugr:titulacion>
@@ -701,7 +701,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#77">
+<rdf:Description rdf:about="1314#77">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN GEOLOGIA APLICADA A LA OBRA CIVIL Y LOS RECURSOS HIDRICOS (M32.56.1)</ugr:titulacion>
@@ -710,7 +710,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#78">
+<rdf:Description rdf:about="1314#78">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION Y AVANCES EN MICROBIOLOGIA (M46.56.1)</ugr:titulacion>
@@ -719,7 +719,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#79">
+<rdf:Description rdf:about="1314#79">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN MATEMATICAS (M37.56.1)</ugr:titulacion>
@@ -728,7 +728,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#80">
+<rdf:Description rdf:about="1314#80">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN OPTICA Y OPTOMETRIA AVANZADAS (M47.56.1)</ugr:titulacion>
@@ -737,7 +737,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#81">
+<rdf:Description rdf:about="1314#81">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN TECNICAS Y CIENCIAS DE LA CALIDAD DEL AGUA (IDEA) (M96.56.1)</ugr:titulacion>
@@ -746,7 +746,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#82">
+<rdf:Description rdf:about="1314#82">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN DESARROLLO DEL SOFTWARE (M52.56.1)</ugr:titulacion>
@@ -755,7 +755,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#83">
+<rdf:Description rdf:about="1314#83">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ESTRUCTURAS (M63.56.1)</ugr:titulacion>
@@ -764,7 +764,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#84">
+<rdf:Description rdf:about="1314#84">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN GESTION Y SEGURIDAD INTEGRAL EN LA EDIFICACION (M74.56.1)</ugr:titulacion>
@@ -773,7 +773,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#85">
+<rdf:Description rdf:about="1314#85">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN GESTION Y TECNOLOGIAS DE PROCESOS DE NEGOCIO (M93.56.1) </ugr:titulacion>
@@ -782,7 +782,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#86">
+<rdf:Description rdf:about="1314#86">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN HIDRAULICA AMBIENTAL (M62.56.1)</ugr:titulacion>
@@ -791,7 +791,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#87">
+<rdf:Description rdf:about="1314#87">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INGENIERIA ACUSTICA (MA8.56.1)</ugr:titulacion>
@@ -800,7 +800,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#88">
+<rdf:Description rdf:about="1314#88">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INGENIERIA DE COMPUTADORES Y REDES (M51.56.1) </ugr:titulacion>
@@ -809,7 +809,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#89">
+<rdf:Description rdf:about="1314#89">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN PREVENCION DE RIESGOS LABORALES (M67.56.1)</ugr:titulacion>
@@ -818,7 +818,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#90">
+<rdf:Description rdf:about="1314#90">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN SOFT COMPUTING Y SISTEMAS INTELIGENTES (M49.56.1)</ugr:titulacion>
@@ -827,7 +827,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#91">
+<rdf:Description rdf:about="1314#91">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN URBANISMO (M97.56.1)</ugr:titulacion>
@@ -836,7 +836,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#92">
+<rdf:Description rdf:about="1314#92">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>MASTERES BILINGÜES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN FISICA Y MATEMATICAS (M53.56.1) </ugr:titulacion>
@@ -845,7 +845,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#93">
+<rdf:Description rdf:about="1314#93">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>MASTERES BILINGÜES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN HIDRAULICA AMBIENTAL (M62.56.1)</ugr:titulacion>
@@ -854,7 +854,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#94">
+<rdf:Description rdf:about="1314#94">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>MASTERES BILINGÜES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN INVESTIGACION Y AVANCES EN INMUNOLOGIA MOLECULAR Y CELULAR (M26.56.1) </ugr:titulacion>
@@ -863,7 +863,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#95">
+<rdf:Description rdf:about="1314#95">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>MASTERES BILINGÜES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN MATEMATICAS (M37.56.1)</ugr:titulacion>
@@ -872,7 +872,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#96">
+<rdf:Description rdf:about="1314#96">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>MASTERES BILINGÜES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN NEUROCIENCIA COGNITIVA Y DEL COMPORTAMIENTO (M30.56.1) </ugr:titulacion>
@@ -881,7 +881,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#97">
+<rdf:Description rdf:about="1314#97">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>MASTERES BILINGÜES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN SOFT COMPUTING Y SISTEMAS INTELIGENTES (M49.56.1)</ugr:titulacion>
@@ -890,7 +890,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#98">
+<rdf:Description rdf:about="1314#98">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>MASTERES IMPARTIDOS EN INGLES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER ERASMUS MUNDUS EN EL COLOR EN LA INFORMATICA Y LA TECNOLOGIA DE LOS MEDIOS / ERASMUS MUNDUS IN COLOR IN INFORMATICS AND MEDIA TECHNOLOGY (CIMET) (M14.56.1)</ugr:titulacion>
@@ -899,7 +899,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#99">
+<rdf:Description rdf:about="1314#99">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>MASTERES IMPARTIDOS EN INGLES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN ECONOMIA / ECONOMICS (M56.56.1)</ugr:titulacion>
@@ -908,7 +908,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Master/1314#100">
+<rdf:Description rdf:about="1314#100">
 	<rdf:type rdf:resource="#OfertaTitulacionMaster" />
 	<ugr:ramaConocimiento>MASTERES IMPARTIDOS EN INGLES</ugr:ramaConocimiento>
 	<ugr:titulacion>MASTER UNIVERSITARIO EN LITERATURA Y LINGÜISTICA INGLESAS (M19.56.1) </ugr:titulacion>

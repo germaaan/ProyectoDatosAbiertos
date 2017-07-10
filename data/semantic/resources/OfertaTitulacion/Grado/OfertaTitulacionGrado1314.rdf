@@ -16,7 +16,7 @@
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
 
-<rdf:Description rdf:about="Grado/1314#1">
+<rdf:Description rdf:about="1314#1">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN BIOLOGI­A</ugr:titulacion>
@@ -25,7 +25,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#2">
+<rdf:Description rdf:about="1314#2">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN BIOQUI­MICA</ugr:titulacion>
@@ -34,7 +34,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#3">
+<rdf:Description rdf:about="1314#3">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN CIENCIA Y TECNOLOGI­A DE LOS ALIMENTOS</ugr:titulacion>
@@ -43,7 +43,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#4">
+<rdf:Description rdf:about="1314#4">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN CIENCIAS AMBIENTALES</ugr:titulacion>
@@ -52,7 +52,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#5">
+<rdf:Description rdf:about="1314#5">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ESTADI­STICA</ugr:titulacion>
@@ -61,7 +61,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#6">
+<rdf:Description rdf:about="1314#6">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN FI­SICA</ugr:titulacion>
@@ -70,7 +70,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#7">
+<rdf:Description rdf:about="1314#7">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN GEOLOGI­A</ugr:titulacion>
@@ -79,7 +79,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#8">
+<rdf:Description rdf:about="1314#8">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INGENIERI­A INFORMATICA Y MATEMATICAS (DOBLE GRADO)</ugr:titulacion>
@@ -88,7 +88,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#9">
+<rdf:Description rdf:about="1314#9">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN MATEMATICAS</ugr:titulacion>
@@ -97,7 +97,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#10">
+<rdf:Description rdf:about="1314#10">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN OPTICA Y OPTOMETRI­A</ugr:titulacion>
@@ -106,7 +106,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#11">
+<rdf:Description rdf:about="1314#11">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN QUI­MICA</ugr:titulacion>
@@ -115,7 +115,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#12">
+<rdf:Description rdf:about="1314#12">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS</ugr:titulacion>
@@ -124,7 +124,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#13">
+<rdf:Description rdf:about="1314#13">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS Y DERECHO (DOBLE GRADO)</ugr:titulacion>
@@ -133,7 +133,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#14">
+<rdf:Description rdf:about="1314#14">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ANTROPOLOGI­A SOCIAL Y CULTURAL</ugr:titulacion>
@@ -142,7 +142,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#15">
+<rdf:Description rdf:about="1314#15">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN CIENCIAS DE LA ACTIVIDAD FI­SICA Y DEL DEPORTE</ugr:titulacion>
@@ -151,7 +151,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#16">
+<rdf:Description rdf:about="1314#16">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN CIENCIAS POLI­TICAS Y DE LA ADMINISTRACION</ugr:titulacion>
@@ -160,7 +160,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#17">
+<rdf:Description rdf:about="1314#17">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN COMUNICACION AUDIOVISUAL</ugr:titulacion>
@@ -169,7 +169,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#18">
+<rdf:Description rdf:about="1314#18">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN CRIMINOLOGI­A</ugr:titulacion>
@@ -178,7 +178,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#19">
+<rdf:Description rdf:about="1314#19">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN DERECHO</ugr:titulacion>
@@ -187,7 +187,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#20">
+<rdf:Description rdf:about="1314#20">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN CIENCIAS POLI­TICAS DE LA ADMINISTRACION Y DERECHO (DOBLE GRADO)</ugr:titulacion>
@@ -196,7 +196,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#21">
+<rdf:Description rdf:about="1314#21">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ECONOMI­A</ugr:titulacion>
@@ -205,7 +205,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#22">
+<rdf:Description rdf:about="1314#22">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN MAESTRO EN EDUCACION INFANTIL</ugr:titulacion>
@@ -214,7 +214,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#23">
+<rdf:Description rdf:about="1314#23">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN MAESTRO EN EDUCACION PRIMARIA</ugr:titulacion>
@@ -223,7 +223,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#24">
+<rdf:Description rdf:about="1314#24">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN EDUCACION SOCIAL</ugr:titulacion>
@@ -232,7 +232,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#25">
+<rdf:Description rdf:about="1314#25">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN FINANZAS Y CONTABILIDAD</ugr:titulacion>
@@ -241,7 +241,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#26">
+<rdf:Description rdf:about="1314#26">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN GEOGRAFI­A Y GESTION DEL TERRITORIO</ugr:titulacion>
@@ -250,7 +250,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#27">
+<rdf:Description rdf:about="1314#27">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN GESTION Y ADMINISTRACION PUBLICA</ugr:titulacion>
@@ -259,7 +259,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#28">
+<rdf:Description rdf:about="1314#28">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INFORMACION Y DOCUMENTACION</ugr:titulacion>
@@ -268,7 +268,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#29">
+<rdf:Description rdf:about="1314#29">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN MARKETING E INVESTIGACION DE MERCADOS</ugr:titulacion>
@@ -277,7 +277,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#30">
+<rdf:Description rdf:about="1314#30">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN PEDAGOGI­A</ugr:titulacion>
@@ -286,7 +286,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#31">
+<rdf:Description rdf:about="1314#31">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS</ugr:titulacion>
@@ -295,7 +295,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#32">
+<rdf:Description rdf:about="1314#32">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN SOCIOLOGI­A</ugr:titulacion>
@@ -304,7 +304,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#33">
+<rdf:Description rdf:about="1314#33">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN TRABAJO SOCIAL</ugr:titulacion>
@@ -313,7 +313,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#34">
+<rdf:Description rdf:about="1314#34">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURI­DICAS</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN TURISMO</ugr:titulacion>
@@ -322,7 +322,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#35">
+<rdf:Description rdf:about="1314#35">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ARQUEOLOGI­A</ugr:titulacion>
@@ -331,7 +331,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#36">
+<rdf:Description rdf:about="1314#36">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN BELLAS ARTES</ugr:titulacion>
@@ -340,7 +340,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#37">
+<rdf:Description rdf:about="1314#37">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN CONSERVACION Y RESTAURACION DE BIENES CULTURALES</ugr:titulacion>
@@ -349,7 +349,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#38">
+<rdf:Description rdf:about="1314#38">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ESTUDIOS ARABES E ISLAMICOS</ugr:titulacion>
@@ -358,7 +358,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#39">
+<rdf:Description rdf:about="1314#39">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ESTUDIOS FRANCESES</ugr:titulacion>
@@ -367,7 +367,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#40">
+<rdf:Description rdf:about="1314#40">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ESTUDIOS INGLESES</ugr:titulacion>
@@ -376,7 +376,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#41">
+<rdf:Description rdf:about="1314#41">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN FILOLOGI­A CLASICA</ugr:titulacion>
@@ -385,7 +385,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#42">
+<rdf:Description rdf:about="1314#42">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN FILOLOGI­A HISPANICA</ugr:titulacion>
@@ -394,7 +394,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#43">
+<rdf:Description rdf:about="1314#43">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN FILOSOFI­A</ugr:titulacion>
@@ -403,7 +403,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#44">
+<rdf:Description rdf:about="1314#44">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN HISTORIA</ugr:titulacion>
@@ -412,7 +412,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#45">
+<rdf:Description rdf:about="1314#45">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN HISTORIA DEL ARTE</ugr:titulacion>
@@ -421,7 +421,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#46">
+<rdf:Description rdf:about="1314#46">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN HISTORIA Y CIENCIAS DE LA MUSICA</ugr:titulacion>
@@ -430,7 +430,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#47">
+<rdf:Description rdf:about="1314#47">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN LENGUAS MODERNAS Y SUS LITERATURAS</ugr:titulacion>
@@ -439,7 +439,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#48">
+<rdf:Description rdf:about="1314#48">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN LITERATURAS COMPARADAS</ugr:titulacion>
@@ -448,7 +448,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#49">
+<rdf:Description rdf:about="1314#49">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION</ugr:titulacion>
@@ -457,7 +457,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#50">
+<rdf:Description rdf:about="1314#50">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ENFERMERI­A</ugr:titulacion>
@@ -466,7 +466,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#51">
+<rdf:Description rdf:about="1314#51">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN FARMACIA</ugr:titulacion>
@@ -475,7 +475,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#52">
+<rdf:Description rdf:about="1314#52">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN FISIOTERAPIA</ugr:titulacion>
@@ -484,7 +484,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#53">
+<rdf:Description rdf:about="1314#53">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN LOGOPEDIA</ugr:titulacion>
@@ -493,7 +493,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#54">
+<rdf:Description rdf:about="1314#54">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN MEDICINA</ugr:titulacion>
@@ -502,7 +502,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#55">
+<rdf:Description rdf:about="1314#55">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN NUTRICION HUMANA Y DIETETICA</ugr:titulacion>
@@ -511,7 +511,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#56">
+<rdf:Description rdf:about="1314#56">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ODONTOLOGI­A</ugr:titulacion>
@@ -520,7 +520,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#57">
+<rdf:Description rdf:about="1314#57">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN PSICOLOGI­A</ugr:titulacion>
@@ -529,7 +529,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#58">
+<rdf:Description rdf:about="1314#58">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN TERAPIA OCUPACIONAL</ugr:titulacion>
@@ -538,7 +538,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#59">
+<rdf:Description rdf:about="1314#59">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN ARQUITECTURA</ugr:titulacion>
@@ -547,7 +547,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#60">
+<rdf:Description rdf:about="1314#60">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INGENIERI­A CIVIL</ugr:titulacion>
@@ -556,7 +556,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#61">
+<rdf:Description rdf:about="1314#61">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento> INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN EDIFICACION</ugr:titulacion>
@@ -565,7 +565,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#62">
+<rdf:Description rdf:about="1314#62">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INGENIERI­A DE TECNOLOGI­AS DE TELECOMUNICACION</ugr:titulacion>
@@ -574,7 +574,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#63">
+<rdf:Description rdf:about="1314#63">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INGENIERI­A ELECTRONICA INDUSTRIAL</ugr:titulacion>
@@ -583,7 +583,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#64">
+<rdf:Description rdf:about="1314#64">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INGENIERI­A INFORMATICA</ugr:titulacion>
@@ -592,7 +592,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#65">
+<rdf:Description rdf:about="1314#65">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INGENIERI­A INFORMATICA Y MATEMATICAS (DOBLE GRADO)</ugr:titulacion>
@@ -601,7 +601,7 @@
 	<ugr:curso>2013/2014</ugr:curso>
 </rdf:Description>
 
-<rdf:Description rdf:about="Grado/1314#66">
+<rdf:Description rdf:about="1314#66">
 	<rdf:type rdf:resource="#OfertaTitulacionGrado" />
 	<ugr:ramaConocimiento>INGENIERI­A Y ARQUITECTURA</ugr:ramaConocimiento>
 	<ugr:titulacion>GRADO EN INGENIERI­A QUI­MICA</ugr:titulacion>

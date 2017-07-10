@@ -44,7 +44,7 @@ for tipo in origen:
         with open("../semantic/resources/OrigenGeografico/" + tipo[0] + "/Origen" + tipo[0] + x[0] + ".rdf", "a") as ofile:
                 for lines in data:
                     if id > 0:
-                        ofile.write("<rdf:Description rdf:about=\"" + tipo[0] + "/" + x[0] + "#" + str(id) + "\">\n" +
+                        ofile.write("<rdf:Description rdf:about=\"" + x[0] + "#" + str(id) + "\">\n" +
                             "\t<rdf:type rdf:resource=\"#Origen" + tipo[0] + "\" />\n" +
                             "\t<ugr:" + tipo[1] + ">" + lines[0] + "</ugr:" + tipo[1] + ">\n" +
                             "\t<ugr:hombres rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[1] + "</ugr:hombres>\n" +
