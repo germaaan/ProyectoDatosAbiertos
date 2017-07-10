@@ -41,7 +41,7 @@ for x in files:
     with open("../semantic/resources/Matriculas/Posgrado/MatriculasPosgrado" + x[0] + ".rdf", "a") as ofile:
             for lines in data:
                 if id > 0:
-                    ofile.write("<rdf:Description rdf:about=\"/" + x[0] + "#" + str(id) + "\">\n" +
+                    ofile.write("<rdf:Description rdf:about=\"" + x[0] + "#" + str(id) + "\">\n" +
                         "\t<rdf:type rdf:resource=\"#MatriculasPosgrado\" />\n" +
                         "\t<ugr:titulacion>" + lines[0] + "</ugr:titulacion>\n" +
                         "\t<ugr:hombres rdf:datatype=\"&xsd;nonNegativeInteger\">" + lines[1] + "</ugr:hombres>\n" +
