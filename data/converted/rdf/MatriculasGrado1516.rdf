@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+	<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+	<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+	<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+	<!ENTITY ugr "http://cabas.ugr.es/ontology/ugr#" >
+]>
+
+<rdf:RDF
+	xmlns="http://cabas.ugr.es/resources/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ugr="http://cabas.ugr.es/ontology/ugr#">
+
+<rdf:Description rdf:about="MatriculasGrado/1516#1">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ARQUEOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">63</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">99</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#2">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN BELLAS ARTES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">352</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">684</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#3">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CONSERVACION Y RESTAURACION DE BIENES CULTURAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">57</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">164</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#4">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ESTUDIOS FRANCESES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">49</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">172</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#5">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ESTUDIOS INGLESES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">179</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">509</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#6">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ESTUDIOS ARABES E ISLAMICOS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">55</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">100</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#7">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FILOLOGIA CLASICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">37</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">85</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#8">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FILOLOGIA HISPANICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">107</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">408</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#9">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FILOSOFIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">185</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">106</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#10">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN HISTORIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">417</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">205</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#11">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN HISTORIA DEL ARTE</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">171</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">337</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#12">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN HISTORIA Y CIENCIAS DE LA MUSICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">142</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">110</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#13">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN LENGUAS MODERNAS Y SUS LITERATURAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">99</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">334</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#14">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN LITERATURAS COMPARADAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">54</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">115</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#15">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>ARTES Y HUMANIDADES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN TRADUCCION E INTERPRETACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">309</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1162</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#16">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN BIOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">436</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">651</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#17">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN BIOQUIMICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">84</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">136</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#18">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN BIOTECNOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">38</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">66</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#19">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIA Y TECNOLOGIA DE LOS ALIMENTOS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">80</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">180</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#20">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIAS AMBIENTALES</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">309</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">258</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#21">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ESTADISTICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">91</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">68</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#22">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FISICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">315</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">107</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#23">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN GEOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">150</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">94</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#24">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MATEMATICAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">208</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">184</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#25">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN QUIMICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">170</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">191</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#26">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS EXPERIMENTALES</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN OPTICA Y OPTOMETRIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">171</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">345</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#27">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION EMPRESAS Y DCHO MELILLA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">109</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">91</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#28">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EN ADMINISTRACION Y DIRECCION DE EMPRESAS (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">26</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">41</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#29">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO CC ACT FISICA Y ED.PRIMA (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">79</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">25</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#30">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">740</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">835</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#31">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">91</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">100</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#32">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ADMINISTRACION Y DIRECCION DE EMPRESAS-DERECHO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">273</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">454</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#33">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ANTROPOLOGIA SOCIAL Y CULTURAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">94</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">174</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#34">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIAS DE LA ACTIVIDAD FISICA Y DEL DEPORTE</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">690</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">218</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#35">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIAS POLITICAS Y DE LA ADMINIST. Y DERECHO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">272</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">297</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#36">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CIENCIAS POLITICAS Y DE LA ADMINISTRACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">359</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">290</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#37">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN COMUNICACION AUDIOVISUAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">142</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">189</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#38">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN CRIMINOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">105</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">205</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#39">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN DERECHO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1026</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1416</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#40">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ECONOMIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">615</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">529</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#41">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION INFANTIL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">71</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1229</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#42">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">16</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">165</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#43">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (LA INMACULADA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">28</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">275</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#44">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION INFANTIL (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">89</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#45">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">951</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1295</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#46">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (BILINGIE)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">65</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">248</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#47">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">99</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">138</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#48">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (LA INMACULADA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">257</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">288</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#49">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION PRIMARIA (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">65</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">118</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#50">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION SOCIAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">117</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">491</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#51">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION SOCIAL (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">36</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">135</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#52">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDUCACION SOCIAL (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">31</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">124</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#53">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FINANZAS Y CONTABILIDAD</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">296</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">320</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#54">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN GEOGRAFIA Y GESTION DEL TERRITORIO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">165</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">66</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#55">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN GESTION Y ADMINISTRACION PUBLICA (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">6</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">12</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#56">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INFORMACION Y DOCUMENTACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">99</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">170</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#57">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MARKETING E INVESTIGACION DE MERCADOS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">250</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">334</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#58">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN PEDAGOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">98</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">457</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#59">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">574</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">782</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#60">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN RELACIONES LABORALES Y RECURSOS HUMANOS (MEL.)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">23</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">36</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#61">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN SOCIOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">245</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">382</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#62">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN TRABAJO SOCIAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">153</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">634</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#63">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS SOCIALES Y JURIDICAS</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN TURISMO</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">198</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">474</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#64">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ARQUITECTURA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">464</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">413</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#65">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN EDIFICACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">656</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">356</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#66">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA CIVIL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">645</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">247</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#67">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA DE TECNOLOGIAS DE TELECOMUNICACION</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">386</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">86</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#68">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA ELECTRONICA INDUSTRIAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">224</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">44</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#69">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">1148</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">126</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#70">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">43</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">9</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#71">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA INFORMATICA Y MATEMATICAS</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">122</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">38</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#72">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>INGENIERIA Y ARQUITECTURA</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN INGENIERIA QUIMICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">251</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">179</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#73">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ENFERMERIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">178</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">634</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#74">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ENFERMERIA (CEUTA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">116</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">363</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#75">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ENFERMERIA (MELILLA)</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">86</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">273</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#76">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FARMACIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">640</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1419</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#77">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN FISIOTERAPIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">119</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">153</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#78">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN LOGOPEDIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">31</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">259</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#79">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN MEDICINA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">588</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1000</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#80">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN NUTRICION HUMANA Y DIETETICA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">108</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">332</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#81">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN ODONTOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">150</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">290</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#82">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN PSICOLOGIA</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">362</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">1136</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+<rdf:Description rdf:about="MatriculasGrado/1516#83">
+	<rdf:type rdf:resource="#MatriculasGrado" />
+	<ugr:ramaConocimiento>CIENCIAS DE LA SALUD</ugr:ramaConocimiento>
+	<ugr:titulacion>GRADO EN TERAPIA OCUPACIONAL</ugr:titulacion>
+	<ugr:hombres rdf:datatype="&xsd;nonNegativeInteger">56</ugr:hombres>
+	<ugr:mujeres rdf:datatype="&xsd;nonNegativeInteger">190</ugr:mujeres>
+	<ugr:curso>2015/2016</ugr:curso>
+</rdf:Description>
+
+</rdf:RDF>
