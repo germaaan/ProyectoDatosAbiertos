@@ -1,49 +1,343 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <title>Datos Abiertos en la Universidad</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h3>Trabajo Fin de Máster</h3>
+                <h2>Datos Abiertos en la Universidad</h2>
+                <p>
+                    <font size="6">
+                        Autor: Germán Martínez Maldonado
+                        <br> Tutor: Juan Julián Merelo Guervós
+                    </font>
+                    <br><br>
+                    <small> Trabajo realizado bajo licencia<a href="https://creativecommons.org/licenses/by-sa/4.0/"> CC-BY-SA 4.0 </a></small>
+                    <br>
+                    <img alt="CC-BY-SA" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+                </p>
+            </section>
+            <section>
+                <section>
+                    <h3>Descripción del problema</h3>
+                    <p>Obtener información de los datos contenido en un portal de datos abiertos mediante peticiones a un interfaz en forma de consultas</p>
+                    <aside class='notes'>¿Dónde está aquí el problemas? El portal de datos abiertos de la UGR tiene unos 40 conjuntos de datos con 340 tablas de datos sobre diferentes aspectos de la propia UGR: matrı́culas, demanda académica, información salarial, empleo
+                        de egresados... Tenemos que saber muy específicamente qué estamos buscando y dónde puede estar localizado.</aside>
+                </section>
+                <section>
+                    <h3>Descripción del problema</h3>
+                    <p>Legislación vigente sobre reutilización de la información del Sector Público (Ley 37/2007 de 16 de noviembre 2 y Real Decreto 1495/2011 de 24 de octubre 3 )</p>
+                    <aside class='notes'>Los datos deben ser facilmente reutilizables por la ciudadanía. Generalmente para esto se le ha venido dando énfasis al formato de publicación, pero no simplemente tiene que quedarse ahí, el problema es el enfoque que le damos sobre
+                        que los datos van a ser interpretados por personas.</aside>
+                </section>
+                <section>
+                    <h3>Descripción del problema</h3>
+                    <p>Máxima reutilización ➡️ Información comprendida automáticamente por máquinas y estás utilicen su capacidad de procesamiento para generar más información: INFERENCIA</p>
+                    <aside class='notes'>¿Pero y si los datos fueran procesados por máquinas? Todos sabemos que la capacidad de procesamiento de una máquina es superior a las personas, pero hay un problema, las máquinas conocen valores, pero no significados. Sin embargo,
+                        si la comprendiesen podrían generar nueva información</aside>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Web semántica</h3>
+                    <p>Tim Berners-Lee y su idea de la Web "actual" (año 2001): está demasiada orientada a que los contenidos sean procesados por humanos.</p>
+                    <aside class='notes'>No es productivo (datos redundates, datos aislados, datos incompletos). Proveer de una infraestructura que permita a las máquinas acceder a un estructura común de datos, así todos los datos quedan integrados y enlazados en una base
+                        de datos mundial fruto de la agregación de innumerables fuentes de datos, pero con una fácil interoperabilidad entre distintos sistemas.</aside>
+                </section>
+                <section>
+                    <h3>Web semántica</h3>
+                    <ul>
+                        <li>Uso de estándares para su desarrollo: RDF, RDFS, OWL y SPARQL</li>
+                        <li>Recursos expresados en forma: sujeto-predicado-objeto</li>
+                        <li>Diseño de ontologías</li>
+                        <li>Uso de datos enlazados (<i>linked data</i>)</li>
+                    </ul>
+                    <aside class='notes'>"Titulación-perteneceA-RamaConocimiento" ➡️ "Informática-perteneceA-Ingenierı́aArquitectura"<br>Ontología: definición formal de los conceptos del dominio indicando cuáles son sus tipos, propiedades y relaciones<br>Linked data: estructura
+                        común ya conocida hace posible esa base de datos mundial con diferentes fuentes de integración.</aside>
+                </section>
+                <section>
+                    <h3>Web semántica en otras universidades</h3>
+                    <ul>
+                        <li>Universitat Pompeu Fabra: ❌</li>
+                        <li>Universidad Pablo de Olavide: ❌</li>
+                        <li>University of Southampton: ✔️</li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <h3>Objetivos</h3>
+                <ol>
+                    <li>Desarrollo de ontologı́a</li>
+                    <li>Procesamiento de los conjuntos de datos del portal de datos abiertos</li>
+                    <li>Proveer de un punto de acceso SPARQL</li>
+                </ol>
+                <aside class='notes'>1. Permita describir y representar la información contenida en los datos almacenados en dicho portal<br>2. Convertir CSV en triple RDF<br>3. Permita recuperar información sobre los datos en RDF generados.</aside>
+            </section>
+            <section>
+                <section>
+                    <h3>Modelos de desarrollo</h3>
+                    <ul>
+                        <li>METHONTOLOGY</li>
+                        <li>On-To-Knowledge</li>
+                        <li>Protégé</li>
+                    </ul>
+                    <aside class='notes'>No existe una metodologı́a correcta para el desarrollo de ontologı́as ya que depende de las características de un dominio que queremos representar, sin embargo si que existen propuestas</aside>
+                </section>
+                <section>
+                    <h3>Protégé</h3>
+                    <ol>
+                        <li>Determinar el dominio y el alcance de la ontologı́a</li>
+                        <li>Considerar la reutilización de ontologı́as existentes</li>
+                        <li>Enumerar términos importantes para la ontologı́a</li>
+                        <li>Definir las clases y su jerarquı́a</li>
+                        <li>Definir las propiedades de las clases</li>
+                        <li>Definir las restricciones de las propiedades</li>
+                        <li>Crear instancias</li>
+                    </ol>
+                    <aside class='notes'>
+                        1. Para qué se va a utilizar, qué preguntas responder o quién va dirigida.<br> 2. Reaprovechar ontologı́as existentes y facilitar la interconexión.<br> 3. Conceptos a tratar con lo ontologı́a.<br> 4. Dar forma a la taxonomı́a de
+                        la ontologı́a.<br> 5. Dar capacidad representar información. <br> 6. Tipo valores, card, dominio, rango...<br> 7. Indicando valores propiedades de cada una instancias de clases.
+                    </aside>
+                </section>
+                <section>
+                    <h3>Recursos</h3>
+                    <ul>
+                        <li>Personal</li>
+                        <li>Hardware</li>
+                        <li>Software</li>
+                        <ul>
+                            <li>Ansible</li>
+                            <li>CKAN</li>
+                            <li>NGINX</li>
+                            <li>OpenLink Virtuoso Open-Source Edition</li>
+                            <li>Vagrant</li>
+                        </ul>
+                    </ul>
+                    <aside class='notes'>
+                        1. Automatiza configuración sistema, instalando software necesario.<br> 2. Plataforma almacén de datos abiertos.<br> 3. Servidor web ligero, sencillo y ágil para servir ontología y recursos.<br> 4. Servidor ORDBMS abierto, almacer
+                        y gestión datos formato RDF, además proveer de un punto de acceso sist recu info SPARQL.
+                        <br> 5. Crear entornos virtuales en los que probar nuestro proyecto durante el desarollo.<br>
+                    </aside>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>Estándares de la Web Semántica</h3>
+                    <ul>
+                        <li>RDF Schema</li>
+                        <li>OWL</li>
+                        <li>SPARQL</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>RDF Schema (RDFS)</h3>
+                    <ul>
+                        <li>Extensión de RDF</li>
+                        <ul>
+                            <li>Declaración de clases</li>
+                            <li>Restricciones entre las clases</li>
+                            <li>Restricciones de las propiedades</li>
+                        </ul>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Clases en RDF Schema</h3>
+                    <ul>
+                        <li>rdfs:Class</li>
+                        <li>rdfs:Property</li>
+                        <li>rdfs:Resources</li>
+                    </ul>
+                    <aside class='notes'>Las clases son conjuntos de recursos que tienen caracterı́sticas comunes y una representación en el mundo real. Tres clases fundamentales que además nos permiten crear jerarquías.<br>Todo elemento descrito en RDF es un recurso, lo
+                        que nos permite referenciar con diferentes propósitos.
+                    </aside>
+                </section>
+                <section>
+                    <h3>Propiedades en RDF Schema</h3>
+                    <ul>
+                        <li>rdf:type</li>
+                        <li>rdfs:subClassOf</li>
+                        <li>rdfs:subPropertyOf</li>
+                    </ul>
+                    <aside class="notes">Las propiedades nos permitirán describir las caracterı́sticas que tienen los distintos recursos, además de las propias relaciones que existen entre distintos recursos.<br>Permite definir el tipo de un determinado recurso, además, un
+                        recursos puede ser una instancia de más de una clase.</aside>
+                </section>
+                <section>
+                    <h3>Restricciones en RDF Schema</h3>
+                    <ul>
+                        <li>rdfs:domain</li>
+                        <li>rdfs:range</li>
+                    </ul>
+                    <aside class="notes">Las restricciones son las que nos permiten definir las clases sobre la que pueden aplicarse determinadas propiedades y posibles valores.<br>Definirı́a las clases sobre las que se puede aplicar una propiedad.
+                        <br>Definirı́a los valores que puede tener una propiedad.</aside>
+                </section>
+                <section>
+                    <h3>OWL</h3>
+                    <ul>
+                        <li>Extensión de RDF Schema</li>
+                        <ul>
+                            <li>Definir restricciones</li>
+                            <li>Definir axiomas</li>
+                            <li>Razonamientos basados en la lógica descriptiva</li>
+                        </ul>
+                    </ul>
+                    <aside class="notes">Proporciona mayor significado y semántica a las ontologı́as<br>Permite definir restricciones sobre las propiedades (los valores que puede tomar una clase)<br>Definir axiomas (sentencias que son siempre ciertas) (un recurso no puede
+                        pertenecer a dos clases que sean disjuntas)</aside>
+                </section>
+                <section>
+                    <h3>Clases e instancias en OWL</h3>
+                    <ul>
+                        <li>owl:Thing ➡️ owl:Class</li>
+                        <li>Pueden ser producto de:</li>
+                        <ul>
+                            <li>owl:intersectionOf</li>
+                            <li>owl:unionOf</li>
+                            <li>owl:complementOf</li>
+                        </ul>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Propiedades en OWL</h3>
+                    <ul>
+                        <li>Liteales (owl:DatatypeProperty)</li>
+                        <li>Relacionales (owl:ObjectProperty)</li>
+                        <li>Tipos de propiedades</li>
+                        <ul>
+                            <li>Transitiva (owl:TransitiveProperty)</li>
+                            <li>Simétrica (owl:SymmetricProperty)</li>
+                            <li>Funcional (owl:FunctionalProperty)</li>
+                            <li>Inversa (owl:InverseOf)</li>
+                            <li>Inversa funcional (owl:InverseFunctionalProperty)</li>
+                        </ul>
+                </section>
+                <section>
+                    <h3>Restricciones y axiomas en OWL</h3>
+                    <ul>
+                        <li>Restricciones</li>
+                        <ul>
+                            <li>Valores (owl:allValuesFrom, owl:someValuesFrom, owl:hasValue)</li>
+                            <li>Cardinalidad (owl:maxCardinality, owl:minCardinality, owl:cardinality)</li>
+                        </ul>
+                        <li>Axiomas</li>
+                        <ul>
+                            <li>Clases o propiedades disjuntas (owl:disjointWith, owl:AllDisjointClasses, owl:AllDisjointProperties)</li>
+                            <li>clases o propiedades son equivalentes (owl:equivalentClass, owl:equivalentProperty)</li>
+                        </ul>
+                        <aside class="notes">Controlar la integridad de nuestros datos (necesario para que la nueva información inferida sea válida)<br>Otros vocabularios, datos enlazados</aside>
+                </section>
+                <section>
+                    <h3>SPARQL</h3>
+                    <ul>
+                        <li>Lenguaje recomendado por la W3C para acceder a datos almacenados en RDF</li>
+                        <li>Acepta diferentes formatos de datos: RDF/XML, N3, Turtle, RDFa</li>
+                        <li>Consultas en formato Turtle</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>SPARQL</h3>
+                    <pre><code>PREFIX ugr: <http://cabas.ugr.es/ontology/ugr#>
+
+SELECT ?X ?nombre
+WHERE {
+	?X ugr:titulacion ?nombre
+}
+LIMIT 5
+</pre></code>
+                </section>
+                <section>
+                    <h3>SPARQL</h3>
+
+                    <table>
+                        <tr>
+                            <th>X</th>
+                            <th>nombre</th>
+                        </tr>
+                        <tr>
+                            <td>ENLACE_A_RECURSO#1</td>
+                            <td>"TITULACION 1"</td>
+                        </tr>
+                        <tr>
+                            <td>ENLACE_A_RECURSO#2</td>
+                            <td>"TITULACION 2"</td>
+                        </tr>
+                        <tr>
+                            <td>ENLACE_A_RECURSO#3</td>
+                            <td>"TITULACION 3"</td>
+                        </tr>
+                        <tr>
+                            <td>ENLACE_A_RECURSO#4</td>
+                            <td>"TITULACION 4"</td>
+                        </tr>
+                        <tr>
+                            <td>ENLACE_A_RECURSO#5</td>
+                            <td>"TITULACION 5"</td>
+                        </tr>
+                    </table>
+                </section>
+				<section>
+					<h3>Razonamiento e inferencia</h3>
+					<ul>
+						<li>Personas</li>
+						<ul>
+							<li>Hombres</li>
+							<li>Mujeres</li>
+						</ul>
+					</ul>
+					<aside class="notes">La mente humana tiene mecanismos para deducir que por ejemplo un hombre es una persona y una mujer es una persona. Sin embargo cuando deciamos que queremos hacer que las máquinas entiendan el significado de los datos, esto es precisamente a lo que nos referimos. Queremos definir una ontología que nos permita hacer que una máquina pueda llegar también a esta conclusión (para empezar)</aside>
+				</section>
+            </section>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                dependencies: [{
+                        src: 'plugin/markdown/marked.js'
+                    },
+                    {
+                        src: 'plugin/markdown/markdown.js'
+                    },
+                    {
+                        src: 'plugin/notes/notes.js',
+                        async: true
+                    },
+                    {
+                        src: 'plugin/highlight/highlight.js',
+                        async: true,
+                        callback: function() {
+                            hljs.initHighlightingOnLoad();
+                        }
+                    }
+                ]
+            });
+        </script>
+</body>
+
 </html>
