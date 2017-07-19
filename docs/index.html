@@ -296,17 +296,197 @@ LIMIT 5
                         </tr>
                     </table>
                 </section>
-				<section>
-					<h3>Razonamiento e inferencia</h3>
-					<ul>
-						<li>Personas</li>
-						<ul>
-							<li>Hombres</li>
-							<li>Mujeres</li>
-						</ul>
-					</ul>
-					<aside class="notes">La mente humana tiene mecanismos para deducir que por ejemplo un hombre es una persona y una mujer es una persona. Sin embargo cuando deciamos que queremos hacer que las máquinas entiendan el significado de los datos, esto es precisamente a lo que nos referimos. Queremos definir una ontología que nos permita hacer que una máquina pueda llegar también a esta conclusión (para empezar)</aside>
-				</section>
+                <section>
+                    <h3>Razonamiento e inferencia</h3>
+                    <ul>
+                        <li>Personas</li>
+                        <ul>
+                            <li>Hombres</li>
+                            <li>Mujeres</li>
+                        </ul>
+                    </ul>
+                    <aside class="notes">La mente humana tiene mecanismos para deducir que por ejemplo un hombre es una persona y una mujer es una persona. Sin embargo cuando deciamos que queremos hacer que las máquinas entiendan el significado de los datos, esto es precisamente
+                        a lo que nos referimos. Queremos definir una ontología que nos permita hacer que una máquina pueda llegar también a esta conclusión (para empezar)</aside>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h2>Metodología</h2>
+                </section>
+                <section>
+                    <h3>Dominio y alcance de la ontología</h3>
+                    <ul>
+                        <li>Describir la información contenida en el portal de datos abiertos de la UGR</li>
+                        <li>Datos de carácter universitario: información de demanda académica, matriculaciones, tasas académicas...</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Ontologı́as existentes</h3>
+                    <ul>
+                        <li>Universitat Pompeu Fabra: ❌</li>
+                        <li>Universidad Pablo de Olavide: ❌</li>
+                        <li>DBpedia: ✔️</li>
+                        <li>Wikidata: ✔️</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Descripción de los conjuntos de datos</h3>
+                    <ul>
+                        <font size="6">
+                            <li>Demanda académica: procedimientos acceso</li>
+                            <li>Demanda académica: titulaciones</li>
+                            <li>Matrículas: grado</li>
+                            <li>Matrículas: posgrado</li>
+                            <li>Número medio de créditos</li>
+                            <li>Oferta de titulaciones: doctorado</li>
+                            <li>Oferta de titulaciones: grado</li>
+                            <li>Oferta de titulaciones: másteres oficiales</li>
+                            <li>Origen geográfico de estudiantes por país</li>
+                            <li>Origen geográfico de estudiantes por provincia</li>
+                            <li>Tasas académicas por titulaciones</li>
+                        </font>
+                    </ul>
+                    <aside class="notes">Seleccionados los que tenga información de varios años y además sean datos que puedan tener utilidad (muchos son códigos internos).</aside>
+                </section>
+                <section>
+                    <h3>Descripción de las clases del sistema</h3>
+                    <ul>
+                        <font size="6">
+                            <li>DemandaAcademicaAcceso</li>
+                            <li>DemandaAcademicaTitulacion</li>
+                            <li>MatriculasGrado</li>
+                            <li>MatriculasPosgrado</li>
+                            <li>NumMedioCreditos</li>
+                            <li>OfertaTitulacionDoctorado</li>
+                            <li>OfertaTitulacionGrado</li>
+                            <li>OfertaTitulacionMaster</li>
+                            <li>OrigenPais</li>
+                            <li>OrigenProvincia</li>
+                            <li>TasasAcademicasTitulacion</li>
+                        </font>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Descripción de las propiedades</h3>
+                    <ul>
+                        <font size="6">
+                            <li>Campus</li>
+                            <li>Centro</li>
+                            <li>Número medio de créditos matriculados</li>
+                            <li>Número medio de créditos presentados</li>
+                            <li>Número medio de créditos superados</li>
+                            <li>Curso</li>
+                            <li>Hombres</li>
+                            <li>Mujeres</li>
+                            <li>Grado</li>
+                            <li>Máster</li>
+                            <li>Doctorado</li>
+                        </font>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Definición de clases del sistema</h3>
+                    <img alt="images" height="500" style="border-width:0" src="images/matriculas_grado.png" />
+                </section>
+                <section>
+                    <h3>Definición de propiedades del sistema</h3>
+                    <img alt="images" height="500" style="border-width:0" src="images/hombres.png" />
+                </section>
+            </section>
+            <section>
+                <h3>Desarrollo</h3>
+                <font size="6">
+                    <ul>
+                        <li>Conversión de los datos CSV a RDF/XML</li>
+                        <li>Infraestructura para el punto de acceso SPARQL</li>
+                        <ul>
+                            <li>Servidor web</li>
+                            <ul>
+                                <li>Hospedaje ontología y recursos</li>
+                                <li>Resolución URIs ontología y recursos</li>
+                                <li>Respuestas "application/rdf+xml" y "text/turtle"</li>
+                            </ul>
+                            <li>Servidor almacenamiento RDF y punto de acceso SPARQL</li>
+                            <ul>
+                                <li>Carga de datos de la ontología</li>
+                                <li>Carga de datos de los recursos</li>
+                            </ul>
+                        </ul>
+                    </ul>
+                </font>
+            </section>
+            <section>
+                <section>
+                    <h3>Resultados</h3>
+                    <font size="6">
+                        <pre>
+						<code>
+PREFIX ugr: &lt;http://cabas.ugr.es/ontology/ugr#&gt;
+PREFIX dcterms: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT ?X ?titulacion ?hombres ?mujeres
+WHERE {
+	?X ugr:titulacion ?titulacion .
+	?X ugr:hombres ?hombres .
+	?X ugr:mujeres ?mujeres .
+	?X ugr:curso ?curso .
+	?X dcterms:type ?tipo .
+	FILTER (?curso = "2015/2016" &amp;&amp; ?tipo = "MatriculasGrado")
+}
+ORDER BY ?titulacion
+</code>
+</pre>
+                    </font>
+                </section>
+                <section>
+                    <h3>Resultados</h3>
+                    <font size="6">
+                        <pre>
+						<code>
+PREFIX ugr: &lt;http://cabas.ugr.es/ontology/ugr#&gt;
+PREFIX dcterms: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT ?X ?titulacion (sum(?_personas) as ?personas)
+WHERE {
+	?X ugr:titulacion ?titulacion .
+	?p rdfs:subPropertyOf* ugr:personas .
+	?X ?p ?_personas .
+	?X ugr:curso ?curso .
+	?X dcterms:type ?tipo .
+	FILTER (?curso = "2015/2016" &amp;&amp; ?tipo = "MatriculasGrado")
+}
+GROUP BY ?X ?titulacion
+ORDER BY ?titulacion
+</code>
+</pre>
+                    </font>
+                </section>
+            </section>
+            <section>
+                <h3>Conclusiones y trabajos futuros</h3>
+                <ul>
+                    <li>Mediante el uso de ontologías podemos extraer información que no está explicitamente definida</li>
+                    <li>Valor añadido a la reutilización de los datos abiertos: uso público</li>
+                    <li>Ventaja de poder cruzar datos de diferentes bases de datos</li>
+                </ul>
+                <aside class="notes">Una vez que las máquinas conocen el significado de los recursos, pueden inferir conocimiento.<br>Extraer el conocimiento oculto<br>Linked data para base de datos mundial</aside>
+            </section>
+            <section>
+                <h3>Referencias bibliográficas</h3>
+                <font size="4">
+                    <ul>
+                        <li>"Semantic Web roadmap". Tim Berners-Lee. 14/10/1998. https://www.w3.org/DesignIssues/Semantic.html</li>
+                        <li>"Ontology Learning for the Semantic Web. IEEE Intelligent Systems. Volume 16, Issue 2, March/April 2001, Pages 72-79". Alexander Maed- che, Steffen Staab. Marzo/Abril 2001.</li>
+                        <li>"Agents and the Semantic Web. IEEE Intelligent Systems. Volume 16, Issue 2, March/April 2001, Pages 30-37". Marzo/Abril 2001.</li>
+                        <li>"Semantic Web: The roles of XML and RDF. IEEE Internet Computing. Volume 4, Issue 5, September 2000, Pages 63-74". Stefan Decker, Sergey I. Melnik, Frank Van Harmelen, Dieter Fensel, Michel C.A. Klein, Jeen Broekstra, Michael A.
+                            Erdmann, Ian Horrocks. Marzo 2003.</li>
+                        <li>"Ontology mapping: The state of the art. Knowledge Engineering Review. Volume 18, Issue 1, March 2003, Pages 1-31". Yannis Kalfoglou, Marco Schorlemmer. Marzo 2003.</li>
+                        <li>"Linked Data - Design Issues". Tim Berners-Lee. 18/06/2009. https://www.w3.org/DesignIssues/LinkedData.html</li>
+                        <li>"Programming the Semantic Web". Toby Segaran, Colin Evans, Jamie Taylor. Julio 2009.</li>
+                        <li>"Metodologı́as y métodos para la construcción de ontologı́as. Scientia Et Technica. Nº 50, Abril de 2012. Páginas 133-140". Abril 2011.</li>
+                        <li>"Learning SPARQL: Querying and Updating with SPARQL 1.1". Bob DuCharme. Julio 2013.</li>
+                        <ul>
+                </font>
             </section>
         </div>
 
